@@ -24,8 +24,24 @@ like price prediction and category prediction.
 
 </ul>
 
-<h2>Project Description And Screenshots</h2>
+<h2>Project Screenshots</h2>
 
+<div display = "inline">
+  
+<img src = 'https://firebasestorage.googleapis.com/v0/b/chottky.appspot.com/o/App%20Screenshots%2FGayelak%20Screenshots%2Fbrowsing_mockup.png?alt=media&token=5bfa4dd8-26f8-494b-a887-5a1920874f4a' width = "200" />
+ <img src = 'https://firebasestorage.googleapis.com/v0/b/chottky.appspot.com/o/App%20Screenshots%2FGayelak%20Screenshots%2Fchat_mockup.png?alt=media&token=2f68420d-7540-4355-a703-ca6512dcda8d' width = "200" />
+  
+ <img src = 'https://firebasestorage.googleapis.com/v0/b/chottky.appspot.com/o/App%20Screenshots%2FGayelak%20Screenshots%2FPhone.png?alt=media&token=aee7bb2b-4b5a-4718-b56b-5c59dc7468e8' width = "200" />
+ 
+   <img src = 'https://firebasestorage.googleapis.com/v0/b/chottky.appspot.com/o/App%20Screenshots%2FGayelak%20Screenshots%2Fserach_mockup.png?alt=media&token=35ec35fe-3717-4366-a208-9d35e4f01c74' width = "200" />
+  
+ <img src = 'https://firebasestorage.googleapis.com/v0/b/chottky.appspot.com/o/App%20Screenshots%2FGayelak%20Screenshots%2Fprofile_mockup.png?alt=media&token=de126992-fc01-42e2-b0eb-5d3feff9587e' width = "200" />
+    
+ <img src = 'https://firebasestorage.googleapis.com/v0/b/chottky.appspot.com/o/App%20Screenshots%2FGayelak%20Screenshots%2Fnotifications_mockup.png?alt=media&token=9922f78b-5c2e-4ef6-a556-4055b102392f' width = "200" />
+ <img src = 'https://firebasestorage.googleapis.com/v0/b/chottky.appspot.com/o/App%20Screenshots%2FGayelak%20Screenshots%2Fmessages_mockup.png?alt=media&token=f216f38a-ed09-4c2d-b804-d9ab13672691' width = "200" />
+ </div>
+ 
+ 
 <h2>Future Work</h2>
 <ul>
 <li>AI Price Prediction Feature.</li>
