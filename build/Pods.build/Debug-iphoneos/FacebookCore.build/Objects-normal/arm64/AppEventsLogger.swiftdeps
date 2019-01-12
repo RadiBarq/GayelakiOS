@@ -1,0 +1,380 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppEventsLogger"
+provides-nominal:
+- "12FacebookCore15AppEventsLoggerO"
+provides-member:
+- ["12FacebookCore15AppEventsLoggerO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AccessToken"
+- "AppEvent"
+- "AppEventLoggable"
+- !private "AppEventName"
+- "AppEventsLogger"
+- "CastingPrecedence"
+- "Data"
+- "Double"
+- !private "FBSDKAppEvents"
+- !private "FBSDKSettings"
+- "GraphRequest"
+- !private "GraphRequestConnection"
+- "GraphRequestResult"
+- "HTTPURLResponse"
+- !private "NSNumber"
+- !private "NSString"
+- "String"
+- "UIApplication"
+- "Void"
+depends-member:
+- !private ["12FacebookCore11AccessTokenV", "current"]
+- !private ["12FacebookCore11AccessTokenV", "sdkAccessTokenRepresentation"]
+- ["12FacebookCore8AppEventV", "ParametersDictionary"]
+- !private ["12FacebookCore8AppEventV", "deinit"]
+- !private ["12FacebookCore8AppEventV", "init"]
+- ["12FacebookCore16AppEventLoggableP", "ParametersDictionary"]
+- !private ["12FacebookCore16AppEventLoggableP", "init"]
+- !private ["12FacebookCore16AppEventLoggableP", "name"]
+- !private ["12FacebookCore16AppEventLoggableP", "parameters"]
+- !private ["12FacebookCore16AppEventLoggableP", "valueToSum"]
+- !private ["12FacebookCore12AppEventNameO", "deinit"]
+- !private ["12FacebookCore12AppEventNameO", "init"]
+- !private ["12FacebookCore12AppEventNameO", "rawValue"]
+- !private ["12FacebookCore21AppEventParameterNameO", "deinit"]
+- !private ["12FacebookCore21AppEventParameterNameO", "rawValue"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "appEventParameterValue"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- ["12FacebookCore15AppEventsLoggerO", "AccessToken"]
+- ["12FacebookCore15AppEventsLoggerO", "AppEvent"]
+- ["12FacebookCore15AppEventsLoggerO", "AppEventLoggable"]
+- !private ["12FacebookCore15AppEventsLoggerO", "AppEventName"]
+- ["12FacebookCore15AppEventsLoggerO", "Data"]
+- ["12FacebookCore15AppEventsLoggerO", "Double"]
+- !private ["12FacebookCore15AppEventsLoggerO", "FBSDKAppEvents"]
+- !private ["12FacebookCore15AppEventsLoggerO", "FBSDKSettings"]
+- ["12FacebookCore15AppEventsLoggerO", "FlushBehavior"]
+- ["12FacebookCore15AppEventsLoggerO", "GraphRequest"]
+- !private ["12FacebookCore15AppEventsLoggerO", "GraphRequestConnection"]
+- ["12FacebookCore15AppEventsLoggerO", "GraphRequestResult"]
+- ["12FacebookCore15AppEventsLoggerO", "HTTPURLResponse"]
+- !private ["12FacebookCore15AppEventsLoggerO", "NSNumber"]
+- !private ["12FacebookCore15AppEventsLoggerO", "NSString"]
+- ["12FacebookCore15AppEventsLoggerO", "String"]
+- ["12FacebookCore15AppEventsLoggerO", "UIApplication"]
+- ["12FacebookCore15AppEventsLoggerO", "UpdateUserPropertiesCompletion"]
+- ["12FacebookCore15AppEventsLoggerO", "Void"]
+- ["12FacebookCore15AppEventsLoggerO", "activate"]
+- ["12FacebookCore15AppEventsLoggerO", "flush"]
+- ["12FacebookCore15AppEventsLoggerO", "flushBehavior"]
+- ["12FacebookCore15AppEventsLoggerO", "log"]
+- ["12FacebookCore15AppEventsLoggerO", "loggingAppId"]
+- ["12FacebookCore15AppEventsLoggerO", "pushNotificationsDeviceToken"]
+- ["12FacebookCore15AppEventsLoggerO", "updateUserProperties"]
+- ["12FacebookCore15AppEventsLoggerO", "userId"]
+- !private ["s7CVarArgP", "activateApp"]
+- !private ["s7CVarArgP", "appID"]
+- !private ["s7CVarArgP", "flush"]
+- !private ["s7CVarArgP", "flushBehavior"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyValueMap"]
+- !private ["s7CVarArgP", "logEvent"]
+- !private ["s7CVarArgP", "loggingOverrideAppID"]
+- !private ["s7CVarArgP", "setFlushBehavior"]
+- !private ["s7CVarArgP", "setLoggingOverrideAppID"]
+- !private ["s7CVarArgP", "setPushNotificationsDeviceToken"]
+- !private ["s7CVarArgP", "setUserID"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "updateUserProperties"]
+- !private ["s7CVarArgP", "userID"]
+- !private ["Sl", "keyValueMap"]
+- !private ["s28CustomDebugStringConvertibleP", "activateApp"]
+- !private ["s28CustomDebugStringConvertibleP", "appID"]
+- !private ["s28CustomDebugStringConvertibleP", "flush"]
+- !private ["s28CustomDebugStringConvertibleP", "flushBehavior"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyValueMap"]
+- !private ["s28CustomDebugStringConvertibleP", "logEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "loggingOverrideAppID"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "setFlushBehavior"]
+- !private ["s28CustomDebugStringConvertibleP", "setLoggingOverrideAppID"]
+- !private ["s28CustomDebugStringConvertibleP", "setPushNotificationsDeviceToken"]
+- !private ["s28CustomDebugStringConvertibleP", "setUserID"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "updateUserProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "userID"]
+- !private ["s17CustomReflectableP", "keyValueMap"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "activateApp"]
+- !private ["s23CustomStringConvertibleP", "appID"]
+- !private ["s23CustomStringConvertibleP", "flush"]
+- !private ["s23CustomStringConvertibleP", "flushBehavior"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyValueMap"]
+- !private ["s23CustomStringConvertibleP", "logEvent"]
+- !private ["s23CustomStringConvertibleP", "loggingOverrideAppID"]
+- !private ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "setFlushBehavior"]
+- !private ["s23CustomStringConvertibleP", "setLoggingOverrideAppID"]
+- !private ["s23CustomStringConvertibleP", "setPushNotificationsDeviceToken"]
+- !private ["s23CustomStringConvertibleP", "setUserID"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "updateUserProperties"]
+- !private ["s23CustomStringConvertibleP", "userID"]
+- !private ["Se", "keyValueMap"]
+- !private ["Se", "map"]
+- !private ["SD", "keyValueMap"]
+- !private ["SE", "keyValueMap"]
+- !private ["SE", "map"]
+- !private ["SQ", "activateApp"]
+- !private ["SQ", "appID"]
+- !private ["SQ", "flush"]
+- !private ["SQ", "flushBehavior"]
+- !private ["SQ", "init"]
+- !private ["SQ", "keyValueMap"]
+- !private ["SQ", "logEvent"]
+- !private ["SQ", "loggingOverrideAppID"]
+- !private ["SQ", "map"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "sdkFlushBehavior"]
+- !private ["SQ", "setFlushBehavior"]
+- !private ["SQ", "setLoggingOverrideAppID"]
+- !private ["SQ", "setPushNotificationsDeviceToken"]
+- !private ["SQ", "setUserID"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "updateUserProperties"]
+- !private ["SQ", "userID"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keyValueMap"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "rawValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "rawValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "rawValue"]
+- !private ["So14FBSDKAppEventsC", "activateApp"]
+- !private ["So14FBSDKAppEventsC", "flush"]
+- !private ["So14FBSDKAppEventsC", "flushBehavior"]
+- !private ["So14FBSDKAppEventsC", "logEvent"]
+- !private ["So14FBSDKAppEventsC", "loggingOverrideAppID"]
+- !private ["So14FBSDKAppEventsC", "setFlushBehavior"]
+- !private ["So14FBSDKAppEventsC", "setLoggingOverrideAppID"]
+- !private ["So14FBSDKAppEventsC", "setPushNotificationsDeviceToken"]
+- !private ["So14FBSDKAppEventsC", "setUserID"]
+- !private ["So14FBSDKAppEventsC", "updateUserProperties"]
+- !private ["So14FBSDKAppEventsC", "userID"]
+- !private ["So13FBSDKSettingsC", "appID"]
+- !private ["12FacebookCore15AppEventsLoggerO13FlushBehaviorO", "init"]
+- !private ["12FacebookCore15AppEventsLoggerO13FlushBehaviorO", "sdkFlushBehavior"]
+- ["12FacebookCore12GraphRequestV", "deinit"]
+- !private ["12FacebookCore22GraphRequestConnectionC", "sdkRequestCompletion"]
+- !private ["SH", "activateApp"]
+- !private ["SH", "appID"]
+- !private ["SH", "flush"]
+- !private ["SH", "flushBehavior"]
+- !private ["SH", "init"]
+- !private ["SH", "keyValueMap"]
+- !private ["SH", "logEvent"]
+- !private ["SH", "loggingOverrideAppID"]
+- !private ["SH", "map"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "sdkFlushBehavior"]
+- !private ["SH", "setFlushBehavior"]
+- !private ["SH", "setLoggingOverrideAppID"]
+- !private ["SH", "setPushNotificationsDeviceToken"]
+- !private ["SH", "setUserID"]
+- !private ["SH", "shared"]
+- !private ["SH", "updateUserProperties"]
+- !private ["SH", "userID"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "activateApp"]
+- !private ["So8NSObjectC", "appID"]
+- !private ["So8NSObjectC", "flush"]
+- !private ["So8NSObjectC", "flushBehavior"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "logEvent"]
+- !private ["So8NSObjectC", "loggingOverrideAppID"]
+- !private ["So8NSObjectC", "setFlushBehavior"]
+- !private ["So8NSObjectC", "setLoggingOverrideAppID"]
+- !private ["So8NSObjectC", "setPushNotificationsDeviceToken"]
+- !private ["So8NSObjectC", "setUserID"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "updateUserProperties"]
+- !private ["So8NSObjectC", "userID"]
+- !private ["So8NSObjectP", "activateApp"]
+- !private ["So8NSObjectP", "appID"]
+- !private ["So8NSObjectP", "flush"]
+- !private ["So8NSObjectP", "flushBehavior"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "logEvent"]
+- !private ["So8NSObjectP", "loggingOverrideAppID"]
+- !private ["So8NSObjectP", "setFlushBehavior"]
+- !private ["So8NSObjectP", "setLoggingOverrideAppID"]
+- !private ["So8NSObjectP", "setPushNotificationsDeviceToken"]
+- !private ["So8NSObjectP", "setUserID"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "updateUserProperties"]
+- !private ["So8NSObjectP", "userID"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So7NSValueC", "init"]
+- !private ["Sq", "map"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["ST", "keyValueMap"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keyValueMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activateApp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flush"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flushBehavior"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loggingOverrideAppID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFlushBehavior"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setLoggingOverrideAppID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setPushNotificationsDeviceToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUserID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateUserProperties"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userID"]
+- !private ["s21_ObjectiveCBridgeableP", "keyValueMap"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "12FacebookCore11AccessTokenV"
+- "12FacebookCore8AppEventV"
+- "12FacebookCore16AppEventLoggableP"
+- !private "12FacebookCore12AppEventNameO"
+- !private "12FacebookCore21AppEventParameterNameO"
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- "12FacebookCore15AppEventsLoggerO"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So14FBSDKAppEventsC"
+- !private "So13FBSDKSettingsC"
+- !private "12FacebookCore15AppEventsLoggerO13FlushBehaviorO"
+- "12FacebookCore12GraphRequestV"
+- !private "12FacebookCore22GraphRequestConnectionC"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "Sq"
+- !private "SY"
+- !private "ST"
+- !private "So13UIApplicationC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FacebookCore.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0599b12b9088e5a43b47590b1266fbb3"

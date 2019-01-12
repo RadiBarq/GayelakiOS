@@ -1,0 +1,11 @@
+framework module SwiftyCam {
+  umbrella header "SwiftyCam-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyCam.Swift {
+    header "SwiftyCam-Swift.h"
+    requires objc
+}

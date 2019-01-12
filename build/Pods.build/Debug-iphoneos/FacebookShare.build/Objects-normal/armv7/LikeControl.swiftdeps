@@ -1,0 +1,949 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LikeControl"
+provides-nominal:
+- "13FacebookShare11LikeControlC"
+provides-member:
+- ["13FacebookShare11LikeControlC", ""]
+- ["13FacebookShare11LikeControlC", "layoutSubviews"]
+- ["13FacebookShare11LikeControlC", "sizeToFit"]
+- ["13FacebookShare11LikeControlC", "sizeThatFits"]
+- ["13FacebookShare11LikeControlC", "intrinsicContentSize"]
+provides-dynamic-lookup:
+- "foregroundColor"
+- "intrinsicContentSize"
+- "isSoundEnabled"
+- "layoutSubviews"
+- "preferredMaxLayoutWidth"
+- "sizeThatFits"
+- "sizeToFit"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "CGRect"
+- "CGSize"
+- "FBSDKLikeControl"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LikableObject"
+- "LikeControl"
+- "NSCoder"
+- !private "StringLiteralType"
+- "UIColor"
+- "UIView"
+depends-member:
+- !private ["13FacebookShare11LikeControlC13AuxilaryStyleO", "init"]
+- !private ["13FacebookShare11LikeControlC13AuxilaryStyleO", "sdkStyleRepresentation"]
+- !private ["SB", "greatestFiniteMagnitude"]
+- !private ["So15CALayerDelegateP", "AuxilaryStyle"]
+- !private ["So15CALayerDelegateP", "CGFloat"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "CGSize"]
+- !private ["So15CALayerDelegateP", "FBSDKLikeControl"]
+- !private ["So15CALayerDelegateP", "LikableObject"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "foregroundColor"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "intrinsicContentSize"]
+- !private ["So15CALayerDelegateP", "isSoundEnabled"]
+- !private ["So15CALayerDelegateP", "layoutSubviews"]
+- !private ["So15CALayerDelegateP", "likeControlAuxiliaryPosition"]
+- !private ["So15CALayerDelegateP", "likeControlHorizontalAlignment"]
+- !private ["So15CALayerDelegateP", "likeControlStyle"]
+- !private ["So15CALayerDelegateP", "object"]
+- !private ["So15CALayerDelegateP", "objectID"]
+- !private ["So15CALayerDelegateP", "objectType"]
+- !private ["So15CALayerDelegateP", "preferredMaxLayoutWidth"]
+- !private ["So15CALayerDelegateP", "sdkLikeControl"]
+- !private ["So15CALayerDelegateP", "sizeThatFits"]
+- !private ["12CoreGraphics7CGFloatV", "greatestFiniteMagnitude"]
+- !private ["So7CGPointV", "zero"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "init"]
+- !private ["s7CVarArgP", "AuxilaryStyle"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "FBSDKLikeControl"]
+- !private ["s7CVarArgP", "LikableObject"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "foregroundColor"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intrinsicContentSize"]
+- !private ["s7CVarArgP", "isSoundEnabled"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s7CVarArgP", "likeControlAuxiliaryPosition"]
+- !private ["s7CVarArgP", "likeControlHorizontalAlignment"]
+- !private ["s7CVarArgP", "likeControlStyle"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "objectID"]
+- !private ["s7CVarArgP", "objectType"]
+- !private ["s7CVarArgP", "preferredMaxLayoutWidth"]
+- !private ["s7CVarArgP", "sdkLikeControl"]
+- !private ["s7CVarArgP", "sizeThatFits"]
+- !private ["SL", "greatestFiniteMagnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "AuxilaryStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKLikeControl"]
+- !private ["s28CustomDebugStringConvertibleP", "LikableObject"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "foregroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intrinsicContentSize"]
+- !private ["s28CustomDebugStringConvertibleP", "isSoundEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "likeControlAuxiliaryPosition"]
+- !private ["s28CustomDebugStringConvertibleP", "likeControlHorizontalAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "likeControlStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "objectID"]
+- !private ["s28CustomDebugStringConvertibleP", "objectType"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredMaxLayoutWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "sdkLikeControl"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "sizeThatFits"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "AuxilaryStyle"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "FBSDKLikeControl"]
+- !private ["s23CustomStringConvertibleP", "LikableObject"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "foregroundColor"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intrinsicContentSize"]
+- !private ["s23CustomStringConvertibleP", "isSoundEnabled"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "likeControlAuxiliaryPosition"]
+- !private ["s23CustomStringConvertibleP", "likeControlHorizontalAlignment"]
+- !private ["s23CustomStringConvertibleP", "likeControlStyle"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "objectID"]
+- !private ["s23CustomStringConvertibleP", "objectType"]
+- !private ["s23CustomStringConvertibleP", "preferredMaxLayoutWidth"]
+- !private ["s23CustomStringConvertibleP", "sdkLikeControl"]
+- !private ["s23CustomStringConvertibleP", "sizeThatFits"]
+- !private ["Se", "greatestFiniteMagnitude"]
+- !private ["Se", "init"]
+- !private ["Se", "size"]
+- !private ["Se", "zero"]
+- !private ["SE", "greatestFiniteMagnitude"]
+- !private ["SE", "init"]
+- !private ["SE", "size"]
+- !private ["SE", "zero"]
+- !private ["SQ", "AuxilaryStyle"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "CGSize"]
+- !private ["SQ", "FBSDKLikeControl"]
+- !private ["SQ", "LikableObject"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "greatestFiniteMagnitude"]
+- !private ["SQ", "init"]
+- !private ["SQ", "intrinsicContentSize"]
+- !private ["SQ", "isSoundEnabled"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "likeControlAuxiliaryPosition"]
+- !private ["SQ", "likeControlHorizontalAlignment"]
+- !private ["SQ", "likeControlStyle"]
+- !private ["SQ", "object"]
+- !private ["SQ", "objectID"]
+- !private ["SQ", "objectType"]
+- !private ["SQ", "preferredMaxLayoutWidth"]
+- !private ["SQ", "sdkLikeControl"]
+- !private ["SQ", "sdkObjectRepresntation"]
+- !private ["SQ", "sdkStyleRepresentation"]
+- !private ["SQ", "size"]
+- !private ["SQ", "sizeThatFits"]
+- !private ["SQ", "zero"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So16FBSDKLikeControlC", "bounds"]
+- !private ["So16FBSDKLikeControlC", "foregroundColor"]
+- !private ["So16FBSDKLikeControlC", "frame"]
+- !private ["So16FBSDKLikeControlC", "init"]
+- !private ["So16FBSDKLikeControlC", "intrinsicContentSize"]
+- !private ["So16FBSDKLikeControlC", "isSoundEnabled"]
+- !private ["So16FBSDKLikeControlC", "likeControlAuxiliaryPosition"]
+- !private ["So16FBSDKLikeControlC", "likeControlHorizontalAlignment"]
+- !private ["So16FBSDKLikeControlC", "likeControlStyle"]
+- !private ["So16FBSDKLikeControlC", "objectID"]
+- !private ["So16FBSDKLikeControlC", "objectType"]
+- !private ["So16FBSDKLikeControlC", "preferredMaxLayoutWidth"]
+- !private ["So16FBSDKLikeControlC", "sizeThatFits"]
+- !private ["So11FBSDKLikingP", "bounds"]
+- !private ["So11FBSDKLikingP", "foregroundColor"]
+- !private ["So11FBSDKLikingP", "frame"]
+- !private ["So11FBSDKLikingP", "init"]
+- !private ["So11FBSDKLikingP", "intrinsicContentSize"]
+- !private ["So11FBSDKLikingP", "isSoundEnabled"]
+- !private ["So11FBSDKLikingP", "likeControlAuxiliaryPosition"]
+- !private ["So11FBSDKLikingP", "likeControlHorizontalAlignment"]
+- !private ["So11FBSDKLikingP", "likeControlStyle"]
+- !private ["So11FBSDKLikingP", "objectID"]
+- !private ["So11FBSDKLikingP", "objectType"]
+- !private ["So11FBSDKLikingP", "preferredMaxLayoutWidth"]
+- !private ["So11FBSDKLikingP", "sizeThatFits"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SH", "AuxilaryStyle"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "CGSize"]
+- !private ["SH", "FBSDKLikeControl"]
+- !private ["SH", "LikableObject"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "bounds"]
+- !private ["SH", "foregroundColor"]
+- !private ["SH", "frame"]
+- !private ["SH", "greatestFiniteMagnitude"]
+- !private ["SH", "init"]
+- !private ["SH", "intrinsicContentSize"]
+- !private ["SH", "isSoundEnabled"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "likeControlAuxiliaryPosition"]
+- !private ["SH", "likeControlHorizontalAlignment"]
+- !private ["SH", "likeControlStyle"]
+- !private ["SH", "object"]
+- !private ["SH", "objectID"]
+- !private ["SH", "objectType"]
+- !private ["SH", "preferredMaxLayoutWidth"]
+- !private ["SH", "sdkLikeControl"]
+- !private ["SH", "sizeThatFits"]
+- !private ["13FacebookShare13LikableObjectO", "init"]
+- !private ["13FacebookShare13LikableObjectO", "sdkObjectRepresntation"]
+- ["13FacebookShare11LikeControlC", "AuxilaryStyle"]
+- ["13FacebookShare11LikeControlC", "Bool"]
+- ["13FacebookShare11LikeControlC", "CGFloat"]
+- ["13FacebookShare11LikeControlC", "CGRect"]
+- ["13FacebookShare11LikeControlC", "CGSize"]
+- ["13FacebookShare11LikeControlC", "FBSDKLikeControl"]
+- ["13FacebookShare11LikeControlC", "LikableObject"]
+- ["13FacebookShare11LikeControlC", "NSCoder"]
+- ["13FacebookShare11LikeControlC", "UIColor"]
+- !private ["13FacebookShare11LikeControlC", "addSubview"]
+- ["13FacebookShare11LikeControlC", "auxilaryStyle"]
+- !private ["13FacebookShare11LikeControlC", "bounds"]
+- !private ["13FacebookShare11LikeControlC", "deinit"]
+- ["13FacebookShare11LikeControlC", "foregroundColor"]
+- ["13FacebookShare11LikeControlC", "init"]
+- ["13FacebookShare11LikeControlC", "intrinsicContentSize"]
+- ["13FacebookShare11LikeControlC", "isSoundEnabled"]
+- ["13FacebookShare11LikeControlC", "layoutSubviews"]
+- ["13FacebookShare11LikeControlC", "object"]
+- ["13FacebookShare11LikeControlC", "preferredMaxLayoutWidth"]
+- !private ["13FacebookShare11LikeControlC", "sdkLikeControl"]
+- ["13FacebookShare11LikeControlC", "sizeThatFits"]
+- ["13FacebookShare11LikeControlC", "sizeToFit"]
+- !private ["So8NSCodingP", "AuxilaryStyle"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "FBSDKLikeControl"]
+- !private ["So8NSCodingP", "LikableObject"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "foregroundColor"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intrinsicContentSize"]
+- !private ["So8NSCodingP", "isSoundEnabled"]
+- !private ["So8NSCodingP", "layoutSubviews"]
+- !private ["So8NSCodingP", "likeControlAuxiliaryPosition"]
+- !private ["So8NSCodingP", "likeControlHorizontalAlignment"]
+- !private ["So8NSCodingP", "likeControlStyle"]
+- !private ["So8NSCodingP", "object"]
+- !private ["So8NSCodingP", "objectID"]
+- !private ["So8NSCodingP", "objectType"]
+- !private ["So8NSCodingP", "preferredMaxLayoutWidth"]
+- !private ["So8NSCodingP", "sdkLikeControl"]
+- !private ["So8NSCodingP", "sizeThatFits"]
+- ["So8NSObjectC", "AuxilaryStyle"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "FBSDKLikeControl"]
+- ["So8NSObjectC", "LikableObject"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "addSubview"]
+- ["So8NSObjectC", "auxilaryStyle"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "foregroundColor"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "intrinsicContentSize"]
+- ["So8NSObjectC", "isSoundEnabled"]
+- ["So8NSObjectC", "layoutSubviews"]
+- !private ["So8NSObjectC", "likeControlAuxiliaryPosition"]
+- !private ["So8NSObjectC", "likeControlHorizontalAlignment"]
+- !private ["So8NSObjectC", "likeControlStyle"]
+- ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "objectID"]
+- !private ["So8NSObjectC", "objectType"]
+- ["So8NSObjectC", "preferredMaxLayoutWidth"]
+- ["So8NSObjectC", "sdkLikeControl"]
+- ["So8NSObjectC", "sizeThatFits"]
+- ["So8NSObjectC", "sizeToFit"]
+- !private ["So8NSObjectP", "AuxilaryStyle"]
+- !private ["So8NSObjectP", "CGFloat"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "CGSize"]
+- !private ["So8NSObjectP", "FBSDKLikeControl"]
+- !private ["So8NSObjectP", "LikableObject"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "foregroundColor"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intrinsicContentSize"]
+- !private ["So8NSObjectP", "isSoundEnabled"]
+- !private ["So8NSObjectP", "layoutSubviews"]
+- !private ["So8NSObjectP", "likeControlAuxiliaryPosition"]
+- !private ["So8NSObjectP", "likeControlHorizontalAlignment"]
+- !private ["So8NSObjectP", "likeControlStyle"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "objectID"]
+- !private ["So8NSObjectP", "objectType"]
+- !private ["So8NSObjectP", "preferredMaxLayoutWidth"]
+- !private ["So8NSObjectP", "sdkLikeControl"]
+- !private ["So8NSObjectP", "sizeThatFits"]
+- !private ["Sj", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "greatestFiniteMagnitude"]
+- !private ["So29UIAccessibilityIdentificationP", "AuxilaryStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "CGSize"]
+- !private ["So29UIAccessibilityIdentificationP", "FBSDKLikeControl"]
+- !private ["So29UIAccessibilityIdentificationP", "LikableObject"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "foregroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "intrinsicContentSize"]
+- !private ["So29UIAccessibilityIdentificationP", "isSoundEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "likeControlAuxiliaryPosition"]
+- !private ["So29UIAccessibilityIdentificationP", "likeControlHorizontalAlignment"]
+- !private ["So29UIAccessibilityIdentificationP", "likeControlStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "object"]
+- !private ["So29UIAccessibilityIdentificationP", "objectID"]
+- !private ["So29UIAccessibilityIdentificationP", "objectType"]
+- !private ["So29UIAccessibilityIdentificationP", "preferredMaxLayoutWidth"]
+- !private ["So29UIAccessibilityIdentificationP", "sdkLikeControl"]
+- !private ["So29UIAccessibilityIdentificationP", "sizeThatFits"]
+- !private ["So12UIAppearanceP", "AuxilaryStyle"]
+- !private ["So12UIAppearanceP", "CGFloat"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "CGSize"]
+- !private ["So12UIAppearanceP", "FBSDKLikeControl"]
+- !private ["So12UIAppearanceP", "LikableObject"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "foregroundColor"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "intrinsicContentSize"]
+- !private ["So12UIAppearanceP", "isSoundEnabled"]
+- !private ["So12UIAppearanceP", "layoutSubviews"]
+- !private ["So12UIAppearanceP", "likeControlAuxiliaryPosition"]
+- !private ["So12UIAppearanceP", "likeControlHorizontalAlignment"]
+- !private ["So12UIAppearanceP", "likeControlStyle"]
+- !private ["So12UIAppearanceP", "object"]
+- !private ["So12UIAppearanceP", "objectID"]
+- !private ["So12UIAppearanceP", "objectType"]
+- !private ["So12UIAppearanceP", "preferredMaxLayoutWidth"]
+- !private ["So12UIAppearanceP", "sdkLikeControl"]
+- !private ["So12UIAppearanceP", "sizeThatFits"]
+- !private ["So21UIAppearanceContainerP", "AuxilaryStyle"]
+- !private ["So21UIAppearanceContainerP", "CGFloat"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "FBSDKLikeControl"]
+- !private ["So21UIAppearanceContainerP", "LikableObject"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "foregroundColor"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "intrinsicContentSize"]
+- !private ["So21UIAppearanceContainerP", "isSoundEnabled"]
+- !private ["So21UIAppearanceContainerP", "layoutSubviews"]
+- !private ["So21UIAppearanceContainerP", "likeControlAuxiliaryPosition"]
+- !private ["So21UIAppearanceContainerP", "likeControlHorizontalAlignment"]
+- !private ["So21UIAppearanceContainerP", "likeControlStyle"]
+- !private ["So21UIAppearanceContainerP", "object"]
+- !private ["So21UIAppearanceContainerP", "objectID"]
+- !private ["So21UIAppearanceContainerP", "objectType"]
+- !private ["So21UIAppearanceContainerP", "preferredMaxLayoutWidth"]
+- !private ["So21UIAppearanceContainerP", "sdkLikeControl"]
+- !private ["So21UIAppearanceContainerP", "sizeThatFits"]
+- !private ["So9UIControlC", "bounds"]
+- !private ["So9UIControlC", "foregroundColor"]
+- !private ["So9UIControlC", "frame"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "intrinsicContentSize"]
+- !private ["So9UIControlC", "isSoundEnabled"]
+- !private ["So9UIControlC", "likeControlAuxiliaryPosition"]
+- !private ["So9UIControlC", "likeControlHorizontalAlignment"]
+- !private ["So9UIControlC", "likeControlStyle"]
+- !private ["So9UIControlC", "objectID"]
+- !private ["So9UIControlC", "objectType"]
+- !private ["So9UIControlC", "preferredMaxLayoutWidth"]
+- !private ["So9UIControlC", "sizeThatFits"]
+- !private ["So17UICoordinateSpaceP", "AuxilaryStyle"]
+- !private ["So17UICoordinateSpaceP", "CGFloat"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "CGSize"]
+- !private ["So17UICoordinateSpaceP", "FBSDKLikeControl"]
+- !private ["So17UICoordinateSpaceP", "LikableObject"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "foregroundColor"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "intrinsicContentSize"]
+- !private ["So17UICoordinateSpaceP", "isSoundEnabled"]
+- !private ["So17UICoordinateSpaceP", "layoutSubviews"]
+- !private ["So17UICoordinateSpaceP", "likeControlAuxiliaryPosition"]
+- !private ["So17UICoordinateSpaceP", "likeControlHorizontalAlignment"]
+- !private ["So17UICoordinateSpaceP", "likeControlStyle"]
+- !private ["So17UICoordinateSpaceP", "object"]
+- !private ["So17UICoordinateSpaceP", "objectID"]
+- !private ["So17UICoordinateSpaceP", "objectType"]
+- !private ["So17UICoordinateSpaceP", "preferredMaxLayoutWidth"]
+- !private ["So17UICoordinateSpaceP", "sdkLikeControl"]
+- !private ["So17UICoordinateSpaceP", "sizeThatFits"]
+- !private ["So13UIDynamicItemP", "AuxilaryStyle"]
+- !private ["So13UIDynamicItemP", "CGFloat"]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "CGSize"]
+- !private ["So13UIDynamicItemP", "FBSDKLikeControl"]
+- !private ["So13UIDynamicItemP", "LikableObject"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "foregroundColor"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "intrinsicContentSize"]
+- !private ["So13UIDynamicItemP", "isSoundEnabled"]
+- !private ["So13UIDynamicItemP", "layoutSubviews"]
+- !private ["So13UIDynamicItemP", "likeControlAuxiliaryPosition"]
+- !private ["So13UIDynamicItemP", "likeControlHorizontalAlignment"]
+- !private ["So13UIDynamicItemP", "likeControlStyle"]
+- !private ["So13UIDynamicItemP", "object"]
+- !private ["So13UIDynamicItemP", "objectID"]
+- !private ["So13UIDynamicItemP", "objectType"]
+- !private ["So13UIDynamicItemP", "preferredMaxLayoutWidth"]
+- !private ["So13UIDynamicItemP", "sdkLikeControl"]
+- !private ["So13UIDynamicItemP", "sizeThatFits"]
+- !private ["So18UIFocusEnvironmentP", "AuxilaryStyle"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKLikeControl"]
+- !private ["So18UIFocusEnvironmentP", "LikableObject"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "foregroundColor"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "intrinsicContentSize"]
+- !private ["So18UIFocusEnvironmentP", "isSoundEnabled"]
+- !private ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- !private ["So18UIFocusEnvironmentP", "likeControlAuxiliaryPosition"]
+- !private ["So18UIFocusEnvironmentP", "likeControlHorizontalAlignment"]
+- !private ["So18UIFocusEnvironmentP", "likeControlStyle"]
+- !private ["So18UIFocusEnvironmentP", "object"]
+- !private ["So18UIFocusEnvironmentP", "objectID"]
+- !private ["So18UIFocusEnvironmentP", "objectType"]
+- !private ["So18UIFocusEnvironmentP", "preferredMaxLayoutWidth"]
+- !private ["So18UIFocusEnvironmentP", "sdkLikeControl"]
+- !private ["So18UIFocusEnvironmentP", "sizeThatFits"]
+- !private ["So11UIFocusItemP", "AuxilaryStyle"]
+- !private ["So11UIFocusItemP", "CGFloat"]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "CGSize"]
+- !private ["So11UIFocusItemP", "FBSDKLikeControl"]
+- !private ["So11UIFocusItemP", "LikableObject"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "foregroundColor"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "intrinsicContentSize"]
+- !private ["So11UIFocusItemP", "isSoundEnabled"]
+- !private ["So11UIFocusItemP", "layoutSubviews"]
+- !private ["So11UIFocusItemP", "likeControlAuxiliaryPosition"]
+- !private ["So11UIFocusItemP", "likeControlHorizontalAlignment"]
+- !private ["So11UIFocusItemP", "likeControlStyle"]
+- !private ["So11UIFocusItemP", "object"]
+- !private ["So11UIFocusItemP", "objectID"]
+- !private ["So11UIFocusItemP", "objectType"]
+- !private ["So11UIFocusItemP", "preferredMaxLayoutWidth"]
+- !private ["So11UIFocusItemP", "sdkLikeControl"]
+- !private ["So11UIFocusItemP", "sizeThatFits"]
+- !private ["So20UIFocusItemContainerP", "AuxilaryStyle"]
+- !private ["So20UIFocusItemContainerP", "CGFloat"]
+- !private ["So20UIFocusItemContainerP", "CGRect"]
+- !private ["So20UIFocusItemContainerP", "CGSize"]
+- !private ["So20UIFocusItemContainerP", "FBSDKLikeControl"]
+- !private ["So20UIFocusItemContainerP", "LikableObject"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "foregroundColor"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "intrinsicContentSize"]
+- !private ["So20UIFocusItemContainerP", "isSoundEnabled"]
+- !private ["So20UIFocusItemContainerP", "layoutSubviews"]
+- !private ["So20UIFocusItemContainerP", "likeControlAuxiliaryPosition"]
+- !private ["So20UIFocusItemContainerP", "likeControlHorizontalAlignment"]
+- !private ["So20UIFocusItemContainerP", "likeControlStyle"]
+- !private ["So20UIFocusItemContainerP", "object"]
+- !private ["So20UIFocusItemContainerP", "objectID"]
+- !private ["So20UIFocusItemContainerP", "objectType"]
+- !private ["So20UIFocusItemContainerP", "preferredMaxLayoutWidth"]
+- !private ["So20UIFocusItemContainerP", "sdkLikeControl"]
+- !private ["So20UIFocusItemContainerP", "sizeThatFits"]
+- !private ["So30UIPasteConfigurationSupportingP", "AuxilaryStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKLikeControl"]
+- !private ["So30UIPasteConfigurationSupportingP", "LikableObject"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "foregroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "intrinsicContentSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSoundEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "likeControlAuxiliaryPosition"]
+- !private ["So30UIPasteConfigurationSupportingP", "likeControlHorizontalAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "likeControlStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "object"]
+- !private ["So30UIPasteConfigurationSupportingP", "objectID"]
+- !private ["So30UIPasteConfigurationSupportingP", "objectType"]
+- !private ["So30UIPasteConfigurationSupportingP", "preferredMaxLayoutWidth"]
+- !private ["So30UIPasteConfigurationSupportingP", "sdkLikeControl"]
+- !private ["So30UIPasteConfigurationSupportingP", "sizeThatFits"]
+- ["So11UIResponderC", "AuxilaryStyle"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "FBSDKLikeControl"]
+- ["So11UIResponderC", "LikableObject"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "auxilaryStyle"]
+- !private ["So11UIResponderC", "bounds"]
+- ["So11UIResponderC", "foregroundColor"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "intrinsicContentSize"]
+- ["So11UIResponderC", "isSoundEnabled"]
+- ["So11UIResponderC", "layoutSubviews"]
+- !private ["So11UIResponderC", "likeControlAuxiliaryPosition"]
+- !private ["So11UIResponderC", "likeControlHorizontalAlignment"]
+- !private ["So11UIResponderC", "likeControlStyle"]
+- ["So11UIResponderC", "object"]
+- !private ["So11UIResponderC", "objectID"]
+- !private ["So11UIResponderC", "objectType"]
+- ["So11UIResponderC", "preferredMaxLayoutWidth"]
+- ["So11UIResponderC", "sdkLikeControl"]
+- ["So11UIResponderC", "sizeThatFits"]
+- ["So11UIResponderC", "sizeToFit"]
+- !private ["So30UIResponderStandardEditActionsP", "AuxilaryStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKLikeControl"]
+- !private ["So30UIResponderStandardEditActionsP", "LikableObject"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "foregroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "intrinsicContentSize"]
+- !private ["So30UIResponderStandardEditActionsP", "isSoundEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "likeControlAuxiliaryPosition"]
+- !private ["So30UIResponderStandardEditActionsP", "likeControlHorizontalAlignment"]
+- !private ["So30UIResponderStandardEditActionsP", "likeControlStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "object"]
+- !private ["So30UIResponderStandardEditActionsP", "objectID"]
+- !private ["So30UIResponderStandardEditActionsP", "objectType"]
+- !private ["So30UIResponderStandardEditActionsP", "preferredMaxLayoutWidth"]
+- !private ["So30UIResponderStandardEditActionsP", "sdkLikeControl"]
+- !private ["So30UIResponderStandardEditActionsP", "sizeThatFits"]
+- !private ["So18UITraitEnvironmentP", "AuxilaryStyle"]
+- !private ["So18UITraitEnvironmentP", "CGFloat"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "FBSDKLikeControl"]
+- !private ["So18UITraitEnvironmentP", "LikableObject"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "foregroundColor"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "intrinsicContentSize"]
+- !private ["So18UITraitEnvironmentP", "isSoundEnabled"]
+- !private ["So18UITraitEnvironmentP", "layoutSubviews"]
+- !private ["So18UITraitEnvironmentP", "likeControlAuxiliaryPosition"]
+- !private ["So18UITraitEnvironmentP", "likeControlHorizontalAlignment"]
+- !private ["So18UITraitEnvironmentP", "likeControlStyle"]
+- !private ["So18UITraitEnvironmentP", "object"]
+- !private ["So18UITraitEnvironmentP", "objectID"]
+- !private ["So18UITraitEnvironmentP", "objectType"]
+- !private ["So18UITraitEnvironmentP", "preferredMaxLayoutWidth"]
+- !private ["So18UITraitEnvironmentP", "sdkLikeControl"]
+- !private ["So18UITraitEnvironmentP", "sizeThatFits"]
+- !private ["So23UIUserActivityRestoringP", "AuxilaryStyle"]
+- !private ["So23UIUserActivityRestoringP", "CGFloat"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "CGSize"]
+- !private ["So23UIUserActivityRestoringP", "FBSDKLikeControl"]
+- !private ["So23UIUserActivityRestoringP", "LikableObject"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "foregroundColor"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "intrinsicContentSize"]
+- !private ["So23UIUserActivityRestoringP", "isSoundEnabled"]
+- !private ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- !private ["So23UIUserActivityRestoringP", "likeControlAuxiliaryPosition"]
+- !private ["So23UIUserActivityRestoringP", "likeControlHorizontalAlignment"]
+- !private ["So23UIUserActivityRestoringP", "likeControlStyle"]
+- !private ["So23UIUserActivityRestoringP", "object"]
+- !private ["So23UIUserActivityRestoringP", "objectID"]
+- !private ["So23UIUserActivityRestoringP", "objectType"]
+- !private ["So23UIUserActivityRestoringP", "preferredMaxLayoutWidth"]
+- !private ["So23UIUserActivityRestoringP", "sdkLikeControl"]
+- !private ["So23UIUserActivityRestoringP", "sizeThatFits"]
+- ["So6UIViewC", "AuxilaryStyle"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "CGSize"]
+- ["So6UIViewC", "FBSDKLikeControl"]
+- ["So6UIViewC", "LikableObject"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- ["So6UIViewC", "auxilaryStyle"]
+- !private ["So6UIViewC", "bounds"]
+- ["So6UIViewC", "foregroundColor"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "intrinsicContentSize"]
+- ["So6UIViewC", "isSoundEnabled"]
+- ["So6UIViewC", "layoutSubviews"]
+- !private ["So6UIViewC", "likeControlAuxiliaryPosition"]
+- !private ["So6UIViewC", "likeControlHorizontalAlignment"]
+- !private ["So6UIViewC", "likeControlStyle"]
+- ["So6UIViewC", "object"]
+- !private ["So6UIViewC", "objectID"]
+- !private ["So6UIViewC", "objectType"]
+- ["So6UIViewC", "preferredMaxLayoutWidth"]
+- ["So6UIViewC", "sdkLikeControl"]
+- ["So6UIViewC", "sizeThatFits"]
+- ["So6UIViewC", "sizeToFit"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AuxilaryStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGFloat"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGSize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "FBSDKLikeControl"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "LikableObject"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "foregroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "intrinsicContentSize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isSoundEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "likeControlAuxiliaryPosition"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "likeControlHorizontalAlignment"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "likeControlStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "object"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "objectID"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "objectType"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "preferredMaxLayoutWidth"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "sdkLikeControl"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "sizeThatFits"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AuxilaryStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKLikeControl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LikableObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "foregroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intrinsicContentSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSoundEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "likeControlAuxiliaryPosition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "likeControlHorizontalAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "likeControlStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objectID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objectType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "preferredMaxLayoutWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sdkLikeControl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sizeThatFits"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "13FacebookShare11LikeControlC13AuxilaryStyleO"
+- !private "SB"
+- "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So16FBSDKLikeControlC"
+- !private "So11FBSDKLikingP"
+- !private "SF"
+- "SH"
+- !private "13FacebookShare13LikableObjectO"
+- "13FacebookShare11LikeControlC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FacebookShare/FacebookShare-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerActionButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectTextures.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectArguments.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareCameraEffectContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FacebookShare.build/unextended-module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FacebookCore.build/module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FBSDKShareKit.build/module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "85fc1004bad44fcc344c6829fe78ddf4"

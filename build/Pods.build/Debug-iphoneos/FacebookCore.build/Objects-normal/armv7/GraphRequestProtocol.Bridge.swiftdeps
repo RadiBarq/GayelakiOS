@@ -1,0 +1,234 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["12FacebookCore20GraphRequestProtocolP", ""]
+- ["12FacebookCore20GraphRequestProtocolP", "sdkRequest"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "CastingPrecedence"
+- "FBSDKGraphRequest"
+- !private "GraphRequestDataAttachment"
+- "GraphRequestProtocol"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["12FacebookCore11AccessTokenV", "authenticationToken"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyValueMap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "keyValueMap"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyValueMap"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "keyValueMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyValueMap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "keyValueMap"]
+- !private ["SD", "keyValueMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "keyValueMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "keyValueMap"]
+- !private ["SQ", "rawValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keyValueMap"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "stringValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["So17FBSDKGraphRequestC", "init"]
+- !private ["12FacebookCore15GraphAPIVersionV", "stringValue"]
+- !private ["12FacebookCore26GraphRequestDataAttachmentC", "sdkDataAttachment"]
+- !private ["12FacebookCore22GraphRequestHTTPMethodO", "deinit"]
+- !private ["12FacebookCore22GraphRequestHTTPMethodO", "rawValue"]
+- ["12FacebookCore20GraphRequestProtocolP", "FBSDKGraphRequest"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "GraphRequestDataAttachment"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "String"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "accessToken"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "apiVersion"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "graphPath"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "httpMethod"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "parameters"]
+- ["12FacebookCore20GraphRequestProtocolP", "sdkRequest"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "keyValueMap"]
+- !private ["SH", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "rawValue"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "keyValueMap"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keyValueMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "keyValueMap"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "12FacebookCore11AccessTokenV"
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So17FBSDKGraphRequestC"
+- !private "12FacebookCore15GraphAPIVersionV"
+- !private "12FacebookCore26GraphRequestDataAttachmentC"
+- !private "12FacebookCore22GraphRequestHTTPMethodO"
+- "12FacebookCore20GraphRequestProtocolP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FacebookCore.build/unextended-module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "df2076f7aaa9964a3a6d75bb6f4dfd22"

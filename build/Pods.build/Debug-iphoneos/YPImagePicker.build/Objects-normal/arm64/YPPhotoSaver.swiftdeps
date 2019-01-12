@@ -1,0 +1,331 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YPPhotoSaver"
+provides-nominal:
+- "13YPImagePicker12YPPhotoSaverC"
+provides-member:
+- ["13YPImagePicker12YPPhotoSaverC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- !private "NSArray"
+- !private "NSPredicate"
+- !private "PHAssetChangeRequest"
+- "PHAssetCollection"
+- !private "PHAssetCollectionChangeRequest"
+- !private "PHFetchOptions"
+- !private "PHPhotoLibrary"
+- "String"
+- !private "StringLiteralType"
+- "UIImage"
+- "Void"
+- "YPPhotoSaver"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAssets"]
+- !private ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "creationRequestForAsset"]
+- !private ["s7CVarArgP", "creationRequestForAssetCollection"]
+- !private ["s7CVarArgP", "fetchAssetCollections"]
+- !private ["s7CVarArgP", "firstObject"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "performChanges"]
+- !private ["s7CVarArgP", "placeholderForCreatedAsset"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "addAssets"]
+- !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "creationRequestForAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "creationRequestForAssetCollection"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchAssetCollections"]
+- !private ["s28CustomDebugStringConvertibleP", "firstObject"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "performChanges"]
+- !private ["s28CustomDebugStringConvertibleP", "placeholderForCreatedAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAssets"]
+- !private ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "creationRequestForAsset"]
+- !private ["s23CustomStringConvertibleP", "creationRequestForAssetCollection"]
+- !private ["s23CustomStringConvertibleP", "fetchAssetCollections"]
+- !private ["s23CustomStringConvertibleP", "firstObject"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "performChanges"]
+- !private ["s23CustomStringConvertibleP", "placeholderForCreatedAsset"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addAssets"]
+- !private ["SQ", "album"]
+- !private ["SQ", "any"]
+- !private ["SQ", "authorizationStatus"]
+- !private ["SQ", "authorized"]
+- !private ["SQ", "creationRequestForAsset"]
+- !private ["SQ", "creationRequestForAssetCollection"]
+- !private ["SQ", "fetchAssetCollections"]
+- !private ["SQ", "firstObject"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "performChanges"]
+- !private ["SQ", "placeholderForCreatedAsset"]
+- !private ["SQ", "predicate"]
+- !private ["SQ", "shared"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addAssets"]
+- !private ["SH", "album"]
+- !private ["SH", "any"]
+- !private ["SH", "authorizationStatus"]
+- !private ["SH", "authorized"]
+- !private ["SH", "creationRequestForAsset"]
+- !private ["SH", "creationRequestForAssetCollection"]
+- !private ["SH", "fetchAssetCollections"]
+- !private ["SH", "firstObject"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "performChanges"]
+- !private ["SH", "placeholderForCreatedAsset"]
+- !private ["SH", "predicate"]
+- !private ["SH", "shared"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "fetchAssetCollections"]
+- !private ["So9NSCopyingP", "firstObject"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "predicate"]
+- !private ["So17NSFastEnumerationP", "firstObject"]
+- !private ["So8NSObjectC", "addAssets"]
+- !private ["So8NSObjectC", "authorizationStatus"]
+- !private ["So8NSObjectC", "creationRequestForAsset"]
+- !private ["So8NSObjectC", "creationRequestForAssetCollection"]
+- !private ["So8NSObjectC", "fetchAssetCollections"]
+- !private ["So8NSObjectC", "firstObject"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "performChanges"]
+- !private ["So8NSObjectC", "placeholderForCreatedAsset"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "addAssets"]
+- !private ["So8NSObjectP", "authorizationStatus"]
+- !private ["So8NSObjectP", "creationRequestForAsset"]
+- !private ["So8NSObjectP", "creationRequestForAssetCollection"]
+- !private ["So8NSObjectP", "fetchAssetCollections"]
+- !private ["So8NSObjectP", "firstObject"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "performChanges"]
+- !private ["So8NSObjectP", "placeholderForCreatedAsset"]
+- !private ["So8NSObjectP", "predicate"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So20PHAssetChangeRequestC", "creationRequestForAsset"]
+- !private ["So20PHAssetChangeRequestC", "placeholderForCreatedAsset"]
+- !private ["So17PHAssetCollectionC", "fetchAssetCollections"]
+- !private ["So30PHAssetCollectionChangeRequestC", "addAssets"]
+- !private ["So30PHAssetCollectionChangeRequestC", "creationRequestForAssetCollection"]
+- !private ["So30PHAssetCollectionChangeRequestC", "init"]
+- !private ["So24PHAssetCollectionSubtypeV", "any"]
+- !private ["So21PHAssetCollectionTypeV", "album"]
+- !private ["So21PHAuthorizationStatusV", "authorized"]
+- !private ["So12PHCollectionC", "fetchAssetCollections"]
+- !private ["So14PHFetchOptionsC", "init"]
+- !private ["So14PHFetchOptionsC", "predicate"]
+- !private ["So13PHFetchResultC", "firstObject"]
+- !private ["So8PHObjectC", "fetchAssetCollections"]
+- !private ["So14PHPhotoLibraryC", "authorizationStatus"]
+- !private ["So14PHPhotoLibraryC", "performChanges"]
+- !private ["So14PHPhotoLibraryC", "shared"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "album"]
+- !private ["SY", "any"]
+- !private ["SY", "authorized"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "NSArray"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "NSPredicate"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "PHAssetChangeRequest"]
+- ["13YPImagePicker12YPPhotoSaverC", "PHAssetCollection"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "PHAssetCollectionChangeRequest"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "PHFetchOptions"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "PHPhotoLibrary"]
+- ["13YPImagePicker12YPPhotoSaverC", "String"]
+- ["13YPImagePicker12YPPhotoSaverC", "UIImage"]
+- ["13YPImagePicker12YPPhotoSaverC", "Void"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "album"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "createAlbum"]
+- ["13YPImagePicker12YPPhotoSaverC", "init"]
+- !private ["13YPImagePicker12YPPhotoSaverC", "saveImage"]
+- ["13YPImagePicker12YPPhotoSaverC", "trySaveImage"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAssets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creationRequestForAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creationRequestForAssetCollection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchAssetCollections"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performChanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholderForCreatedAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "So20PHAssetChangeRequestC"
+- !private "So17PHAssetCollectionC"
+- !private "So30PHAssetCollectionChangeRequestC"
+- !private "So24PHAssetCollectionSubtypeV"
+- !private "So21PHAssetCollectionTypeV"
+- !private "So21PHAuthorizationStatusV"
+- !private "So12PHCollectionC"
+- !private "So14PHFetchOptionsC"
+- !private "So13PHFetchResultC"
+- !private "So8PHObjectC"
+- !private "So14PHPhotoLibraryC"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "13YPImagePicker12YPPhotoSaverC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5fc884248c0da72aa8341eddd8208f2a"

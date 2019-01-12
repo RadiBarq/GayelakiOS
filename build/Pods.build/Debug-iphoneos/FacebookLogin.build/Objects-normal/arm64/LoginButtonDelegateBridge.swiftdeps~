@@ -1,0 +1,267 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginButtonDelegateBridge"
+provides-nominal:
+- "13FacebookLogin0B20ButtonDelegateBridgeC"
+provides-member:
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", ""]
+provides-dynamic-lookup:
+- "loginButton"
+- "loginButtonDidLogOut"
+- "setupAsDelegateFor"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Error"
+- "FBSDKLoginButton"
+- "FBSDKLoginButtonDelegate"
+- "FBSDKLoginManagerLoginResult"
+- "LoginButton"
+- "LoginButtonDelegateBridge"
+- !private "LoginResult"
+- "NSObject"
+depends-member:
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["s7CVarArgP", "LoginResult"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "loginButton"]
+- ["s7CVarArgP", "loginButtonDidLogOut"]
+- ["s7CVarArgP", "loginButtonWillLogin"]
+- !private ["s28CustomDebugStringConvertibleP", "LoginResult"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "loginButton"]
+- ["s28CustomDebugStringConvertibleP", "loginButtonDidLogOut"]
+- ["s28CustomDebugStringConvertibleP", "loginButtonWillLogin"]
+- !private ["s23CustomStringConvertibleP", "LoginResult"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "loginButton"]
+- ["s23CustomStringConvertibleP", "loginButtonDidLogOut"]
+- ["s23CustomStringConvertibleP", "loginButtonWillLogin"]
+- !private ["SQ", "LoginResult"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "loginButton"]
+- ["SQ", "loginButtonDidLogOut"]
+- ["SQ", "loginButtonWillLogin"]
+- !private ["So11FBSDKButtonC", "delegate"]
+- !private ["So16FBSDKLoginButtonC", "delegate"]
+- !private ["So24FBSDKLoginButtonDelegateP", "LoginResult"]
+- ["So24FBSDKLoginButtonDelegateP", ""]
+- ["So24FBSDKLoginButtonDelegateP", "loginButton"]
+- ["So24FBSDKLoginButtonDelegateP", "loginButtonDidLogOut"]
+- ["So24FBSDKLoginButtonDelegateP", "loginButtonWillLogin"]
+- !private ["SH", "LoginResult"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "loginButton"]
+- ["SH", "loginButtonDidLogOut"]
+- ["SH", "loginButtonWillLogin"]
+- !private ["13FacebookLogin0B6ButtonC", "delegate"]
+- !private ["13FacebookLogin0B14ButtonDelegateP", "loginButtonDidCompleteLogin"]
+- !private ["13FacebookLogin0B14ButtonDelegateP", "loginButtonDidLogOut"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "Error"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "FBSDKLoginButton"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "FBSDKLoginManagerLoginResult"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "LoginButton"]
+- !private ["13FacebookLogin0B20ButtonDelegateBridgeC", "LoginResult"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "deinit"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "init"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "loginButton"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "loginButtonDidLogOut"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "loginButtonWillLogin"]
+- ["13FacebookLogin0B20ButtonDelegateBridgeC", "setupAsDelegateFor"]
+- !private ["13FacebookLogin0B6ResultO", "init"]
+- !private ["So8NSCodingP", "delegate"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "FBSDKLoginButton"]
+- ["So8NSObjectC", "FBSDKLoginManagerLoginResult"]
+- ["So8NSObjectC", "LoginButton"]
+- !private ["So8NSObjectC", "LoginResult"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loginButton"]
+- ["So8NSObjectC", "loginButtonDidLogOut"]
+- ["So8NSObjectC", "loginButtonWillLogin"]
+- ["So8NSObjectC", "setupAsDelegateFor"]
+- !private ["So8NSObjectP", "LoginResult"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "loginButton"]
+- ["So8NSObjectP", "loginButtonDidLogOut"]
+- ["So8NSObjectP", "loginButtonWillLogin"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So8UIButtonC", "delegate"]
+- !private ["So9UIControlC", "delegate"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginResult"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "loginButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "loginButtonDidLogOut"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "loginButtonWillLogin"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "So11FBSDKButtonC"
+- !private "So16FBSDKLoginButtonC"
+- "So24FBSDKLoginButtonDelegateP"
+- "SH"
+- !private "13FacebookLogin0B6ButtonC"
+- !private "13FacebookLogin0B14ButtonDelegateP"
+- "13FacebookLogin0B20ButtonDelegateBridgeC"
+- !private "13FacebookLogin0B6ResultO"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookLogin/FacebookLogin-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginButton.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginManagerLoginResult.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKTooltipView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginTooltipView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FacebookLogin.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FacebookCore.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FBSDKLoginKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d2ab1a28cacb2a16634347d8133bdd1d"

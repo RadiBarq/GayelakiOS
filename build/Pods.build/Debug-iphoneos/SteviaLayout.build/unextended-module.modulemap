@@ -1,0 +1,10 @@
+framework module Stevia {
+  umbrella header "SteviaLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Stevia.__Swift {
+    exclude header "Stevia-Swift.h"
+}

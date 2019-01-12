@@ -1,0 +1,502 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AdvancedVideoEditor"
+provides-nominal:
+- "7Gallery19AdvancedVideoEditorC"
+provides-member:
+- ["7Gallery19AdvancedVideoEditorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- "AVAsset"
+- "AVAssetReader"
+- "AVAssetReaderAudioMixOutput"
+- "AVAssetReaderOutput"
+- "AVAssetReaderVideoCompositionOutput"
+- "AVAssetWriter"
+- "AVAssetWriterInput"
+- !private "AVMediaType"
+- "AdvancedVideoEditor"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "DispatchQueue"
+- !private "EditInfo"
+- "StringLiteralType"
+- "URL"
+- "Video"
+- "VideoEditing"
+- "Void"
+- !private "kCMTimeZero"
+depends-member:
+- !private ["So7AVAssetC", "g_audioDescription"]
+- !private ["So7AVAssetC", "g_videoDescription"]
+- !private ["So7AVAssetC", "tracks"]
+- !private ["So13AVAssetReaderC", "init"]
+- !private ["So13AVAssetReaderC", "startReading"]
+- !private ["So13AVAssetReaderC", "status"]
+- !private ["So19AVAssetReaderOutputC", "copyNextSampleBuffer"]
+- !private ["So13AVAssetWriterC", "cancelWriting"]
+- !private ["So13AVAssetWriterC", "finishWriting"]
+- !private ["So13AVAssetWriterC", "init"]
+- !private ["So13AVAssetWriterC", "status"]
+- !private ["So18AVAssetWriterInputC", "append"]
+- ["So18AVAssetWriterInputC", "init"]
+- !private ["So18AVAssetWriterInputC", "isReadyForMoreMediaData"]
+- !private ["So18AVAssetWriterInputC", "markAsFinished"]
+- !private ["So18AVAssetWriterInputC", "requestMediaDataWhenReady"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "g_audioDescription"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "g_videoDescription"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "tracks"]
+- ["7Gallery19AdvancedVideoEditorC", "AVAsset"]
+- ["7Gallery19AdvancedVideoEditorC", "AVAssetReader"]
+- ["7Gallery19AdvancedVideoEditorC", "AVAssetReaderAudioMixOutput"]
+- ["7Gallery19AdvancedVideoEditorC", "AVAssetReaderOutput"]
+- ["7Gallery19AdvancedVideoEditorC", "AVAssetReaderVideoCompositionOutput"]
+- ["7Gallery19AdvancedVideoEditorC", "AVAssetWriter"]
+- ["7Gallery19AdvancedVideoEditorC", "AVAssetWriterInput"]
+- !private ["7Gallery19AdvancedVideoEditorC", "AVMediaType"]
+- ["7Gallery19AdvancedVideoEditorC", "Bool"]
+- ["7Gallery19AdvancedVideoEditorC", "DispatchQueue"]
+- !private ["7Gallery19AdvancedVideoEditorC", "EditInfo"]
+- ["7Gallery19AdvancedVideoEditorC", "URL"]
+- ["7Gallery19AdvancedVideoEditorC", "Video"]
+- ["7Gallery19AdvancedVideoEditorC", "Void"]
+- ["7Gallery19AdvancedVideoEditorC", "audioCompleted"]
+- ["7Gallery19AdvancedVideoEditorC", "audioInput"]
+- ["7Gallery19AdvancedVideoEditorC", "audioOutput"]
+- ["7Gallery19AdvancedVideoEditorC", "crop"]
+- ["7Gallery19AdvancedVideoEditorC", "deinit"]
+- ["7Gallery19AdvancedVideoEditorC", "edit"]
+- !private ["7Gallery19AdvancedVideoEditorC", "finish"]
+- ["7Gallery19AdvancedVideoEditorC", "finishQueue"]
+- ["7Gallery19AdvancedVideoEditorC", "init"]
+- !private ["7Gallery19AdvancedVideoEditorC", "kCMTimeZero"]
+- !private ["7Gallery19AdvancedVideoEditorC", "process"]
+- ["7Gallery19AdvancedVideoEditorC", "reader"]
+- ["7Gallery19AdvancedVideoEditorC", "requestQueue"]
+- !private ["7Gallery19AdvancedVideoEditorC", "stream"]
+- ["7Gallery19AdvancedVideoEditorC", "videoCompleted"]
+- ["7Gallery19AdvancedVideoEditorC", "videoInput"]
+- ["7Gallery19AdvancedVideoEditorC", "videoOutput"]
+- !private ["7Gallery19AdvancedVideoEditorC", "wire"]
+- !private ["7Gallery19AdvancedVideoEditorC", "wireAudio"]
+- !private ["7Gallery19AdvancedVideoEditorC", "wireVideo"]
+- ["7Gallery19AdvancedVideoEditorC", "writer"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "audio"]
+- !private ["s7CVarArgP", "cancelWriting"]
+- !private ["s7CVarArgP", "copyNextSampleBuffer"]
+- !private ["s7CVarArgP", "finishWriting"]
+- !private ["s7CVarArgP", "g_audioDescription"]
+- !private ["s7CVarArgP", "g_videoDescription"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isReadyForMoreMediaData"]
+- !private ["s7CVarArgP", "markAsFinished"]
+- !private ["s7CVarArgP", "requestMediaDataWhenReady"]
+- !private ["s7CVarArgP", "startReading"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "tracks"]
+- !private ["s7CVarArgP", "video"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "audio"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelWriting"]
+- !private ["s28CustomDebugStringConvertibleP", "copyNextSampleBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "finishWriting"]
+- !private ["s28CustomDebugStringConvertibleP", "g_audioDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "g_videoDescription"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isReadyForMoreMediaData"]
+- !private ["s28CustomDebugStringConvertibleP", "markAsFinished"]
+- !private ["s28CustomDebugStringConvertibleP", "requestMediaDataWhenReady"]
+- !private ["s28CustomDebugStringConvertibleP", "startReading"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "tracks"]
+- !private ["s28CustomDebugStringConvertibleP", "video"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "audio"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "video"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "cancelWriting"]
+- !private ["s17CustomReflectableP", "finishWriting"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "status"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "audio"]
+- !private ["s23CustomStringConvertibleP", "cancelWriting"]
+- !private ["s23CustomStringConvertibleP", "copyNextSampleBuffer"]
+- !private ["s23CustomStringConvertibleP", "finishWriting"]
+- !private ["s23CustomStringConvertibleP", "g_audioDescription"]
+- !private ["s23CustomStringConvertibleP", "g_videoDescription"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isReadyForMoreMediaData"]
+- !private ["s23CustomStringConvertibleP", "markAsFinished"]
+- !private ["s23CustomStringConvertibleP", "requestMediaDataWhenReady"]
+- !private ["s23CustomStringConvertibleP", "startReading"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "tracks"]
+- !private ["s23CustomStringConvertibleP", "video"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "cancelWriting"]
+- !private ["Se", "finishWriting"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "status"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["8Dispatch0A3QoSV", "background"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["7Gallery8EditInfoV", "audioSettings"]
+- !private ["7Gallery8EditInfoV", "composition"]
+- !private ["7Gallery8EditInfoV", "file"]
+- !private ["7Gallery8EditInfoV", "outputURL"]
+- !private ["7Gallery8EditInfoV", "videoSettings"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "cancelWriting"]
+- !private ["SE", "finishWriting"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "status"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "audio"]
+- ["SQ", "background"]
+- !private ["SQ", "cancelWriting"]
+- !private ["SQ", "cancelled"]
+- !private ["SQ", "completed"]
+- !private ["SQ", "copyNextSampleBuffer"]
+- !private ["SQ", "failed"]
+- !private ["SQ", "finishWriting"]
+- !private ["SQ", "g_audioDescription"]
+- !private ["SQ", "g_videoDescription"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isReadyForMoreMediaData"]
+- !private ["SQ", "markAsFinished"]
+- !private ["SQ", "reading"]
+- !private ["SQ", "requestMediaDataWhenReady"]
+- !private ["SQ", "startReading"]
+- !private ["SQ", "status"]
+- !private ["SQ", "tracks"]
+- !private ["SQ", "video"]
+- !private ["SQ", "writing"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "audio"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s23ExpressibleByNilLiteralP", "cancelWriting"]
+- !private ["s23ExpressibleByNilLiteralP", "finishWriting"]
+- !private ["s23ExpressibleByNilLiteralP", "status"]
+- !private ["s26ExpressibleByStringLiteralP", "audio"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "video"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "audio"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "video"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "audio"]
+- !private ["SH", "cancelWriting"]
+- !private ["SH", "cancelled"]
+- !private ["SH", "completed"]
+- !private ["SH", "copyNextSampleBuffer"]
+- !private ["SH", "failed"]
+- !private ["SH", "finishWriting"]
+- !private ["SH", "g_audioDescription"]
+- !private ["SH", "g_videoDescription"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isReadyForMoreMediaData"]
+- !private ["SH", "markAsFinished"]
+- !private ["SH", "reading"]
+- !private ["SH", "requestMediaDataWhenReady"]
+- !private ["SH", "startReading"]
+- !private ["SH", "status"]
+- !private ["SH", "tracks"]
+- !private ["SH", "video"]
+- !private ["SH", "writing"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "audio"]
+- !private ["So8NSCodingP", "video"]
+- !private ["So9NSCopyingP", "audio"]
+- !private ["So9NSCopyingP", "g_audioDescription"]
+- !private ["So9NSCopyingP", "g_videoDescription"]
+- !private ["So9NSCopyingP", "tracks"]
+- !private ["So9NSCopyingP", "video"]
+- !private ["So21NSItemProviderReadingP", "audio"]
+- !private ["So21NSItemProviderReadingP", "video"]
+- !private ["So21NSItemProviderWritingP", "audio"]
+- !private ["So21NSItemProviderWritingP", "video"]
+- !private ["So16NSMutableCopyingP", "audio"]
+- !private ["So16NSMutableCopyingP", "video"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "audio"]
+- !private ["So8NSObjectC", "cancelWriting"]
+- !private ["So8NSObjectC", "copyNextSampleBuffer"]
+- !private ["So8NSObjectC", "finishWriting"]
+- !private ["So8NSObjectC", "g_audioDescription"]
+- !private ["So8NSObjectC", "g_videoDescription"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isReadyForMoreMediaData"]
+- !private ["So8NSObjectC", "markAsFinished"]
+- !private ["So8NSObjectC", "requestMediaDataWhenReady"]
+- !private ["So8NSObjectC", "startReading"]
+- !private ["So8NSObjectC", "status"]
+- !private ["So8NSObjectC", "tracks"]
+- !private ["So8NSObjectC", "video"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "audio"]
+- !private ["So8NSObjectP", "cancelWriting"]
+- !private ["So8NSObjectP", "copyNextSampleBuffer"]
+- !private ["So8NSObjectP", "finishWriting"]
+- !private ["So8NSObjectP", "g_audioDescription"]
+- !private ["So8NSObjectP", "g_videoDescription"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isReadyForMoreMediaData"]
+- !private ["So8NSObjectP", "markAsFinished"]
+- !private ["So8NSObjectP", "requestMediaDataWhenReady"]
+- !private ["So8NSObjectP", "startReading"]
+- !private ["So8NSObjectP", "status"]
+- !private ["So8NSObjectP", "tracks"]
+- !private ["So8NSObjectP", "video"]
+- !private ["So14NSSecureCodingP", "audio"]
+- !private ["So14NSSecureCodingP", "video"]
+- !private ["So8NSStringC", "audio"]
+- !private ["So8NSStringC", "video"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- !private ["Sq", "cancelWriting"]
+- !private ["Sq", "finishWriting"]
+- !private ["Sq", "status"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "cancelled"]
+- !private ["SY", "completed"]
+- !private ["SY", "failed"]
+- !private ["SY", "reading"]
+- !private ["SY", "writing"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["So19AVAssetReaderStatusV", "cancelled"]
+- !private ["So19AVAssetWriterStatusV", "cancelled"]
+- !private ["So19AVAssetWriterStatusV", "completed"]
+- !private ["So19AVAssetReaderStatusV", "failed"]
+- !private ["So19AVAssetWriterStatusV", "failed"]
+- !private ["So19AVAssetReaderStatusV", "reading"]
+- !private ["So19AVAssetWriterStatusV", "writing"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["7Gallery12VideoEditingP", "AVAssetReader"]
+- !private ["7Gallery12VideoEditingP", "AVAssetReaderAudioMixOutput"]
+- !private ["7Gallery12VideoEditingP", "AVAssetReaderVideoCompositionOutput"]
+- !private ["7Gallery12VideoEditingP", "AVAssetWriter"]
+- !private ["7Gallery12VideoEditingP", "AVAssetWriterInput"]
+- !private ["7Gallery12VideoEditingP", "AVMediaType"]
+- ["7Gallery12VideoEditingP", "DispatchQueue"]
+- !private ["7Gallery12VideoEditingP", "EditInfo"]
+- ["7Gallery12VideoEditingP", ""]
+- !private ["7Gallery12VideoEditingP", "audioCompleted"]
+- !private ["7Gallery12VideoEditingP", "audioInput"]
+- !private ["7Gallery12VideoEditingP", "audioOutput"]
+- ["7Gallery12VideoEditingP", "crop"]
+- ["7Gallery12VideoEditingP", "edit"]
+- !private ["7Gallery12VideoEditingP", "finish"]
+- !private ["7Gallery12VideoEditingP", "finishQueue"]
+- !private ["7Gallery12VideoEditingP", "kCMTimeZero"]
+- !private ["7Gallery12VideoEditingP", "process"]
+- !private ["7Gallery12VideoEditingP", "reader"]
+- !private ["7Gallery12VideoEditingP", "requestQueue"]
+- !private ["7Gallery12VideoEditingP", "stream"]
+- !private ["7Gallery12VideoEditingP", "videoCompleted"]
+- !private ["7Gallery12VideoEditingP", "videoInput"]
+- !private ["7Gallery12VideoEditingP", "videoOutput"]
+- !private ["7Gallery12VideoEditingP", "wire"]
+- !private ["7Gallery12VideoEditingP", "wireAudio"]
+- !private ["7Gallery12VideoEditingP", "wireVideo"]
+- !private ["7Gallery12VideoEditingP", "writer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "audio"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelWriting"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copyNextSampleBuffer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finishWriting"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "g_audioDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "g_videoDescription"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReadyForMoreMediaData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "markAsFinished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestMediaDataWhenReady"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startReading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tracks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "video"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "cancelWriting"]
+- !private ["s21_ObjectiveCBridgeableP", "finishWriting"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "status"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So7AVAssetC"
+- !private "So13AVAssetReaderC"
+- !private "So19AVAssetReaderOutputC"
+- !private "So13AVAssetWriterC"
+- "So18AVAssetWriterInputC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- "7Gallery19AdvancedVideoEditorC"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "8Dispatch0A3QoSV"
+- "So17OS_dispatch_queueC"
+- !private "7Gallery8EditInfoV"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So9OS_objectC"
+- !private "Sq"
+- "Sm"
+- !private "SY"
+- "ST"
+- !private "So19AVAssetReaderStatusV"
+- !private "So19AVAssetWriterStatusV"
+- !private "So19AVAssetReaderStatusV"
+- !private "So19AVAssetWriterStatusV"
+- !private "So19AVAssetReaderStatusV"
+- !private "So19AVAssetWriterStatusV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "7Gallery12VideoEditingP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Gallery/Gallery-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Gallery.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b6f0fe4181a3be1da5c99261702b333c"

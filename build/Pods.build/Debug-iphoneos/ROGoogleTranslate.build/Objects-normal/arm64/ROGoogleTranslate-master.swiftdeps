@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "7dee053cd425407b5affbb2608234659"
+build_time: [1547213451, 925940000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/ROGoogleTranslate/Source/ROGoogleTranslate.swift": [1523532716, 0]

@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "b0418e4ec9cc7ae66a69a8cf78f16c3f"
+build_time: [1538517165, 992641000]
+inputs:
+  "/Volumes/NO NAME/Chottky/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": [1523532760, 0]
+  "/Volumes/NO NAME/Chottky/Pods/SideMenu/Pod/Classes/SideMenuTransition.swift": [1523532760, 0]
+  "/Volumes/NO NAME/Chottky/Pods/SideMenu/Pod/Classes/UISideMenuNavigationController.swift": [1523532760, 0]
+  "/Volumes/NO NAME/Chottky/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": [1523532760, 0]

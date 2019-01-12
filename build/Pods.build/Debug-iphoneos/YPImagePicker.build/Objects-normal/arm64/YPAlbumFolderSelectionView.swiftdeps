@@ -1,0 +1,464 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YPAlbumFolderSelectionView"
+provides-nominal:
+- "13YPImagePicker26YPAlbumFolderSelectionViewC"
+provides-member:
+- ["13YPImagePicker26YPAlbumFolderSelectionViewC", ""]
+provides-dynamic-lookup:
+- "spinner"
+- "tableView"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "CGRect"
+- "UIActivityIndicatorView"
+- "UITableView"
+- "UIView"
+- "YPAlbumFolderSelectionView"
+depends-member:
+- !private ["So15CALayerDelegateP", "CGRect"]
+- ["So15CALayerDelegateP", "UIActivityIndicatorView"]
+- ["So15CALayerDelegateP", "UITableView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "centerInContainer"]
+- !private ["So15CALayerDelegateP", "fillContainer"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "spinner"]
+- !private ["So15CALayerDelegateP", "sv"]
+- !private ["So15CALayerDelegateP", "tableView"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "CGRect"]
+- ["s7CVarArgP", "UIActivityIndicatorView"]
+- ["s7CVarArgP", "UITableView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "centerInContainer"]
+- !private ["s7CVarArgP", "fillContainer"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "spinner"]
+- !private ["s7CVarArgP", "sv"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- ["s28CustomDebugStringConvertibleP", "UIActivityIndicatorView"]
+- ["s28CustomDebugStringConvertibleP", "UITableView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "centerInContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "fillContainer"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "spinner"]
+- !private ["s28CustomDebugStringConvertibleP", "sv"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- ["s23CustomStringConvertibleP", "UIActivityIndicatorView"]
+- ["s23CustomStringConvertibleP", "UITableView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "centerInContainer"]
+- !private ["s23CustomStringConvertibleP", "fillContainer"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "spinner"]
+- !private ["s23CustomStringConvertibleP", "sv"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "white"]
+- !private ["Se", "zero"]
+- !private ["SE", "white"]
+- !private ["SE", "zero"]
+- !private ["SQ", "CGRect"]
+- ["SQ", "UIActivityIndicatorView"]
+- ["SQ", "UITableView"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "centerInContainer"]
+- !private ["SQ", "fillContainer"]
+- ["SQ", "gray"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "spinner"]
+- !private ["SQ", "sv"]
+- !private ["SQ", "tableView"]
+- !private ["SQ", "white"]
+- !private ["SQ", "zero"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["SH", "CGRect"]
+- ["SH", "UIActivityIndicatorView"]
+- ["SH", "UITableView"]
+- ["SH", ""]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "centerInContainer"]
+- !private ["SH", "fillContainer"]
+- ["SH", "gray"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "spinner"]
+- !private ["SH", "sv"]
+- !private ["SH", "tableView"]
+- !private ["SH", "white"]
+- !private ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "UIActivityIndicatorView"]
+- ["So8NSCodingP", "UITableView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "centerInContainer"]
+- !private ["So8NSCodingP", "fillContainer"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "spinner"]
+- !private ["So8NSCodingP", "sv"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "UIActivityIndicatorView"]
+- ["So8NSObjectC", "UITableView"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "centerInContainer"]
+- !private ["So8NSObjectC", "fillContainer"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "spinner"]
+- !private ["So8NSObjectC", "sv"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "UIActivityIndicatorView"]
+- ["So8NSObjectP", "UITableView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "centerInContainer"]
+- !private ["So8NSObjectP", "fillContainer"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "spinner"]
+- !private ["So8NSObjectP", "sv"]
+- !private ["So8NSObjectP", "tableView"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["Sq", "white"]
+- ["SY", "gray"]
+- ["So28UIActivityIndicatorViewStyleV", "gray"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- ["So29UIAccessibilityIdentificationP", "UIActivityIndicatorView"]
+- ["So29UIAccessibilityIdentificationP", "UITableView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "centerInContainer"]
+- !private ["So29UIAccessibilityIdentificationP", "fillContainer"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "spinner"]
+- !private ["So29UIAccessibilityIdentificationP", "sv"]
+- !private ["So29UIAccessibilityIdentificationP", "tableView"]
+- !private ["So23UIActivityIndicatorViewC", "centerInContainer"]
+- ["So23UIActivityIndicatorViewC", "init"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- ["So12UIAppearanceP", "UIActivityIndicatorView"]
+- ["So12UIAppearanceP", "UITableView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "centerInContainer"]
+- !private ["So12UIAppearanceP", "fillContainer"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "spinner"]
+- !private ["So12UIAppearanceP", "sv"]
+- !private ["So12UIAppearanceP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- ["So21UIAppearanceContainerP", "UIActivityIndicatorView"]
+- ["So21UIAppearanceContainerP", "UITableView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "centerInContainer"]
+- !private ["So21UIAppearanceContainerP", "fillContainer"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "spinner"]
+- !private ["So21UIAppearanceContainerP", "sv"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- ["So17UICoordinateSpaceP", "UIActivityIndicatorView"]
+- ["So17UICoordinateSpaceP", "UITableView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "centerInContainer"]
+- !private ["So17UICoordinateSpaceP", "fillContainer"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "spinner"]
+- !private ["So17UICoordinateSpaceP", "sv"]
+- !private ["So17UICoordinateSpaceP", "tableView"]
+- !private ["So23UIDataSourceTranslatingP", "fillContainer"]
+- ["So23UIDataSourceTranslatingP", "init"]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- ["So13UIDynamicItemP", "UIActivityIndicatorView"]
+- ["So13UIDynamicItemP", "UITableView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "centerInContainer"]
+- !private ["So13UIDynamicItemP", "fillContainer"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "spinner"]
+- !private ["So13UIDynamicItemP", "sv"]
+- !private ["So13UIDynamicItemP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- ["So18UIFocusEnvironmentP", "UIActivityIndicatorView"]
+- ["So18UIFocusEnvironmentP", "UITableView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "centerInContainer"]
+- !private ["So18UIFocusEnvironmentP", "fillContainer"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "spinner"]
+- !private ["So18UIFocusEnvironmentP", "sv"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So11UIFocusItemP", "CGRect"]
+- ["So11UIFocusItemP", "UIActivityIndicatorView"]
+- ["So11UIFocusItemP", "UITableView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "centerInContainer"]
+- !private ["So11UIFocusItemP", "fillContainer"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "spinner"]
+- !private ["So11UIFocusItemP", "sv"]
+- !private ["So11UIFocusItemP", "tableView"]
+- !private ["So20UIFocusItemContainerP", "CGRect"]
+- ["So20UIFocusItemContainerP", "UIActivityIndicatorView"]
+- ["So20UIFocusItemContainerP", "UITableView"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "centerInContainer"]
+- !private ["So20UIFocusItemContainerP", "fillContainer"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "spinner"]
+- !private ["So20UIFocusItemContainerP", "sv"]
+- !private ["So20UIFocusItemContainerP", "tableView"]
+- !private ["So30UIFocusItemScrollableContainerP", "fillContainer"]
+- ["So30UIFocusItemScrollableContainerP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- ["So30UIPasteConfigurationSupportingP", "UIActivityIndicatorView"]
+- ["So30UIPasteConfigurationSupportingP", "UITableView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerInContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "fillContainer"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "spinner"]
+- !private ["So30UIPasteConfigurationSupportingP", "sv"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "UIActivityIndicatorView"]
+- ["So11UIResponderC", "UITableView"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "centerInContainer"]
+- !private ["So11UIResponderC", "fillContainer"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "spinner"]
+- !private ["So11UIResponderC", "sv"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- ["So30UIResponderStandardEditActionsP", "UIActivityIndicatorView"]
+- ["So30UIResponderStandardEditActionsP", "UITableView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "centerInContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "fillContainer"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "spinner"]
+- !private ["So30UIResponderStandardEditActionsP", "sv"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So12UIScrollViewC", "fillContainer"]
+- ["So12UIScrollViewC", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "fillContainer"]
+- ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So11UITableViewC", "fillContainer"]
+- ["So11UITableViewC", "init"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- ["So18UITraitEnvironmentP", "UIActivityIndicatorView"]
+- ["So18UITraitEnvironmentP", "UITableView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "centerInContainer"]
+- !private ["So18UITraitEnvironmentP", "fillContainer"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "spinner"]
+- !private ["So18UITraitEnvironmentP", "sv"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- ["So23UIUserActivityRestoringP", "UIActivityIndicatorView"]
+- ["So23UIUserActivityRestoringP", "UITableView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "centerInContainer"]
+- !private ["So23UIUserActivityRestoringP", "fillContainer"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "spinner"]
+- !private ["So23UIUserActivityRestoringP", "sv"]
+- !private ["So23UIUserActivityRestoringP", "tableView"]
+- !private ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "UIActivityIndicatorView"]
+- ["So6UIViewC", "UITableView"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "centerInContainer"]
+- !private ["So6UIViewC", "fillContainer"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- ["So6UIViewC", "spinner"]
+- !private ["So6UIViewC", "sv"]
+- ["So6UIViewC", "tableView"]
+- !private ["13YPImagePicker26YPAlbumFolderSelectionViewC", "CGRect"]
+- ["13YPImagePicker26YPAlbumFolderSelectionViewC", "UIActivityIndicatorView"]
+- ["13YPImagePicker26YPAlbumFolderSelectionViewC", "UITableView"]
+- !private ["13YPImagePicker26YPAlbumFolderSelectionViewC", "backgroundColor"]
+- !private ["13YPImagePicker26YPAlbumFolderSelectionViewC", "deinit"]
+- ["13YPImagePicker26YPAlbumFolderSelectionViewC", "init"]
+- ["13YPImagePicker26YPAlbumFolderSelectionViewC", "spinner"]
+- !private ["13YPImagePicker26YPAlbumFolderSelectionViewC", "sv"]
+- ["13YPImagePicker26YPAlbumFolderSelectionViewC", "tableView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UIActivityIndicatorView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UITableView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerInContainer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fillContainer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "spinner"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "sv"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tableView"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIActivityIndicatorView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UITableView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerInContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fillContainer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "spinner"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sv"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- "SY"
+- "So28UIActivityIndicatorViewStyleV"
+- "So29UIAccessibilityIdentificationP"
+- "So23UIActivityIndicatorViewC"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIFocusItemScrollableContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So11UITableViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "13YPImagePicker26YPAlbumFolderSelectionViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "288274a17582fd12a5d3d2db802d1b19"

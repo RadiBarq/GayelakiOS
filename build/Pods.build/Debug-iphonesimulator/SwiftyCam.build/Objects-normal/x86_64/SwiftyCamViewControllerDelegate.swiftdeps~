@@ -1,0 +1,95 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwiftyCamViewControllerDelegate"
+provides-nominal:
+- "9SwiftyCam0aB22ViewControllerDelegateP"
+provides-member:
+- ["9SwiftyCam0aB22ViewControllerDelegateP", ""]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "CGFloat"
+- "CGPoint"
+- "SwiftyCamViewController"
+- "SwiftyCamViewControllerDelegate"
+- "UIImage"
+- "URL"
+depends-member:
+- ["s7CVarArgP", "CameraSelection"]
+- ["s28CustomDebugStringConvertibleP", "CameraSelection"]
+- ["s23CustomStringConvertibleP", "CameraSelection"]
+- ["s9EquatableP", "CameraSelection"]
+- ["s8HashableP", "CameraSelection"]
+- ["So8NSCodingP", "CameraSelection"]
+- ["So26NSExtensionRequestHandlingP", "CameraSelection"]
+- ["So8NSObjectC", "CameraSelection"]
+- ["So16NSObjectProtocolP", "CameraSelection"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "CameraSelection"]
+- ["9SwiftyCam0aB14ViewControllerC", "CameraSelection"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "CGFloat"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "CGPoint"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "SwiftyCamViewController"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "UIImage"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "URL"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["So21UIAppearanceContainerP", "CameraSelection"]
+- ["So18UIContentContainerP", "CameraSelection"]
+- ["So18UIFocusEnvironmentP", "CameraSelection"]
+- ["So27UIGestureRecognizerDelegateP", "CameraSelection"]
+- ["So30UIPasteConfigurationSupportingP", "CameraSelection"]
+- ["So11UIResponderC", "CameraSelection"]
+- ["So30UIResponderStandardEditActionsP", "CameraSelection"]
+- ["So16UIStateRestoringP", "CameraSelection"]
+- ["So18UITraitEnvironmentP", "CameraSelection"]
+- ["So16UIViewControllerC", "CameraSelection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CameraSelection"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "9SwiftyCam0aB14ButtonDelegateP"
+- "9SwiftyCam0aB14ViewControllerC"
+- "9SwiftyCam0aB22ViewControllerDelegateP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SwiftyCam/SwiftyCam-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/SwiftyCam.build/unextended-module.modulemap"
+interface-hash: "1e68e9c451c129af8d46d3896c07d4cd"

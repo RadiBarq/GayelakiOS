@@ -1,0 +1,374 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenGraphObject"
+- "=="
+provides-nominal:
+- "13FacebookShare15OpenGraphObjectV"
+provides-member:
+- ["13FacebookShare15OpenGraphObjectV", ""]
+- ["13FacebookShare15OpenGraphObjectV", "sdkGraphObjectRepresentation"]
+- ["13FacebookShare15OpenGraphObjectV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- "Equatable"
+- "ExpressibleByDictionaryLiteral"
+- "FBSDKShareOpenGraphObject"
+- "OpenGraphObject"
+- "OpenGraphPropertyContaining"
+- "OpenGraphPropertyName"
+- "OpenGraphPropertyValue"
+- !private "OpenGraphPropertyValueConverter"
+- "Set"
+- !private "String"
+depends-member:
+- !private ["s7CVarArgP", "enumerateKeysAndObjects"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyValueMap"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "parseProperties"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "keyValueMap"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerateKeysAndObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyValueMap"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "parseProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "keyValueMap"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "enumerateKeysAndObjects"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyValueMap"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "parseProperties"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "init"]
+- !private ["Se", "keyValueMap"]
+- !private ["Se", "keys"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "keyValueMap"]
+- !private ["SD", "keys"]
+- !private ["SD", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "keyValueMap"]
+- !private ["SE", "keys"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "FBSDKShareOpenGraphObject"]
+- ["SQ", "Key"]
+- !private ["SQ", "OpenGraphPropertyName"]
+- !private ["SQ", "OpenGraphPropertyValue"]
+- !private ["SQ", "OpenGraphPropertyValueConverter"]
+- !private ["SQ", "Set"]
+- ["SQ", "Value"]
+- ["SQ", ""]
+- ["SQ", "_Default_Key"]
+- ["SQ", "_Default_Value"]
+- !private ["SQ", "enumerateKeysAndObjects"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "keyValueMap"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "map"]
+- !private ["SQ", "parseProperties"]
+- !private ["SQ", "properties"]
+- ["SQ", "propertyNames"]
+- ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "FBSDKShareOpenGraphObject"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "OpenGraphPropertyName"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "OpenGraphPropertyValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "OpenGraphPropertyValueConverter"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Set"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", ""]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keyValueMap"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "properties"]
+- ["s30ExpressibleByDictionaryLiteralP", "propertyNames"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So12FBSDKCopyingP", "enumerateKeysAndObjects"]
+- !private ["So12FBSDKCopyingP", "init"]
+- !private ["So12FBSDKCopyingP", "parseProperties"]
+- !private ["So25FBSDKShareOpenGraphObjectC", "enumerateKeysAndObjects"]
+- !private ["So25FBSDKShareOpenGraphObjectC", "init"]
+- !private ["So25FBSDKShareOpenGraphObjectC", "parseProperties"]
+- !private ["So33FBSDKShareOpenGraphValueContainerC", "enumerateKeysAndObjects"]
+- !private ["So33FBSDKShareOpenGraphValueContainerC", "init"]
+- !private ["So33FBSDKShareOpenGraphValueContainerC", "parseProperties"]
+- !private ["So34FBSDKShareOpenGraphValueContainingP", "enumerateKeysAndObjects"]
+- !private ["So34FBSDKShareOpenGraphValueContainingP", "init"]
+- !private ["So34FBSDKShareOpenGraphValueContainingP", "parseProperties"]
+- !private ["SH", "enumerateKeysAndObjects"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "keyValueMap"]
+- !private ["SH", "keys"]
+- !private ["SH", "map"]
+- !private ["SH", "parseProperties"]
+- !private ["SH", "subscript"]
+- !private ["So8NSCodingP", "enumerateKeysAndObjects"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "parseProperties"]
+- !private ["So9NSCopyingP", "enumerateKeysAndObjects"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "parseProperties"]
+- !private ["So8NSObjectC", "enumerateKeysAndObjects"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "parseProperties"]
+- !private ["So8NSObjectP", "enumerateKeysAndObjects"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "parseProperties"]
+- !private ["So14NSSecureCodingP", "enumerateKeysAndObjects"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "parseProperties"]
+- ["13FacebookShare15OpenGraphObjectV", "=="]
+- ["13FacebookShare15OpenGraphObjectV", "Bool"]
+- ["13FacebookShare15OpenGraphObjectV", "FBSDKShareOpenGraphObject"]
+- ["13FacebookShare15OpenGraphObjectV", "Key"]
+- ["13FacebookShare15OpenGraphObjectV", "OpenGraphObject"]
+- ["13FacebookShare15OpenGraphObjectV", "OpenGraphPropertyName"]
+- ["13FacebookShare15OpenGraphObjectV", "OpenGraphPropertyValue"]
+- !private ["13FacebookShare15OpenGraphObjectV", "OpenGraphPropertyValueConverter"]
+- ["13FacebookShare15OpenGraphObjectV", "Set"]
+- !private ["13FacebookShare15OpenGraphObjectV", "String"]
+- ["13FacebookShare15OpenGraphObjectV", "Value"]
+- ["13FacebookShare15OpenGraphObjectV", "_Default_Key"]
+- ["13FacebookShare15OpenGraphObjectV", "_Default_Value"]
+- ["13FacebookShare15OpenGraphObjectV", "deinit"]
+- ["13FacebookShare15OpenGraphObjectV", "init"]
+- !private ["13FacebookShare15OpenGraphObjectV", "properties"]
+- ["13FacebookShare15OpenGraphObjectV", "propertyNames"]
+- ["13FacebookShare15OpenGraphObjectV", "sdkGraphObjectRepresentation"]
+- ["13FacebookShare15OpenGraphObjectV", "subscript"]
+- !private ["13FacebookShare27OpenGraphPropertyContainingP", "FBSDKShareOpenGraphObject"]
+- ["13FacebookShare27OpenGraphPropertyContainingP", "Key"]
+- !private ["13FacebookShare27OpenGraphPropertyContainingP", "OpenGraphPropertyName"]
+- !private ["13FacebookShare27OpenGraphPropertyContainingP", "OpenGraphPropertyValue"]
+- !private ["13FacebookShare27OpenGraphPropertyContainingP", "OpenGraphPropertyValueConverter"]
+- !private ["13FacebookShare27OpenGraphPropertyContainingP", "Set"]
+- ["13FacebookShare27OpenGraphPropertyContainingP", "Value"]
+- ["13FacebookShare27OpenGraphPropertyContainingP", ""]
+- ["13FacebookShare27OpenGraphPropertyContainingP", "_Default_Key"]
+- ["13FacebookShare27OpenGraphPropertyContainingP", "_Default_Value"]
+- ["13FacebookShare27OpenGraphPropertyContainingP", "init"]
+- !private ["13FacebookShare27OpenGraphPropertyContainingP", "properties"]
+- ["13FacebookShare27OpenGraphPropertyContainingP", "propertyNames"]
+- ["13FacebookShare27OpenGraphPropertyContainingP", "subscript"]
+- ["13FacebookShare21OpenGraphPropertyNameV", "deinit"]
+- !private ["13FacebookShare21OpenGraphPropertyNameV", "init"]
+- !private ["13FacebookShare21OpenGraphPropertyNameV", "init"]
+- !private ["13FacebookShare22OpenGraphPropertyValueP", "FBSDKShareOpenGraphObject"]
+- ["13FacebookShare22OpenGraphPropertyValueP", "Key"]
+- !private ["13FacebookShare22OpenGraphPropertyValueP", "OpenGraphPropertyName"]
+- !private ["13FacebookShare22OpenGraphPropertyValueP", "OpenGraphPropertyValue"]
+- !private ["13FacebookShare22OpenGraphPropertyValueP", "OpenGraphPropertyValueConverter"]
+- !private ["13FacebookShare22OpenGraphPropertyValueP", "Set"]
+- ["13FacebookShare22OpenGraphPropertyValueP", "Value"]
+- ["13FacebookShare22OpenGraphPropertyValueP", "_Default_Key"]
+- ["13FacebookShare22OpenGraphPropertyValueP", "_Default_Value"]
+- ["13FacebookShare22OpenGraphPropertyValueP", "init"]
+- !private ["13FacebookShare22OpenGraphPropertyValueP", "properties"]
+- ["13FacebookShare22OpenGraphPropertyValueP", "propertyNames"]
+- ["13FacebookShare22OpenGraphPropertyValueP", "subscript"]
+- !private ["13FacebookShare31OpenGraphPropertyValueConverterV", "valueFrom"]
+- !private ["Sq", "map"]
+- !private ["SY", "init"]
+- !private ["SY", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "keyValueMap"]
+- !private ["ST", "keys"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keyValueMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerateKeysAndObjects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseProperties"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "keyValueMap"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So12FBSDKCopyingP"
+- !private "So25FBSDKShareOpenGraphObjectC"
+- !private "So33FBSDKShareOpenGraphValueContainerC"
+- !private "So34FBSDKShareOpenGraphValueContainingP"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "13FacebookShare15OpenGraphObjectV"
+- "13FacebookShare27OpenGraphPropertyContainingP"
+- "13FacebookShare21OpenGraphPropertyNameV"
+- "13FacebookShare22OpenGraphPropertyValueP"
+- !private "13FacebookShare31OpenGraphPropertyValueConverterV"
+- !private "Sq"
+- !private "SY"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FacebookShare/FacebookShare-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerActionButton.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectTextures.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectArguments.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareCameraEffectContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Volumes/NO NAME/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Volumes/NO NAME/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FacebookShare.build/unextended-module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FacebookCore.build/module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FBSDKShareKit.build/module.modulemap"
+- "/Volumes/NO NAME/Chottky/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e82a0be0484771d3a26ae06c764fcdc7"

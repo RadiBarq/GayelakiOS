@@ -1,0 +1,10 @@
+framework module ROGoogleTranslate {
+  umbrella header "ROGoogleTranslate-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ROGoogleTranslate.__Swift {
+    exclude header "ROGoogleTranslate-Swift.h"
+}

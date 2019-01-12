@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "1e1e47f4f2a4bc21b923cf2bad525429"
+build_time: [1543564207, 519997000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [1538549788, 0]
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [1538549788, 0]
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [1538549788, 0]
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [1538549788, 0]
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [1538549788, 0]
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [1538549788, 0]
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [1538549788, 0]
+  "/Users/radibarq/developer/Chottky/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [1538549788, 0]

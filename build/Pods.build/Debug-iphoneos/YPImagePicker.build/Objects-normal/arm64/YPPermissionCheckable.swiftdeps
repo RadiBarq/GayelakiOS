@@ -1,0 +1,367 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YPPermissionCheckable"
+provides-nominal:
+- "13YPImagePicker21YPPermissionCheckableP"
+provides-member:
+- ["13YPImagePicker21YPPermissionCheckableP", ""]
+- ["13YPImagePicker21YPPermissionCheckableP", "checkPermission"]
+- ["13YPImagePicker21YPPermissionCheckableP", "doAfterPermissionCheck"]
+- ["13YPImagePicker21YPPermissionCheckableP", "checkPermissionToAccessVideo"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AVCaptureDevice"
+- !private "AVMediaType"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "DispatchQueue"
+- "UIViewController"
+- "Void"
+- "YPPermissionCheckable"
+- !private "YPPermissionDeniedPopup"
+depends-member:
+- !private ["So15AVCaptureDeviceC", "authorizationStatus"]
+- !private ["So15AVCaptureDeviceC", "requestAccess"]
+- !private ["SK", "video"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "AVCaptureDevice"]
+- !private ["s7CVarArgP", "AVMediaType"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "YPPermissionDeniedPopup"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "checkPermissionToAccessVideo"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "requestAccess"]
+- !private ["s7CVarArgP", "video"]
+- !private ["Sl", "video"]
+- !private ["SL", "video"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "AVMediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "YPPermissionDeniedPopup"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "checkPermissionToAccessVideo"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAccess"]
+- !private ["s28CustomDebugStringConvertibleP", "video"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "video"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "video"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDevice"]
+- !private ["s23CustomStringConvertibleP", "AVMediaType"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "YPPermissionDeniedPopup"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "checkPermissionToAccessVideo"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "requestAccess"]
+- !private ["s23CustomStringConvertibleP", "video"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "video"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "video"]
+- !private ["SQ", "AVCaptureDevice"]
+- !private ["SQ", "AVMediaType"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "YPPermissionDeniedPopup"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "async"]
+- !private ["SQ", "authorizationStatus"]
+- !private ["SQ", "checkPermissionToAccessVideo"]
+- !private ["SQ", "main"]
+- !private ["SQ", "present"]
+- !private ["SQ", "requestAccess"]
+- !private ["SQ", "video"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s23ExpressibleByNilLiteralP", "video"]
+- !private ["s26ExpressibleByStringLiteralP", "video"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "video"]
+- !private ["SH", "AVCaptureDevice"]
+- !private ["SH", "AVMediaType"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "YPPermissionDeniedPopup"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "async"]
+- !private ["SH", "authorizationStatus"]
+- !private ["SH", "checkPermissionToAccessVideo"]
+- !private ["SH", "main"]
+- !private ["SH", "present"]
+- !private ["SH", "requestAccess"]
+- !private ["SH", "video"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "video"]
+- !private ["s10MirrorPathP", "video"]
+- !private ["So8NSCodingP", "AVCaptureDevice"]
+- !private ["So8NSCodingP", "AVMediaType"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "YPPermissionDeniedPopup"]
+- !private ["So8NSCodingP", "checkPermissionToAccessVideo"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "video"]
+- !private ["So9NSCopyingP", "video"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureDevice"]
+- !private ["So26NSExtensionRequestHandlingP", "AVMediaType"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "YPPermissionDeniedPopup"]
+- !private ["So26NSExtensionRequestHandlingP", "checkPermissionToAccessVideo"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So21NSItemProviderReadingP", "video"]
+- !private ["So21NSItemProviderWritingP", "video"]
+- !private ["So16NSMutableCopyingP", "video"]
+- !private ["So8NSObjectC", "AVCaptureDevice"]
+- !private ["So8NSObjectC", "AVMediaType"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "YPPermissionDeniedPopup"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "authorizationStatus"]
+- !private ["So8NSObjectC", "checkPermissionToAccessVideo"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "requestAccess"]
+- !private ["So8NSObjectC", "video"]
+- !private ["So8NSObjectP", "AVCaptureDevice"]
+- !private ["So8NSObjectP", "AVMediaType"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "YPPermissionDeniedPopup"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "authorizationStatus"]
+- !private ["So8NSObjectP", "checkPermissionToAccessVideo"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "requestAccess"]
+- !private ["So8NSObjectP", "video"]
+- !private ["So14NSSecureCodingP", "video"]
+- !private ["So8NSStringC", "video"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "video"]
+- !private ["Sm", "video"]
+- !private ["ST", "video"]
+- !private ["SS", "video"]
+- !private ["Sy", "video"]
+- !private ["s16TextOutputStreamP", "video"]
+- !private ["s20TextOutputStreamableP", "video"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureDevice"]
+- !private ["So21UIAppearanceContainerP", "AVMediaType"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "YPPermissionDeniedPopup"]
+- !private ["So21UIAppearanceContainerP", "checkPermissionToAccessVideo"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So18UIContentContainerP", "AVCaptureDevice"]
+- !private ["So18UIContentContainerP", "AVMediaType"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "YPPermissionDeniedPopup"]
+- !private ["So18UIContentContainerP", "checkPermissionToAccessVideo"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureDevice"]
+- !private ["So18UIFocusEnvironmentP", "AVMediaType"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "YPPermissionDeniedPopup"]
+- !private ["So18UIFocusEnvironmentP", "checkPermissionToAccessVideo"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVMediaType"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "YPPermissionDeniedPopup"]
+- !private ["So30UIPasteConfigurationSupportingP", "checkPermissionToAccessVideo"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So11UIResponderC", "AVCaptureDevice"]
+- !private ["So11UIResponderC", "AVMediaType"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "YPPermissionDeniedPopup"]
+- !private ["So11UIResponderC", "checkPermissionToAccessVideo"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "AVMediaType"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "YPPermissionDeniedPopup"]
+- !private ["So30UIResponderStandardEditActionsP", "checkPermissionToAccessVideo"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So16UIStateRestoringP", "AVCaptureDevice"]
+- !private ["So16UIStateRestoringP", "AVMediaType"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "YPPermissionDeniedPopup"]
+- !private ["So16UIStateRestoringP", "checkPermissionToAccessVideo"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureDevice"]
+- !private ["So18UITraitEnvironmentP", "AVMediaType"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "YPPermissionDeniedPopup"]
+- !private ["So18UITraitEnvironmentP", "checkPermissionToAccessVideo"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So23UIUserActivityRestoringP", "AVCaptureDevice"]
+- !private ["So23UIUserActivityRestoringP", "AVMediaType"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- !private ["So23UIUserActivityRestoringP", "YPPermissionDeniedPopup"]
+- !private ["So23UIUserActivityRestoringP", "checkPermissionToAccessVideo"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So16UIViewControllerC", "AVCaptureDevice"]
+- !private ["So16UIViewControllerC", "AVMediaType"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "Void"]
+- !private ["So16UIViewControllerC", "YPPermissionDeniedPopup"]
+- !private ["So16UIViewControllerC", "checkPermissionToAccessVideo"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "AVCaptureDevice"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "AVMediaType"]
+- ["13YPImagePicker21YPPermissionCheckableP", "Bool"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "DispatchQueue"]
+- ["13YPImagePicker21YPPermissionCheckableP", "UIViewController"]
+- ["13YPImagePicker21YPPermissionCheckableP", "Void"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "YPPermissionDeniedPopup"]
+- ["13YPImagePicker21YPPermissionCheckableP", "checkPermission"]
+- ["13YPImagePicker21YPPermissionCheckableP", "checkPermissionToAccessVideo"]
+- ["13YPImagePicker21YPPermissionCheckableP", "doAfterPermissionCheck"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "present"]
+- !private ["13YPImagePicker23YPPermissionDeniedPopupC", "init"]
+- !private ["13YPImagePicker23YPPermissionDeniedPopupC", "popup"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "video"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "video"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "video"]
+- !private ["s33_ExpressibleByStringInterpolationP", "video"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVMediaType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "YPPermissionDeniedPopup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkPermissionToAccessVideo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "video"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s16_SwiftStringViewP", "video"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "13YPImagePicker21YPPermissionCheckableP"
+- !private "13YPImagePicker23YPPermissionDeniedPopupC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "13c02bb7ca4e46bae23a751db0a8c78a"

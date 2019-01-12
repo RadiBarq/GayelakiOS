@@ -1,0 +1,506 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppEventParameterName"
+- "=="
+provides-nominal:
+- "12FacebookCore21AppEventParameterNameO"
+provides-member:
+- ["12FacebookCore21AppEventParameterNameO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AppEventParameterName"
+- "AssignmentPrecedence"
+- "Bool"
+- "CustomStringConvertible"
+- "ExpressibleByStringLiteral"
+- !private "FBSDKAppEventNameAchievedLevel"
+- !private "FBSDKAppEventParameterNameContent"
+- !private "FBSDKAppEventParameterNameContentID"
+- !private "FBSDKAppEventParameterNameContentType"
+- !private "FBSDKAppEventParameterNameCurrency"
+- !private "FBSDKAppEventParameterNameDescription"
+- !private "FBSDKAppEventParameterNameMaxRatingValue"
+- !private "FBSDKAppEventParameterNameNumItems"
+- !private "FBSDKAppEventParameterNamePaymentInfoAvailable"
+- !private "FBSDKAppEventParameterNameRegistrationMethod"
+- !private "FBSDKAppEventParameterNameSearchString"
+- !private "FBSDKAppEventParameterNameSuccess"
+- "Hashable"
+- "Int"
+- "RawRepresentable"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["12FacebookCore21AppEventParameterNameO", "=="]
+- ["12FacebookCore21AppEventParameterNameO", "AppEventParameterName"]
+- ["12FacebookCore21AppEventParameterNameO", "Bool"]
+- ["12FacebookCore21AppEventParameterNameO", "ExtendedGraphemeClusterLiteralType"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventNameAchievedLevel"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameContent"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameContentID"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameContentType"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameCurrency"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameDescription"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameNumItems"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameSearchString"]
+- !private ["12FacebookCore21AppEventParameterNameO", "FBSDKAppEventParameterNameSuccess"]
+- ["12FacebookCore21AppEventParameterNameO", "Int"]
+- ["12FacebookCore21AppEventParameterNameO", "RawValue"]
+- ["12FacebookCore21AppEventParameterNameO", "String"]
+- ["12FacebookCore21AppEventParameterNameO", "StringLiteralType"]
+- ["12FacebookCore21AppEventParameterNameO", "UnicodeScalarLiteralType"]
+- ["12FacebookCore21AppEventParameterNameO", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["12FacebookCore21AppEventParameterNameO", "_Default_RawValue"]
+- ["12FacebookCore21AppEventParameterNameO", "_Default_StringLiteralType"]
+- ["12FacebookCore21AppEventParameterNameO", "_Default_UnicodeScalarLiteralType"]
+- ["12FacebookCore21AppEventParameterNameO", "content"]
+- ["12FacebookCore21AppEventParameterNameO", "contentId"]
+- ["12FacebookCore21AppEventParameterNameO", "contentType"]
+- ["12FacebookCore21AppEventParameterNameO", "currency"]
+- ["12FacebookCore21AppEventParameterNameO", "custom"]
+- ["12FacebookCore21AppEventParameterNameO", "deinit"]
+- ["12FacebookCore21AppEventParameterNameO", "description"]
+- ["12FacebookCore21AppEventParameterNameO", "hash"]
+- ["12FacebookCore21AppEventParameterNameO", "hashValue"]
+- ["12FacebookCore21AppEventParameterNameO", "init"]
+- ["12FacebookCore21AppEventParameterNameO", "itemCount"]
+- ["12FacebookCore21AppEventParameterNameO", "level"]
+- ["12FacebookCore21AppEventParameterNameO", "maxRatingValue"]
+- ["12FacebookCore21AppEventParameterNameO", "paymentInfoAvailable"]
+- ["12FacebookCore21AppEventParameterNameO", "rawValue"]
+- ["12FacebookCore21AppEventParameterNameO", "registrationMethod"]
+- ["12FacebookCore21AppEventParameterNameO", "searchedString"]
+- ["12FacebookCore21AppEventParameterNameO", "successful"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "hashValue"]
+- !private ["SK", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["Sl", "hashValue"]
+- !private ["SL", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s23CustomStringConvertibleP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventNameAchievedLevel"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameContent"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameContentID"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameContentType"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameCurrency"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameDescription"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameNumItems"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameSearchString"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAppEventParameterNameSuccess"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", "StringLiteralType"]
+- ["s23CustomStringConvertibleP", "UnicodeScalarLiteralType"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- ["s23CustomStringConvertibleP", "_Default_StringLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_UnicodeScalarLiteralType"]
+- ["s23CustomStringConvertibleP", "content"]
+- ["s23CustomStringConvertibleP", "contentId"]
+- ["s23CustomStringConvertibleP", "contentType"]
+- ["s23CustomStringConvertibleP", "currency"]
+- ["s23CustomStringConvertibleP", "custom"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "itemCount"]
+- ["s23CustomStringConvertibleP", "level"]
+- ["s23CustomStringConvertibleP", "maxRatingValue"]
+- ["s23CustomStringConvertibleP", "paymentInfoAvailable"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "registrationMethod"]
+- ["s23CustomStringConvertibleP", "searchedString"]
+- ["s23CustomStringConvertibleP", "successful"]
+- !private ["Se", "hashValue"]
+- !private ["SE", "hashValue"]
+- ["SQ", "ExtendedGraphemeClusterLiteralType"]
+- !private ["SQ", "FBSDKAppEventNameAchievedLevel"]
+- !private ["SQ", "FBSDKAppEventParameterNameContent"]
+- !private ["SQ", "FBSDKAppEventParameterNameContentID"]
+- !private ["SQ", "FBSDKAppEventParameterNameContentType"]
+- !private ["SQ", "FBSDKAppEventParameterNameCurrency"]
+- !private ["SQ", "FBSDKAppEventParameterNameDescription"]
+- !private ["SQ", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["SQ", "FBSDKAppEventParameterNameNumItems"]
+- !private ["SQ", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["SQ", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["SQ", "FBSDKAppEventParameterNameSearchString"]
+- !private ["SQ", "FBSDKAppEventParameterNameSuccess"]
+- ["SQ", "RawValue"]
+- ["SQ", "StringLiteralType"]
+- ["SQ", "UnicodeScalarLiteralType"]
+- ["SQ", ""]
+- ["SQ", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_Default_StringLiteralType"]
+- ["SQ", "_Default_UnicodeScalarLiteralType"]
+- ["SQ", "content"]
+- ["SQ", "contentId"]
+- ["SQ", "contentType"]
+- ["SQ", "currency"]
+- ["SQ", "custom"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "itemCount"]
+- ["SQ", "level"]
+- ["SQ", "maxRatingValue"]
+- ["SQ", "paymentInfoAvailable"]
+- ["SQ", "rawValue"]
+- ["SQ", "registrationMethod"]
+- ["SQ", "searchedString"]
+- ["SQ", "successful"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventNameAchievedLevel"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameContent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameContentID"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameContentType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameCurrency"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameDescription"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameNumItems"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameSearchString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FBSDKAppEventParameterNameSuccess"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "RawValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_RawValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "content"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contentId"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contentType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "currency"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "custom"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hash"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hashValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "itemCount"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "level"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "maxRatingValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "paymentInfoAvailable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "rawValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "registrationMethod"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "searchedString"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "successful"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventNameAchievedLevel"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameContent"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameContentID"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameContentType"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameCurrency"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameDescription"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameNumItems"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameSearchString"]
+- !private ["s26ExpressibleByStringLiteralP", "FBSDKAppEventParameterNameSuccess"]
+- ["s26ExpressibleByStringLiteralP", "RawValue"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_RawValue"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "content"]
+- ["s26ExpressibleByStringLiteralP", "contentId"]
+- ["s26ExpressibleByStringLiteralP", "contentType"]
+- ["s26ExpressibleByStringLiteralP", "currency"]
+- ["s26ExpressibleByStringLiteralP", "custom"]
+- ["s26ExpressibleByStringLiteralP", "description"]
+- ["s26ExpressibleByStringLiteralP", "hash"]
+- ["s26ExpressibleByStringLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "itemCount"]
+- ["s26ExpressibleByStringLiteralP", "level"]
+- ["s26ExpressibleByStringLiteralP", "maxRatingValue"]
+- ["s26ExpressibleByStringLiteralP", "paymentInfoAvailable"]
+- ["s26ExpressibleByStringLiteralP", "rawValue"]
+- ["s26ExpressibleByStringLiteralP", "registrationMethod"]
+- ["s26ExpressibleByStringLiteralP", "searchedString"]
+- ["s26ExpressibleByStringLiteralP", "successful"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventNameAchievedLevel"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameContent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameContentID"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameContentType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameCurrency"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameDescription"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameNumItems"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameSearchString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FBSDKAppEventParameterNameSuccess"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "RawValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_RawValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "content"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "contentId"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "contentType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "currency"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "custom"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "hash"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "hashValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "itemCount"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "level"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "maxRatingValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "paymentInfoAvailable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "rawValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "registrationMethod"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "searchedString"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "successful"]
+- ["SH", "ExtendedGraphemeClusterLiteralType"]
+- !private ["SH", "FBSDKAppEventNameAchievedLevel"]
+- !private ["SH", "FBSDKAppEventParameterNameContent"]
+- !private ["SH", "FBSDKAppEventParameterNameContentID"]
+- !private ["SH", "FBSDKAppEventParameterNameContentType"]
+- !private ["SH", "FBSDKAppEventParameterNameCurrency"]
+- !private ["SH", "FBSDKAppEventParameterNameDescription"]
+- !private ["SH", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["SH", "FBSDKAppEventParameterNameNumItems"]
+- !private ["SH", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["SH", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["SH", "FBSDKAppEventParameterNameSearchString"]
+- !private ["SH", "FBSDKAppEventParameterNameSuccess"]
+- ["SH", "RawValue"]
+- ["SH", "StringLiteralType"]
+- ["SH", "UnicodeScalarLiteralType"]
+- ["SH", ""]
+- ["SH", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_Default_StringLiteralType"]
+- ["SH", "_Default_UnicodeScalarLiteralType"]
+- ["SH", "content"]
+- ["SH", "contentId"]
+- ["SH", "contentType"]
+- ["SH", "currency"]
+- ["SH", "custom"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "itemCount"]
+- ["SH", "level"]
+- ["SH", "maxRatingValue"]
+- ["SH", "paymentInfoAvailable"]
+- ["SH", "rawValue"]
+- ["SH", "registrationMethod"]
+- ["SH", "searchedString"]
+- ["SH", "successful"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["So8NSCodingP", "hashValue"]
+- !private ["So9NSCopyingP", "hashValue"]
+- !private ["So21NSItemProviderReadingP", "hashValue"]
+- !private ["So21NSItemProviderWritingP", "hashValue"]
+- !private ["So16NSMutableCopyingP", "hashValue"]
+- !private ["So8NSObjectC", "hashValue"]
+- !private ["So8NSObjectP", "hashValue"]
+- !private ["So14NSSecureCodingP", "hashValue"]
+- !private ["So8NSStringC", "hashValue"]
+- !private ["Sm", "hashValue"]
+- ["SY", "ExtendedGraphemeClusterLiteralType"]
+- !private ["SY", "FBSDKAppEventNameAchievedLevel"]
+- !private ["SY", "FBSDKAppEventParameterNameContent"]
+- !private ["SY", "FBSDKAppEventParameterNameContentID"]
+- !private ["SY", "FBSDKAppEventParameterNameContentType"]
+- !private ["SY", "FBSDKAppEventParameterNameCurrency"]
+- !private ["SY", "FBSDKAppEventParameterNameDescription"]
+- !private ["SY", "FBSDKAppEventParameterNameMaxRatingValue"]
+- !private ["SY", "FBSDKAppEventParameterNameNumItems"]
+- !private ["SY", "FBSDKAppEventParameterNamePaymentInfoAvailable"]
+- !private ["SY", "FBSDKAppEventParameterNameRegistrationMethod"]
+- !private ["SY", "FBSDKAppEventParameterNameSearchString"]
+- !private ["SY", "FBSDKAppEventParameterNameSuccess"]
+- ["SY", "RawValue"]
+- ["SY", "StringLiteralType"]
+- ["SY", "UnicodeScalarLiteralType"]
+- ["SY", ""]
+- ["SY", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_Default_StringLiteralType"]
+- ["SY", "_Default_UnicodeScalarLiteralType"]
+- ["SY", "content"]
+- ["SY", "contentId"]
+- ["SY", "contentType"]
+- ["SY", "currency"]
+- ["SY", "custom"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "itemCount"]
+- ["SY", "level"]
+- ["SY", "maxRatingValue"]
+- ["SY", "paymentInfoAvailable"]
+- ["SY", "rawValue"]
+- ["SY", "registrationMethod"]
+- ["SY", "searchedString"]
+- ["SY", "successful"]
+- !private ["ST", "hashValue"]
+- !private ["SS", "hashValue"]
+- !private ["Sy", "hashValue"]
+- !private ["s16TextOutputStreamP", "hashValue"]
+- !private ["s20TextOutputStreamableP", "hashValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hashValue"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hashValue"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hashValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hashValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s16_SwiftStringViewP", "hashValue"]
+depends-nominal:
+- "12FacebookCore21AppEventParameterNameO"
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "23887f2aa1b20a418cef0d399332c283"

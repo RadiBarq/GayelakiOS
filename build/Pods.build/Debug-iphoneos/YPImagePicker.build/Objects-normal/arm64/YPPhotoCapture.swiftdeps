@@ -1,0 +1,173 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YPPhotoCapture"
+- "newPhotoCapture"
+- "YPFlashMode"
+provides-nominal:
+- "13YPImagePicker14YPPhotoCaptureP"
+- "13YPImagePicker11YPFlashModeO"
+provides-member:
+- ["13YPImagePicker14YPPhotoCaptureP", ""]
+- ["13YPImagePicker11YPFlashModeO", ""]
+- ["13YPImagePicker11YPFlashModeO", "flashImage"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AVCaptureDevice"
+- "AVCaptureDeviceInput"
+- "AVCaptureOutput"
+- "AVCaptureSession"
+- "AVCaptureVideoPreviewLayer"
+- "AnyObject"
+- "Bool"
+- "CGPoint"
+- "Data"
+- "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "PostiOS10PhotoCapture"
+- !private "PreiOS10PhotoCapture"
+- "UIImage"
+- "UIView"
+- "Void"
+- !private "YPConfig"
+- "YPFlashMode"
+- "YPPhotoCapture"
+- "newPhotoCapture"
+depends-member:
+- !private ["So29AVCapturePhotoCaptureDelegateP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["SQ", "YPConfig"]
+- ["SQ", ""]
+- ["SQ", "auto"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- ["SQ", "off"]
+- ["SQ", "on"]
+- !private ["SH", "YPConfig"]
+- ["SH", ""]
+- ["SH", "auto"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- ["SH", "off"]
+- ["SH", "on"]
+- !private ["s6HasherV", "combine"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["13YPImagePicker21PostiOS10PhotoCaptureC", "deinit"]
+- !private ["13YPImagePicker21PostiOS10PhotoCaptureC", "init"]
+- !private ["13YPImagePicker20PreiOS10PhotoCaptureC", "deinit"]
+- !private ["13YPImagePicker20PreiOS10PhotoCaptureC", "init"]
+- ["13YPImagePicker11YPFlashModeO", "UIImage"]
+- !private ["13YPImagePicker11YPFlashModeO", "YPConfig"]
+- ["13YPImagePicker11YPFlashModeO", "__derived_enum_equals"]
+- ["13YPImagePicker11YPFlashModeO", "auto"]
+- ["13YPImagePicker11YPFlashModeO", "deinit"]
+- ["13YPImagePicker11YPFlashModeO", "flashImage"]
+- ["13YPImagePicker11YPFlashModeO", "hash"]
+- ["13YPImagePicker11YPFlashModeO", "hashValue"]
+- ["13YPImagePicker11YPFlashModeO", "off"]
+- ["13YPImagePicker11YPFlashModeO", "on"]
+- !private ["13YPImagePicker7YPIconsV", "flashAutoIcon"]
+- !private ["13YPImagePicker7YPIconsV", "flashOffIcon"]
+- !private ["13YPImagePicker7YPIconsV", "flashOnIcon"]
+- !private ["13YPImagePicker0aB13ConfigurationV", "icons"]
+- ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureDevice"]
+- ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureDeviceInput"]
+- ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureOutput"]
+- ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureSession"]
+- ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureVideoPreviewLayer"]
+- ["13YPImagePicker14YPPhotoCaptureP", "Bool"]
+- ["13YPImagePicker14YPPhotoCaptureP", "CGPoint"]
+- ["13YPImagePicker14YPPhotoCaptureP", "Data"]
+- ["13YPImagePicker14YPPhotoCaptureP", "DispatchQueue"]
+- ["13YPImagePicker14YPPhotoCaptureP", "UIView"]
+- ["13YPImagePicker14YPPhotoCaptureP", "Void"]
+- ["13YPImagePicker14YPPhotoCaptureP", "YPFlashMode"]
+- ["13YPImagePicker14YPPhotoCaptureP", "configure"]
+- ["13YPImagePicker14YPPhotoCaptureP", "currentFlashMode"]
+- ["13YPImagePicker14YPPhotoCaptureP", "device"]
+- ["13YPImagePicker14YPPhotoCaptureP", "deviceInput"]
+- ["13YPImagePicker14YPPhotoCaptureP", "flipCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "focus"]
+- ["13YPImagePicker14YPPhotoCaptureP", "hasFlash"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "init"]
+- ["13YPImagePicker14YPPhotoCaptureP", "isCaptureSessionSetup"]
+- ["13YPImagePicker14YPPhotoCaptureP", "isPreviewSetup"]
+- ["13YPImagePicker14YPPhotoCaptureP", "output"]
+- ["13YPImagePicker14YPPhotoCaptureP", "previewView"]
+- ["13YPImagePicker14YPPhotoCaptureP", "session"]
+- ["13YPImagePicker14YPPhotoCaptureP", "sessionQueue"]
+- ["13YPImagePicker14YPPhotoCaptureP", "shoot"]
+- ["13YPImagePicker14YPPhotoCaptureP", "start"]
+- ["13YPImagePicker14YPPhotoCaptureP", "stopCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "tryToggleFlash"]
+- ["13YPImagePicker14YPPhotoCaptureP", "videoLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+depends-nominal:
+- !private "So29AVCapturePhotoCaptureDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "13YPImagePicker21PostiOS10PhotoCaptureC"
+- !private "13YPImagePicker20PreiOS10PhotoCaptureC"
+- "13YPImagePicker11YPFlashModeO"
+- !private "13YPImagePicker7YPIconsV"
+- !private "13YPImagePicker0aB13ConfigurationV"
+- "13YPImagePicker14YPPhotoCaptureP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "617919cf6bacf1207022a360e88eaf7b"

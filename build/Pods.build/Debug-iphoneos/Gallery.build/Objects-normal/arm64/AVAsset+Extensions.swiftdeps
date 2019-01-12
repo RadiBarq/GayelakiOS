@@ -1,0 +1,407 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7AVAssetC", ""]
+- ["So7AVAssetC", "g_correctSize"]
+- ["So7AVAssetC", "g_isPortrait"]
+- ["So7AVAssetC", "g_fileSize"]
+- ["So7AVAssetC", "g_frameRate"]
+- ["So7AVAssetC", "g_orientation"]
+- ["So7AVAssetC", "g_videoDescription"]
+- ["So7AVAssetC", "g_audioDescription"]
+provides-dynamic-lookup:
+- "g_audioDescription"
+- "g_correctSize"
+- "g_fileSize"
+- "g_frameRate"
+- "g_isPortrait"
+- "g_orientation"
+- "g_videoDescription"
+depends-top-level:
+- !private "??"
+- "AVAsset"
+- !private "AVMediaType"
+- !private "AVURLAsset"
+- !private "AnyObject"
+- "Bool"
+- "CGSize"
+- "CMFormatDescription"
+- "CastingPrecedence"
+- "Double"
+- "Float"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NSNumber"
+- !private "NSURL"
+- "TernaryPrecedence"
+- "UIInterfaceOrientation"
+- !private "URLResourceKey"
+- !private "g_naturalSize"
+depends-member:
+- !private ["So7AVAssetC", "AVMediaType"]
+- !private ["So7AVAssetC", "AVURLAsset"]
+- !private ["So7AVAssetC", "AnyObject"]
+- ["So7AVAssetC", "Bool"]
+- ["So7AVAssetC", "CGSize"]
+- ["So7AVAssetC", "CMFormatDescription"]
+- ["So7AVAssetC", "Double"]
+- ["So7AVAssetC", "Float"]
+- !private ["So7AVAssetC", "NSNumber"]
+- !private ["So7AVAssetC", "NSURL"]
+- ["So7AVAssetC", "UIInterfaceOrientation"]
+- !private ["So7AVAssetC", "URLResourceKey"]
+- ["So7AVAssetC", "g_audioDescription"]
+- ["So7AVAssetC", "g_correctSize"]
+- ["So7AVAssetC", "g_fileSize"]
+- ["So7AVAssetC", "g_frameRate"]
+- ["So7AVAssetC", "g_isPortrait"]
+- !private ["So7AVAssetC", "g_naturalSize"]
+- ["So7AVAssetC", "g_orientation"]
+- ["So7AVAssetC", "g_videoDescription"]
+- !private ["So7AVAssetC", "tracks"]
+- !private ["So7AVAssetC", "url"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "AVMediaType"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "CGSize"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "URLResourceKey"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "g_isPortrait"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "g_naturalSize"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "g_orientation"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "tracks"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "url"]
+- !private ["So21AVContentKeyRecipientP", "url"]
+- !private ["So10AVURLAssetC", "url"]
+- !private ["Sa", "contains"]
+- !private ["s13ArrayProtocolP", "contains"]
+- !private ["SK", "contains"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "AVMediaType"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "URLResourceKey"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "audio"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "g_isPortrait"]
+- !private ["s7CVarArgP", "g_naturalSize"]
+- !private ["s7CVarArgP", "g_orientation"]
+- !private ["s7CVarArgP", "getResourceValue"]
+- !private ["s7CVarArgP", "tracks"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "video"]
+- !private ["Sl", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "AVMediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "URLResourceKey"]
+- !private ["s28CustomDebugStringConvertibleP", "audio"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "g_isPortrait"]
+- !private ["s28CustomDebugStringConvertibleP", "g_naturalSize"]
+- !private ["s28CustomDebugStringConvertibleP", "g_orientation"]
+- !private ["s28CustomDebugStringConvertibleP", "getResourceValue"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "tracks"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "video"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "audio"]
+- !private ["s29CustomPlaygroundQuickLookableP", "getResourceValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "video"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "AVMediaType"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "URLResourceKey"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "audio"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "g_isPortrait"]
+- !private ["s23CustomStringConvertibleP", "g_naturalSize"]
+- !private ["s23CustomStringConvertibleP", "g_orientation"]
+- !private ["s23CustomStringConvertibleP", "getResourceValue"]
+- !private ["s23CustomStringConvertibleP", "tracks"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "video"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "contains"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "width"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "contains"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "width"]
+- !private ["SQ", "AVMediaType"]
+- !private ["SQ", "CGSize"]
+- !private ["SQ", "URLResourceKey"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "audio"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "doubleValue"]
+- !private ["SQ", "fileSizeKey"]
+- !private ["SQ", "g_isPortrait"]
+- !private ["SQ", "g_naturalSize"]
+- !private ["SQ", "g_orientation"]
+- !private ["SQ", "getResourceValue"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "landscapeLeft"]
+- !private ["SQ", "landscapeRight"]
+- !private ["SQ", "portrait"]
+- !private ["SQ", "portraitUpsideDown"]
+- !private ["SQ", "tracks"]
+- !private ["SQ", "url"]
+- !private ["SQ", "video"]
+- !private ["SQ", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "audio"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s26ExpressibleByStringLiteralP", "audio"]
+- !private ["s26ExpressibleByStringLiteralP", "video"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "audio"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "video"]
+- !private ["SH", "AVMediaType"]
+- !private ["SH", "CGSize"]
+- !private ["SH", "URLResourceKey"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "audio"]
+- !private ["SH", "contains"]
+- !private ["SH", "doubleValue"]
+- !private ["SH", "fileSizeKey"]
+- !private ["SH", "g_isPortrait"]
+- !private ["SH", "g_naturalSize"]
+- !private ["SH", "g_orientation"]
+- !private ["SH", "getResourceValue"]
+- !private ["SH", "landscapeLeft"]
+- !private ["SH", "landscapeRight"]
+- !private ["SH", "portrait"]
+- !private ["SH", "portraitUpsideDown"]
+- !private ["SH", "tracks"]
+- !private ["SH", "url"]
+- !private ["SH", "video"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "contains"]
+- !private ["So8NSCodingP", "audio"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "getResourceValue"]
+- !private ["So8NSCodingP", "video"]
+- !private ["So9NSCopyingP", "AVMediaType"]
+- !private ["So9NSCopyingP", "CGSize"]
+- !private ["So9NSCopyingP", "URLResourceKey"]
+- !private ["So9NSCopyingP", "audio"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "g_isPortrait"]
+- !private ["So9NSCopyingP", "g_naturalSize"]
+- !private ["So9NSCopyingP", "g_orientation"]
+- !private ["So9NSCopyingP", "getResourceValue"]
+- !private ["So9NSCopyingP", "tracks"]
+- !private ["So9NSCopyingP", "url"]
+- !private ["So9NSCopyingP", "video"]
+- !private ["So21NSItemProviderReadingP", "audio"]
+- !private ["So21NSItemProviderReadingP", "getResourceValue"]
+- !private ["So21NSItemProviderReadingP", "video"]
+- !private ["So21NSItemProviderWritingP", "audio"]
+- !private ["So21NSItemProviderWritingP", "getResourceValue"]
+- !private ["So21NSItemProviderWritingP", "video"]
+- !private ["So16NSMutableCopyingP", "audio"]
+- !private ["So16NSMutableCopyingP", "video"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSObjectC", "AVMediaType"]
+- !private ["So8NSObjectC", "AVURLAsset"]
+- !private ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "CMFormatDescription"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSURL"]
+- ["So8NSObjectC", "UIInterfaceOrientation"]
+- !private ["So8NSObjectC", "URLResourceKey"]
+- !private ["So8NSObjectC", "audio"]
+- !private ["So8NSObjectC", "doubleValue"]
+- ["So8NSObjectC", "g_audioDescription"]
+- ["So8NSObjectC", "g_correctSize"]
+- ["So8NSObjectC", "g_fileSize"]
+- ["So8NSObjectC", "g_frameRate"]
+- ["So8NSObjectC", "g_isPortrait"]
+- ["So8NSObjectC", "g_naturalSize"]
+- ["So8NSObjectC", "g_orientation"]
+- ["So8NSObjectC", "g_videoDescription"]
+- !private ["So8NSObjectC", "getResourceValue"]
+- !private ["So8NSObjectC", "tracks"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectC", "video"]
+- !private ["So8NSObjectP", "AVMediaType"]
+- !private ["So8NSObjectP", "CGSize"]
+- !private ["So8NSObjectP", "URLResourceKey"]
+- !private ["So8NSObjectP", "audio"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "g_isPortrait"]
+- !private ["So8NSObjectP", "g_naturalSize"]
+- !private ["So8NSObjectP", "g_orientation"]
+- !private ["So8NSObjectP", "getResourceValue"]
+- !private ["So8NSObjectP", "tracks"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So8NSObjectP", "video"]
+- !private ["So14NSSecureCodingP", "audio"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "getResourceValue"]
+- !private ["So14NSSecureCodingP", "video"]
+- !private ["So8NSStringC", "audio"]
+- !private ["So8NSStringC", "video"]
+- !private ["So5NSURLC", "getResourceValue"]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["Sk", "contains"]
+- !private ["Sm", "contains"]
+- !private ["SY", "fileSizeKey"]
+- !private ["SY", "landscapeLeft"]
+- !private ["SY", "landscapeRight"]
+- !private ["SY", "portrait"]
+- !private ["SY", "portraitUpsideDown"]
+- !private ["ST", "contains"]
+- !private ["So22UIInterfaceOrientationV", "landscapeLeft"]
+- !private ["So22UIInterfaceOrientationV", "landscapeRight"]
+- !private ["So22UIInterfaceOrientationV", "portrait"]
+- !private ["So22UIInterfaceOrientationV", "portraitUpsideDown"]
+- !private ["So16NSURLResourceKeya", "fileSizeKey"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "audio"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "fileSizeKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "getResourceValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVMediaType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLResourceKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "g_isPortrait"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "g_naturalSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "g_orientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getResourceValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tracks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "video"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "fileSizeKey"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s20_SwiftNewtypeWrapperP", "fileSizeKey"]
+depends-nominal:
+- "So7AVAssetC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- !private "So21AVContentKeyRecipientP"
+- !private "So10AVURLAssetC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So5NSURLC"
+- !private "So7NSValueC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "So22UIInterfaceOrientationV"
+- !private "So16NSURLResourceKeya"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Gallery/Gallery-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Gallery.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b512fca6de16b8db1c7d6c8d29dd9e60"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "19ece06191a96ebb71bc956188122a21"
+build_time: [1538517117, 304329000]
+inputs:
+  "/Volumes/NO NAME/Chottky/Pods/ROGoogleTranslate/Source/ROGoogleTranslate.swift": [1523532716, 0]

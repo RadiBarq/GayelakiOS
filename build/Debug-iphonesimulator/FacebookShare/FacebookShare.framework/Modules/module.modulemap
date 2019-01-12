@@ -1,0 +1,11 @@
+framework module FacebookShare {
+  umbrella header "FacebookShare-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FacebookShare.Swift {
+    header "FacebookShare-Swift.h"
+    requires objc
+}

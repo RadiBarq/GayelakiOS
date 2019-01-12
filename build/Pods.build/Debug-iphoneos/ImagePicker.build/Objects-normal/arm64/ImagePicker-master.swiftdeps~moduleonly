@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "b3847e65759f36f27b5fed4274c07894"
+build_time: [1547150480, 408196000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/AssetManager.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/BottomContainerView.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/ButtonPicker.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/CameraView/CameraMan.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/CameraView/CameraView.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/Configuration.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/Extensions/ConstraintsSetup.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/Helper.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryLayout.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryView.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryViewCell.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryViewDataSource.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImagePickerController.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/ImageStack.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/LocationManager.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/StackView.swift": [1547150458, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/TopView/TopView.swift": [1547150458, 0]

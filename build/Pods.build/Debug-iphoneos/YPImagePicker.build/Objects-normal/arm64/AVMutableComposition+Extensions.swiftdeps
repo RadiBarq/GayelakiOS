@@ -1,0 +1,215 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So20AVMutableCompositionC", ""]
+- ["So20AVMutableCompositionC", "init"]
+- ["So20AVMutableCompositionC", "trim"]
+provides-dynamic-lookup:
+- "trim"
+depends-top-level:
+- "AVAsset"
+- "AVMutableComposition"
+- !private "CMTime"
+- !private "CMTimeRange"
+- "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+depends-member:
+- ["So7AVAssetC", "AVAsset"]
+- !private ["So7AVAssetC", "CMTime"]
+- !private ["So7AVAssetC", "CMTimeRange"]
+- ["So7AVAssetC", "Double"]
+- !private ["So7AVAssetC", "addMutableTrack"]
+- ["So7AVAssetC", "init"]
+- !private ["So7AVAssetC", "removeTimeRange"]
+- !private ["So7AVAssetC", "tracks"]
+- ["So7AVAssetC", "trim"]
+- !private ["So12AVAssetTrackC", "mediaType"]
+- !private ["So12AVAssetTrackC", "removeTimeRange"]
+- !private ["So12AVAssetTrackC", "trackID"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "CMTime"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "CMTimeRange"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "addMutableTrack"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "init"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "mediaType"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "removeTimeRange"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "trackID"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "tracks"]
+- ["So13AVCompositionC", "AVAsset"]
+- !private ["So13AVCompositionC", "CMTime"]
+- !private ["So13AVCompositionC", "CMTimeRange"]
+- ["So13AVCompositionC", "Double"]
+- !private ["So13AVCompositionC", "addMutableTrack"]
+- ["So13AVCompositionC", "init"]
+- !private ["So13AVCompositionC", "removeTimeRange"]
+- !private ["So13AVCompositionC", "tracks"]
+- ["So13AVCompositionC", "trim"]
+- !private ["So18AVCompositionTrackC", "removeTimeRange"]
+- ["So20AVMutableCompositionC", "AVAsset"]
+- !private ["So20AVMutableCompositionC", "CMTime"]
+- !private ["So20AVMutableCompositionC", "CMTimeRange"]
+- ["So20AVMutableCompositionC", "Double"]
+- !private ["So20AVMutableCompositionC", "addMutableTrack"]
+- ["So20AVMutableCompositionC", "init"]
+- !private ["So20AVMutableCompositionC", "removeTimeRange"]
+- !private ["So20AVMutableCompositionC", "tracks"]
+- ["So20AVMutableCompositionC", "trim"]
+- !private ["So25AVMutableCompositionTrackC", "removeTimeRange"]
+- !private ["So6CMTimea", "init"]
+- !private ["So6CMTimea", "zero"]
+- !private ["So11CMTimeRangea", "init"]
+- !private ["s7CVarArgP", "CMTime"]
+- !private ["s7CVarArgP", "CMTimeRange"]
+- !private ["s7CVarArgP", "addMutableTrack"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mediaType"]
+- !private ["s7CVarArgP", "removeTimeRange"]
+- !private ["s7CVarArgP", "trackID"]
+- !private ["s7CVarArgP", "tracks"]
+- !private ["SL", "init"]
+- !private ["SL", "zero"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTime"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTimeRange"]
+- !private ["s28CustomDebugStringConvertibleP", "addMutableTrack"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "removeTimeRange"]
+- !private ["s28CustomDebugStringConvertibleP", "trackID"]
+- !private ["s28CustomDebugStringConvertibleP", "tracks"]
+- !private ["s23CustomStringConvertibleP", "CMTime"]
+- !private ["s23CustomStringConvertibleP", "CMTimeRange"]
+- !private ["s23CustomStringConvertibleP", "addMutableTrack"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mediaType"]
+- !private ["s23CustomStringConvertibleP", "removeTimeRange"]
+- !private ["s23CustomStringConvertibleP", "trackID"]
+- !private ["s23CustomStringConvertibleP", "tracks"]
+- !private ["SQ", "CMTime"]
+- !private ["SQ", "CMTimeRange"]
+- !private ["SQ", "addMutableTrack"]
+- !private ["SQ", "init"]
+- !private ["SQ", "mediaType"]
+- !private ["SQ", "removeTimeRange"]
+- !private ["SQ", "trackID"]
+- !private ["SQ", "tracks"]
+- !private ["SQ", "zero"]
+- !private ["SH", "CMTime"]
+- !private ["SH", "CMTimeRange"]
+- !private ["SH", "addMutableTrack"]
+- !private ["SH", "init"]
+- !private ["SH", "mediaType"]
+- !private ["SH", "removeTimeRange"]
+- !private ["SH", "trackID"]
+- !private ["SH", "tracks"]
+- !private ["So9NSCopyingP", "CMTime"]
+- !private ["So9NSCopyingP", "CMTimeRange"]
+- !private ["So9NSCopyingP", "addMutableTrack"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "mediaType"]
+- !private ["So9NSCopyingP", "removeTimeRange"]
+- !private ["So9NSCopyingP", "trackID"]
+- !private ["So9NSCopyingP", "tracks"]
+- !private ["So16NSMutableCopyingP", "CMTime"]
+- !private ["So16NSMutableCopyingP", "CMTimeRange"]
+- !private ["So16NSMutableCopyingP", "addMutableTrack"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "removeTimeRange"]
+- !private ["So16NSMutableCopyingP", "tracks"]
+- ["So8NSObjectC", "AVAsset"]
+- !private ["So8NSObjectC", "CMTime"]
+- !private ["So8NSObjectC", "CMTimeRange"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "addMutableTrack"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "mediaType"]
+- !private ["So8NSObjectC", "removeTimeRange"]
+- !private ["So8NSObjectC", "trackID"]
+- !private ["So8NSObjectC", "tracks"]
+- ["So8NSObjectC", "trim"]
+- !private ["So8NSObjectP", "CMTime"]
+- !private ["So8NSObjectP", "CMTimeRange"]
+- !private ["So8NSObjectP", "addMutableTrack"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mediaType"]
+- !private ["So8NSObjectP", "removeTimeRange"]
+- !private ["So8NSObjectP", "trackID"]
+- !private ["So8NSObjectP", "tracks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTimeRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addMutableTrack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mediaType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeTimeRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trackID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tracks"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- "So7AVAssetC"
+- !private "So12AVAssetTrackC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- "So13AVCompositionC"
+- !private "So18AVCompositionTrackC"
+- "So20AVMutableCompositionC"
+- !private "So25AVMutableCompositionTrackC"
+- !private "So6CMTimea"
+- !private "So11CMTimeRangea"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So9NSCopyingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1c8907bb3525be994fa354291ea7cbb7"

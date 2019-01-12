@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "d536e04c500dce1c5315f8280f6773f0"
+build_time: [1547150331, 236718000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/AssetManager.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/BottomContainerView.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/ButtonPicker.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/CameraView/CameraMan.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/CameraView/CameraView.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/Configuration.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/Extensions/ConstraintsSetup.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/Helper.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryLayout.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryView.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryViewCell.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/ImageGalleryViewDataSource.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImagePickerController.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/ImageStack.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/LocationManager.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/BottomView/StackView.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/TopView/TopView.swift": !dirty [1547150203, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ImagePicker/Source/ImageGallery/VideoInfoView.swift": !dirty [1547150203, 0]

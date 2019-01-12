@@ -1,0 +1,768 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CameraManDelegate"
+- "CameraMan"
+provides-nominal:
+- "7Gallery17CameraManDelegateP"
+- "7Gallery9CameraManC"
+provides-member:
+- ["7Gallery17CameraManDelegateP", ""]
+- ["7Gallery9CameraManC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "=="
+- "AVCaptureDevice"
+- "AVCaptureDeviceInput"
+- "AVCaptureSession"
+- "AVCaptureStillImageOutput"
+- "AVCaptureVideoPreviewLayer"
+- !private "AVVideoCodecJPEG"
+- !private "AVVideoCodecKey"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CGPoint"
+- "CLLocation"
+- "CameraMan"
+- "CameraManDelegate"
+- "CastingPrecedence"
+- !private "Date"
+- !private "Dictionary"
+- "DispatchQueue"
+- !private "Fetcher"
+- "PHAsset"
+- !private "PHAssetChangeRequest"
+- !private "PHPhotoLibrary"
+- !private "Permission"
+- !private "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- "UIImage"
+- !private "Utils"
+- "Void"
+depends-member:
+- ["So15AVCaptureDeviceC", "FlashMode"]
+- !private ["So15AVCaptureDeviceC", "FocusMode"]
+- !private ["So15AVCaptureDeviceC", "devices"]
+- !private ["So15AVCaptureDeviceC", "flashMode"]
+- !private ["So15AVCaptureDeviceC", "focusPointOfInterest"]
+- !private ["So15AVCaptureDeviceC", "isFlashModeSupported"]
+- !private ["So15AVCaptureDeviceC", "isFocusModeSupported"]
+- !private ["So15AVCaptureDeviceC", "lockForConfiguration"]
+- !private ["So15AVCaptureDeviceC", "supportsSessionPreset"]
+- !private ["So15AVCaptureDeviceC", "unlockForConfiguration"]
+- !private ["So20AVCaptureDeviceInputC", "device"]
+- !private ["So14AVCaptureInputC", "device"]
+- !private ["So15AVCaptureOutputC", "captureStillImageAsynchronously"]
+- !private ["So15AVCaptureOutputC", "connection"]
+- !private ["So15AVCaptureOutputC", "init"]
+- !private ["So15AVCaptureOutputC", "outputSettings"]
+- ["So16AVCaptureSessionC", "Preset"]
+- !private ["So16AVCaptureSessionC", "addInput"]
+- !private ["So16AVCaptureSessionC", "addOutput"]
+- !private ["So16AVCaptureSessionC", "beginConfiguration"]
+- !private ["So16AVCaptureSessionC", "canAddInput"]
+- !private ["So16AVCaptureSessionC", "canAddOutput"]
+- !private ["So16AVCaptureSessionC", "canSetSessionPreset"]
+- !private ["So16AVCaptureSessionC", "commitConfiguration"]
+- ["So16AVCaptureSessionC", "init"]
+- !private ["So16AVCaptureSessionC", "inputs"]
+- !private ["So16AVCaptureSessionC", "removeInput"]
+- !private ["So16AVCaptureSessionC", "sessionPreset"]
+- !private ["So16AVCaptureSessionC", "startRunning"]
+- !private ["So16AVCaptureSessionC", "stopRunning"]
+- !private ["So25AVCaptureStillImageOutputC", "captureStillImageAsynchronously"]
+- !private ["So25AVCaptureStillImageOutputC", "connection"]
+- !private ["So25AVCaptureStillImageOutputC", "init"]
+- !private ["So25AVCaptureStillImageOutputC", "outputSettings"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "forEach"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["s13ArrayProtocolP", "forEach"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "forEach"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "video"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "FlashMode"]
+- !private ["s7CVarArgP", "FocusMode"]
+- ["s7CVarArgP", "Preset"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addInput"]
+- !private ["s7CVarArgP", "addOutput"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "beginConfiguration"]
+- !private ["s7CVarArgP", "canAddInput"]
+- !private ["s7CVarArgP", "canAddOutput"]
+- !private ["s7CVarArgP", "canSetSessionPreset"]
+- !private ["s7CVarArgP", "captureStillImageAsynchronously"]
+- !private ["s7CVarArgP", "commitConfiguration"]
+- !private ["s7CVarArgP", "connection"]
+- !private ["s7CVarArgP", "creationDate"]
+- !private ["s7CVarArgP", "creationRequestForAsset"]
+- !private ["s7CVarArgP", "device"]
+- !private ["s7CVarArgP", "devices"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "flashMode"]
+- !private ["s7CVarArgP", "focusPointOfInterest"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "high"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "inputs"]
+- !private ["s7CVarArgP", "isFlashModeSupported"]
+- !private ["s7CVarArgP", "isFocusModeSupported"]
+- !private ["s7CVarArgP", "localIdentifier"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "lockForConfiguration"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "outputSettings"]
+- !private ["s7CVarArgP", "performChangesAndWait"]
+- !private ["s7CVarArgP", "placeholderForCreatedAsset"]
+- !private ["s7CVarArgP", "removeInput"]
+- !private ["s7CVarArgP", "sessionPreset"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "startRunning"]
+- !private ["s7CVarArgP", "stopRunning"]
+- !private ["s7CVarArgP", "supportsSessionPreset"]
+- !private ["s7CVarArgP", "unlockForConfiguration"]
+- !private ["s7CVarArgP", "video"]
+- !private ["7Gallery10PermissionV6CameraV", "status"]
+- ["7Gallery9CameraManC", "AVCaptureDevice"]
+- ["7Gallery9CameraManC", "AVCaptureDeviceInput"]
+- ["7Gallery9CameraManC", "AVCaptureSession"]
+- ["7Gallery9CameraManC", "AVCaptureStillImageOutput"]
+- ["7Gallery9CameraManC", "AVCaptureVideoPreviewLayer"]
+- !private ["7Gallery9CameraManC", "AVVideoCodecJPEG"]
+- !private ["7Gallery9CameraManC", "AVVideoCodecKey"]
+- ["7Gallery9CameraManC", "CGPoint"]
+- ["7Gallery9CameraManC", "CLLocation"]
+- ["7Gallery9CameraManC", "CameraManDelegate"]
+- !private ["7Gallery9CameraManC", "Date"]
+- ["7Gallery9CameraManC", "DispatchQueue"]
+- !private ["7Gallery9CameraManC", "Fetcher"]
+- ["7Gallery9CameraManC", "PHAsset"]
+- !private ["7Gallery9CameraManC", "PHAssetChangeRequest"]
+- !private ["7Gallery9CameraManC", "PHPhotoLibrary"]
+- !private ["7Gallery9CameraManC", "Permission"]
+- !private ["7Gallery9CameraManC", "String"]
+- ["7Gallery9CameraManC", "UIImage"]
+- !private ["7Gallery9CameraManC", "Utils"]
+- ["7Gallery9CameraManC", "Void"]
+- ["7Gallery9CameraManC", "addInput"]
+- ["7Gallery9CameraManC", "backCamera"]
+- ["7Gallery9CameraManC", "configure"]
+- ["7Gallery9CameraManC", "configurePreset"]
+- ["7Gallery9CameraManC", "currentInput"]
+- ["7Gallery9CameraManC", "deinit"]
+- ["7Gallery9CameraManC", "delegate"]
+- ["7Gallery9CameraManC", "flash"]
+- ["7Gallery9CameraManC", "focus"]
+- ["7Gallery9CameraManC", "frontCamera"]
+- ["7Gallery9CameraManC", "init"]
+- ["7Gallery9CameraManC", "lock"]
+- ["7Gallery9CameraManC", "preferredPresets"]
+- ["7Gallery9CameraManC", "queue"]
+- ["7Gallery9CameraManC", "savePhoto"]
+- ["7Gallery9CameraManC", "savingQueue"]
+- ["7Gallery9CameraManC", "session"]
+- ["7Gallery9CameraManC", "setup"]
+- ["7Gallery9CameraManC", "setupDevices"]
+- !private ["7Gallery9CameraManC", "start"]
+- ["7Gallery9CameraManC", "stillImageOutput"]
+- ["7Gallery9CameraManC", "stop"]
+- ["7Gallery9CameraManC", "switchCamera"]
+- ["7Gallery9CameraManC", "takePhoto"]
+- ["7Gallery17CameraManDelegateP", "AVCaptureDeviceInput"]
+- ["7Gallery17CameraManDelegateP", "CameraMan"]
+- ["7Gallery17CameraManDelegateP", "cameraMan"]
+- ["7Gallery17CameraManDelegateP", "cameraManDidStart"]
+- ["7Gallery17CameraManDelegateP", "cameraManNotAvailable"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "video"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "video"]
+- ["s28CustomDebugStringConvertibleP", "FlashMode"]
+- !private ["s28CustomDebugStringConvertibleP", "FocusMode"]
+- ["s28CustomDebugStringConvertibleP", "Preset"]
+- !private ["s28CustomDebugStringConvertibleP", "addInput"]
+- !private ["s28CustomDebugStringConvertibleP", "addOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "beginConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "canAddInput"]
+- !private ["s28CustomDebugStringConvertibleP", "canAddOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "canSetSessionPreset"]
+- !private ["s28CustomDebugStringConvertibleP", "captureStillImageAsynchronously"]
+- !private ["s28CustomDebugStringConvertibleP", "commitConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "connection"]
+- !private ["s28CustomDebugStringConvertibleP", "creationDate"]
+- !private ["s28CustomDebugStringConvertibleP", "creationRequestForAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "device"]
+- !private ["s28CustomDebugStringConvertibleP", "devices"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flashMode"]
+- !private ["s28CustomDebugStringConvertibleP", "focusPointOfInterest"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "high"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inputs"]
+- !private ["s28CustomDebugStringConvertibleP", "isFlashModeSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "isFocusModeSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "localIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "lockForConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "outputSettings"]
+- !private ["s28CustomDebugStringConvertibleP", "performChangesAndWait"]
+- !private ["s28CustomDebugStringConvertibleP", "placeholderForCreatedAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "removeInput"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionPreset"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "startRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "stopRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "supportsSessionPreset"]
+- !private ["s28CustomDebugStringConvertibleP", "unlockForConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "video"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "high"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "video"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "supportsSessionPreset"]
+- !private ["s17CustomReflectableP", "video"]
+- ["s23CustomStringConvertibleP", "FlashMode"]
+- !private ["s23CustomStringConvertibleP", "FocusMode"]
+- ["s23CustomStringConvertibleP", "Preset"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addInput"]
+- !private ["s23CustomStringConvertibleP", "addOutput"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "beginConfiguration"]
+- !private ["s23CustomStringConvertibleP", "canAddInput"]
+- !private ["s23CustomStringConvertibleP", "canAddOutput"]
+- !private ["s23CustomStringConvertibleP", "canSetSessionPreset"]
+- !private ["s23CustomStringConvertibleP", "captureStillImageAsynchronously"]
+- !private ["s23CustomStringConvertibleP", "commitConfiguration"]
+- !private ["s23CustomStringConvertibleP", "connection"]
+- !private ["s23CustomStringConvertibleP", "creationDate"]
+- !private ["s23CustomStringConvertibleP", "creationRequestForAsset"]
+- !private ["s23CustomStringConvertibleP", "device"]
+- !private ["s23CustomStringConvertibleP", "devices"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "flashMode"]
+- !private ["s23CustomStringConvertibleP", "focusPointOfInterest"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "high"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inputs"]
+- !private ["s23CustomStringConvertibleP", "isFlashModeSupported"]
+- !private ["s23CustomStringConvertibleP", "isFocusModeSupported"]
+- !private ["s23CustomStringConvertibleP", "localIdentifier"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "lockForConfiguration"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "outputSettings"]
+- !private ["s23CustomStringConvertibleP", "performChangesAndWait"]
+- !private ["s23CustomStringConvertibleP", "placeholderForCreatedAsset"]
+- !private ["s23CustomStringConvertibleP", "removeInput"]
+- !private ["s23CustomStringConvertibleP", "sessionPreset"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "startRunning"]
+- !private ["s23CustomStringConvertibleP", "stopRunning"]
+- !private ["s23CustomStringConvertibleP", "supportsSessionPreset"]
+- !private ["s23CustomStringConvertibleP", "unlockForConfiguration"]
+- !private ["s23CustomStringConvertibleP", "video"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "supportsSessionPreset"]
+- !private ["Se", "video"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- ["8Dispatch0A3QoSV", "background"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "supportsSessionPreset"]
+- !private ["SE", "video"]
+- ["SQ", "FlashMode"]
+- !private ["SQ", "FocusMode"]
+- ["SQ", "Preset"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addInput"]
+- !private ["SQ", "addOutput"]
+- !private ["SQ", "async"]
+- !private ["SQ", "authorized"]
+- ["SQ", "background"]
+- !private ["SQ", "beginConfiguration"]
+- !private ["SQ", "canAddInput"]
+- !private ["SQ", "canAddOutput"]
+- !private ["SQ", "canSetSessionPreset"]
+- !private ["SQ", "captureStillImageAsynchronously"]
+- !private ["SQ", "commitConfiguration"]
+- !private ["SQ", "connection"]
+- !private ["SQ", "creationDate"]
+- !private ["SQ", "creationRequestForAsset"]
+- !private ["SQ", "device"]
+- !private ["SQ", "devices"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "flashMode"]
+- !private ["SQ", "focusPointOfInterest"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "high"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "inputs"]
+- !private ["SQ", "isFlashModeSupported"]
+- !private ["SQ", "isFocusModeSupported"]
+- !private ["SQ", "localIdentifier"]
+- !private ["SQ", "location"]
+- !private ["SQ", "lockForConfiguration"]
+- !private ["SQ", "locked"]
+- !private ["SQ", "main"]
+- !private ["SQ", "outputSettings"]
+- !private ["SQ", "performChangesAndWait"]
+- !private ["SQ", "placeholderForCreatedAsset"]
+- !private ["SQ", "removeInput"]
+- !private ["SQ", "sessionPreset"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "startRunning"]
+- !private ["SQ", "stopRunning"]
+- !private ["SQ", "supportsSessionPreset"]
+- !private ["SQ", "unlockForConfiguration"]
+- !private ["SQ", "video"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "high"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s23ExpressibleByNilLiteralP", "filter"]
+- !private ["s23ExpressibleByNilLiteralP", "first"]
+- !private ["s23ExpressibleByNilLiteralP", "supportsSessionPreset"]
+- !private ["s23ExpressibleByNilLiteralP", "video"]
+- !private ["s26ExpressibleByStringLiteralP", "high"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "video"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "high"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "video"]
+- !private ["7Gallery7FetcherV", "fetchAsset"]
+- !private ["So18AVCaptureFocusModeV", "locked"]
+- ["SH", "FlashMode"]
+- !private ["SH", "FocusMode"]
+- ["SH", "Preset"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addInput"]
+- !private ["SH", "addOutput"]
+- !private ["SH", "async"]
+- !private ["SH", "authorized"]
+- !private ["SH", "beginConfiguration"]
+- !private ["SH", "canAddInput"]
+- !private ["SH", "canAddOutput"]
+- !private ["SH", "canSetSessionPreset"]
+- !private ["SH", "captureStillImageAsynchronously"]
+- !private ["SH", "commitConfiguration"]
+- !private ["SH", "connection"]
+- !private ["SH", "creationDate"]
+- !private ["SH", "creationRequestForAsset"]
+- !private ["SH", "device"]
+- !private ["SH", "devices"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "flashMode"]
+- !private ["SH", "focusPointOfInterest"]
+- !private ["SH", "forEach"]
+- !private ["SH", "high"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "inputs"]
+- !private ["SH", "isFlashModeSupported"]
+- !private ["SH", "isFocusModeSupported"]
+- !private ["SH", "localIdentifier"]
+- !private ["SH", "location"]
+- !private ["SH", "lockForConfiguration"]
+- !private ["SH", "locked"]
+- !private ["SH", "main"]
+- !private ["SH", "outputSettings"]
+- !private ["SH", "performChangesAndWait"]
+- !private ["SH", "placeholderForCreatedAsset"]
+- !private ["SH", "removeInput"]
+- !private ["SH", "sessionPreset"]
+- !private ["SH", "shared"]
+- !private ["SH", "startRunning"]
+- !private ["SH", "stopRunning"]
+- !private ["SH", "supportsSessionPreset"]
+- !private ["SH", "unlockForConfiguration"]
+- !private ["SH", "video"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "video"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "video"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "forEach"]
+- !private ["So8NSCodingP", "high"]
+- !private ["So9NSCopyingP", "high"]
+- !private ["So9NSCopyingP", "localIdentifier"]
+- !private ["So21NSItemProviderReadingP", "high"]
+- !private ["So21NSItemProviderWritingP", "high"]
+- !private ["So16NSMutableCopyingP", "high"]
+- ["So8NSObjectC", "FlashMode"]
+- !private ["So8NSObjectC", "FocusMode"]
+- ["So8NSObjectC", "Preset"]
+- !private ["So8NSObjectC", "addInput"]
+- !private ["So8NSObjectC", "addOutput"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "beginConfiguration"]
+- !private ["So8NSObjectC", "canAddInput"]
+- !private ["So8NSObjectC", "canAddOutput"]
+- !private ["So8NSObjectC", "canSetSessionPreset"]
+- !private ["So8NSObjectC", "captureStillImageAsynchronously"]
+- !private ["So8NSObjectC", "commitConfiguration"]
+- !private ["So8NSObjectC", "connection"]
+- !private ["So8NSObjectC", "creationDate"]
+- !private ["So8NSObjectC", "creationRequestForAsset"]
+- !private ["So8NSObjectC", "device"]
+- !private ["So8NSObjectC", "devices"]
+- !private ["So8NSObjectC", "flashMode"]
+- !private ["So8NSObjectC", "focusPointOfInterest"]
+- !private ["So8NSObjectC", "high"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "inputs"]
+- !private ["So8NSObjectC", "isFlashModeSupported"]
+- !private ["So8NSObjectC", "isFocusModeSupported"]
+- !private ["So8NSObjectC", "localIdentifier"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "lockForConfiguration"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "outputSettings"]
+- !private ["So8NSObjectC", "performChangesAndWait"]
+- !private ["So8NSObjectC", "placeholderForCreatedAsset"]
+- !private ["So8NSObjectC", "removeInput"]
+- !private ["So8NSObjectC", "sessionPreset"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "startRunning"]
+- !private ["So8NSObjectC", "stopRunning"]
+- !private ["So8NSObjectC", "supportsSessionPreset"]
+- !private ["So8NSObjectC", "unlockForConfiguration"]
+- ["So8NSObjectP", "FlashMode"]
+- !private ["So8NSObjectP", "FocusMode"]
+- ["So8NSObjectP", "Preset"]
+- !private ["So8NSObjectP", "addInput"]
+- !private ["So8NSObjectP", "addOutput"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "beginConfiguration"]
+- !private ["So8NSObjectP", "canAddInput"]
+- !private ["So8NSObjectP", "canAddOutput"]
+- !private ["So8NSObjectP", "canSetSessionPreset"]
+- !private ["So8NSObjectP", "captureStillImageAsynchronously"]
+- !private ["So8NSObjectP", "commitConfiguration"]
+- !private ["So8NSObjectP", "connection"]
+- !private ["So8NSObjectP", "creationDate"]
+- !private ["So8NSObjectP", "creationRequestForAsset"]
+- !private ["So8NSObjectP", "device"]
+- !private ["So8NSObjectP", "devices"]
+- !private ["So8NSObjectP", "flashMode"]
+- !private ["So8NSObjectP", "focusPointOfInterest"]
+- !private ["So8NSObjectP", "high"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "inputs"]
+- !private ["So8NSObjectP", "isFlashModeSupported"]
+- !private ["So8NSObjectP", "isFocusModeSupported"]
+- !private ["So8NSObjectP", "localIdentifier"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "lockForConfiguration"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "outputSettings"]
+- !private ["So8NSObjectP", "performChangesAndWait"]
+- !private ["So8NSObjectP", "placeholderForCreatedAsset"]
+- !private ["So8NSObjectP", "removeInput"]
+- !private ["So8NSObjectP", "sessionPreset"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "startRunning"]
+- !private ["So8NSObjectP", "stopRunning"]
+- !private ["So8NSObjectP", "supportsSessionPreset"]
+- !private ["So8NSObjectP", "unlockForConfiguration"]
+- !private ["So14NSSecureCodingP", "high"]
+- !private ["So8NSStringC", "high"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "filter"]
+- !private ["Sq", "first"]
+- !private ["Sq", "supportsSessionPreset"]
+- !private ["Sq", "video"]
+- !private ["So20PHAssetChangeRequestC", "creationDate"]
+- !private ["So20PHAssetChangeRequestC", "creationRequestForAsset"]
+- !private ["So20PHAssetChangeRequestC", "location"]
+- !private ["So20PHAssetChangeRequestC", "placeholderForCreatedAsset"]
+- !private ["So8PHObjectC", "localIdentifier"]
+- !private ["So19PHObjectPlaceholderC", "localIdentifier"]
+- !private ["So14PHPhotoLibraryC", "performChangesAndWait"]
+- !private ["So14PHPhotoLibraryC", "shared"]
+- !private ["7Gallery10PermissionV", "Camera"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "forEach"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "video"]
+- !private ["SY", "locked"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "video"]
+- !private ["7Gallery10PermissionV6StatusO", "authorized"]
+- !private ["7Gallery10PermissionV6StatusO", "deinit"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["SS", "video"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["Sy", "video"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "video"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "video"]
+- !private ["7Gallery5UtilsV", "videoOrientation"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "video"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "video"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "video"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "video"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "video"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "high"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FlashMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FocusMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Preset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canAddInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canAddOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canSetSessionPreset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "captureStillImageAsynchronously"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commitConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creationDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creationRequestForAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "device"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "devices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flashMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "focusPointOfInterest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "high"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFlashModeSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFocusModeSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lockForConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputSettings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performChangesAndWait"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholderForCreatedAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionPreset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "supportsSessionPreset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlockForConfiguration"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "supportsSessionPreset"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "video"]
+depends-nominal:
+- "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So14AVCaptureInputC"
+- !private "So15AVCaptureOutputC"
+- "So16AVCaptureSessionC"
+- !private "So25AVCaptureStillImageOutputC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "7Gallery10PermissionV6CameraV"
+- "7Gallery9CameraManC"
+- "7Gallery17CameraManDelegateP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "8Dispatch0A3QoSV"
+- "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Gallery7FetcherV"
+- !private "So18AVCaptureFocusModeV"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So9OS_objectC"
+- !private "Sq"
+- !private "So20PHAssetChangeRequestC"
+- !private "So8PHObjectC"
+- !private "So19PHObjectPlaceholderC"
+- !private "So14PHPhotoLibraryC"
+- !private "7Gallery10PermissionV"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "7Gallery10PermissionV6StatusO"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "7Gallery5UtilsV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Gallery/Gallery-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Gallery.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b86bf3c76a349c7f8625aa3273a90df3"

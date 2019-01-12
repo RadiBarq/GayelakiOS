@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/radibarq/developer/Chottky/build/Debug-iphonesimulator/PageMenu/PageMenu.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/PageMenu.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "centerInContainer"]
+- ["So6UIViewC", "centerHorizontally"]
+- ["So6UIViewC", "centerVertically"]
+- ["So6UIViewC", "centerHorizontally"]
+- ["So6UIViewC", "centerVertically"]
+provides-dynamic-lookup:
+- "centerHorizontally"
+- "centerInContainer"
+- "centerVertically"
+depends-top-level:
+- !private "Array"
+- "CGFloat"
+- "UIView"
+- !private "alignCenter"
+- !private "alignHorizontally"
+- !private "alignVertically"
+depends-member:
+- !private ["So15CALayerDelegateP", "alignCenter"]
+- !private ["So15CALayerDelegateP", "alignHorizontally"]
+- !private ["So15CALayerDelegateP", "alignVertically"]
+- !private ["So15CALayerDelegateP", "superview"]
+- !private ["s7CVarArgP", "alignCenter"]
+- !private ["s7CVarArgP", "alignHorizontally"]
+- !private ["s7CVarArgP", "alignVertically"]
+- !private ["s7CVarArgP", "superview"]
+- !private ["s28CustomDebugStringConvertibleP", "alignCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "alignHorizontally"]
+- !private ["s28CustomDebugStringConvertibleP", "alignVertically"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "alignCenter"]
+- !private ["s23CustomStringConvertibleP", "alignHorizontally"]
+- !private ["s23CustomStringConvertibleP", "alignVertically"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["SQ", "alignCenter"]
+- !private ["SQ", "alignHorizontally"]
+- !private ["SQ", "alignVertically"]
+- !private ["SQ", "superview"]
+- !private ["SH", "alignCenter"]
+- !private ["SH", "alignHorizontally"]
+- !private ["SH", "alignVertically"]
+- !private ["SH", "superview"]
+- !private ["So8NSCodingP", "alignCenter"]
+- !private ["So8NSCodingP", "alignHorizontally"]
+- !private ["So8NSCodingP", "alignVertically"]
+- !private ["So8NSCodingP", "superview"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "alignCenter"]
+- !private ["So8NSObjectC", "alignHorizontally"]
+- !private ["So8NSObjectC", "alignVertically"]
+- ["So8NSObjectC", "centerHorizontally"]
+- ["So8NSObjectC", "centerInContainer"]
+- ["So8NSObjectC", "centerVertically"]
+- !private ["So8NSObjectC", "superview"]
+- !private ["So8NSObjectP", "alignCenter"]
+- !private ["So8NSObjectP", "alignHorizontally"]
+- !private ["So8NSObjectP", "alignVertically"]
+- !private ["So8NSObjectP", "superview"]
+- !private ["So29UIAccessibilityIdentificationP", "alignCenter"]
+- !private ["So29UIAccessibilityIdentificationP", "alignHorizontally"]
+- !private ["So29UIAccessibilityIdentificationP", "alignVertically"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- !private ["So12UIAppearanceP", "alignCenter"]
+- !private ["So12UIAppearanceP", "alignHorizontally"]
+- !private ["So12UIAppearanceP", "alignVertically"]
+- !private ["So12UIAppearanceP", "superview"]
+- !private ["So21UIAppearanceContainerP", "alignCenter"]
+- !private ["So21UIAppearanceContainerP", "alignHorizontally"]
+- !private ["So21UIAppearanceContainerP", "alignVertically"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- !private ["So17UICoordinateSpaceP", "alignCenter"]
+- !private ["So17UICoordinateSpaceP", "alignHorizontally"]
+- !private ["So17UICoordinateSpaceP", "alignVertically"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- !private ["So13UIDynamicItemP", "alignCenter"]
+- !private ["So13UIDynamicItemP", "alignHorizontally"]
+- !private ["So13UIDynamicItemP", "alignVertically"]
+- !private ["So13UIDynamicItemP", "superview"]
+- !private ["So18UIFocusEnvironmentP", "alignCenter"]
+- !private ["So18UIFocusEnvironmentP", "alignHorizontally"]
+- !private ["So18UIFocusEnvironmentP", "alignVertically"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- !private ["So11UIFocusItemP", "alignCenter"]
+- !private ["So11UIFocusItemP", "alignHorizontally"]
+- !private ["So11UIFocusItemP", "alignVertically"]
+- !private ["So11UIFocusItemP", "superview"]
+- !private ["So20UIFocusItemContainerP", "alignCenter"]
+- !private ["So20UIFocusItemContainerP", "alignHorizontally"]
+- !private ["So20UIFocusItemContainerP", "alignVertically"]
+- !private ["So20UIFocusItemContainerP", "superview"]
+- !private ["So30UIPasteConfigurationSupportingP", "alignCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "alignHorizontally"]
+- !private ["So30UIPasteConfigurationSupportingP", "alignVertically"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "alignCenter"]
+- !private ["So11UIResponderC", "alignHorizontally"]
+- !private ["So11UIResponderC", "alignVertically"]
+- ["So11UIResponderC", "centerHorizontally"]
+- ["So11UIResponderC", "centerInContainer"]
+- ["So11UIResponderC", "centerVertically"]
+- !private ["So11UIResponderC", "superview"]
+- !private ["So30UIResponderStandardEditActionsP", "alignCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "alignHorizontally"]
+- !private ["So30UIResponderStandardEditActionsP", "alignVertically"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- !private ["So18UITraitEnvironmentP", "alignCenter"]
+- !private ["So18UITraitEnvironmentP", "alignHorizontally"]
+- !private ["So18UITraitEnvironmentP", "alignVertically"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- !private ["So23UIUserActivityRestoringP", "alignCenter"]
+- !private ["So23UIUserActivityRestoringP", "alignHorizontally"]
+- !private ["So23UIUserActivityRestoringP", "alignVertically"]
+- !private ["So23UIUserActivityRestoringP", "superview"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "alignCenter"]
+- !private ["So6UIViewC", "alignHorizontally"]
+- !private ["So6UIViewC", "alignVertically"]
+- ["So6UIViewC", "centerHorizontally"]
+- ["So6UIViewC", "centerInContainer"]
+- ["So6UIViewC", "centerVertically"]
+- !private ["So6UIViewC", "superview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alignCenter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alignHorizontally"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alignVertically"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "superview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alignCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alignHorizontally"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alignVertically"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "47bc4ed9b4ee3dc567fec68bb63ee610"

@@ -1,0 +1,11 @@
+framework module ROGoogleTranslate {
+  umbrella header "ROGoogleTranslate-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ROGoogleTranslate.Swift {
+    header "ROGoogleTranslate-Swift.h"
+    requires objc
+}

@@ -1,0 +1,977 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LibraryMediaManager"
+provides-nominal:
+- "13YPImagePicker19LibraryMediaManagerC"
+provides-member:
+- ["13YPImagePicker19LibraryMediaManagerC", ""]
+provides-dynamic-lookup:
+- "onTickExportTimer"
+depends-top-level:
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "=="
+- !private ">"
+- "AVAssetExportSession"
+- !private "AVMediaType"
+- !private "AVMutableComposition"
+- !private "AVMutableVideoComposition"
+- !private "AVMutableVideoCompositionInstruction"
+- !private "AVMutableVideoCompositionLayerInstruction"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGRect"
+- !private "CGSize"
+- !private "CMTime"
+- !private "CMTimeMake"
+- !private "CMTimeRangeMake"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "IndexPath"
+- !private "IntegerLiteralType"
+- "LibraryMediaManager"
+- !private "NSTemporaryDirectory"
+- "PHAsset"
+- "PHAssetCollection"
+- "PHCachingImageManager"
+- "PHFetchResult"
+- !private "PHVideoRequestOptions"
+- !private "String"
+- "StringLiteralType"
+- "Timer"
+- "UICollectionView"
+- !private "UIScreen"
+- "URL"
+- "Void"
+- !private "YPConfig"
+- "YPLibraryView"
+- !private "abs"
+- !private "kCMPersistentTrackID_Invalid"
+- !private "print"
+depends-member:
+- !private ["So7AVAssetC", "addMutableTrack"]
+- !private ["So7AVAssetC", "duration"]
+- !private ["So7AVAssetC", "init"]
+- !private ["So7AVAssetC", "tracks"]
+- !private ["So20AVAssetExportSessionC", "cancelExport"]
+- !private ["So20AVAssetExportSessionC", "error"]
+- !private ["So20AVAssetExportSessionC", "exportAsynchronously"]
+- !private ["So20AVAssetExportSessionC", "init"]
+- !private ["So20AVAssetExportSessionC", "outputFileType"]
+- !private ["So20AVAssetExportSessionC", "outputURL"]
+- !private ["So20AVAssetExportSessionC", "progress"]
+- !private ["So20AVAssetExportSessionC", "shouldOptimizeForNetworkUse"]
+- !private ["So20AVAssetExportSessionC", "status"]
+- !private ["So20AVAssetExportSessionC", "videoComposition"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "addMutableTrack"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "duration"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "init"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "tracks"]
+- !private ["So13AVCompositionC", "addMutableTrack"]
+- !private ["So13AVCompositionC", "init"]
+- !private ["So20AVMutableCompositionC", "addMutableTrack"]
+- !private ["So20AVMutableCompositionC", "init"]
+- !private ["So25AVMutableVideoCompositionC", "frameDuration"]
+- !private ["So25AVMutableVideoCompositionC", "init"]
+- !private ["So25AVMutableVideoCompositionC", "instructions"]
+- !private ["So25AVMutableVideoCompositionC", "renderSize"]
+- !private ["So36AVMutableVideoCompositionInstructionC", "init"]
+- !private ["So36AVMutableVideoCompositionInstructionC", "layerInstructions"]
+- !private ["So36AVMutableVideoCompositionInstructionC", "timeRange"]
+- !private ["So18AVVideoCompositionC", "frameDuration"]
+- !private ["So18AVVideoCompositionC", "init"]
+- !private ["So18AVVideoCompositionC", "instructions"]
+- !private ["So18AVVideoCompositionC", "renderSize"]
+- !private ["So29AVVideoCompositionInstructionC", "init"]
+- !private ["So29AVVideoCompositionInstructionC", "layerInstructions"]
+- !private ["So29AVVideoCompositionInstructionC", "timeRange"]
+- !private ["So29AVVideoCompositionInstructionP", "init"]
+- !private ["So29AVVideoCompositionInstructionP", "layerInstructions"]
+- !private ["So29AVVideoCompositionInstructionP", "timeRange"]
+- !private ["Sa", "append"]
+- !private ["Sa", "index"]
+- !private ["Sa", "remove"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "index"]
+- !private ["s13ArrayProtocolP", "remove"]
+- !private ["SK", "append"]
+- !private ["SK", "index"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "remove"]
+- !private ["SK", "video"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "aapl_indexPathsForElementsInRect"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "updateProgress"]
+- !private ["So6CGRectV", "differenceWith"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "insetBy"]
+- !private ["So6CGRectV", "midY"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGRectV", "width"]
+- ["So6CGRectV", "zero"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CMTimea", "zero"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "aapl_indexPathsForElementsInRect"]
+- !private ["s7CVarArgP", "addMutableTrack"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "assetsAtIndexPaths"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "audio"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "cancelExport"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "exportAsynchronously"]
+- !private ["s7CVarArgP", "fileExtension"]
+- !private ["s7CVarArgP", "frameDuration"]
+- !private ["s7CVarArgP", "index"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instructions"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "isNetworkAccessAllowed"]
+- !private ["s7CVarArgP", "layerInstructions"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "outputFileType"]
+- !private ["s7CVarArgP", "outputURL"]
+- !private ["s7CVarArgP", "progress"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "renderSize"]
+- !private ["s7CVarArgP", "requestAVAsset"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "shouldOptimizeForNetworkUse"]
+- !private ["s7CVarArgP", "startCachingImages"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "stopCachingImages"]
+- !private ["s7CVarArgP", "stopCachingImagesForAllAssets"]
+- !private ["s7CVarArgP", "timeRange"]
+- !private ["s7CVarArgP", "tracks"]
+- !private ["s7CVarArgP", "updateProgress"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "video"]
+- !private ["s7CVarArgP", "videoComposition"]
+- !private ["Sl", "append"]
+- !private ["Sl", "index"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "video"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "video"]
+- !private ["SL", "zero"]
+- !private ["s28CustomDebugStringConvertibleP", "aapl_indexPathsForElementsInRect"]
+- !private ["s28CustomDebugStringConvertibleP", "addMutableTrack"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingUniquePathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "assetsAtIndexPaths"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "audio"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelExport"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "differenceWith"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "exportAsynchronously"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExtension"]
+- !private ["s28CustomDebugStringConvertibleP", "frameDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insetBy"]
+- !private ["s28CustomDebugStringConvertibleP", "instructions"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "isNetworkAccessAllowed"]
+- !private ["s28CustomDebugStringConvertibleP", "layerInstructions"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "midY"]
+- !private ["s28CustomDebugStringConvertibleP", "outputFileType"]
+- !private ["s28CustomDebugStringConvertibleP", "outputURL"]
+- !private ["s28CustomDebugStringConvertibleP", "progress"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "renderSize"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAVAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldOptimizeForNetworkUse"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "startCachingImages"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "stopCachingImages"]
+- !private ["s28CustomDebugStringConvertibleP", "stopCachingImagesForAllAssets"]
+- !private ["s28CustomDebugStringConvertibleP", "timeRange"]
+- !private ["s28CustomDebugStringConvertibleP", "tracks"]
+- !private ["s28CustomDebugStringConvertibleP", "updateProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "video"]
+- !private ["s28CustomDebugStringConvertibleP", "videoComposition"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingUniquePathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "audio"]
+- !private ["s29CustomPlaygroundQuickLookableP", "differenceWith"]
+- !private ["s29CustomPlaygroundQuickLookableP", "fileExtension"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "insetBy"]
+- !private ["s29CustomPlaygroundQuickLookableP", "midY"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "video"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assetsAtIndexPaths"]
+- !private ["s17CustomReflectableP", "completed"]
+- !private ["s17CustomReflectableP", "differenceWith"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insetBy"]
+- !private ["s17CustomReflectableP", "midY"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "video"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "aapl_indexPathsForElementsInRect"]
+- !private ["s23CustomStringConvertibleP", "addMutableTrack"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendingUniquePathComponent"]
+- !private ["s23CustomStringConvertibleP", "assetsAtIndexPaths"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "audio"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "cancelExport"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "exportAsynchronously"]
+- !private ["s23CustomStringConvertibleP", "fileExtension"]
+- !private ["s23CustomStringConvertibleP", "frameDuration"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instructions"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "isNetworkAccessAllowed"]
+- !private ["s23CustomStringConvertibleP", "layerInstructions"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "outputFileType"]
+- !private ["s23CustomStringConvertibleP", "outputURL"]
+- !private ["s23CustomStringConvertibleP", "progress"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "renderSize"]
+- !private ["s23CustomStringConvertibleP", "requestAVAsset"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "shouldOptimizeForNetworkUse"]
+- !private ["s23CustomStringConvertibleP", "startCachingImages"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "stopCachingImages"]
+- !private ["s23CustomStringConvertibleP", "stopCachingImagesForAllAssets"]
+- !private ["s23CustomStringConvertibleP", "timeRange"]
+- !private ["s23CustomStringConvertibleP", "tracks"]
+- !private ["s23CustomStringConvertibleP", "updateProgress"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "video"]
+- !private ["s23CustomStringConvertibleP", "videoComposition"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "appendingUniquePathComponent"]
+- !private ["Se", "assetsAtIndexPaths"]
+- !private ["Se", "completed"]
+- !private ["Se", "differenceWith"]
+- !private ["Se", "height"]
+- !private ["Se", "index"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "insetBy"]
+- !private ["Se", "midY"]
+- !private ["Se", "remove"]
+- !private ["Se", "size"]
+- !private ["Se", "video"]
+- !private ["Se", "width"]
+- ["Se", "zero"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "appendingUniquePathComponent"]
+- !private ["SE", "assetsAtIndexPaths"]
+- !private ["SE", "completed"]
+- !private ["SE", "differenceWith"]
+- !private ["SE", "height"]
+- !private ["SE", "index"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "insetBy"]
+- !private ["SE", "midY"]
+- !private ["SE", "remove"]
+- !private ["SE", "size"]
+- !private ["SE", "video"]
+- !private ["SE", "width"]
+- ["SE", "zero"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "aapl_indexPathsForElementsInRect"]
+- !private ["SQ", "addMutableTrack"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appendingUniquePathComponent"]
+- !private ["SQ", "aspectFill"]
+- !private ["SQ", "assetsAtIndexPaths"]
+- !private ["SQ", "async"]
+- !private ["SQ", "audio"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "cancelExport"]
+- !private ["SQ", "completed"]
+- !private ["SQ", "differenceWith"]
+- !private ["SQ", "duration"]
+- !private ["SQ", "error"]
+- !private ["SQ", "exportAsynchronously"]
+- !private ["SQ", "fileExtension"]
+- !private ["SQ", "frameDuration"]
+- !private ["SQ", "height"]
+- !private ["SQ", "index"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insetBy"]
+- !private ["SQ", "instructions"]
+- !private ["SQ", "invalidate"]
+- !private ["SQ", "isNetworkAccessAllowed"]
+- !private ["SQ", "layerInstructions"]
+- !private ["SQ", "main"]
+- !private ["SQ", "midY"]
+- !private ["SQ", "outputFileType"]
+- !private ["SQ", "outputURL"]
+- !private ["SQ", "progress"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "renderSize"]
+- !private ["SQ", "requestAVAsset"]
+- !private ["SQ", "scale"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "shouldOptimizeForNetworkUse"]
+- !private ["SQ", "size"]
+- !private ["SQ", "startCachingImages"]
+- !private ["SQ", "status"]
+- !private ["SQ", "stopCachingImages"]
+- !private ["SQ", "stopCachingImagesForAllAssets"]
+- !private ["SQ", "timeRange"]
+- !private ["SQ", "tracks"]
+- !private ["SQ", "updateProgress"]
+- !private ["SQ", "userInfo"]
+- !private ["SQ", "video"]
+- !private ["SQ", "videoComposition"]
+- !private ["SQ", "width"]
+- ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "audio"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fileExtension"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s23ExpressibleByNilLiteralP", "assetsAtIndexPaths"]
+- !private ["s23ExpressibleByNilLiteralP", "completed"]
+- !private ["s26ExpressibleByStringLiteralP", "audio"]
+- !private ["s26ExpressibleByStringLiteralP", "fileExtension"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "video"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "audio"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fileExtension"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "video"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "aapl_indexPathsForElementsInRect"]
+- !private ["SH", "addMutableTrack"]
+- !private ["SH", "append"]
+- !private ["SH", "appendingUniquePathComponent"]
+- !private ["SH", "aspectFill"]
+- !private ["SH", "assetsAtIndexPaths"]
+- !private ["SH", "async"]
+- !private ["SH", "audio"]
+- !private ["SH", "bounds"]
+- !private ["SH", "cancelExport"]
+- !private ["SH", "completed"]
+- !private ["SH", "duration"]
+- !private ["SH", "error"]
+- !private ["SH", "exportAsynchronously"]
+- !private ["SH", "fileExtension"]
+- !private ["SH", "frameDuration"]
+- !private ["SH", "index"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "instructions"]
+- !private ["SH", "invalidate"]
+- !private ["SH", "isNetworkAccessAllowed"]
+- !private ["SH", "layerInstructions"]
+- !private ["SH", "main"]
+- !private ["SH", "outputFileType"]
+- !private ["SH", "outputURL"]
+- !private ["SH", "progress"]
+- !private ["SH", "remove"]
+- !private ["SH", "renderSize"]
+- !private ["SH", "requestAVAsset"]
+- !private ["SH", "scale"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "shouldOptimizeForNetworkUse"]
+- !private ["SH", "startCachingImages"]
+- !private ["SH", "status"]
+- !private ["SH", "stopCachingImages"]
+- !private ["SH", "stopCachingImagesForAllAssets"]
+- !private ["SH", "timeRange"]
+- !private ["SH", "tracks"]
+- !private ["SH", "updateProgress"]
+- !private ["SH", "userInfo"]
+- !private ["SH", "video"]
+- !private ["SH", "videoComposition"]
+- ["13YPImagePicker19LibraryMediaManagerC", "AVAssetExportSession"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "AVMediaType"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "AVMutableComposition"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "AVMutableVideoComposition"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "AVMutableVideoCompositionInstruction"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "AVMutableVideoCompositionLayerInstruction"]
+- ["13YPImagePicker19LibraryMediaManagerC", "CGRect"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "CGSize"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "CMTime"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "CMTimeMake"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "CMTimeRangeMake"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "DispatchQueue"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "IndexPath"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "NSTemporaryDirectory"]
+- ["13YPImagePicker19LibraryMediaManagerC", "PHAsset"]
+- ["13YPImagePicker19LibraryMediaManagerC", "PHAssetCollection"]
+- ["13YPImagePicker19LibraryMediaManagerC", "PHCachingImageManager"]
+- ["13YPImagePicker19LibraryMediaManagerC", "PHFetchResult"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "PHVideoRequestOptions"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "String"]
+- ["13YPImagePicker19LibraryMediaManagerC", "Timer"]
+- ["13YPImagePicker19LibraryMediaManagerC", "UICollectionView"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "UIScreen"]
+- ["13YPImagePicker19LibraryMediaManagerC", "URL"]
+- ["13YPImagePicker19LibraryMediaManagerC", "Void"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "YPConfig"]
+- ["13YPImagePicker19LibraryMediaManagerC", "YPLibraryView"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "abs"]
+- ["13YPImagePicker19LibraryMediaManagerC", "collection"]
+- ["13YPImagePicker19LibraryMediaManagerC", "currentExportSessions"]
+- ["13YPImagePicker19LibraryMediaManagerC", "exportTimer"]
+- ["13YPImagePicker19LibraryMediaManagerC", "fetchResult"]
+- ["13YPImagePicker19LibraryMediaManagerC", "fetchVideoUrlAndCrop"]
+- ["13YPImagePicker19LibraryMediaManagerC", "forseCancelExporting"]
+- ["13YPImagePicker19LibraryMediaManagerC", "imageManager"]
+- ["13YPImagePicker19LibraryMediaManagerC", "init"]
+- ["13YPImagePicker19LibraryMediaManagerC", "initialize"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "kCMPersistentTrackID_Invalid"]
+- ["13YPImagePicker19LibraryMediaManagerC", "onTickExportTimer"]
+- ["13YPImagePicker19LibraryMediaManagerC", "previousPreheatRect"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "print"]
+- ["13YPImagePicker19LibraryMediaManagerC", "resetCachedAssets"]
+- ["13YPImagePicker19LibraryMediaManagerC", "selectedAsset"]
+- ["13YPImagePicker19LibraryMediaManagerC", "updateCachedAssets"]
+- ["13YPImagePicker19LibraryMediaManagerC", "v"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "video"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "video"]
+- !private ["SM", "append"]
+- !private ["SM", "index"]
+- !private ["SM", "remove"]
+- !private ["So8NSCodingP", "aapl_indexPathsForElementsInRect"]
+- !private ["So8NSCodingP", "audio"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "fileExtension"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layerInstructions"]
+- !private ["So8NSCodingP", "timeRange"]
+- !private ["So8NSCodingP", "updateProgress"]
+- !private ["So8NSCodingP", "video"]
+- !private ["So9NSCopyingP", "addMutableTrack"]
+- !private ["So9NSCopyingP", "assetsAtIndexPaths"]
+- !private ["So9NSCopyingP", "audio"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "fileExtension"]
+- !private ["So9NSCopyingP", "frameDuration"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "instructions"]
+- !private ["So9NSCopyingP", "layerInstructions"]
+- !private ["So9NSCopyingP", "renderSize"]
+- !private ["So9NSCopyingP", "timeRange"]
+- !private ["So9NSCopyingP", "tracks"]
+- !private ["So9NSCopyingP", "video"]
+- !private ["So17NSFastEnumerationP", "assetsAtIndexPaths"]
+- !private ["So21NSItemProviderReadingP", "audio"]
+- !private ["So21NSItemProviderReadingP", "fileExtension"]
+- !private ["So21NSItemProviderReadingP", "video"]
+- !private ["So21NSItemProviderWritingP", "audio"]
+- !private ["So21NSItemProviderWritingP", "fileExtension"]
+- !private ["So21NSItemProviderWritingP", "video"]
+- !private ["So16NSMutableCopyingP", "addMutableTrack"]
+- !private ["So16NSMutableCopyingP", "audio"]
+- !private ["So16NSMutableCopyingP", "fileExtension"]
+- !private ["So16NSMutableCopyingP", "frameDuration"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "instructions"]
+- !private ["So16NSMutableCopyingP", "layerInstructions"]
+- !private ["So16NSMutableCopyingP", "renderSize"]
+- !private ["So16NSMutableCopyingP", "timeRange"]
+- !private ["So16NSMutableCopyingP", "video"]
+- !private ["So8NSObjectC", "aapl_indexPathsForElementsInRect"]
+- !private ["So8NSObjectC", "addMutableTrack"]
+- !private ["So8NSObjectC", "assetsAtIndexPaths"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "audio"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "cancelExport"]
+- !private ["So8NSObjectC", "duration"]
+- !private ["So8NSObjectC", "error"]
+- !private ["So8NSObjectC", "exportAsynchronously"]
+- !private ["So8NSObjectC", "fileExtension"]
+- !private ["So8NSObjectC", "frameDuration"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instructions"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "isNetworkAccessAllowed"]
+- !private ["So8NSObjectC", "layerInstructions"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "outputFileType"]
+- !private ["So8NSObjectC", "outputURL"]
+- !private ["So8NSObjectC", "progress"]
+- !private ["So8NSObjectC", "renderSize"]
+- !private ["So8NSObjectC", "requestAVAsset"]
+- !private ["So8NSObjectC", "scale"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So8NSObjectC", "shouldOptimizeForNetworkUse"]
+- !private ["So8NSObjectC", "startCachingImages"]
+- !private ["So8NSObjectC", "status"]
+- !private ["So8NSObjectC", "stopCachingImages"]
+- !private ["So8NSObjectC", "stopCachingImagesForAllAssets"]
+- !private ["So8NSObjectC", "timeRange"]
+- !private ["So8NSObjectC", "tracks"]
+- !private ["So8NSObjectC", "updateProgress"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "video"]
+- !private ["So8NSObjectC", "videoComposition"]
+- !private ["So8NSObjectP", "aapl_indexPathsForElementsInRect"]
+- !private ["So8NSObjectP", "addMutableTrack"]
+- !private ["So8NSObjectP", "assetsAtIndexPaths"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "audio"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "cancelExport"]
+- !private ["So8NSObjectP", "duration"]
+- !private ["So8NSObjectP", "error"]
+- !private ["So8NSObjectP", "exportAsynchronously"]
+- !private ["So8NSObjectP", "fileExtension"]
+- !private ["So8NSObjectP", "frameDuration"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instructions"]
+- !private ["So8NSObjectP", "invalidate"]
+- !private ["So8NSObjectP", "isNetworkAccessAllowed"]
+- !private ["So8NSObjectP", "layerInstructions"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "outputFileType"]
+- !private ["So8NSObjectP", "outputURL"]
+- !private ["So8NSObjectP", "progress"]
+- !private ["So8NSObjectP", "renderSize"]
+- !private ["So8NSObjectP", "requestAVAsset"]
+- !private ["So8NSObjectP", "scale"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "shouldOptimizeForNetworkUse"]
+- !private ["So8NSObjectP", "startCachingImages"]
+- !private ["So8NSObjectP", "status"]
+- !private ["So8NSObjectP", "stopCachingImages"]
+- !private ["So8NSObjectP", "stopCachingImagesForAllAssets"]
+- !private ["So8NSObjectP", "timeRange"]
+- !private ["So8NSObjectP", "tracks"]
+- !private ["So8NSObjectP", "updateProgress"]
+- !private ["So8NSObjectP", "userInfo"]
+- !private ["So8NSObjectP", "video"]
+- !private ["So8NSObjectP", "videoComposition"]
+- !private ["So14NSSecureCodingP", "audio"]
+- !private ["So14NSSecureCodingP", "fileExtension"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "layerInstructions"]
+- !private ["So14NSSecureCodingP", "timeRange"]
+- !private ["So14NSSecureCodingP", "video"]
+- !private ["So8NSStringC", "audio"]
+- !private ["So8NSStringC", "fileExtension"]
+- !private ["So8NSStringC", "video"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "assetsAtIndexPaths"]
+- !private ["Sq", "completed"]
+- !private ["So21PHCachingImageManagerC", "init"]
+- !private ["So21PHCachingImageManagerC", "requestAVAsset"]
+- !private ["So21PHCachingImageManagerC", "startCachingImages"]
+- !private ["So21PHCachingImageManagerC", "stopCachingImages"]
+- !private ["So21PHCachingImageManagerC", "stopCachingImagesForAllAssets"]
+- !private ["So13PHFetchResultC", "assetsAtIndexPaths"]
+- !private ["So18PHImageContentModeV", "aspectFill"]
+- !private ["So14PHImageManagerC", "init"]
+- !private ["So14PHImageManagerC", "requestAVAsset"]
+- !private ["So14PHImageManagerC", "startCachingImages"]
+- !private ["So14PHImageManagerC", "stopCachingImages"]
+- !private ["So14PHImageManagerC", "stopCachingImagesForAllAssets"]
+- !private ["So21PHVideoRequestOptionsC", "init"]
+- !private ["So21PHVideoRequestOptionsC", "isNetworkAccessAllowed"]
+- !private ["Sk", "append"]
+- !private ["Sk", "index"]
+- !private ["Sk", "remove"]
+- !private ["Sm", "append"]
+- !private ["Sm", "index"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "video"]
+- !private ["SY", "aspectFill"]
+- !private ["SY", "completed"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingUniquePathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "index"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "remove"]
+- !private ["ST", "video"]
+- !private ["So26AVAssetExportSessionStatusV", "completed"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "video"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "video"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "video"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "video"]
+- !private ["So7NSTimerC", "invalidate"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["So7NSTimerC", "userInfo"]
+- !private ["So29UIAccessibilityIdentificationP", "aapl_indexPathsForElementsInRect"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "updateProgress"]
+- !private ["So12UIAppearanceP", "aapl_indexPathsForElementsInRect"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "updateProgress"]
+- !private ["So21UIAppearanceContainerP", "aapl_indexPathsForElementsInRect"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "updateProgress"]
+- !private ["So16UICollectionViewC", "aapl_indexPathsForElementsInRect"]
+- !private ["So16UICollectionViewC", "bounds"]
+- !private ["So17UICoordinateSpaceP", "aapl_indexPathsForElementsInRect"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "updateProgress"]
+- !private ["So23UIDataSourceTranslatingP", "aapl_indexPathsForElementsInRect"]
+- !private ["So23UIDataSourceTranslatingP", "bounds"]
+- !private ["So13UIDynamicItemP", "aapl_indexPathsForElementsInRect"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "updateProgress"]
+- !private ["So18UIFocusEnvironmentP", "aapl_indexPathsForElementsInRect"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "updateProgress"]
+- !private ["So11UIFocusItemP", "aapl_indexPathsForElementsInRect"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "updateProgress"]
+- !private ["So20UIFocusItemContainerP", "aapl_indexPathsForElementsInRect"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "updateProgress"]
+- !private ["So30UIFocusItemScrollableContainerP", "aapl_indexPathsForElementsInRect"]
+- !private ["So30UIFocusItemScrollableContainerP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "aapl_indexPathsForElementsInRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateProgress"]
+- !private ["So11UIResponderC", "aapl_indexPathsForElementsInRect"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "updateProgress"]
+- !private ["So30UIResponderStandardEditActionsP", "aapl_indexPathsForElementsInRect"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "updateProgress"]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So8UIScreenC", "scale"]
+- !private ["So12UIScrollViewC", "aapl_indexPathsForElementsInRect"]
+- !private ["So12UIScrollViewC", "bounds"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "aapl_indexPathsForElementsInRect"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "aapl_indexPathsForElementsInRect"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "scale"]
+- !private ["So18UITraitEnvironmentP", "updateProgress"]
+- !private ["So23UIUserActivityRestoringP", "aapl_indexPathsForElementsInRect"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "updateProgress"]
+- !private ["So6UIViewC", "aapl_indexPathsForElementsInRect"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "updateProgress"]
+- !private ["10Foundation3URLV", "appendingUniquePathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["13YPImagePicker13YPConfigVideoV", "compression"]
+- !private ["13YPImagePicker13YPConfigVideoV", "fileType"]
+- !private ["13YPImagePicker0aB13ConfigurationV", "video"]
+- !private ["13YPImagePicker13YPLibraryViewC", "updateProgress"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "aapl_indexPathsForElementsInRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateProgress"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "video"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "video"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "video"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingUniquePathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "video"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "audio"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "fileExtension"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "aapl_indexPathsForElementsInRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addMutableTrack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assetsAtIndexPaths"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelExport"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "exportAsynchronously"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExtension"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frameDuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instructions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNetworkAccessAllowed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layerInstructions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputFileType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "renderSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAVAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldOptimizeForNetworkUse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startCachingImages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopCachingImages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopCachingImagesForAllAssets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tracks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videoComposition"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingUniquePathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "assetsAtIndexPaths"]
+- !private ["s21_ObjectiveCBridgeableP", "completed"]
+- !private ["s21_ObjectiveCBridgeableP", "differenceWith"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insetBy"]
+- !private ["s21_ObjectiveCBridgeableP", "midY"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s26_OptionalNilComparisonTypeV", "completed"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "video"]
+depends-nominal:
+- !private "So7AVAssetC"
+- !private "So20AVAssetExportSessionC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- !private "So13AVCompositionC"
+- !private "So20AVMutableCompositionC"
+- !private "So25AVMutableVideoCompositionC"
+- !private "So36AVMutableVideoCompositionInstructionC"
+- !private "So18AVVideoCompositionC"
+- !private "So29AVVideoCompositionInstructionC"
+- !private "So29AVVideoCompositionInstructionP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "So6CMTimea"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "13YPImagePicker19LibraryMediaManagerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "So21PHCachingImageManagerC"
+- !private "So13PHFetchResultC"
+- !private "So18PHImageContentModeV"
+- !private "So14PHImageManagerC"
+- !private "So21PHVideoRequestOptionsC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "So26AVAssetExportSessionStatusV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7NSTimerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UICollectionViewC"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "10Foundation3URLV"
+- !private "13YPImagePicker13YPConfigVideoV"
+- !private "13YPImagePicker0aB13ConfigurationV"
+- !private "13YPImagePicker13YPLibraryViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fc43902ca1900eeca7627f38e0693e13"

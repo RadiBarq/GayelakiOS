@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CAPSPageMenuConfiguration"
+provides-nominal:
+- "8PageMenu08CAPSPageB13ConfigurationC"
+provides-member:
+- ["8PageMenu08CAPSPageB13ConfigurationC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "BooleanLiteralType"
+- "CAPSPageMenuConfiguration"
+- "CGFloat"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "UIColor"
+- "UIFont"
+depends-member:
+- ["8PageMenu08CAPSPageB13ConfigurationC", "Bool"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "CGFloat"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "Int"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "UIColor"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "UIFont"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "addBottomMenuHairline"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "bottomMenuHairlineColor"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "centerMenuItems"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "enableHorizontalBounce"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "hideTopMenuBar"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "init"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuHeight"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuItemFont"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuItemSeparatorColor"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuItemSeparatorPercentageHeight"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuItemSeparatorRoundEdges"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuItemSeparatorWidth"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuItemWidth"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuItemWidthBasedOnTitleTextWidth"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "menuMargin"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "scrollAnimationDurationOnMenuItemTap"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "scrollMenuBackgroundColor"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "selectedMenuItemLabelColor"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "selectionIndicatorColor"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "selectionIndicatorHeight"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "titleTextSizeBasedOnMenuItemWidth"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "unselectedMenuItemLabelColor"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "useMenuLikeSegmentedControl"]
+- ["8PageMenu08CAPSPageB13ConfigurationC", "viewBackgroundColor"]
+- ["s7CVarArgP", "black"]
+- ["s7CVarArgP", "lightGray"]
+- ["s7CVarArgP", "systemFont"]
+- ["s7CVarArgP", "white"]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- ["s28CustomDebugStringConvertibleP", "lightGray"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", "black"]
+- ["s23CustomStringConvertibleP", "lightGray"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- ["s23CustomStringConvertibleP", "white"]
+- ["SQ", "black"]
+- ["SQ", "lightGray"]
+- ["SQ", "systemFont"]
+- ["SQ", "white"]
+- ["SH", "black"]
+- ["SH", "lightGray"]
+- ["SH", "systemFont"]
+- ["SH", "white"]
+- ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "lightGray"]
+- ["So8NSCodingP", "white"]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "lightGray"]
+- ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", "white"]
+- ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "lightGray"]
+- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "lightGray"]
+- ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "lightGray"]
+- ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "white"]
+- ["So8NSObjectP", "black"]
+- ["So8NSObjectP", "lightGray"]
+- ["So8NSObjectP", "systemFont"]
+- ["So8NSObjectP", "white"]
+- ["So14NSSecureCodingP", "black"]
+- ["So14NSSecureCodingP", "lightGray"]
+- ["So14NSSecureCodingP", "white"]
+- ["So7UIColorC", "black"]
+- ["So7UIColorC", "lightGray"]
+- ["So7UIColorC", "white"]
+- ["So6UIFontC", "systemFont"]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s26_ExpressibleByColorLiteralP", "lightGray"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "lightGray"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+depends-nominal:
+- "8PageMenu08CAPSPageB13ConfigurationC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So7UIColorC"
+- "So6UIFontC"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/PageMenu/PageMenu-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/PageMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0e11ed79be0f51e9008d91e0190033f9"

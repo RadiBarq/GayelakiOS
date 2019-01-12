@@ -1,0 +1,510 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserProfile"
+provides-nominal:
+- "12FacebookCore11UserProfileV"
+- "12FacebookCore11UserProfileV18PictureAspectRatioO"
+provides-member:
+- ["12FacebookCore11UserProfileV", ""]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "AccessToken"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGSize"
+- "CastingPrecedence"
+- "Date"
+- !private "Dictionary"
+- !private "Error"
+- "FBSDKProfile"
+- "FBSDKProfilePictureMode"
+- !private "GraphRequest"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- "UserProfile"
+- "Void"
+depends-member:
+- !private ["12FacebookCore11AccessTokenV", "current"]
+- !private ["12FacebookCore11AccessTokenV", "userId"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "enableUpdates"]
+- !private ["s7CVarArgP", "firstName"]
+- !private ["s7CVarArgP", "imageURL"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lastName"]
+- !private ["s7CVarArgP", "linkURL"]
+- !private ["s7CVarArgP", "loadCurrentProfile"]
+- !private ["s7CVarArgP", "middleName"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "refreshDate"]
+- !private ["s7CVarArgP", "setCurrent"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "userID"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "enableUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "firstName"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "imageURL"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastName"]
+- !private ["s28CustomDebugStringConvertibleP", "linkURL"]
+- !private ["s28CustomDebugStringConvertibleP", "loadCurrentProfile"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "middleName"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "refreshDate"]
+- !private ["s28CustomDebugStringConvertibleP", "setCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userID"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "enableUpdates"]
+- !private ["s23CustomStringConvertibleP", "firstName"]
+- !private ["s23CustomStringConvertibleP", "imageURL"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastName"]
+- !private ["s23CustomStringConvertibleP", "linkURL"]
+- !private ["s23CustomStringConvertibleP", "loadCurrentProfile"]
+- !private ["s23CustomStringConvertibleP", "middleName"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "refreshDate"]
+- !private ["s23CustomStringConvertibleP", "setCurrent"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userID"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "GET"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "current"]
+- !private ["SQ", "enableUpdates"]
+- !private ["SQ", "firstName"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "imageURL"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lastName"]
+- !private ["SQ", "linkURL"]
+- !private ["SQ", "loadCurrentProfile"]
+- !private ["SQ", "map"]
+- !private ["SQ", "middleName"]
+- !private ["SQ", "name"]
+- ["SQ", "normal"]
+- !private ["SQ", "refreshDate"]
+- !private ["SQ", "sdkPictureMode"]
+- !private ["SQ", "setCurrent"]
+- ["SQ", "square"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "userID"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So12FBSDKProfileC", "current"]
+- !private ["So12FBSDKProfileC", "enableUpdates"]
+- !private ["So12FBSDKProfileC", "firstName"]
+- !private ["So12FBSDKProfileC", "imageURL"]
+- !private ["So12FBSDKProfileC", "init"]
+- !private ["So12FBSDKProfileC", "lastName"]
+- !private ["So12FBSDKProfileC", "linkURL"]
+- !private ["So12FBSDKProfileC", "loadCurrentProfile"]
+- !private ["So12FBSDKProfileC", "middleName"]
+- !private ["So12FBSDKProfileC", "name"]
+- !private ["So12FBSDKProfileC", "refreshDate"]
+- !private ["So12FBSDKProfileC", "setCurrent"]
+- !private ["So12FBSDKProfileC", "userID"]
+- !private ["So23FBSDKProfilePictureModeV", "normal"]
+- !private ["So23FBSDKProfilePictureModeV", "square"]
+- !private ["12FacebookCore11UserProfileV11FetchResultO", "failed"]
+- !private ["12FacebookCore11UserProfileV11FetchResultO", "init"]
+- !private ["12FacebookCore11UserProfileV11FetchResultO", "success"]
+- !private ["12FacebookCore12GraphRequestV", "deinit"]
+- !private ["12FacebookCore12GraphRequestV", "init"]
+- !private ["12FacebookCore12GraphRequestV", "start"]
+- !private ["12FacebookCore22GraphRequestHTTPMethodO", "GET"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "init"]
+- !private ["12FacebookCore20GraphRequestProtocolP", "start"]
+- !private ["12FacebookCore18GraphRequestResultO", "failed"]
+- !private ["12FacebookCore18GraphRequestResultO", "success"]
+- !private ["12FacebookCore13GraphResponseV", "dictionaryValue"]
+- !private ["12FacebookCore21GraphResponseProtocolP", "dictionaryValue"]
+- !private ["SH", "GET"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "current"]
+- !private ["SH", "enableUpdates"]
+- !private ["SH", "firstName"]
+- !private ["SH", "flatMap"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "imageURL"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "lastName"]
+- !private ["SH", "linkURL"]
+- !private ["SH", "loadCurrentProfile"]
+- !private ["SH", "map"]
+- !private ["SH", "middleName"]
+- !private ["SH", "name"]
+- ["SH", "normal"]
+- !private ["SH", "refreshDate"]
+- !private ["SH", "sdkPictureMode"]
+- !private ["SH", "setCurrent"]
+- ["SH", "square"]
+- !private ["SH", "subscript"]
+- !private ["SH", "userID"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "current"]
+- !private ["So8NSCodingP", "enableUpdates"]
+- !private ["So8NSCodingP", "firstName"]
+- !private ["So8NSCodingP", "imageURL"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lastName"]
+- !private ["So8NSCodingP", "linkURL"]
+- !private ["So8NSCodingP", "loadCurrentProfile"]
+- !private ["So8NSCodingP", "middleName"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "refreshDate"]
+- !private ["So8NSCodingP", "setCurrent"]
+- !private ["So8NSCodingP", "userID"]
+- !private ["So9NSCopyingP", "current"]
+- !private ["So9NSCopyingP", "enableUpdates"]
+- !private ["So9NSCopyingP", "firstName"]
+- !private ["So9NSCopyingP", "imageURL"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lastName"]
+- !private ["So9NSCopyingP", "linkURL"]
+- !private ["So9NSCopyingP", "loadCurrentProfile"]
+- !private ["So9NSCopyingP", "middleName"]
+- !private ["So9NSCopyingP", "name"]
+- !private ["So9NSCopyingP", "refreshDate"]
+- !private ["So9NSCopyingP", "setCurrent"]
+- !private ["So9NSCopyingP", "userID"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "enableUpdates"]
+- !private ["So8NSObjectC", "firstName"]
+- !private ["So8NSObjectC", "imageURL"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lastName"]
+- !private ["So8NSObjectC", "linkURL"]
+- !private ["So8NSObjectC", "loadCurrentProfile"]
+- !private ["So8NSObjectC", "middleName"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "refreshDate"]
+- !private ["So8NSObjectC", "setCurrent"]
+- !private ["So8NSObjectC", "userID"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "enableUpdates"]
+- !private ["So8NSObjectP", "firstName"]
+- !private ["So8NSObjectP", "imageURL"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lastName"]
+- !private ["So8NSObjectP", "linkURL"]
+- !private ["So8NSObjectP", "loadCurrentProfile"]
+- !private ["So8NSObjectP", "middleName"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "refreshDate"]
+- !private ["So8NSObjectP", "setCurrent"]
+- !private ["So8NSObjectP", "userID"]
+- !private ["So14NSSecureCodingP", "current"]
+- !private ["So14NSSecureCodingP", "enableUpdates"]
+- !private ["So14NSSecureCodingP", "firstName"]
+- !private ["So14NSSecureCodingP", "imageURL"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lastName"]
+- !private ["So14NSSecureCodingP", "linkURL"]
+- !private ["So14NSSecureCodingP", "loadCurrentProfile"]
+- !private ["So14NSSecureCodingP", "middleName"]
+- !private ["So14NSSecureCodingP", "name"]
+- !private ["So14NSSecureCodingP", "refreshDate"]
+- !private ["So14NSSecureCodingP", "setCurrent"]
+- !private ["So14NSSecureCodingP", "userID"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "map"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "FBSDKProfilePictureMode"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "__derived_enum_equals"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "deinit"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "hash"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "hashValue"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "normal"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "sdkPictureMode"]
+- ["12FacebookCore11UserProfileV18PictureAspectRatioO", "square"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "GET"]
+- !private ["SY", "normal"]
+- !private ["SY", "square"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["12FacebookCore11UserProfileV", "AccessToken"]
+- ["12FacebookCore11UserProfileV", "Bool"]
+- ["12FacebookCore11UserProfileV", "CGSize"]
+- ["12FacebookCore11UserProfileV", "Completion"]
+- ["12FacebookCore11UserProfileV", "Date"]
+- !private ["12FacebookCore11UserProfileV", "Error"]
+- ["12FacebookCore11UserProfileV", "FBSDKProfile"]
+- ["12FacebookCore11UserProfileV", "FBSDKProfilePictureMode"]
+- ["12FacebookCore11UserProfileV", "FetchResult"]
+- !private ["12FacebookCore11UserProfileV", "GraphRequest"]
+- ["12FacebookCore11UserProfileV", "PictureAspectRatio"]
+- ["12FacebookCore11UserProfileV", "String"]
+- ["12FacebookCore11UserProfileV", "URL"]
+- ["12FacebookCore11UserProfileV", "UserProfile"]
+- ["12FacebookCore11UserProfileV", "Void"]
+- ["12FacebookCore11UserProfileV", "current"]
+- ["12FacebookCore11UserProfileV", "fetch"]
+- ["12FacebookCore11UserProfileV", "firstName"]
+- ["12FacebookCore11UserProfileV", "fullName"]
+- ["12FacebookCore11UserProfileV", "imageURLWith"]
+- ["12FacebookCore11UserProfileV", "init"]
+- !private ["12FacebookCore11UserProfileV", "init"]
+- ["12FacebookCore11UserProfileV", "lastName"]
+- ["12FacebookCore11UserProfileV", "loadCurrent"]
+- ["12FacebookCore11UserProfileV", "middleName"]
+- ["12FacebookCore11UserProfileV", "profileURL"]
+- ["12FacebookCore11UserProfileV", "refresh"]
+- ["12FacebookCore11UserProfileV", "refreshDate"]
+- ["12FacebookCore11UserProfileV", "sdkProfileRepresentation"]
+- ["12FacebookCore11UserProfileV", "updatesOnAccessTokenChange"]
+- ["12FacebookCore11UserProfileV", "userId"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enableUpdates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "linkURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadCurrentProfile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "middleName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "refreshDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setCurrent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userID"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "12FacebookCore11AccessTokenV"
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So12FBSDKProfileC"
+- !private "So23FBSDKProfilePictureModeV"
+- !private "12FacebookCore11UserProfileV11FetchResultO"
+- !private "12FacebookCore12GraphRequestV"
+- !private "12FacebookCore22GraphRequestHTTPMethodO"
+- !private "12FacebookCore20GraphRequestProtocolP"
+- !private "12FacebookCore18GraphRequestResultO"
+- !private "12FacebookCore13GraphResponseV"
+- !private "12FacebookCore21GraphResponseProtocolP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- "12FacebookCore11UserProfileV18PictureAspectRatioO"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- "12FacebookCore11UserProfileV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a0a2109e94e3986ee4f6cc4e234e5586"

@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppEvent"
+- "AppEventLoggable"
+- "AppEventParameterValueType"
+provides-nominal:
+- "12FacebookCore8AppEventV"
+- "12FacebookCore16AppEventLoggableP"
+- "12FacebookCore26AppEventParameterValueTypeP"
+- "So8NSNumberC"
+- "Si"
+- "Sd"
+- "SS"
+provides-member:
+- ["12FacebookCore8AppEventV", ""]
+- ["12FacebookCore16AppEventLoggableP", ""]
+- ["12FacebookCore26AppEventParameterValueTypeP", ""]
+- ["So8NSNumberC", ""]
+- ["Si", ""]
+- ["Sd", ""]
+- ["SS", ""]
+provides-dynamic-lookup:
+- "appEventParameterValue"
+depends-top-level:
+- "AppEvent"
+- "AppEventLoggable"
+- "AppEventName"
+- "AppEventParameterName"
+- "AppEventParameterValueType"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Double"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NSNumber"
+- "String"
+depends-member:
+- ["12FacebookCore8AppEventV", "AppEventName"]
+- ["12FacebookCore8AppEventV", "AppEventParameterName"]
+- ["12FacebookCore8AppEventV", "AppEventParameterValueType"]
+- ["12FacebookCore8AppEventV", "Double"]
+- ["12FacebookCore8AppEventV", "ParametersDictionary"]
+- ["12FacebookCore8AppEventV", "String"]
+- ["12FacebookCore8AppEventV", "deinit"]
+- ["12FacebookCore8AppEventV", "init"]
+- ["12FacebookCore8AppEventV", "name"]
+- ["12FacebookCore8AppEventV", "parameters"]
+- ["12FacebookCore8AppEventV", "valueToSum"]
+- ["12FacebookCore16AppEventLoggableP", "AppEvent"]
+- ["12FacebookCore16AppEventLoggableP", "AppEventName"]
+- ["12FacebookCore16AppEventLoggableP", "Double"]
+- ["12FacebookCore16AppEventLoggableP", "ParametersDictionary"]
+- ["12FacebookCore16AppEventLoggableP", ""]
+- !private ["12FacebookCore16AppEventLoggableP", "init"]
+- ["12FacebookCore16AppEventLoggableP", "name"]
+- ["12FacebookCore16AppEventLoggableP", "parameters"]
+- ["12FacebookCore16AppEventLoggableP", "valueToSum"]
+- !private ["12FacebookCore12AppEventNameO", "deinit"]
+- !private ["12FacebookCore12AppEventNameO", "init"]
+- ["12FacebookCore21AppEventParameterNameO", "deinit"]
+- ["12FacebookCore26AppEventParameterValueTypeP", ""]
+- ["12FacebookCore26AppEventParameterValueTypeP", "appEventParameterValue"]
+- ["SK", "appEventParameterValue"]
+- ["SB", "appEventParameterValue"]
+- ["Sz", "appEventParameterValue"]
+- ["s7CVarArgP", "appEventParameterValue"]
+- ["Sl", "appEventParameterValue"]
+- ["SL", "appEventParameterValue"]
+- ["s28CustomDebugStringConvertibleP", "appEventParameterValue"]
+- ["s29CustomPlaygroundQuickLookableP", "appEventParameterValue"]
+- ["s17CustomReflectableP", "appEventParameterValue"]
+- ["s23CustomStringConvertibleP", "appEventParameterValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["Se", "appEventParameterValue"]
+- !private ["Sd", "NSNumber"]
+- ["Sd", "appEventParameterValue"]
+- ["Sd", "deinit"]
+- ["SE", "appEventParameterValue"]
+- ["SQ", "appEventParameterValue"]
+- !private ["SQ", "init"]
+- ["s27ExpressibleByBooleanLiteralP", "appEventParameterValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appEventParameterValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "appEventParameterValue"]
+- ["s27ExpressibleByIntegerLiteralP", "appEventParameterValue"]
+- ["s26ExpressibleByStringLiteralP", "appEventParameterValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "appEventParameterValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "appEventParameterValue"]
+- ["SF", "appEventParameterValue"]
+- ["SH", "appEventParameterValue"]
+- !private ["SH", "init"]
+- !private ["Si", "NSNumber"]
+- ["Si", "appEventParameterValue"]
+- ["Si", "deinit"]
+- ["s25LosslessStringConvertibleP", "appEventParameterValue"]
+- ["s10MirrorPathP", "appEventParameterValue"]
+- ["So8NSCodingP", "appEventParameterValue"]
+- ["So9NSCopyingP", "appEventParameterValue"]
+- ["So8NSNumberC", "appEventParameterValue"]
+- ["So8NSNumberC", "deinit"]
+- ["So8NSObjectC", "appEventParameterValue"]
+- ["So8NSObjectP", "appEventParameterValue"]
+- ["So14NSSecureCodingP", "appEventParameterValue"]
+- ["So7NSValueC", "appEventParameterValue"]
+- ["Sj", "appEventParameterValue"]
+- ["Sm", "appEventParameterValue"]
+- !private ["SY", "init"]
+- ["ST", "appEventParameterValue"]
+- ["SZ", "appEventParameterValue"]
+- ["s13SignedNumericP", "appEventParameterValue"]
+- ["Sx", "appEventParameterValue"]
+- ["SS", "appEventParameterValue"]
+- ["SS", "deinit"]
+- ["Sy", "appEventParameterValue"]
+- ["s16TextOutputStreamP", "appEventParameterValue"]
+- ["s20TextOutputStreamableP", "appEventParameterValue"]
+- ["s18_BitwiseOperationsP", "appEventParameterValue"]
+- ["s15_CVarArgAlignedP", "appEventParameterValue"]
+- ["s22_CVarArgPassedAsDoubleP", "appEventParameterValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "appEventParameterValue"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "appEventParameterValue"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "appEventParameterValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "appEventParameterValue"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "appEventParameterValue"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "appEventParameterValue"]
+- ["s33_ExpressibleByStringInterpolationP", "appEventParameterValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "appEventParameterValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "appEventParameterValue"]
+- ["s21_ObjectiveCBridgeableP", "appEventParameterValue"]
+- ["s16_SwiftStringViewP", "appEventParameterValue"]
+depends-nominal:
+- "12FacebookCore8AppEventV"
+- "12FacebookCore16AppEventLoggableP"
+- !private "12FacebookCore12AppEventNameO"
+- "12FacebookCore21AppEventParameterNameO"
+- "12FacebookCore26AppEventParameterValueTypeP"
+- "SK"
+- "SB"
+- "Sz"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "SF"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So7NSValueC"
+- "Sj"
+- "Sm"
+- !private "SY"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLink.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "332fbcf54780596aadfc15575434bc08"

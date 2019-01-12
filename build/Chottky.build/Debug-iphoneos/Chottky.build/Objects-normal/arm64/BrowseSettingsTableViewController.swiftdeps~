@@ -1,0 +1,2080 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BrowseSettingsTableViewController"
+provides-nominal:
+- "7Chottky33BrowseSettingsTableViewControllerC"
+provides-member:
+- ["7Chottky33BrowseSettingsTableViewControllerC", ""]
+provides-dynamic-lookup:
+- "applyButton"
+- "categoriesArray"
+- "copyOfSelectedCategory"
+- "copyOfSelectedDistance"
+- "copySortedByIndex"
+- "distanceArray"
+- "intializeCategoryArray"
+- "numberOfSections"
+- "resetButton"
+- "resetButtonClicked"
+- "sectionHeaderTitleArray"
+- "selectRowsInSection"
+- "selectedCategoriesIndexes"
+- "sortedByArray"
+- "tableView"
+- "unselectRowsInSection"
+- "viewDidAppear"
+- "viewDidLoad"
+- "viewWillAppear"
+- "viewWillDisappear"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "..<"
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "BrowseCollectionViewController"
+- !private "BrowseSettingsTableViewCell"
+- "BrowseSettingsTableViewController"
+- !private "CGRect"
+- "CastingPrecedence"
+- !private "Constants"
+- "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- "IntegerLiteralType"
+- !private "NSIndexPath"
+- "String"
+- "StringLiteralType"
+- !private "UIBarButtonItem"
+- "UIButton"
+- !private "UIColor"
+- !private "UILabel"
+- "UITableView"
+- "UITableViewController"
+- "UIView"
+- !private "||"
+depends-member:
+- ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "row"]
+- !private ["SK", "section"]
+- !private ["SK", "subscript"]
+- ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["7Chottky30BrowseCollectionViewControllerC", "queryChanged"]
+- !private ["7Chottky27BrowseSettingsTableViewCellC", "addImageView"]
+- !private ["7Chottky27BrowseSettingsTableViewCellC", "deinit"]
+- !private ["7Chottky27BrowseSettingsTableViewCellC", "isSelected"]
+- !private ["7Chottky27BrowseSettingsTableViewCellC", "removeImageView"]
+- !private ["7Chottky27BrowseSettingsTableViewCellC", "setSelected"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "Array"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "Bool"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "BrowseCollectionViewController"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "BrowseSettingsTableViewCell"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "BrowseSettingsTableViewController"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "CGRect"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "Constants"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "IndexPath"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "Int"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "NSIndexPath"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "String"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "UIBarButtonItem"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "UIButton"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "UIColor"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "UILabel"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "UITableView"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "UIView"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "applyButton"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "categoriesArray"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "copyOfSelectedCategory"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "copyOfSelectedDistance"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "copySortedByIndex"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "deinit"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "distanceArray"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "init"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "intializeCategoryArray"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "navigationController"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "navigationItem"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "numberOfSections"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "resetButton"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "resetButtonClicked"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "sectionHeaderTitleArray"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "selectRowsInSection"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "selectedCategoriesIndexes"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "selectedDistanceIndex"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "selectedsortedByIndex"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "sortedByArray"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "tableView"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "title"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "unselectRowsInSection"]
+- !private ["7Chottky33BrowseSettingsTableViewControllerC", "view"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "viewDidAppear"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "viewDidLoad"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "viewWillAppear"]
+- ["7Chottky33BrowseSettingsTableViewControllerC", "viewWillDisappear"]
+- !private ["So15CALayerDelegateP", "addImageView"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "cellForRow"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isSelected"]
+- !private ["So15CALayerDelegateP", "isTranslucent"]
+- !private ["So15CALayerDelegateP", "numberOfRows"]
+- !private ["So15CALayerDelegateP", "removeImageView"]
+- !private ["So15CALayerDelegateP", "scrollToRow"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textAlignment"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "topItem"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "width"]
+- !private ["So25CLLocationManagerDelegateP", "queryChanged"]
+- !private ["s7CVarArgP", "BrowseCollectionViewController"]
+- !private ["s7CVarArgP", "BrowseSettingsTableViewController"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "Constants"]
+- !private ["s7CVarArgP", "IndexPath"]
+- ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSIndexPath"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UILabel"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addImageView"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "cellForRow"]
+- !private ["s7CVarArgP", "copyOfSelectedCategory"]
+- !private ["s7CVarArgP", "copyOfSelectedDistance"]
+- !private ["s7CVarArgP", "copySortedByIndex"]
+- !private ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intializeCategoryArray"]
+- !private ["s7CVarArgP", "isSelected"]
+- !private ["s7CVarArgP", "isTranslucent"]
+- !private ["s7CVarArgP", "navigationBar"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "numberOfRows"]
+- !private ["s7CVarArgP", "queryChanged"]
+- !private ["s7CVarArgP", "removeImageView"]
+- !private ["s7CVarArgP", "resetButtonClicked"]
+- !private ["s7CVarArgP", "rightBarButtonItem"]
+- !private ["s7CVarArgP", "scrollToRow"]
+- !private ["s7CVarArgP", "sectionHeaderTitleArray"]
+- !private ["s7CVarArgP", "selectedCategoriesIndexes"]
+- !private ["s7CVarArgP", "selectedDistanceIndex"]
+- !private ["s7CVarArgP", "selectedsortedByIndex"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textAlignment"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "topItem"]
+- !private ["s7CVarArgP", "unselectRowsInSection"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "row"]
+- !private ["Sl", "section"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "row"]
+- !private ["SL", "section"]
+- !private ["7Chottky9ConstantsC", "FirstColor"]
+- !private ["s28CustomDebugStringConvertibleP", "BrowseCollectionViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "BrowseSettingsTableViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "Constants"]
+- !private ["s28CustomDebugStringConvertibleP", "IndexPath"]
+- ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSIndexPath"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UILabel"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "cellForRow"]
+- !private ["s28CustomDebugStringConvertibleP", "copyOfSelectedCategory"]
+- !private ["s28CustomDebugStringConvertibleP", "copyOfSelectedDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "copySortedByIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intializeCategoryArray"]
+- !private ["s28CustomDebugStringConvertibleP", "isSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "isTranslucent"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfRows"]
+- !private ["s28CustomDebugStringConvertibleP", "queryChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "removeImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "resetButtonClicked"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "scrollToRow"]
+- !private ["s28CustomDebugStringConvertibleP", "section"]
+- !private ["s28CustomDebugStringConvertibleP", "sectionHeaderTitleArray"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedCategoriesIndexes"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedDistanceIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedsortedByIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "topItem"]
+- !private ["s28CustomDebugStringConvertibleP", "unselectRowsInSection"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "cellForRow"]
+- !private ["s17CustomReflectableP", "frame"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "scrollToRow"]
+- !private ["s17CustomReflectableP", "section"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "BrowseCollectionViewController"]
+- !private ["s23CustomStringConvertibleP", "BrowseSettingsTableViewController"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "Constants"]
+- !private ["s23CustomStringConvertibleP", "IndexPath"]
+- ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSIndexPath"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UILabel"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addImageView"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "cellForRow"]
+- !private ["s23CustomStringConvertibleP", "copyOfSelectedCategory"]
+- !private ["s23CustomStringConvertibleP", "copyOfSelectedDistance"]
+- !private ["s23CustomStringConvertibleP", "copySortedByIndex"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intializeCategoryArray"]
+- !private ["s23CustomStringConvertibleP", "isSelected"]
+- !private ["s23CustomStringConvertibleP", "isTranslucent"]
+- !private ["s23CustomStringConvertibleP", "navigationBar"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "numberOfRows"]
+- !private ["s23CustomStringConvertibleP", "queryChanged"]
+- !private ["s23CustomStringConvertibleP", "removeImageView"]
+- !private ["s23CustomStringConvertibleP", "resetButtonClicked"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "scrollToRow"]
+- !private ["s23CustomStringConvertibleP", "section"]
+- !private ["s23CustomStringConvertibleP", "sectionHeaderTitleArray"]
+- !private ["s23CustomStringConvertibleP", "selectedCategoriesIndexes"]
+- !private ["s23CustomStringConvertibleP", "selectedDistanceIndex"]
+- !private ["s23CustomStringConvertibleP", "selectedsortedByIndex"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textAlignment"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "topItem"]
+- !private ["s23CustomStringConvertibleP", "unselectRowsInSection"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "cellForRow"]
+- !private ["Se", "frame"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "row"]
+- !private ["Se", "scrollToRow"]
+- !private ["Se", "section"]
+- !private ["Se", "size"]
+- !private ["Se", "subscript"]
+- !private ["Se", "width"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "cellForRow"]
+- !private ["SE", "frame"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "row"]
+- !private ["SE", "scrollToRow"]
+- !private ["SE", "section"]
+- !private ["SE", "size"]
+- !private ["SE", "subscript"]
+- !private ["SE", "width"]
+- !private ["SQ", "BrowseCollectionViewController"]
+- !private ["SQ", "BrowseSettingsTableViewController"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "Constants"]
+- !private ["SQ", "IndexPath"]
+- ["SQ", "Int"]
+- !private ["SQ", "NSIndexPath"]
+- !private ["SQ", "UIBarButtonItem"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "UILabel"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addImageView"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "black"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "cellForRow"]
+- !private ["SQ", "copyOfSelectedCategory"]
+- !private ["SQ", "copyOfSelectedDistance"]
+- !private ["SQ", "copySortedByIndex"]
+- !private ["SQ", "done"]
+- !private ["SQ", "frame"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "intializeCategoryArray"]
+- !private ["SQ", "isSelected"]
+- !private ["SQ", "isTranslucent"]
+- !private ["SQ", "navigationBar"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "numberOfRows"]
+- !private ["SQ", "queryChanged"]
+- !private ["SQ", "removeImageView"]
+- !private ["SQ", "resetButtonClicked"]
+- !private ["SQ", "right"]
+- !private ["SQ", "rightBarButtonItem"]
+- !private ["SQ", "row"]
+- !private ["SQ", "scrollToRow"]
+- !private ["SQ", "section"]
+- !private ["SQ", "sectionHeaderTitleArray"]
+- !private ["SQ", "selectedCategoriesIndexes"]
+- !private ["SQ", "selectedDistanceIndex"]
+- !private ["SQ", "selectedsortedByIndex"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "size"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tableView"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textAlignment"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "tintColor"]
+- !private ["SQ", "title"]
+- !private ["SQ", "top"]
+- !private ["SQ", "topItem"]
+- !private ["SQ", "unselectRowsInSection"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["SQ", "viewWillDisappear"]
+- !private ["SQ", "width"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "section"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "cellForRow"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "scrollToRow"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "BrowseCollectionViewController"]
+- !private ["SH", "BrowseSettingsTableViewController"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "Constants"]
+- !private ["SH", "IndexPath"]
+- ["SH", "Int"]
+- !private ["SH", "NSIndexPath"]
+- !private ["SH", "UIBarButtonItem"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "UILabel"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addImageView"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "black"]
+- !private ["SH", "bottom"]
+- !private ["SH", "cellForRow"]
+- !private ["SH", "copyOfSelectedCategory"]
+- !private ["SH", "copyOfSelectedDistance"]
+- !private ["SH", "copySortedByIndex"]
+- !private ["SH", "done"]
+- !private ["SH", "frame"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "intializeCategoryArray"]
+- !private ["SH", "isSelected"]
+- !private ["SH", "isTranslucent"]
+- !private ["SH", "navigationBar"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "numberOfRows"]
+- !private ["SH", "queryChanged"]
+- !private ["SH", "removeImageView"]
+- !private ["SH", "resetButtonClicked"]
+- !private ["SH", "right"]
+- !private ["SH", "rightBarButtonItem"]
+- !private ["SH", "row"]
+- !private ["SH", "scrollToRow"]
+- !private ["SH", "section"]
+- !private ["SH", "sectionHeaderTitleArray"]
+- !private ["SH", "selectedCategoriesIndexes"]
+- !private ["SH", "selectedDistanceIndex"]
+- !private ["SH", "selectedsortedByIndex"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tableView"]
+- !private ["SH", "text"]
+- !private ["SH", "textAlignment"]
+- !private ["SH", "textColor"]
+- !private ["SH", "tintColor"]
+- !private ["SH", "title"]
+- !private ["SH", "top"]
+- !private ["SH", "topItem"]
+- !private ["SH", "unselectRowsInSection"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillAppear"]
+- !private ["SH", "viewWillDisappear"]
+- !private ["10Foundation9IndexPathV", "init"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["10Foundation9IndexPathV", "section"]
+- ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["SM", "init"]
+- !private ["SM", "row"]
+- !private ["SM", "section"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "BrowseCollectionViewController"]
+- !private ["So8NSCodingP", "BrowseSettingsTableViewController"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "Constants"]
+- !private ["So8NSCodingP", "IndexPath"]
+- ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSIndexPath"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UILabel"]
+- !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addImageView"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "cellForRow"]
+- !private ["So8NSCodingP", "copyOfSelectedCategory"]
+- !private ["So8NSCodingP", "copyOfSelectedDistance"]
+- !private ["So8NSCodingP", "copySortedByIndex"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intializeCategoryArray"]
+- !private ["So8NSCodingP", "isSelected"]
+- !private ["So8NSCodingP", "isTranslucent"]
+- !private ["So8NSCodingP", "navigationBar"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "numberOfRows"]
+- !private ["So8NSCodingP", "queryChanged"]
+- !private ["So8NSCodingP", "removeImageView"]
+- !private ["So8NSCodingP", "resetButtonClicked"]
+- !private ["So8NSCodingP", "rightBarButtonItem"]
+- !private ["So8NSCodingP", "scrollToRow"]
+- !private ["So8NSCodingP", "sectionHeaderTitleArray"]
+- !private ["So8NSCodingP", "selectedCategoriesIndexes"]
+- !private ["So8NSCodingP", "selectedDistanceIndex"]
+- !private ["So8NSCodingP", "selectedsortedByIndex"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textAlignment"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "topItem"]
+- !private ["So8NSCodingP", "unselectRowsInSection"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- !private ["So8NSCodingP", "viewWillDisappear"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "BrowseCollectionViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "BrowseSettingsTableViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "Constants"]
+- !private ["So26NSExtensionRequestHandlingP", "IndexPath"]
+- ["So26NSExtensionRequestHandlingP", "Int"]
+- !private ["So26NSExtensionRequestHandlingP", "NSIndexPath"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UILabel"]
+- !private ["So26NSExtensionRequestHandlingP", "UIView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "copyOfSelectedCategory"]
+- !private ["So26NSExtensionRequestHandlingP", "copyOfSelectedDistance"]
+- !private ["So26NSExtensionRequestHandlingP", "copySortedByIndex"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "intializeCategoryArray"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "queryChanged"]
+- !private ["So26NSExtensionRequestHandlingP", "resetButtonClicked"]
+- !private ["So26NSExtensionRequestHandlingP", "sectionHeaderTitleArray"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedCategoriesIndexes"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedDistanceIndex"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedsortedByIndex"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "unselectRowsInSection"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- !private ["So11NSIndexPathC", "init"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "BrowseCollectionViewController"]
+- !private ["So8NSObjectC", "BrowseSettingsTableViewCell"]
+- !private ["So8NSObjectC", "BrowseSettingsTableViewController"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "Constants"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSIndexPath"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addImageView"]
+- !private ["So8NSObjectC", "addSubview"]
+- ["So8NSObjectC", "applyButton"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "categoriesArray"]
+- !private ["So8NSObjectC", "cellForRow"]
+- ["So8NSObjectC", "copyOfSelectedCategory"]
+- ["So8NSObjectC", "copyOfSelectedDistance"]
+- ["So8NSObjectC", "copySortedByIndex"]
+- ["So8NSObjectC", "distanceArray"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "intializeCategoryArray"]
+- !private ["So8NSObjectC", "isSelected"]
+- !private ["So8NSObjectC", "isTranslucent"]
+- !private ["So8NSObjectC", "navigationBar"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "numberOfRows"]
+- ["So8NSObjectC", "numberOfSections"]
+- !private ["So8NSObjectC", "queryChanged"]
+- !private ["So8NSObjectC", "removeImageView"]
+- ["So8NSObjectC", "resetButton"]
+- ["So8NSObjectC", "resetButtonClicked"]
+- !private ["So8NSObjectC", "rightBarButtonItem"]
+- !private ["So8NSObjectC", "scrollToRow"]
+- ["So8NSObjectC", "sectionHeaderTitleArray"]
+- ["So8NSObjectC", "selectRowsInSection"]
+- ["So8NSObjectC", "selectedCategoriesIndexes"]
+- ["So8NSObjectC", "selectedDistanceIndex"]
+- ["So8NSObjectC", "selectedsortedByIndex"]
+- !private ["So8NSObjectC", "setSelected"]
+- ["So8NSObjectC", "sortedByArray"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textAlignment"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "topItem"]
+- ["So8NSObjectC", "unselectRowsInSection"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidAppear"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- !private ["So8NSObjectP", "BrowseCollectionViewController"]
+- !private ["So8NSObjectP", "BrowseSettingsTableViewController"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "Constants"]
+- !private ["So8NSObjectP", "IndexPath"]
+- ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "NSIndexPath"]
+- !private ["So8NSObjectP", "UIBarButtonItem"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UILabel"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addImageView"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "cellForRow"]
+- !private ["So8NSObjectP", "copyOfSelectedCategory"]
+- !private ["So8NSObjectP", "copyOfSelectedDistance"]
+- !private ["So8NSObjectP", "copySortedByIndex"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intializeCategoryArray"]
+- !private ["So8NSObjectP", "isSelected"]
+- !private ["So8NSObjectP", "isTranslucent"]
+- !private ["So8NSObjectP", "navigationBar"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "navigationItem"]
+- !private ["So8NSObjectP", "numberOfRows"]
+- !private ["So8NSObjectP", "queryChanged"]
+- !private ["So8NSObjectP", "removeImageView"]
+- !private ["So8NSObjectP", "resetButtonClicked"]
+- !private ["So8NSObjectP", "rightBarButtonItem"]
+- !private ["So8NSObjectP", "scrollToRow"]
+- !private ["So8NSObjectP", "sectionHeaderTitleArray"]
+- !private ["So8NSObjectP", "selectedCategoriesIndexes"]
+- !private ["So8NSObjectP", "selectedDistanceIndex"]
+- !private ["So8NSObjectP", "selectedsortedByIndex"]
+- !private ["So8NSObjectP", "setSelected"]
+- !private ["So8NSObjectP", "tableView"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textAlignment"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "tintColor"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "topItem"]
+- !private ["So8NSObjectP", "unselectRowsInSection"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "viewWillAppear"]
+- !private ["So8NSObjectP", "viewWillDisappear"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So15NSTextAlignmentV", "right"]
+- ["Sj", "init"]
+- !private ["Sq", "cellForRow"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "scrollToRow"]
+- ["Sk", "init"]
+- !private ["Sk", "row"]
+- !private ["Sk", "section"]
+- !private ["Sk", "subscript"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "bottom"]
+- !private ["SY", "done"]
+- !private ["SY", "right"]
+- !private ["SY", "top"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["10Foundation20ReferenceConvertibleP", "section"]
+- !private ["So25UITableViewScrollPositionV", "bottom"]
+- !private ["So25UITableViewScrollPositionV", "top"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "row"]
+- !private ["ST", "section"]
+- !private ["ST", "subscript"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["So20UIBarButtonItemStyleV", "done"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "cellForRow"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "isTranslucent"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfRows"]
+- !private ["So29UIAccessibilityIdentificationP", "removeImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "scrollToRow"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "topItem"]
+- !private ["So12UIAppearanceP", "addImageView"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "cellForRow"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isSelected"]
+- !private ["So12UIAppearanceP", "isTranslucent"]
+- !private ["So12UIAppearanceP", "numberOfRows"]
+- !private ["So12UIAppearanceP", "removeImageView"]
+- !private ["So12UIAppearanceP", "scrollToRow"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textAlignment"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So12UIAppearanceP", "topItem"]
+- !private ["So21UIAppearanceContainerP", "BrowseCollectionViewController"]
+- !private ["So21UIAppearanceContainerP", "BrowseSettingsTableViewController"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "Constants"]
+- !private ["So21UIAppearanceContainerP", "IndexPath"]
+- ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "NSIndexPath"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UILabel"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addImageView"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "cellForRow"]
+- !private ["So21UIAppearanceContainerP", "copyOfSelectedCategory"]
+- !private ["So21UIAppearanceContainerP", "copyOfSelectedDistance"]
+- !private ["So21UIAppearanceContainerP", "copySortedByIndex"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "intializeCategoryArray"]
+- !private ["So21UIAppearanceContainerP", "isSelected"]
+- !private ["So21UIAppearanceContainerP", "isTranslucent"]
+- !private ["So21UIAppearanceContainerP", "navigationBar"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "numberOfRows"]
+- !private ["So21UIAppearanceContainerP", "queryChanged"]
+- !private ["So21UIAppearanceContainerP", "removeImageView"]
+- !private ["So21UIAppearanceContainerP", "resetButtonClicked"]
+- !private ["So21UIAppearanceContainerP", "scrollToRow"]
+- !private ["So21UIAppearanceContainerP", "sectionHeaderTitleArray"]
+- !private ["So21UIAppearanceContainerP", "selectedCategoriesIndexes"]
+- !private ["So21UIAppearanceContainerP", "selectedDistanceIndex"]
+- !private ["So21UIAppearanceContainerP", "selectedsortedByIndex"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textAlignment"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "topItem"]
+- !private ["So21UIAppearanceContainerP", "unselectRowsInSection"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- !private ["So15UIBarButtonItemC", "init"]
+- !private ["So15UIBarButtonItemC", "tintColor"]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So9UIBarItemC", "tintColor"]
+- !private ["So16UIBarPositioningP", "isTranslucent"]
+- !private ["So16UIBarPositioningP", "topItem"]
+- !private ["So24UIBarPositioningDelegateP", "queryChanged"]
+- !private ["So26UICollectionViewControllerC", "queryChanged"]
+- !private ["So26UICollectionViewDataSourceP", "queryChanged"]
+- !private ["So24UICollectionViewDelegateP", "queryChanged"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "queryChanged"]
+- !private ["So7UIColorC", "black"]
+- !private ["So18UIContentContainerP", "BrowseCollectionViewController"]
+- !private ["So18UIContentContainerP", "BrowseSettingsTableViewController"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "Constants"]
+- !private ["So18UIContentContainerP", "IndexPath"]
+- ["So18UIContentContainerP", "Int"]
+- !private ["So18UIContentContainerP", "NSIndexPath"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UILabel"]
+- !private ["So18UIContentContainerP", "UIView"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "copyOfSelectedCategory"]
+- !private ["So18UIContentContainerP", "copyOfSelectedDistance"]
+- !private ["So18UIContentContainerP", "copySortedByIndex"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "intializeCategoryArray"]
+- !private ["So18UIContentContainerP", "navigationBar"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "queryChanged"]
+- !private ["So18UIContentContainerP", "resetButtonClicked"]
+- !private ["So18UIContentContainerP", "sectionHeaderTitleArray"]
+- !private ["So18UIContentContainerP", "selectedCategoriesIndexes"]
+- !private ["So18UIContentContainerP", "selectedDistanceIndex"]
+- !private ["So18UIContentContainerP", "selectedsortedByIndex"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "unselectRowsInSection"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "addImageView"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "cellForRow"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isSelected"]
+- !private ["So17UICoordinateSpaceP", "isTranslucent"]
+- !private ["So17UICoordinateSpaceP", "numberOfRows"]
+- !private ["So17UICoordinateSpaceP", "removeImageView"]
+- !private ["So17UICoordinateSpaceP", "scrollToRow"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textAlignment"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "topItem"]
+- !private ["So23UIDataSourceTranslatingP", "cellForRow"]
+- !private ["So23UIDataSourceTranslatingP", "numberOfRows"]
+- !private ["So23UIDataSourceTranslatingP", "scrollToRow"]
+- !private ["So13UIDynamicItemP", "addImageView"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "cellForRow"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isSelected"]
+- !private ["So13UIDynamicItemP", "isTranslucent"]
+- !private ["So13UIDynamicItemP", "numberOfRows"]
+- !private ["So13UIDynamicItemP", "removeImageView"]
+- !private ["So13UIDynamicItemP", "scrollToRow"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textAlignment"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "topItem"]
+- !private ["So18UIFocusEnvironmentP", "BrowseCollectionViewController"]
+- !private ["So18UIFocusEnvironmentP", "BrowseSettingsTableViewController"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "Constants"]
+- !private ["So18UIFocusEnvironmentP", "IndexPath"]
+- ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "NSIndexPath"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UILabel"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addImageView"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "cellForRow"]
+- !private ["So18UIFocusEnvironmentP", "copyOfSelectedCategory"]
+- !private ["So18UIFocusEnvironmentP", "copyOfSelectedDistance"]
+- !private ["So18UIFocusEnvironmentP", "copySortedByIndex"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "intializeCategoryArray"]
+- !private ["So18UIFocusEnvironmentP", "isSelected"]
+- !private ["So18UIFocusEnvironmentP", "isTranslucent"]
+- !private ["So18UIFocusEnvironmentP", "navigationBar"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "numberOfRows"]
+- !private ["So18UIFocusEnvironmentP", "queryChanged"]
+- !private ["So18UIFocusEnvironmentP", "removeImageView"]
+- !private ["So18UIFocusEnvironmentP", "resetButtonClicked"]
+- !private ["So18UIFocusEnvironmentP", "scrollToRow"]
+- !private ["So18UIFocusEnvironmentP", "sectionHeaderTitleArray"]
+- !private ["So18UIFocusEnvironmentP", "selectedCategoriesIndexes"]
+- !private ["So18UIFocusEnvironmentP", "selectedDistanceIndex"]
+- !private ["So18UIFocusEnvironmentP", "selectedsortedByIndex"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textAlignment"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "topItem"]
+- !private ["So18UIFocusEnvironmentP", "unselectRowsInSection"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- !private ["So11UIFocusItemP", "addImageView"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "cellForRow"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isSelected"]
+- !private ["So11UIFocusItemP", "isTranslucent"]
+- !private ["So11UIFocusItemP", "numberOfRows"]
+- !private ["So11UIFocusItemP", "removeImageView"]
+- !private ["So11UIFocusItemP", "scrollToRow"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textAlignment"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "topItem"]
+- !private ["So20UIFocusItemContainerP", "addImageView"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "cellForRow"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isSelected"]
+- !private ["So20UIFocusItemContainerP", "isTranslucent"]
+- !private ["So20UIFocusItemContainerP", "numberOfRows"]
+- !private ["So20UIFocusItemContainerP", "removeImageView"]
+- !private ["So20UIFocusItemContainerP", "scrollToRow"]
+- !private ["So20UIFocusItemContainerP", "setSelected"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textAlignment"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "topItem"]
+- !private ["So30UIFocusItemScrollableContainerP", "cellForRow"]
+- !private ["So30UIFocusItemScrollableContainerP", "numberOfRows"]
+- !private ["So30UIFocusItemScrollableContainerP", "scrollToRow"]
+- !private ["So27UIGestureRecognizerDelegateP", "addImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "isSelected"]
+- !private ["So27UIGestureRecognizerDelegateP", "removeImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textAlignment"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So15UINavigationBarC", "isTranslucent"]
+- !private ["So15UINavigationBarC", "topItem"]
+- !private ["So22UINavigationControllerC", "navigationBar"]
+- !private ["So16UINavigationItemC", "rightBarButtonItem"]
+- !private ["So16UINavigationItemC", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "BrowseCollectionViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "BrowseSettingsTableViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "Constants"]
+- !private ["So30UIPasteConfigurationSupportingP", "IndexPath"]
+- ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSIndexPath"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "cellForRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "copyOfSelectedCategory"]
+- !private ["So30UIPasteConfigurationSupportingP", "copyOfSelectedDistance"]
+- !private ["So30UIPasteConfigurationSupportingP", "copySortedByIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "intializeCategoryArray"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "isTranslucent"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "queryChanged"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "resetButtonClicked"]
+- !private ["So30UIPasteConfigurationSupportingP", "scrollToRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "sectionHeaderTitleArray"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedCategoriesIndexes"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedDistanceIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedsortedByIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "topItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "unselectRowsInSection"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- ["So11UIResponderC", "Array"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "BrowseCollectionViewController"]
+- !private ["So11UIResponderC", "BrowseSettingsTableViewCell"]
+- !private ["So11UIResponderC", "BrowseSettingsTableViewController"]
+- !private ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "Constants"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "NSIndexPath"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addImageView"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "applyButton"]
+- ["So11UIResponderC", "categoriesArray"]
+- !private ["So11UIResponderC", "cellForRow"]
+- ["So11UIResponderC", "copyOfSelectedCategory"]
+- ["So11UIResponderC", "copyOfSelectedDistance"]
+- ["So11UIResponderC", "copySortedByIndex"]
+- ["So11UIResponderC", "distanceArray"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "intializeCategoryArray"]
+- !private ["So11UIResponderC", "isSelected"]
+- !private ["So11UIResponderC", "isTranslucent"]
+- !private ["So11UIResponderC", "navigationBar"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "numberOfRows"]
+- ["So11UIResponderC", "numberOfSections"]
+- !private ["So11UIResponderC", "queryChanged"]
+- !private ["So11UIResponderC", "removeImageView"]
+- ["So11UIResponderC", "resetButton"]
+- ["So11UIResponderC", "resetButtonClicked"]
+- !private ["So11UIResponderC", "scrollToRow"]
+- ["So11UIResponderC", "sectionHeaderTitleArray"]
+- ["So11UIResponderC", "selectRowsInSection"]
+- ["So11UIResponderC", "selectedCategoriesIndexes"]
+- ["So11UIResponderC", "selectedDistanceIndex"]
+- ["So11UIResponderC", "selectedsortedByIndex"]
+- !private ["So11UIResponderC", "setSelected"]
+- ["So11UIResponderC", "sortedByArray"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textAlignment"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "topItem"]
+- ["So11UIResponderC", "unselectRowsInSection"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidAppear"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- !private ["So30UIResponderStandardEditActionsP", "BrowseCollectionViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "BrowseSettingsTableViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "Constants"]
+- !private ["So30UIResponderStandardEditActionsP", "IndexPath"]
+- ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "NSIndexPath"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UILabel"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "cellForRow"]
+- !private ["So30UIResponderStandardEditActionsP", "copyOfSelectedCategory"]
+- !private ["So30UIResponderStandardEditActionsP", "copyOfSelectedDistance"]
+- !private ["So30UIResponderStandardEditActionsP", "copySortedByIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "intializeCategoryArray"]
+- !private ["So30UIResponderStandardEditActionsP", "isSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "isTranslucent"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfRows"]
+- !private ["So30UIResponderStandardEditActionsP", "queryChanged"]
+- !private ["So30UIResponderStandardEditActionsP", "removeImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "resetButtonClicked"]
+- !private ["So30UIResponderStandardEditActionsP", "scrollToRow"]
+- !private ["So30UIResponderStandardEditActionsP", "sectionHeaderTitleArray"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedCategoriesIndexes"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedDistanceIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedsortedByIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textAlignment"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "topItem"]
+- !private ["So30UIResponderStandardEditActionsP", "unselectRowsInSection"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- !private ["So12UIScrollViewC", "cellForRow"]
+- !private ["So12UIScrollViewC", "numberOfRows"]
+- !private ["So12UIScrollViewC", "scrollToRow"]
+- !private ["So20UIScrollViewDelegateP", "BrowseCollectionViewController"]
+- !private ["So20UIScrollViewDelegateP", "BrowseSettingsTableViewController"]
+- !private ["So20UIScrollViewDelegateP", "CGRect"]
+- !private ["So20UIScrollViewDelegateP", "Constants"]
+- !private ["So20UIScrollViewDelegateP", "IndexPath"]
+- ["So20UIScrollViewDelegateP", "Int"]
+- !private ["So20UIScrollViewDelegateP", "NSIndexPath"]
+- !private ["So20UIScrollViewDelegateP", "UIBarButtonItem"]
+- !private ["So20UIScrollViewDelegateP", "UIColor"]
+- !private ["So20UIScrollViewDelegateP", "UILabel"]
+- !private ["So20UIScrollViewDelegateP", "UIView"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "copyOfSelectedCategory"]
+- !private ["So20UIScrollViewDelegateP", "copyOfSelectedDistance"]
+- !private ["So20UIScrollViewDelegateP", "copySortedByIndex"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "intializeCategoryArray"]
+- !private ["So20UIScrollViewDelegateP", "navigationController"]
+- !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "queryChanged"]
+- !private ["So20UIScrollViewDelegateP", "resetButtonClicked"]
+- !private ["So20UIScrollViewDelegateP", "sectionHeaderTitleArray"]
+- !private ["So20UIScrollViewDelegateP", "selectedCategoriesIndexes"]
+- !private ["So20UIScrollViewDelegateP", "selectedDistanceIndex"]
+- !private ["So20UIScrollViewDelegateP", "selectedsortedByIndex"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "title"]
+- !private ["So20UIScrollViewDelegateP", "unselectRowsInSection"]
+- !private ["So20UIScrollViewDelegateP", "view"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "viewWillAppear"]
+- !private ["So20UIScrollViewDelegateP", "viewWillDisappear"]
+- !private ["So19UISearchBarDelegateP", "queryChanged"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "cellForRow"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "numberOfRows"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "scrollToRow"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
+- !private ["So16UIStateRestoringP", "BrowseCollectionViewController"]
+- !private ["So16UIStateRestoringP", "BrowseSettingsTableViewController"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "Constants"]
+- !private ["So16UIStateRestoringP", "IndexPath"]
+- ["So16UIStateRestoringP", "Int"]
+- !private ["So16UIStateRestoringP", "NSIndexPath"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UILabel"]
+- !private ["So16UIStateRestoringP", "UIView"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "copyOfSelectedCategory"]
+- !private ["So16UIStateRestoringP", "copyOfSelectedDistance"]
+- !private ["So16UIStateRestoringP", "copySortedByIndex"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "intializeCategoryArray"]
+- !private ["So16UIStateRestoringP", "navigationBar"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "queryChanged"]
+- !private ["So16UIStateRestoringP", "resetButtonClicked"]
+- !private ["So16UIStateRestoringP", "sectionHeaderTitleArray"]
+- !private ["So16UIStateRestoringP", "selectedCategoriesIndexes"]
+- !private ["So16UIStateRestoringP", "selectedDistanceIndex"]
+- !private ["So16UIStateRestoringP", "selectedsortedByIndex"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "unselectRowsInSection"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So16UIStateRestoringP", "viewWillDisappear"]
+- !private ["So26UITabBarControllerDelegateP", "queryChanged"]
+- !private ["So11UITableViewC", "cellForRow"]
+- !private ["So11UITableViewC", "numberOfRows"]
+- !private ["So11UITableViewC", "scrollToRow"]
+- !private ["So15UITableViewCellC", "addImageView"]
+- !private ["So15UITableViewCellC", "isSelected"]
+- !private ["So15UITableViewCellC", "removeImageView"]
+- !private ["So15UITableViewCellC", "setSelected"]
+- ["So21UITableViewControllerC", "Array"]
+- ["So21UITableViewControllerC", "Bool"]
+- !private ["So21UITableViewControllerC", "BrowseCollectionViewController"]
+- !private ["So21UITableViewControllerC", "BrowseSettingsTableViewCell"]
+- !private ["So21UITableViewControllerC", "BrowseSettingsTableViewController"]
+- !private ["So21UITableViewControllerC", "CGRect"]
+- !private ["So21UITableViewControllerC", "Constants"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- !private ["So21UITableViewControllerC", "NSIndexPath"]
+- ["So21UITableViewControllerC", "String"]
+- !private ["So21UITableViewControllerC", "UIBarButtonItem"]
+- ["So21UITableViewControllerC", "UIButton"]
+- !private ["So21UITableViewControllerC", "UIColor"]
+- !private ["So21UITableViewControllerC", "UILabel"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UIView"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewControllerC", "applyButton"]
+- ["So21UITableViewControllerC", "categoriesArray"]
+- ["So21UITableViewControllerC", "copyOfSelectedCategory"]
+- ["So21UITableViewControllerC", "copyOfSelectedDistance"]
+- ["So21UITableViewControllerC", "copySortedByIndex"]
+- ["So21UITableViewControllerC", "distanceArray"]
+- ["So21UITableViewControllerC", "init"]
+- !private ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "intializeCategoryArray"]
+- !private ["So21UITableViewControllerC", "navigationController"]
+- !private ["So21UITableViewControllerC", "navigationItem"]
+- ["So21UITableViewControllerC", "numberOfSections"]
+- ["So21UITableViewControllerC", "resetButton"]
+- ["So21UITableViewControllerC", "resetButtonClicked"]
+- ["So21UITableViewControllerC", "sectionHeaderTitleArray"]
+- ["So21UITableViewControllerC", "selectRowsInSection"]
+- ["So21UITableViewControllerC", "selectedCategoriesIndexes"]
+- ["So21UITableViewControllerC", "selectedDistanceIndex"]
+- ["So21UITableViewControllerC", "selectedsortedByIndex"]
+- ["So21UITableViewControllerC", "sortedByArray"]
+- ["So21UITableViewControllerC", "tableView"]
+- !private ["So21UITableViewControllerC", "title"]
+- ["So21UITableViewControllerC", "unselectRowsInSection"]
+- !private ["So21UITableViewControllerC", "view"]
+- ["So21UITableViewControllerC", "viewDidAppear"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", "viewWillAppear"]
+- ["So21UITableViewControllerC", "viewWillDisappear"]
+- !private ["So21UITableViewDataSourceP", "BrowseCollectionViewController"]
+- !private ["So21UITableViewDataSourceP", "BrowseSettingsTableViewController"]
+- !private ["So21UITableViewDataSourceP", "CGRect"]
+- !private ["So21UITableViewDataSourceP", "Constants"]
+- !private ["So21UITableViewDataSourceP", "IndexPath"]
+- ["So21UITableViewDataSourceP", "Int"]
+- !private ["So21UITableViewDataSourceP", "NSIndexPath"]
+- !private ["So21UITableViewDataSourceP", "UIBarButtonItem"]
+- !private ["So21UITableViewDataSourceP", "UIColor"]
+- !private ["So21UITableViewDataSourceP", "UILabel"]
+- !private ["So21UITableViewDataSourceP", "UIView"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "copyOfSelectedCategory"]
+- !private ["So21UITableViewDataSourceP", "copyOfSelectedDistance"]
+- !private ["So21UITableViewDataSourceP", "copySortedByIndex"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "intializeCategoryArray"]
+- !private ["So21UITableViewDataSourceP", "navigationController"]
+- !private ["So21UITableViewDataSourceP", "navigationItem"]
+- !private ["So21UITableViewDataSourceP", "resetButtonClicked"]
+- !private ["So21UITableViewDataSourceP", "sectionHeaderTitleArray"]
+- !private ["So21UITableViewDataSourceP", "selectedCategoriesIndexes"]
+- !private ["So21UITableViewDataSourceP", "selectedDistanceIndex"]
+- !private ["So21UITableViewDataSourceP", "selectedsortedByIndex"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "title"]
+- !private ["So21UITableViewDataSourceP", "unselectRowsInSection"]
+- !private ["So21UITableViewDataSourceP", "view"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- !private ["So21UITableViewDataSourceP", "viewWillAppear"]
+- !private ["So21UITableViewDataSourceP", "viewWillDisappear"]
+- !private ["So19UITableViewDelegateP", "BrowseCollectionViewController"]
+- !private ["So19UITableViewDelegateP", "BrowseSettingsTableViewController"]
+- !private ["So19UITableViewDelegateP", "CGRect"]
+- !private ["So19UITableViewDelegateP", "Constants"]
+- !private ["So19UITableViewDelegateP", "IndexPath"]
+- ["So19UITableViewDelegateP", "Int"]
+- !private ["So19UITableViewDelegateP", "NSIndexPath"]
+- !private ["So19UITableViewDelegateP", "UIBarButtonItem"]
+- !private ["So19UITableViewDelegateP", "UIColor"]
+- !private ["So19UITableViewDelegateP", "UILabel"]
+- !private ["So19UITableViewDelegateP", "UIView"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So19UITableViewDelegateP", "copyOfSelectedCategory"]
+- !private ["So19UITableViewDelegateP", "copyOfSelectedDistance"]
+- !private ["So19UITableViewDelegateP", "copySortedByIndex"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "intializeCategoryArray"]
+- !private ["So19UITableViewDelegateP", "navigationController"]
+- !private ["So19UITableViewDelegateP", "navigationItem"]
+- !private ["So19UITableViewDelegateP", "resetButtonClicked"]
+- !private ["So19UITableViewDelegateP", "sectionHeaderTitleArray"]
+- !private ["So19UITableViewDelegateP", "selectedCategoriesIndexes"]
+- !private ["So19UITableViewDelegateP", "selectedDistanceIndex"]
+- !private ["So19UITableViewDelegateP", "selectedsortedByIndex"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "title"]
+- !private ["So19UITableViewDelegateP", "unselectRowsInSection"]
+- !private ["So19UITableViewDelegateP", "view"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- !private ["So19UITableViewDelegateP", "viewWillAppear"]
+- !private ["So19UITableViewDelegateP", "viewWillDisappear"]
+- !private ["So18UITraitEnvironmentP", "BrowseCollectionViewController"]
+- !private ["So18UITraitEnvironmentP", "BrowseSettingsTableViewController"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "Constants"]
+- !private ["So18UITraitEnvironmentP", "IndexPath"]
+- ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "NSIndexPath"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UILabel"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addImageView"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "cellForRow"]
+- !private ["So18UITraitEnvironmentP", "copyOfSelectedCategory"]
+- !private ["So18UITraitEnvironmentP", "copyOfSelectedDistance"]
+- !private ["So18UITraitEnvironmentP", "copySortedByIndex"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "intializeCategoryArray"]
+- !private ["So18UITraitEnvironmentP", "isSelected"]
+- !private ["So18UITraitEnvironmentP", "isTranslucent"]
+- !private ["So18UITraitEnvironmentP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "numberOfRows"]
+- !private ["So18UITraitEnvironmentP", "queryChanged"]
+- !private ["So18UITraitEnvironmentP", "removeImageView"]
+- !private ["So18UITraitEnvironmentP", "resetButtonClicked"]
+- !private ["So18UITraitEnvironmentP", "scrollToRow"]
+- !private ["So18UITraitEnvironmentP", "sectionHeaderTitleArray"]
+- !private ["So18UITraitEnvironmentP", "selectedCategoriesIndexes"]
+- !private ["So18UITraitEnvironmentP", "selectedDistanceIndex"]
+- !private ["So18UITraitEnvironmentP", "selectedsortedByIndex"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textAlignment"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "topItem"]
+- !private ["So18UITraitEnvironmentP", "unselectRowsInSection"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- !private ["So23UIUserActivityRestoringP", "BrowseCollectionViewController"]
+- !private ["So23UIUserActivityRestoringP", "BrowseSettingsTableViewController"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "Constants"]
+- !private ["So23UIUserActivityRestoringP", "IndexPath"]
+- ["So23UIUserActivityRestoringP", "Int"]
+- !private ["So23UIUserActivityRestoringP", "NSIndexPath"]
+- !private ["So23UIUserActivityRestoringP", "UIBarButtonItem"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- !private ["So23UIUserActivityRestoringP", "UILabel"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addImageView"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "cellForRow"]
+- !private ["So23UIUserActivityRestoringP", "copyOfSelectedCategory"]
+- !private ["So23UIUserActivityRestoringP", "copyOfSelectedDistance"]
+- !private ["So23UIUserActivityRestoringP", "copySortedByIndex"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "intializeCategoryArray"]
+- !private ["So23UIUserActivityRestoringP", "isSelected"]
+- !private ["So23UIUserActivityRestoringP", "isTranslucent"]
+- !private ["So23UIUserActivityRestoringP", "navigationBar"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- !private ["So23UIUserActivityRestoringP", "numberOfRows"]
+- !private ["So23UIUserActivityRestoringP", "queryChanged"]
+- !private ["So23UIUserActivityRestoringP", "removeImageView"]
+- !private ["So23UIUserActivityRestoringP", "resetButtonClicked"]
+- !private ["So23UIUserActivityRestoringP", "scrollToRow"]
+- !private ["So23UIUserActivityRestoringP", "sectionHeaderTitleArray"]
+- !private ["So23UIUserActivityRestoringP", "selectedCategoriesIndexes"]
+- !private ["So23UIUserActivityRestoringP", "selectedDistanceIndex"]
+- !private ["So23UIUserActivityRestoringP", "selectedsortedByIndex"]
+- !private ["So23UIUserActivityRestoringP", "setSelected"]
+- !private ["So23UIUserActivityRestoringP", "tableView"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textAlignment"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- !private ["So23UIUserActivityRestoringP", "topItem"]
+- !private ["So23UIUserActivityRestoringP", "unselectRowsInSection"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "viewWillDisappear"]
+- !private ["So6UIViewC", "addImageView"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "cellForRow"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isSelected"]
+- !private ["So6UIViewC", "isTranslucent"]
+- !private ["So6UIViewC", "numberOfRows"]
+- !private ["So6UIViewC", "removeImageView"]
+- !private ["So6UIViewC", "scrollToRow"]
+- !private ["So6UIViewC", "setSelected"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textAlignment"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So6UIViewC", "topItem"]
+- ["So16UIViewControllerC", "Array"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "BrowseCollectionViewController"]
+- !private ["So16UIViewControllerC", "BrowseSettingsTableViewCell"]
+- !private ["So16UIViewControllerC", "BrowseSettingsTableViewController"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- !private ["So16UIViewControllerC", "Constants"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "NSIndexPath"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "applyButton"]
+- ["So16UIViewControllerC", "categoriesArray"]
+- ["So16UIViewControllerC", "copyOfSelectedCategory"]
+- ["So16UIViewControllerC", "copyOfSelectedDistance"]
+- ["So16UIViewControllerC", "copySortedByIndex"]
+- ["So16UIViewControllerC", "distanceArray"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "intializeCategoryArray"]
+- !private ["So16UIViewControllerC", "navigationBar"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "numberOfSections"]
+- !private ["So16UIViewControllerC", "queryChanged"]
+- ["So16UIViewControllerC", "resetButton"]
+- ["So16UIViewControllerC", "resetButtonClicked"]
+- ["So16UIViewControllerC", "sectionHeaderTitleArray"]
+- ["So16UIViewControllerC", "selectRowsInSection"]
+- ["So16UIViewControllerC", "selectedCategoriesIndexes"]
+- ["So16UIViewControllerC", "selectedDistanceIndex"]
+- ["So16UIViewControllerC", "selectedsortedByIndex"]
+- ["So16UIViewControllerC", "sortedByArray"]
+- ["So16UIViewControllerC", "tableView"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "unselectRowsInSection"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidAppear"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- ["s18_BitwiseOperationsP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cellForRow"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isTranslucent"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberOfRows"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "scrollToRow"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textAlignment"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "topItem"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BrowseCollectionViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BrowseSettingsTableViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSIndexPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellForRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copyOfSelectedCategory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copyOfSelectedDistance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copySortedByIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intializeCategoryArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTranslucent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resetButtonClicked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollToRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sectionHeaderTitleArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedCategoriesIndexes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedDistanceIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedsortedByIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unselectRowsInSection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "cellForRow"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "scrollToRow"]
+- !private ["s21_ObjectiveCBridgeableP", "section"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "12FacebookCore26AppEventParameterValueTypeP"
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- "Sz"
+- !private "Sb"
+- !private "7Chottky30BrowseCollectionViewControllerC"
+- !private "7Chottky27BrowseSettingsTableViewCellC"
+- "7Chottky33BrowseSettingsTableViewControllerC"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "7Chottky9ConstantsC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So11NSIndexPathC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So15NSTextAlignmentV"
+- "Sj"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So25UITableViewScrollPositionV"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- !private "So20UIBarButtonItemStyleV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "So9UIBarItemC"
+- !private "So16UIBarPositioningP"
+- !private "So24UIBarPositioningDelegateP"
+- !private "So26UICollectionViewControllerC"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- !private "So15UINavigationBarC"
+- !private "So22UINavigationControllerC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So19UISearchBarDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So26UITabBarControllerDelegateP"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Modules/ROGoogleTranslate.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Modules/SwiftyCam.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Modules/ESTabBarController_swift.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Modules/PageMenu.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks/FirebaseStorageUI.framework/Headers/FirebaseStorageUI.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Headers/ROGoogleTranslate-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Headers/SwiftyCam-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Headers/ESTabBarController-swift-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAppInstallAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeContentAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdNotificationSource.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks/FirebaseStorageUI.framework/Headers/UIImageView+FirebaseStorage.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/Lottie.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/radibarq/developer/Chottky/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTValueDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire+Private.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFQuery+Private.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FIRCrashLog.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimatedSwitch.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFGeoHash.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FIRCrash.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FirebaseCrash.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTKeypath.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTValueCallback.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTBlockCallback.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTInterpolatorCallback.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimatedControl.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTComposition.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTCacheProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationTransitionController.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAdAssetIDs.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAdAssetIDs.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFBase32Utils.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationView_Compat.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Headers/ROGoogleTranslate-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Headers/SwiftyCam-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Headers/ESTabBarController_swift-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdChoicesView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFCircleQuery.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFGeoHashQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFRegionQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/developer/Chottky/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks/FirebaseStorageUI.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/Google/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "73c207b5b9e9e79366b3d5c037d8ab3a"

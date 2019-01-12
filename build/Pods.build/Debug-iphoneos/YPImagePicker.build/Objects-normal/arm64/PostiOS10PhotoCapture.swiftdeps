@@ -1,0 +1,853 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostiOS10PhotoCapture"
+provides-nominal:
+- "13YPImagePicker21PostiOS10PhotoCaptureC"
+provides-member:
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", ""]
+provides-dynamic-lookup:
+- "block"
+- "configure"
+- "device"
+- "deviceInput"
+- "hasFlash"
+- "isCaptureSessionSetup"
+- "isPreviewSetup"
+- "output"
+- "photoOutput"
+- "previewView"
+- "session"
+- "sessionQueue"
+- "shoot"
+- "tryToggleFlash"
+- "videoLayer"
+depends-top-level:
+- "AVCaptureBracketedStillImageSettings"
+- "AVCaptureDevice"
+- "AVCaptureDeviceInput"
+- "AVCaptureOutput"
+- "AVCapturePhoto"
+- "AVCapturePhotoCaptureDelegate"
+- "AVCapturePhotoOutput"
+- "AVCapturePhotoSettings"
+- "AVCaptureResolvedPhotoSettings"
+- "AVCaptureSession"
+- "AVCaptureVideoPreviewLayer"
+- !private "AVVideoCodecKey"
+- !private "AVVideoCodecType"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CMSampleBuffer"
+- "Data"
+- !private "Dictionary"
+- "DispatchQueue"
+- "Error"
+- "NSObject"
+- "PostiOS10PhotoCapture"
+- "StringLiteralType"
+- "UIView"
+- "Void"
+- "YPFlashMode"
+- "YPPhotoCapture"
+depends-member:
+- !private ["So15AVCaptureDeviceC", "hasFlash"]
+- !private ["So15AVCaptureDeviceC", "isFlashAvailable"]
+- !private ["So20AVCaptureDeviceInputC", "device"]
+- !private ["So14AVCaptureInputC", "device"]
+- !private ["So15AVCaptureOutputC", "availablePhotoCodecTypes"]
+- !private ["So15AVCaptureOutputC", "capturePhoto"]
+- ["So15AVCaptureOutputC", "init"]
+- !private ["So15AVCaptureOutputC", "isHighResolutionCaptureEnabled"]
+- !private ["So15AVCaptureOutputC", "jpegPhotoDataRepresentation"]
+- !private ["So15AVCaptureOutputC", "setPreparedPhotoSettingsArray"]
+- !private ["So15AVCaptureOutputC", "supportedFlashModes"]
+- !private ["So14AVCapturePhotoC", "fileDataRepresentation"]
+- ["So29AVCapturePhotoCaptureDelegateP", "AVCapturePhotoOutput"]
+- !private ["So29AVCapturePhotoCaptureDelegateP", "AVCapturePhotoSettings"]
+- ["So29AVCapturePhotoCaptureDelegateP", "AVCaptureSession"]
+- !private ["So29AVCapturePhotoCaptureDelegateP", "AVVideoCodecKey"]
+- !private ["So29AVCapturePhotoCaptureDelegateP", "AVVideoCodecType"]
+- ["So29AVCapturePhotoCaptureDelegateP", "DispatchQueue"]
+- ["So29AVCapturePhotoCaptureDelegateP", ""]
+- !private ["So29AVCapturePhotoCaptureDelegateP", "block"]
+- ["So29AVCapturePhotoCaptureDelegateP", "capture"]
+- ["So29AVCapturePhotoCaptureDelegateP", "captureOutput"]
+- ["So29AVCapturePhotoCaptureDelegateP", "configure"]
+- ["So29AVCapturePhotoCaptureDelegateP", "currentFlashMode"]
+- ["So29AVCapturePhotoCaptureDelegateP", "device"]
+- ["So29AVCapturePhotoCaptureDelegateP", "deviceInput"]
+- ["So29AVCapturePhotoCaptureDelegateP", "flipCamera"]
+- ["So29AVCapturePhotoCaptureDelegateP", "focus"]
+- ["So29AVCapturePhotoCaptureDelegateP", "hasFlash"]
+- ["So29AVCapturePhotoCaptureDelegateP", "isCaptureSessionSetup"]
+- ["So29AVCapturePhotoCaptureDelegateP", "isPreviewSetup"]
+- !private ["So29AVCapturePhotoCaptureDelegateP", "newSettings"]
+- ["So29AVCapturePhotoCaptureDelegateP", "output"]
+- ["So29AVCapturePhotoCaptureDelegateP", "photoOutput"]
+- ["So29AVCapturePhotoCaptureDelegateP", "previewView"]
+- ["So29AVCapturePhotoCaptureDelegateP", "session"]
+- ["So29AVCapturePhotoCaptureDelegateP", "sessionQueue"]
+- !private ["So29AVCapturePhotoCaptureDelegateP", "setCurrentOrienation"]
+- ["So29AVCapturePhotoCaptureDelegateP", "shoot"]
+- ["So29AVCapturePhotoCaptureDelegateP", "start"]
+- ["So29AVCapturePhotoCaptureDelegateP", "stopCamera"]
+- ["So29AVCapturePhotoCaptureDelegateP", "tryToggleFlash"]
+- ["So29AVCapturePhotoCaptureDelegateP", "videoLayer"]
+- !private ["So20AVCapturePhotoOutputC", "availablePhotoCodecTypes"]
+- !private ["So20AVCapturePhotoOutputC", "capturePhoto"]
+- ["So20AVCapturePhotoOutputC", "init"]
+- !private ["So20AVCapturePhotoOutputC", "isHighResolutionCaptureEnabled"]
+- !private ["So20AVCapturePhotoOutputC", "jpegPhotoDataRepresentation"]
+- !private ["So20AVCapturePhotoOutputC", "setPreparedPhotoSettingsArray"]
+- !private ["So20AVCapturePhotoOutputC", "supportedFlashModes"]
+- !private ["So22AVCapturePhotoSettingsC", "flashMode"]
+- !private ["So22AVCapturePhotoSettingsC", "init"]
+- !private ["So22AVCapturePhotoSettingsC", "isHighResolutionPhotoEnabled"]
+- ["So16AVCaptureSessionC", "init"]
+- !private ["So16AVVideoCodecTypea", "hevc"]
+- !private ["Sa", "contains"]
+- !private ["s13ArrayProtocolP", "contains"]
+- !private ["SK", "contains"]
+- !private ["SK", "hevc"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "AVCapturePhotoOutput"]
+- !private ["s7CVarArgP", "AVCapturePhotoSettings"]
+- ["s7CVarArgP", "AVCaptureSession"]
+- !private ["s7CVarArgP", "AVVideoCodecKey"]
+- !private ["s7CVarArgP", "AVVideoCodecType"]
+- ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "auto"]
+- !private ["s7CVarArgP", "availablePhotoCodecTypes"]
+- !private ["s7CVarArgP", "block"]
+- ["s7CVarArgP", "capture"]
+- ["s7CVarArgP", "captureOutput"]
+- !private ["s7CVarArgP", "capturePhoto"]
+- ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "contains"]
+- ["s7CVarArgP", "currentFlashMode"]
+- ["s7CVarArgP", "device"]
+- ["s7CVarArgP", "deviceInput"]
+- !private ["s7CVarArgP", "fileDataRepresentation"]
+- !private ["s7CVarArgP", "flashMode"]
+- ["s7CVarArgP", "flipCamera"]
+- ["s7CVarArgP", "focus"]
+- ["s7CVarArgP", "hasFlash"]
+- !private ["s7CVarArgP", "hevc"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "isCaptureSessionSetup"]
+- !private ["s7CVarArgP", "isFlashAvailable"]
+- !private ["s7CVarArgP", "isHighResolutionCaptureEnabled"]
+- !private ["s7CVarArgP", "isHighResolutionPhotoEnabled"]
+- ["s7CVarArgP", "isPreviewSetup"]
+- !private ["s7CVarArgP", "jpegPhotoDataRepresentation"]
+- !private ["s7CVarArgP", "newSettings"]
+- !private ["s7CVarArgP", "off"]
+- !private ["s7CVarArgP", "on"]
+- ["s7CVarArgP", "output"]
+- ["s7CVarArgP", "photoOutput"]
+- ["s7CVarArgP", "previewView"]
+- ["s7CVarArgP", "session"]
+- ["s7CVarArgP", "sessionQueue"]
+- !private ["s7CVarArgP", "setCurrentOrienation"]
+- !private ["s7CVarArgP", "setPreparedPhotoSettingsArray"]
+- ["s7CVarArgP", "shoot"]
+- ["s7CVarArgP", "start"]
+- ["s7CVarArgP", "stopCamera"]
+- !private ["s7CVarArgP", "supportedFlashModes"]
+- ["s7CVarArgP", "tryToggleFlash"]
+- ["s7CVarArgP", "videoLayer"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "hevc"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["SL", "hevc"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "AVCapturePhotoOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCapturePhotoSettings"]
+- ["s28CustomDebugStringConvertibleP", "AVCaptureSession"]
+- !private ["s28CustomDebugStringConvertibleP", "AVVideoCodecKey"]
+- !private ["s28CustomDebugStringConvertibleP", "AVVideoCodecType"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "auto"]
+- !private ["s28CustomDebugStringConvertibleP", "availablePhotoCodecTypes"]
+- !private ["s28CustomDebugStringConvertibleP", "block"]
+- ["s28CustomDebugStringConvertibleP", "capture"]
+- ["s28CustomDebugStringConvertibleP", "captureOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "capturePhoto"]
+- ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- ["s28CustomDebugStringConvertibleP", "currentFlashMode"]
+- ["s28CustomDebugStringConvertibleP", "device"]
+- ["s28CustomDebugStringConvertibleP", "deviceInput"]
+- !private ["s28CustomDebugStringConvertibleP", "fileDataRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "flashMode"]
+- ["s28CustomDebugStringConvertibleP", "flipCamera"]
+- ["s28CustomDebugStringConvertibleP", "focus"]
+- ["s28CustomDebugStringConvertibleP", "hasFlash"]
+- !private ["s28CustomDebugStringConvertibleP", "hevc"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isCaptureSessionSetup"]
+- !private ["s28CustomDebugStringConvertibleP", "isFlashAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "isHighResolutionCaptureEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "isHighResolutionPhotoEnabled"]
+- ["s28CustomDebugStringConvertibleP", "isPreviewSetup"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegPhotoDataRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "newSettings"]
+- !private ["s28CustomDebugStringConvertibleP", "off"]
+- !private ["s28CustomDebugStringConvertibleP", "on"]
+- ["s28CustomDebugStringConvertibleP", "output"]
+- ["s28CustomDebugStringConvertibleP", "photoOutput"]
+- ["s28CustomDebugStringConvertibleP", "previewView"]
+- ["s28CustomDebugStringConvertibleP", "session"]
+- ["s28CustomDebugStringConvertibleP", "sessionQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "setCurrentOrienation"]
+- !private ["s28CustomDebugStringConvertibleP", "setPreparedPhotoSettingsArray"]
+- ["s28CustomDebugStringConvertibleP", "shoot"]
+- ["s28CustomDebugStringConvertibleP", "start"]
+- ["s28CustomDebugStringConvertibleP", "stopCamera"]
+- !private ["s28CustomDebugStringConvertibleP", "supportedFlashModes"]
+- ["s28CustomDebugStringConvertibleP", "tryToggleFlash"]
+- ["s28CustomDebugStringConvertibleP", "videoLayer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hevc"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "hevc"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isFlashAvailable"]
+- ["s23CustomStringConvertibleP", "AVCapturePhotoOutput"]
+- !private ["s23CustomStringConvertibleP", "AVCapturePhotoSettings"]
+- ["s23CustomStringConvertibleP", "AVCaptureSession"]
+- !private ["s23CustomStringConvertibleP", "AVVideoCodecKey"]
+- !private ["s23CustomStringConvertibleP", "AVVideoCodecType"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "auto"]
+- !private ["s23CustomStringConvertibleP", "availablePhotoCodecTypes"]
+- !private ["s23CustomStringConvertibleP", "block"]
+- ["s23CustomStringConvertibleP", "capture"]
+- ["s23CustomStringConvertibleP", "captureOutput"]
+- !private ["s23CustomStringConvertibleP", "capturePhoto"]
+- ["s23CustomStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "currentFlashMode"]
+- ["s23CustomStringConvertibleP", "device"]
+- ["s23CustomStringConvertibleP", "deviceInput"]
+- !private ["s23CustomStringConvertibleP", "fileDataRepresentation"]
+- !private ["s23CustomStringConvertibleP", "flashMode"]
+- ["s23CustomStringConvertibleP", "flipCamera"]
+- ["s23CustomStringConvertibleP", "focus"]
+- ["s23CustomStringConvertibleP", "hasFlash"]
+- !private ["s23CustomStringConvertibleP", "hevc"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isCaptureSessionSetup"]
+- !private ["s23CustomStringConvertibleP", "isFlashAvailable"]
+- !private ["s23CustomStringConvertibleP", "isHighResolutionCaptureEnabled"]
+- !private ["s23CustomStringConvertibleP", "isHighResolutionPhotoEnabled"]
+- ["s23CustomStringConvertibleP", "isPreviewSetup"]
+- !private ["s23CustomStringConvertibleP", "jpegPhotoDataRepresentation"]
+- !private ["s23CustomStringConvertibleP", "newSettings"]
+- !private ["s23CustomStringConvertibleP", "off"]
+- !private ["s23CustomStringConvertibleP", "on"]
+- ["s23CustomStringConvertibleP", "output"]
+- ["s23CustomStringConvertibleP", "photoOutput"]
+- ["s23CustomStringConvertibleP", "previewView"]
+- ["s23CustomStringConvertibleP", "session"]
+- ["s23CustomStringConvertibleP", "sessionQueue"]
+- !private ["s23CustomStringConvertibleP", "setCurrentOrienation"]
+- !private ["s23CustomStringConvertibleP", "setPreparedPhotoSettingsArray"]
+- ["s23CustomStringConvertibleP", "shoot"]
+- ["s23CustomStringConvertibleP", "start"]
+- ["s23CustomStringConvertibleP", "stopCamera"]
+- !private ["s23CustomStringConvertibleP", "supportedFlashModes"]
+- ["s23CustomStringConvertibleP", "tryToggleFlash"]
+- ["s23CustomStringConvertibleP", "videoLayer"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "contains"]
+- !private ["Se", "hevc"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "isFlashAvailable"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["8Dispatch0A3QoSV", "background"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "contains"]
+- !private ["SE", "hevc"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "isFlashAvailable"]
+- ["SQ", "AVCapturePhotoOutput"]
+- !private ["SQ", "AVCapturePhotoSettings"]
+- ["SQ", "AVCaptureSession"]
+- !private ["SQ", "AVVideoCodecKey"]
+- !private ["SQ", "AVVideoCodecType"]
+- ["SQ", "DispatchQueue"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "auto"]
+- !private ["SQ", "availablePhotoCodecTypes"]
+- ["SQ", "background"]
+- !private ["SQ", "block"]
+- ["SQ", "capture"]
+- ["SQ", "captureOutput"]
+- !private ["SQ", "capturePhoto"]
+- ["SQ", "configure"]
+- !private ["SQ", "contains"]
+- ["SQ", "currentFlashMode"]
+- ["SQ", "device"]
+- ["SQ", "deviceInput"]
+- !private ["SQ", "fileDataRepresentation"]
+- !private ["SQ", "flashMode"]
+- ["SQ", "flipCamera"]
+- ["SQ", "focus"]
+- ["SQ", "hasFlash"]
+- !private ["SQ", "hevc"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "isCaptureSessionSetup"]
+- !private ["SQ", "isFlashAvailable"]
+- !private ["SQ", "isHighResolutionCaptureEnabled"]
+- !private ["SQ", "isHighResolutionPhotoEnabled"]
+- ["SQ", "isPreviewSetup"]
+- !private ["SQ", "jpegPhotoDataRepresentation"]
+- !private ["SQ", "newSettings"]
+- ["SQ", "off"]
+- ["SQ", "on"]
+- ["SQ", "output"]
+- ["SQ", "photoOutput"]
+- ["SQ", "previewView"]
+- ["SQ", "session"]
+- ["SQ", "sessionQueue"]
+- !private ["SQ", "setCurrentOrienation"]
+- !private ["SQ", "setPreparedPhotoSettingsArray"]
+- ["SQ", "shoot"]
+- ["SQ", "start"]
+- ["SQ", "stopCamera"]
+- !private ["SQ", "supportedFlashModes"]
+- ["SQ", "tryToggleFlash"]
+- ["SQ", "videoLayer"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "auto"]
+- !private ["s27ExpressibleByBooleanLiteralP", "off"]
+- !private ["s27ExpressibleByBooleanLiteralP", "on"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hevc"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "auto"]
+- !private ["s25ExpressibleByFloatLiteralP", "off"]
+- !private ["s25ExpressibleByFloatLiteralP", "on"]
+- !private ["s27ExpressibleByIntegerLiteralP", "auto"]
+- !private ["s27ExpressibleByIntegerLiteralP", "off"]
+- !private ["s27ExpressibleByIntegerLiteralP", "on"]
+- !private ["s23ExpressibleByNilLiteralP", "isFlashAvailable"]
+- !private ["s26ExpressibleByStringLiteralP", "hevc"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hevc"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So18AVCaptureFlashModeV", "auto"]
+- !private ["So18AVCaptureFlashModeV", "off"]
+- !private ["So18AVCaptureFlashModeV", "on"]
+- ["SH", "AVCapturePhotoOutput"]
+- !private ["SH", "AVCapturePhotoSettings"]
+- ["SH", "AVCaptureSession"]
+- !private ["SH", "AVVideoCodecKey"]
+- !private ["SH", "AVVideoCodecType"]
+- ["SH", "DispatchQueue"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "auto"]
+- !private ["SH", "availablePhotoCodecTypes"]
+- !private ["SH", "block"]
+- ["SH", "capture"]
+- ["SH", "captureOutput"]
+- !private ["SH", "capturePhoto"]
+- ["SH", "configure"]
+- !private ["SH", "contains"]
+- ["SH", "currentFlashMode"]
+- ["SH", "device"]
+- ["SH", "deviceInput"]
+- !private ["SH", "fileDataRepresentation"]
+- !private ["SH", "flashMode"]
+- ["SH", "flipCamera"]
+- ["SH", "focus"]
+- ["SH", "hasFlash"]
+- !private ["SH", "hevc"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "isCaptureSessionSetup"]
+- !private ["SH", "isFlashAvailable"]
+- !private ["SH", "isHighResolutionCaptureEnabled"]
+- !private ["SH", "isHighResolutionPhotoEnabled"]
+- ["SH", "isPreviewSetup"]
+- !private ["SH", "jpegPhotoDataRepresentation"]
+- !private ["SH", "newSettings"]
+- ["SH", "off"]
+- ["SH", "on"]
+- ["SH", "output"]
+- ["SH", "photoOutput"]
+- ["SH", "previewView"]
+- ["SH", "session"]
+- ["SH", "sessionQueue"]
+- !private ["SH", "setCurrentOrienation"]
+- !private ["SH", "setPreparedPhotoSettingsArray"]
+- ["SH", "shoot"]
+- ["SH", "start"]
+- ["SH", "stopCamera"]
+- !private ["SH", "supportedFlashModes"]
+- ["SH", "tryToggleFlash"]
+- ["SH", "videoLayer"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hevc"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hevc"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "contains"]
+- !private ["So8NSCodingP", "auto"]
+- !private ["So8NSCodingP", "off"]
+- !private ["So8NSCodingP", "on"]
+- !private ["So9NSCopyingP", "auto"]
+- !private ["So9NSCopyingP", "flashMode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isHighResolutionPhotoEnabled"]
+- !private ["So9NSCopyingP", "off"]
+- !private ["So9NSCopyingP", "on"]
+- !private ["So8NSNumberC", "auto"]
+- !private ["So8NSNumberC", "off"]
+- !private ["So8NSNumberC", "on"]
+- ["So8NSObjectC", "AVCaptureBracketedStillImageSettings"]
+- ["So8NSObjectC", "AVCaptureDevice"]
+- ["So8NSObjectC", "AVCaptureDeviceInput"]
+- ["So8NSObjectC", "AVCaptureOutput"]
+- ["So8NSObjectC", "AVCapturePhoto"]
+- ["So8NSObjectC", "AVCapturePhotoOutput"]
+- ["So8NSObjectC", "AVCapturePhotoSettings"]
+- ["So8NSObjectC", "AVCaptureResolvedPhotoSettings"]
+- ["So8NSObjectC", "AVCaptureSession"]
+- ["So8NSObjectC", "AVCaptureVideoPreviewLayer"]
+- !private ["So8NSObjectC", "AVVideoCodecKey"]
+- !private ["So8NSObjectC", "AVVideoCodecType"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CMSampleBuffer"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "YPFlashMode"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "auto"]
+- !private ["So8NSObjectC", "availablePhotoCodecTypes"]
+- ["So8NSObjectC", "block"]
+- ["So8NSObjectC", "capture"]
+- ["So8NSObjectC", "captureOutput"]
+- !private ["So8NSObjectC", "capturePhoto"]
+- ["So8NSObjectC", "configure"]
+- ["So8NSObjectC", "currentFlashMode"]
+- ["So8NSObjectC", "device"]
+- ["So8NSObjectC", "deviceInput"]
+- !private ["So8NSObjectC", "fileDataRepresentation"]
+- !private ["So8NSObjectC", "flashMode"]
+- ["So8NSObjectC", "flipCamera"]
+- ["So8NSObjectC", "focus"]
+- ["So8NSObjectC", "hasFlash"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isCaptureSessionSetup"]
+- !private ["So8NSObjectC", "isFlashAvailable"]
+- !private ["So8NSObjectC", "isHighResolutionCaptureEnabled"]
+- !private ["So8NSObjectC", "isHighResolutionPhotoEnabled"]
+- ["So8NSObjectC", "isPreviewSetup"]
+- !private ["So8NSObjectC", "jpegPhotoDataRepresentation"]
+- ["So8NSObjectC", "newSettings"]
+- !private ["So8NSObjectC", "off"]
+- !private ["So8NSObjectC", "on"]
+- ["So8NSObjectC", "output"]
+- ["So8NSObjectC", "photoOutput"]
+- ["So8NSObjectC", "previewView"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "sessionQueue"]
+- !private ["So8NSObjectC", "setCurrentOrienation"]
+- !private ["So8NSObjectC", "setPreparedPhotoSettingsArray"]
+- ["So8NSObjectC", "shoot"]
+- ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "stopCamera"]
+- !private ["So8NSObjectC", "supportedFlashModes"]
+- ["So8NSObjectC", "tryToggleFlash"]
+- ["So8NSObjectC", "videoLayer"]
+- ["So8NSObjectP", "AVCapturePhotoOutput"]
+- !private ["So8NSObjectP", "AVCapturePhotoSettings"]
+- ["So8NSObjectP", "AVCaptureSession"]
+- !private ["So8NSObjectP", "AVVideoCodecKey"]
+- !private ["So8NSObjectP", "AVVideoCodecType"]
+- ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "auto"]
+- !private ["So8NSObjectP", "availablePhotoCodecTypes"]
+- !private ["So8NSObjectP", "block"]
+- ["So8NSObjectP", "capture"]
+- ["So8NSObjectP", "captureOutput"]
+- !private ["So8NSObjectP", "capturePhoto"]
+- ["So8NSObjectP", "configure"]
+- ["So8NSObjectP", "currentFlashMode"]
+- ["So8NSObjectP", "device"]
+- ["So8NSObjectP", "deviceInput"]
+- !private ["So8NSObjectP", "fileDataRepresentation"]
+- !private ["So8NSObjectP", "flashMode"]
+- ["So8NSObjectP", "flipCamera"]
+- ["So8NSObjectP", "focus"]
+- ["So8NSObjectP", "hasFlash"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isCaptureSessionSetup"]
+- !private ["So8NSObjectP", "isFlashAvailable"]
+- !private ["So8NSObjectP", "isHighResolutionCaptureEnabled"]
+- !private ["So8NSObjectP", "isHighResolutionPhotoEnabled"]
+- ["So8NSObjectP", "isPreviewSetup"]
+- !private ["So8NSObjectP", "jpegPhotoDataRepresentation"]
+- !private ["So8NSObjectP", "newSettings"]
+- !private ["So8NSObjectP", "off"]
+- !private ["So8NSObjectP", "on"]
+- ["So8NSObjectP", "output"]
+- ["So8NSObjectP", "photoOutput"]
+- ["So8NSObjectP", "previewView"]
+- ["So8NSObjectP", "session"]
+- ["So8NSObjectP", "sessionQueue"]
+- !private ["So8NSObjectP", "setCurrentOrienation"]
+- !private ["So8NSObjectP", "setPreparedPhotoSettingsArray"]
+- ["So8NSObjectP", "shoot"]
+- ["So8NSObjectP", "start"]
+- ["So8NSObjectP", "stopCamera"]
+- !private ["So8NSObjectP", "supportedFlashModes"]
+- ["So8NSObjectP", "tryToggleFlash"]
+- ["So8NSObjectP", "videoLayer"]
+- !private ["So14NSSecureCodingP", "auto"]
+- !private ["So14NSSecureCodingP", "off"]
+- !private ["So14NSSecureCodingP", "on"]
+- !private ["So7NSValueC", "auto"]
+- !private ["So7NSValueC", "off"]
+- !private ["So7NSValueC", "on"]
+- ["So9OS_objectC", "init"]
+- !private ["Sq", "isFlashAvailable"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCaptureBracketedStillImageSettings"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCaptureDevice"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCaptureDeviceInput"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCaptureOutput"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCapturePhoto"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCapturePhotoOutput"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCapturePhotoSettings"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCaptureResolvedPhotoSettings"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCaptureSession"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVCaptureVideoPreviewLayer"]
+- !private ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVVideoCodecKey"]
+- !private ["13YPImagePicker21PostiOS10PhotoCaptureC", "AVVideoCodecType"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "Bool"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "CMSampleBuffer"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "Data"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "DispatchQueue"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "Error"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "UIView"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "Void"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "YPFlashMode"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "block"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "capture"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "captureOutput"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "configure"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "currentFlashMode"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "deinit"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "device"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "deviceInput"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "flipCamera"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "focus"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "hasFlash"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "init"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "isCaptureSessionSetup"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "isPreviewSetup"]
+- !private ["13YPImagePicker21PostiOS10PhotoCaptureC", "newSettings"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "output"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "photoOutput"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "previewView"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "session"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "sessionQueue"]
+- !private ["13YPImagePicker21PostiOS10PhotoCaptureC", "setCurrentOrienation"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "shoot"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "start"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "stopCamera"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "tryToggleFlash"]
+- ["13YPImagePicker21PostiOS10PhotoCaptureC", "videoLayer"]
+- !private ["Sk", "contains"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "hevc"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "auto"]
+- !private ["SY", "hevc"]
+- !private ["SY", "off"]
+- !private ["SY", "on"]
+- !private ["ST", "contains"]
+- !private ["ST", "hevc"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["SS", "hevc"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["Sy", "hevc"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "hevc"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "hevc"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["13YPImagePicker11YPFlashModeO", "auto"]
+- ["13YPImagePicker11YPFlashModeO", "off"]
+- ["13YPImagePicker11YPFlashModeO", "on"]
+- ["13YPImagePicker14YPPhotoCaptureP", "AVCapturePhotoOutput"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVCapturePhotoSettings"]
+- ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureSession"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVVideoCodecKey"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVVideoCodecType"]
+- ["13YPImagePicker14YPPhotoCaptureP", "DispatchQueue"]
+- ["13YPImagePicker14YPPhotoCaptureP", ""]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "block"]
+- ["13YPImagePicker14YPPhotoCaptureP", "capture"]
+- ["13YPImagePicker14YPPhotoCaptureP", "captureOutput"]
+- ["13YPImagePicker14YPPhotoCaptureP", "configure"]
+- ["13YPImagePicker14YPPhotoCaptureP", "currentFlashMode"]
+- ["13YPImagePicker14YPPhotoCaptureP", "device"]
+- ["13YPImagePicker14YPPhotoCaptureP", "deviceInput"]
+- ["13YPImagePicker14YPPhotoCaptureP", "flipCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "focus"]
+- ["13YPImagePicker14YPPhotoCaptureP", "hasFlash"]
+- ["13YPImagePicker14YPPhotoCaptureP", "isCaptureSessionSetup"]
+- ["13YPImagePicker14YPPhotoCaptureP", "isPreviewSetup"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "newSettings"]
+- ["13YPImagePicker14YPPhotoCaptureP", "output"]
+- ["13YPImagePicker14YPPhotoCaptureP", "photoOutput"]
+- ["13YPImagePicker14YPPhotoCaptureP", "previewView"]
+- ["13YPImagePicker14YPPhotoCaptureP", "session"]
+- ["13YPImagePicker14YPPhotoCaptureP", "sessionQueue"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "setCurrentOrienation"]
+- ["13YPImagePicker14YPPhotoCaptureP", "shoot"]
+- ["13YPImagePicker14YPPhotoCaptureP", "start"]
+- ["13YPImagePicker14YPPhotoCaptureP", "stopCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "tryToggleFlash"]
+- ["13YPImagePicker14YPPhotoCaptureP", "videoLayer"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hevc"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hevc"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hevc"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hevc"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hevc"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "auto"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hevc"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "off"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "on"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVCapturePhotoOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCapturePhotoSettings"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVVideoCodecKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVVideoCodecType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auto"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "availablePhotoCodecTypes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "block"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "capture"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "captureOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capturePhoto"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentFlashMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "device"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "deviceInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileDataRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flashMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "flipCamera"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "focus"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "hasFlash"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isCaptureSessionSetup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFlashAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHighResolutionCaptureEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHighResolutionPhotoEnabled"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isPreviewSetup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegPhotoDataRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "newSettings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "off"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "on"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "output"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "photoOutput"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "previewView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setCurrentOrienation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setPreparedPhotoSettingsArray"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shoot"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stopCamera"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "supportedFlashModes"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tryToggleFlash"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "videoLayer"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "hevc"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isFlashAvailable"]
+- !private ["s20_SwiftNewtypeWrapperP", "hevc"]
+- !private ["s16_SwiftStringViewP", "hevc"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So14AVCaptureInputC"
+- "So15AVCaptureOutputC"
+- !private "So14AVCapturePhotoC"
+- "So29AVCapturePhotoCaptureDelegateP"
+- "So20AVCapturePhotoOutputC"
+- !private "So22AVCapturePhotoSettingsC"
+- "So16AVCaptureSessionC"
+- !private "So16AVVideoCodecTypea"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "8Dispatch0A3QoSV"
+- "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So18AVCaptureFlashModeV"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "So9OS_objectC"
+- !private "Sq"
+- "13YPImagePicker21PostiOS10PhotoCaptureC"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "13YPImagePicker11YPFlashModeO"
+- "13YPImagePicker14YPPhotoCaptureP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ce91cbf13adbe8b4b09b6d10379952a8"

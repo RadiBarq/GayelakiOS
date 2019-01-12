@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "06a50020d9dbba7b4157ea2c6853c6cd"
+build_time: [1538517476, 624148000]
+inputs:
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": !dirty [1523532588, 0]
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginButton.swift": !dirty [1523532588, 0]
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": !dirty [1523532588, 0]
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": !dirty [1523532588, 0]
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": !dirty [1523532588, 0]
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": !dirty [1523532588, 0]
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginManager.swift": !dirty [1523532588, 0]
+  "/Volumes/NO NAME/Chottky/Pods/FacebookLogin/Sources/Login/LoginResult.swift": !dirty [1523532588, 0]

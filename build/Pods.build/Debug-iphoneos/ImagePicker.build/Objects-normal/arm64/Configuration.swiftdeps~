@@ -1,0 +1,678 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Configuration"
+provides-nominal:
+- "11ImagePicker13ConfigurationC"
+provides-member:
+- ["11ImagePicker13ConfigurationC", ""]
+- ["11ImagePicker13ConfigurationC", "rotationTransform"]
+provides-dynamic-lookup:
+- "OKButtonTitle"
+- "allowMultiplePhotoSelection"
+- "allowPinchToZoom"
+- "allowVideoSelection"
+- "allowVolumeButtonsToTakePicture"
+- "allowedOrientations"
+- "backgroundColor"
+- "bottomContainerColor"
+- "canRotateCamera"
+- "cancelButtonTitle"
+- "cellSpacing"
+- "collapseCollectionViewWhileShot"
+- "doneButtonTitle"
+- "flashButtonAlwaysHidden"
+- "gallerySeparatorColor"
+- "indicatorHeight"
+- "indicatorView"
+- "indicatorWidth"
+- "mainColor"
+- "managesAudioSession"
+- "noCameraColor"
+- "noCameraTitle"
+- "noImagesColor"
+- "noImagesTitle"
+- "recordLocation"
+- "requestPermissionMessage"
+- "requestPermissionTitle"
+- "rotationTransform"
+- "settingsColor"
+- "settingsTitle"
+- "showsImageCountLabel"
+- "useLowResolutionPreviewImage"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGAffineTransform"
+- "CGFloat"
+- "Configuration"
+- "FloatLiteralType"
+- !private "Helper"
+- "IntegerLiteralType"
+- "NSObject"
+- "StringLiteralType"
+- "UIColor"
+- !private "UIDevice"
+- "UIFont"
+- "UIInterfaceOrientationMask"
+- "UIView"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- ["SB", "bold"]
+- ["SB", "medium"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So7CALayerC", "cornerRadius"]
+- ["So15CALayerDelegateP", "backgroundColor"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13CAMediaTimingP", "cornerRadius"]
+- ["12CoreGraphics7CGFloatV", "bold"]
+- ["12CoreGraphics7CGFloatV", "medium"]
+- !private ["s7CVarArgP", "Helper"]
+- ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIDevice"]
+- ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "UIInterfaceOrientationMask"]
+- ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", "Weight"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "allowedOrientations"]
+- ["s7CVarArgP", "backgroundColor"]
+- ["s7CVarArgP", "black"]
+- ["s7CVarArgP", "bold"]
+- ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "current"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "layer"]
+- ["s7CVarArgP", "medium"]
+- !private ["s7CVarArgP", "orientation"]
+- ["s7CVarArgP", "systemFont"]
+- ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s7CVarArgP", "white"]
+- ["s7CVarArgP", "withAlphaComponent"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "bold"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["SL", "medium"]
+- ["11ImagePicker13ConfigurationC", "CGAffineTransform"]
+- ["11ImagePicker13ConfigurationC", "CGFloat"]
+- !private ["11ImagePicker13ConfigurationC", "Helper"]
+- ["11ImagePicker13ConfigurationC", "OKButtonTitle"]
+- ["11ImagePicker13ConfigurationC", "UIColor"]
+- !private ["11ImagePicker13ConfigurationC", "UIDevice"]
+- ["11ImagePicker13ConfigurationC", "UIFont"]
+- ["11ImagePicker13ConfigurationC", "UIInterfaceOrientationMask"]
+- ["11ImagePicker13ConfigurationC", "UIView"]
+- ["11ImagePicker13ConfigurationC", "allowMultiplePhotoSelection"]
+- ["11ImagePicker13ConfigurationC", "allowPinchToZoom"]
+- ["11ImagePicker13ConfigurationC", "allowVideoSelection"]
+- ["11ImagePicker13ConfigurationC", "allowVolumeButtonsToTakePicture"]
+- ["11ImagePicker13ConfigurationC", "allowedOrientations"]
+- ["11ImagePicker13ConfigurationC", "backgroundColor"]
+- ["11ImagePicker13ConfigurationC", "bottomContainerColor"]
+- ["11ImagePicker13ConfigurationC", "canRotateCamera"]
+- ["11ImagePicker13ConfigurationC", "cancelButtonTitle"]
+- ["11ImagePicker13ConfigurationC", "cellSpacing"]
+- ["11ImagePicker13ConfigurationC", "collapseCollectionViewWhileShot"]
+- ["11ImagePicker13ConfigurationC", "doneButtonTitle"]
+- ["11ImagePicker13ConfigurationC", "flashButtonAlwaysHidden"]
+- ["11ImagePicker13ConfigurationC", "gallerySeparatorColor"]
+- ["11ImagePicker13ConfigurationC", "indicatorHeight"]
+- ["11ImagePicker13ConfigurationC", "indicatorView"]
+- ["11ImagePicker13ConfigurationC", "indicatorWidth"]
+- ["11ImagePicker13ConfigurationC", "init"]
+- ["11ImagePicker13ConfigurationC", "mainColor"]
+- ["11ImagePicker13ConfigurationC", "managesAudioSession"]
+- ["11ImagePicker13ConfigurationC", "noCameraColor"]
+- ["11ImagePicker13ConfigurationC", "noCameraTitle"]
+- ["11ImagePicker13ConfigurationC", "noImagesColor"]
+- ["11ImagePicker13ConfigurationC", "noImagesTitle"]
+- ["11ImagePicker13ConfigurationC", "recordLocation"]
+- ["11ImagePicker13ConfigurationC", "requestPermissionMessage"]
+- ["11ImagePicker13ConfigurationC", "requestPermissionTitle"]
+- ["11ImagePicker13ConfigurationC", "rotationTransform"]
+- ["11ImagePicker13ConfigurationC", "settingsColor"]
+- ["11ImagePicker13ConfigurationC", "settingsTitle"]
+- ["11ImagePicker13ConfigurationC", "showsImageCountLabel"]
+- ["11ImagePicker13ConfigurationC", "useLowResolutionPreviewImage"]
+- !private ["s28CustomDebugStringConvertibleP", "Helper"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "UIInterfaceOrientationMask"]
+- ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", "Weight"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allowedOrientations"]
+- ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "orientation"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "bold"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "medium"]
+- !private ["s23CustomStringConvertibleP", "Helper"]
+- ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIDevice"]
+- ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", "UIInterfaceOrientationMask"]
+- ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", "Weight"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "allowedOrientations"]
+- ["s23CustomStringConvertibleP", "backgroundColor"]
+- ["s23CustomStringConvertibleP", "black"]
+- ["s23CustomStringConvertibleP", "bold"]
+- ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "layer"]
+- ["s23CustomStringConvertibleP", "medium"]
+- !private ["s23CustomStringConvertibleP", "orientation"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "bold"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "medium"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "bold"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "medium"]
+- !private ["SQ", "Helper"]
+- ["SQ", "UIColor"]
+- !private ["SQ", "UIDevice"]
+- ["SQ", "UIFont"]
+- ["SQ", "UIInterfaceOrientationMask"]
+- ["SQ", "UIView"]
+- ["SQ", "Weight"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "all"]
+- !private ["SQ", "allowedOrientations"]
+- ["SQ", "backgroundColor"]
+- ["SQ", "black"]
+- ["SQ", "bold"]
+- !private ["SQ", "contains"]
+- ["SQ", "cornerRadius"]
+- !private ["SQ", "current"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "landscapeLeft"]
+- ["SQ", "landscapeRight"]
+- ["SQ", "layer"]
+- ["SQ", "medium"]
+- !private ["SQ", "orientation"]
+- ["SQ", "portrait"]
+- ["SQ", "portraitUpsideDown"]
+- ["SQ", "systemFont"]
+- ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "unknown"]
+- ["SQ", "white"]
+- ["SQ", "withAlphaComponent"]
+- ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "landscapeLeft"]
+- !private ["s25ExpressibleByArrayLiteralP", "landscapeRight"]
+- !private ["s25ExpressibleByArrayLiteralP", "portrait"]
+- !private ["s25ExpressibleByArrayLiteralP", "portraitUpsideDown"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "bold"]
+- ["s25ExpressibleByFloatLiteralP", "medium"]
+- ["s27ExpressibleByIntegerLiteralP", "bold"]
+- ["s27ExpressibleByIntegerLiteralP", "medium"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SF", "bold"]
+- ["SF", "medium"]
+- !private ["SH", "Helper"]
+- ["SH", "UIColor"]
+- !private ["SH", "UIDevice"]
+- ["SH", "UIFont"]
+- ["SH", "UIInterfaceOrientationMask"]
+- ["SH", "UIView"]
+- ["SH", "Weight"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "allowedOrientations"]
+- ["SH", "backgroundColor"]
+- ["SH", "black"]
+- ["SH", "bold"]
+- ["SH", "cornerRadius"]
+- !private ["SH", "current"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "landscapeLeft"]
+- ["SH", "landscapeRight"]
+- ["SH", "layer"]
+- ["SH", "medium"]
+- !private ["SH", "orientation"]
+- ["SH", "portrait"]
+- ["SH", "portraitUpsideDown"]
+- ["SH", "systemFont"]
+- ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SH", "unknown"]
+- ["SH", "white"]
+- ["SH", "withAlphaComponent"]
+- !private ["11ImagePicker6HelperV", "getTransform"]
+- !private ["11ImagePicker6HelperV", "previousOrientation"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "backgroundColor"]
+- ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "cornerRadius"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSCodingP", "white"]
+- ["So8NSCodingP", "withAlphaComponent"]
+- ["So9NSCopyingP", "Weight"]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", "white"]
+- ["So9NSCopyingP", "withAlphaComponent"]
+- ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderReadingP", "withAlphaComponent"]
+- ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So21NSItemProviderWritingP", "white"]
+- ["So21NSItemProviderWritingP", "withAlphaComponent"]
+- ["So8NSObjectC", "CGAffineTransform"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Helper"]
+- ["So8NSObjectC", "OKButtonTitle"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIDevice"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIInterfaceOrientationMask"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "Weight"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "allowMultiplePhotoSelection"]
+- ["So8NSObjectC", "allowPinchToZoom"]
+- ["So8NSObjectC", "allowVideoSelection"]
+- ["So8NSObjectC", "allowVolumeButtonsToTakePicture"]
+- ["So8NSObjectC", "allowedOrientations"]
+- ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "bottomContainerColor"]
+- ["So8NSObjectC", "canRotateCamera"]
+- ["So8NSObjectC", "cancelButtonTitle"]
+- ["So8NSObjectC", "cellSpacing"]
+- ["So8NSObjectC", "collapseCollectionViewWhileShot"]
+- ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "doneButtonTitle"]
+- ["So8NSObjectC", "flashButtonAlwaysHidden"]
+- ["So8NSObjectC", "gallerySeparatorColor"]
+- ["So8NSObjectC", "indicatorHeight"]
+- ["So8NSObjectC", "indicatorView"]
+- ["So8NSObjectC", "indicatorWidth"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "mainColor"]
+- ["So8NSObjectC", "managesAudioSession"]
+- ["So8NSObjectC", "noCameraColor"]
+- ["So8NSObjectC", "noCameraTitle"]
+- ["So8NSObjectC", "noImagesColor"]
+- ["So8NSObjectC", "noImagesTitle"]
+- !private ["So8NSObjectC", "orientation"]
+- ["So8NSObjectC", "recordLocation"]
+- ["So8NSObjectC", "requestPermissionMessage"]
+- ["So8NSObjectC", "requestPermissionTitle"]
+- ["So8NSObjectC", "rotationTransform"]
+- ["So8NSObjectC", "settingsColor"]
+- ["So8NSObjectC", "settingsTitle"]
+- ["So8NSObjectC", "showsImageCountLabel"]
+- ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSObjectC", "useLowResolutionPreviewImage"]
+- ["So8NSObjectC", "white"]
+- ["So8NSObjectC", "withAlphaComponent"]
+- !private ["So8NSObjectP", "Helper"]
+- ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UIDevice"]
+- ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UIInterfaceOrientationMask"]
+- ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", "Weight"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "allowedOrientations"]
+- ["So8NSObjectP", "backgroundColor"]
+- ["So8NSObjectP", "black"]
+- ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "current"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "orientation"]
+- ["So8NSObjectP", "systemFont"]
+- ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSObjectP", "white"]
+- ["So8NSObjectP", "withAlphaComponent"]
+- ["So14NSSecureCodingP", "black"]
+- ["So14NSSecureCodingP", "cornerRadius"]
+- ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "white"]
+- ["So14NSSecureCodingP", "withAlphaComponent"]
+- ["Sj", "bold"]
+- ["Sj", "medium"]
+- ["s9OptionSetP", "all"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "landscapeLeft"]
+- !private ["s9OptionSetP", "landscapeRight"]
+- !private ["s9OptionSetP", "portrait"]
+- !private ["s9OptionSetP", "portraitUpsideDown"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "all"]
+- !private ["SY", "contains"]
+- ["SY", "landscapeLeft"]
+- ["SY", "landscapeRight"]
+- ["SY", "portrait"]
+- ["SY", "portraitUpsideDown"]
+- !private ["SY", "unknown"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["s10SetAlgebraP", "all"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "landscapeLeft"]
+- !private ["s10SetAlgebraP", "landscapeRight"]
+- !private ["s10SetAlgebraP", "portrait"]
+- !private ["s10SetAlgebraP", "portraitUpsideDown"]
+- ["s13SignedNumericP", "bold"]
+- ["s13SignedNumericP", "medium"]
+- ["Sx", "bold"]
+- ["Sx", "medium"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", "backgroundColor"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21UIAppearanceContainerP", "backgroundColor"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So7UIColorC", "black"]
+- ["So7UIColorC", "init"]
+- ["So7UIColorC", "white"]
+- ["So7UIColorC", "withAlphaComponent"]
+- ["So17UICoordinateSpaceP", "backgroundColor"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "orientation"]
+- ["So19UIDeviceOrientationV", "landscapeLeft"]
+- ["So19UIDeviceOrientationV", "landscapeRight"]
+- ["So19UIDeviceOrientationV", "portrait"]
+- ["So19UIDeviceOrientationV", "portraitUpsideDown"]
+- !private ["So19UIDeviceOrientationV", "unknown"]
+- ["So13UIDynamicItemP", "backgroundColor"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UIFocusEnvironmentP", "backgroundColor"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIFocusItemP", "backgroundColor"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So20UIFocusItemContainerP", "backgroundColor"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "layer"]
+- ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So6UIFontC", "Weight"]
+- ["So6UIFontC", "systemFont"]
+- ["So26UIInterfaceOrientationMaskV", "all"]
+- !private ["So26UIInterfaceOrientationMaskV", "contains"]
+- !private ["So26UIInterfaceOrientationMaskV", "landscapeLeft"]
+- !private ["So26UIInterfaceOrientationMaskV", "landscapeRight"]
+- !private ["So26UIInterfaceOrientationMaskV", "portrait"]
+- !private ["So26UIInterfaceOrientationMaskV", "portraitUpsideDown"]
+- ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UITraitEnvironmentP", "backgroundColor"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So23UIUserActivityRestoringP", "backgroundColor"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "layer"]
+- ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "layer"]
+- ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["s15_CVarArgAlignedP", "bold"]
+- ["s15_CVarArgAlignedP", "medium"]
+- ["s22_CVarArgPassedAsDoubleP", "bold"]
+- ["s22_CVarArgPassedAsDoubleP", "medium"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Helper"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIInterfaceOrientationMask"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Weight"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowedOrientations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orientation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "bold"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "medium"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- "SB"
+- !private "Sb"
+- "So7CALayerC"
+- "So15CALayerDelegateP"
+- "So13CAMediaTimingP"
+- "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "11ImagePicker13ConfigurationC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SF"
+- "SH"
+- !private "11ImagePicker6HelperV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "Sj"
+- "s9OptionSetP"
+- "Sm"
+- "SY"
+- "ST"
+- "s10SetAlgebraP"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- !private "So8UIDeviceC"
+- "So19UIDeviceOrientationV"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So6UIFontC"
+- "So26UIInterfaceOrientationMaskV"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/ImagePicker/ImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/ImagePicker.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7ada382251e73ac38e53093acb23db08"

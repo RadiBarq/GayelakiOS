@@ -1,0 +1,174 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VideoEditing"
+provides-nominal:
+- "7Gallery12VideoEditingP"
+provides-member:
+- ["7Gallery12VideoEditingP", ""]
+- ["7Gallery12VideoEditingP", "process"]
+- ["7Gallery12VideoEditingP", "handle"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AVAsset"
+- "AnyObject"
+- !private "AssignmentPrecedence"
+- !private "Config"
+- !private "Fetcher"
+- !private "PHAssetChangeRequest"
+- !private "PHPhotoLibrary"
+- !private "String"
+- "URL"
+- "Video"
+- "VideoEditing"
+- "Void"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "creationRequestForAssetFromVideo"]
+- !private ["s7CVarArgP", "localIdentifier"]
+- !private ["s7CVarArgP", "performChanges"]
+- !private ["s7CVarArgP", "placeholderForCreatedAsset"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["7Gallery6ConfigV", "VideoEditor"]
+- !private ["s28CustomDebugStringConvertibleP", "creationRequestForAssetFromVideo"]
+- !private ["s28CustomDebugStringConvertibleP", "localIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "performChanges"]
+- !private ["s28CustomDebugStringConvertibleP", "placeholderForCreatedAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "creationRequestForAssetFromVideo"]
+- !private ["s23CustomStringConvertibleP", "localIdentifier"]
+- !private ["s23CustomStringConvertibleP", "performChanges"]
+- !private ["s23CustomStringConvertibleP", "placeholderForCreatedAsset"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "creationRequestForAssetFromVideo"]
+- !private ["SQ", "fetchAVAsset"]
+- !private ["SQ", "init"]
+- !private ["SQ", "localIdentifier"]
+- !private ["SQ", "performChanges"]
+- !private ["SQ", "placeholderForCreatedAsset"]
+- !private ["SQ", "shared"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["7Gallery7FetcherV", "fetchAsset"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "creationRequestForAssetFromVideo"]
+- !private ["SH", "localIdentifier"]
+- !private ["SH", "performChanges"]
+- !private ["SH", "placeholderForCreatedAsset"]
+- !private ["SH", "shared"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So9NSCopyingP", "localIdentifier"]
+- !private ["So8NSObjectC", "creationRequestForAssetFromVideo"]
+- !private ["So8NSObjectC", "localIdentifier"]
+- !private ["So8NSObjectC", "performChanges"]
+- !private ["So8NSObjectC", "placeholderForCreatedAsset"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "creationRequestForAssetFromVideo"]
+- !private ["So8NSObjectP", "localIdentifier"]
+- !private ["So8NSObjectP", "performChanges"]
+- !private ["So8NSObjectP", "placeholderForCreatedAsset"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So20PHAssetChangeRequestC", "creationRequestForAssetFromVideo"]
+- !private ["So20PHAssetChangeRequestC", "placeholderForCreatedAsset"]
+- !private ["So8PHObjectC", "localIdentifier"]
+- !private ["So19PHObjectPlaceholderC", "localIdentifier"]
+- !private ["So14PHPhotoLibraryC", "performChanges"]
+- !private ["So14PHPhotoLibraryC", "shared"]
+- !private ["7Gallery5VideoC", "fetchAVAsset"]
+- !private ["7Gallery5VideoC", "init"]
+- ["7Gallery12VideoEditingP", "AVAsset"]
+- !private ["7Gallery12VideoEditingP", "Config"]
+- !private ["7Gallery12VideoEditingP", "Fetcher"]
+- !private ["7Gallery12VideoEditingP", "PHAssetChangeRequest"]
+- !private ["7Gallery12VideoEditingP", "PHPhotoLibrary"]
+- !private ["7Gallery12VideoEditingP", "String"]
+- ["7Gallery12VideoEditingP", "URL"]
+- ["7Gallery12VideoEditingP", "Video"]
+- ["7Gallery12VideoEditingP", "Void"]
+- ["7Gallery12VideoEditingP", "crop"]
+- ["7Gallery12VideoEditingP", "edit"]
+- ["7Gallery12VideoEditingP", "handle"]
+- ["7Gallery12VideoEditingP", "process"]
+- !private ["7Gallery6ConfigV11VideoEditorV", "savesEditedVideoToLibrary"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creationRequestForAssetFromVideo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performChanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholderForCreatedAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "7Gallery6ConfigV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "7Gallery7FetcherV"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So20PHAssetChangeRequestC"
+- !private "So8PHObjectC"
+- !private "So19PHObjectPlaceholderC"
+- !private "So14PHPhotoLibraryC"
+- !private "7Gallery5VideoC"
+- "7Gallery12VideoEditingP"
+- !private "7Gallery6ConfigV11VideoEditorV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Gallery/Gallery-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Gallery.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "86fc83fe14724fe844b50354bb88c634"

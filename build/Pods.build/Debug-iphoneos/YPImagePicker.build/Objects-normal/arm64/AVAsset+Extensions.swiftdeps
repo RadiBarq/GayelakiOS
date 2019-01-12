@@ -1,0 +1,487 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7AVAssetC", ""]
+- ["So7AVAssetC", "assetByTrimming"]
+- ["So7AVAssetC", "export"]
+provides-dynamic-lookup:
+- "assetByTrimming"
+- "export"
+depends-top-level:
+- "AVAsset"
+- !private "AVAssetExportSession"
+- !private "AVMutableComposition"
+- "AVVideoComposition"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CMTime"
+- !private "CMTimeRangeFromTimeToTime"
+- !private "FileManager"
+- !private "StringLiteralType"
+- "URL"
+- "Void"
+- !private "YPConfig"
+- !private "YPTrimError"
+depends-member:
+- ["So7AVAssetC", "AVAsset"]
+- !private ["So7AVAssetC", "AVAssetExportSession"]
+- !private ["So7AVAssetC", "AVMutableComposition"]
+- ["So7AVAssetC", "AVVideoComposition"]
+- ["So7AVAssetC", "Bool"]
+- ["So7AVAssetC", "CMTime"]
+- !private ["So7AVAssetC", "CMTimeRangeFromTimeToTime"]
+- !private ["So7AVAssetC", "FileManager"]
+- ["So7AVAssetC", "URL"]
+- ["So7AVAssetC", "Void"]
+- !private ["So7AVAssetC", "YPConfig"]
+- !private ["So7AVAssetC", "YPTrimError"]
+- !private ["So7AVAssetC", "addMutableTrack"]
+- ["So7AVAssetC", "assetByTrimming"]
+- ["So7AVAssetC", "export"]
+- !private ["So7AVAssetC", "init"]
+- !private ["So7AVAssetC", "tracks"]
+- !private ["So20AVAssetExportSessionC", "error"]
+- !private ["So20AVAssetExportSessionC", "exportAsynchronously"]
+- !private ["So20AVAssetExportSessionC", "init"]
+- !private ["So20AVAssetExportSessionC", "outputFileType"]
+- !private ["So20AVAssetExportSessionC", "outputURL"]
+- !private ["So20AVAssetExportSessionC", "shouldOptimizeForNetworkUse"]
+- !private ["So20AVAssetExportSessionC", "videoComposition"]
+- !private ["So12AVAssetTrackC", "mediaType"]
+- !private ["So12AVAssetTrackC", "trackID"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "AVAssetExportSession"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "AVMutableComposition"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "CMTime"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "CMTimeRangeFromTimeToTime"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "FileManager"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "YPConfig"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "YPTrimError"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "addMutableTrack"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "init"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "mediaType"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "trackID"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "tracks"]
+- !private ["So13AVCompositionC", "addMutableTrack"]
+- !private ["So13AVCompositionC", "init"]
+- !private ["So13AVCompositionC", "tracks"]
+- !private ["So20AVMutableCompositionC", "addMutableTrack"]
+- !private ["So20AVMutableCompositionC", "init"]
+- !private ["So20AVMutableCompositionC", "tracks"]
+- !private ["Sa", "last"]
+- !private ["s13ArrayProtocolP", "last"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "video"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6CMTimea", "zero"]
+- !private ["s7CVarArgP", "AVAssetExportSession"]
+- !private ["s7CVarArgP", "AVMutableComposition"]
+- !private ["s7CVarArgP", "CMTime"]
+- !private ["s7CVarArgP", "CMTimeRangeFromTimeToTime"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "YPConfig"]
+- !private ["s7CVarArgP", "YPTrimError"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addMutableTrack"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "exportAsynchronously"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "mediaType"]
+- !private ["s7CVarArgP", "outputFileType"]
+- !private ["s7CVarArgP", "outputURL"]
+- !private ["s7CVarArgP", "removeFileIfNecessary"]
+- !private ["s7CVarArgP", "shouldOptimizeForNetworkUse"]
+- !private ["s7CVarArgP", "trackID"]
+- !private ["s7CVarArgP", "tracks"]
+- !private ["s7CVarArgP", "video"]
+- !private ["s7CVarArgP", "videoComposition"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "video"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "video"]
+- !private ["SL", "zero"]
+- !private ["s28CustomDebugStringConvertibleP", "AVAssetExportSession"]
+- !private ["s28CustomDebugStringConvertibleP", "AVMutableComposition"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTime"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTimeRangeFromTimeToTime"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "YPConfig"]
+- !private ["s28CustomDebugStringConvertibleP", "YPTrimError"]
+- !private ["s28CustomDebugStringConvertibleP", "addMutableTrack"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "exportAsynchronously"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "mediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "outputFileType"]
+- !private ["s28CustomDebugStringConvertibleP", "outputURL"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFileIfNecessary"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldOptimizeForNetworkUse"]
+- !private ["s28CustomDebugStringConvertibleP", "trackID"]
+- !private ["s28CustomDebugStringConvertibleP", "tracks"]
+- !private ["s28CustomDebugStringConvertibleP", "video"]
+- !private ["s28CustomDebugStringConvertibleP", "videoComposition"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "video"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "video"]
+- !private ["s23CustomStringConvertibleP", "AVAssetExportSession"]
+- !private ["s23CustomStringConvertibleP", "AVMutableComposition"]
+- !private ["s23CustomStringConvertibleP", "CMTime"]
+- !private ["s23CustomStringConvertibleP", "CMTimeRangeFromTimeToTime"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "YPConfig"]
+- !private ["s23CustomStringConvertibleP", "YPTrimError"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addMutableTrack"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "exportAsynchronously"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "mediaType"]
+- !private ["s23CustomStringConvertibleP", "outputFileType"]
+- !private ["s23CustomStringConvertibleP", "outputURL"]
+- !private ["s23CustomStringConvertibleP", "removeFileIfNecessary"]
+- !private ["s23CustomStringConvertibleP", "shouldOptimizeForNetworkUse"]
+- !private ["s23CustomStringConvertibleP", "trackID"]
+- !private ["s23CustomStringConvertibleP", "tracks"]
+- !private ["s23CustomStringConvertibleP", "video"]
+- !private ["s23CustomStringConvertibleP", "videoComposition"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "video"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "video"]
+- !private ["SQ", "AVAssetExportSession"]
+- !private ["SQ", "AVMutableComposition"]
+- !private ["SQ", "CMTime"]
+- !private ["SQ", "CMTimeRangeFromTimeToTime"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "YPConfig"]
+- !private ["SQ", "YPTrimError"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addMutableTrack"]
+- !private ["SQ", "default"]
+- !private ["SQ", "error"]
+- !private ["SQ", "exportAsynchronously"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "mediaType"]
+- !private ["SQ", "outputFileType"]
+- !private ["SQ", "outputURL"]
+- !private ["SQ", "removeFileIfNecessary"]
+- !private ["SQ", "shouldOptimizeForNetworkUse"]
+- !private ["SQ", "trackID"]
+- !private ["SQ", "tracks"]
+- !private ["SQ", "video"]
+- !private ["SQ", "videoComposition"]
+- !private ["SQ", "zero"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "video"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "video"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "removeFileIfNecessary"]
+- !private ["SH", "AVAssetExportSession"]
+- !private ["SH", "AVMutableComposition"]
+- !private ["SH", "CMTime"]
+- !private ["SH", "CMTimeRangeFromTimeToTime"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "YPConfig"]
+- !private ["SH", "YPTrimError"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addMutableTrack"]
+- !private ["SH", "default"]
+- !private ["SH", "error"]
+- !private ["SH", "exportAsynchronously"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["SH", "mediaType"]
+- !private ["SH", "outputFileType"]
+- !private ["SH", "outputURL"]
+- !private ["SH", "removeFileIfNecessary"]
+- !private ["SH", "shouldOptimizeForNetworkUse"]
+- !private ["SH", "trackID"]
+- !private ["SH", "tracks"]
+- !private ["SH", "video"]
+- !private ["SH", "videoComposition"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "video"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "video"]
+- !private ["SM", "last"]
+- !private ["So9NSCopyingP", "AVAssetExportSession"]
+- !private ["So9NSCopyingP", "AVMutableComposition"]
+- !private ["So9NSCopyingP", "CMTime"]
+- !private ["So9NSCopyingP", "CMTimeRangeFromTimeToTime"]
+- !private ["So9NSCopyingP", "FileManager"]
+- !private ["So9NSCopyingP", "YPConfig"]
+- !private ["So9NSCopyingP", "YPTrimError"]
+- !private ["So9NSCopyingP", "addMutableTrack"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "mediaType"]
+- !private ["So9NSCopyingP", "trackID"]
+- !private ["So9NSCopyingP", "tracks"]
+- !private ["So16NSMutableCopyingP", "addMutableTrack"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "tracks"]
+- ["So8NSObjectC", "AVAsset"]
+- !private ["So8NSObjectC", "AVAssetExportSession"]
+- !private ["So8NSObjectC", "AVMutableComposition"]
+- ["So8NSObjectC", "AVVideoComposition"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CMTime"]
+- !private ["So8NSObjectC", "CMTimeRangeFromTimeToTime"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "YPConfig"]
+- !private ["So8NSObjectC", "YPTrimError"]
+- !private ["So8NSObjectC", "addMutableTrack"]
+- ["So8NSObjectC", "assetByTrimming"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "error"]
+- ["So8NSObjectC", "export"]
+- !private ["So8NSObjectC", "exportAsynchronously"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "mediaType"]
+- !private ["So8NSObjectC", "outputFileType"]
+- !private ["So8NSObjectC", "outputURL"]
+- !private ["So8NSObjectC", "removeFileIfNecessary"]
+- !private ["So8NSObjectC", "shouldOptimizeForNetworkUse"]
+- !private ["So8NSObjectC", "trackID"]
+- !private ["So8NSObjectC", "tracks"]
+- !private ["So8NSObjectC", "videoComposition"]
+- !private ["So8NSObjectP", "AVAssetExportSession"]
+- !private ["So8NSObjectP", "AVMutableComposition"]
+- !private ["So8NSObjectP", "CMTime"]
+- !private ["So8NSObjectP", "CMTimeRangeFromTimeToTime"]
+- !private ["So8NSObjectP", "FileManager"]
+- !private ["So8NSObjectP", "YPConfig"]
+- !private ["So8NSObjectP", "YPTrimError"]
+- !private ["So8NSObjectP", "addMutableTrack"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "error"]
+- !private ["So8NSObjectP", "exportAsynchronously"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mediaType"]
+- !private ["So8NSObjectP", "outputFileType"]
+- !private ["So8NSObjectP", "outputURL"]
+- !private ["So8NSObjectP", "removeFileIfNecessary"]
+- !private ["So8NSObjectP", "shouldOptimizeForNetworkUse"]
+- !private ["So8NSObjectP", "trackID"]
+- !private ["So8NSObjectP", "tracks"]
+- !private ["So8NSObjectP", "videoComposition"]
+- !private ["Sk", "last"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "video"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "video"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "video"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "video"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "video"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "video"]
+- !private ["13YPImagePicker13YPConfigVideoV", "compression"]
+- !private ["13YPImagePicker13YPConfigVideoV", "fileType"]
+- !private ["13YPImagePicker0aB13ConfigurationV", "video"]
+- !private ["13YPImagePicker11YPTrimErrorV", "deinit"]
+- !private ["13YPImagePicker11YPTrimErrorV", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "video"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "video"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "video"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "video"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVAssetExportSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVMutableComposition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTimeRangeFromTimeToTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "YPConfig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "YPTrimError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addMutableTrack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "exportAsynchronously"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mediaType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputFileType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFileIfNecessary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldOptimizeForNetworkUse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trackID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tracks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videoComposition"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "video"]
+depends-nominal:
+- "So7AVAssetC"
+- !private "So20AVAssetExportSessionC"
+- !private "So12AVAssetTrackC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- !private "So13AVCompositionC"
+- !private "So20AVMutableCompositionC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "So6CMTimea"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So9NSCopyingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "13YPImagePicker13YPConfigVideoV"
+- !private "13YPImagePicker0aB13ConfigurationV"
+- !private "13YPImagePicker11YPTrimErrorV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d01c36ee3643fddf0f03c6eec5da9769"

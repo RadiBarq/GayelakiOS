@@ -1,0 +1,612 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "13YPImagePicker11YPLibraryVCC"
+provides-member:
+- ["13YPImagePicker11YPLibraryVCC", ""]
+provides-dynamic-lookup:
+- "photoLibraryDidChange"
+- "registerForLibraryChanges"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "??"
+- !private "AssignmentPrecedence"
+- !private "DispatchQueue"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "PHChange"
+- !private "PHPhotoLibrary"
+- "PHPhotoLibraryChangeObserver"
+- "YPLibraryVC"
+- !private "||"
+depends-member:
+- !private ["SK", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["SK", "count"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "collectionView"]
+- !private ["So15CALayerDelegateP", "deleteItems"]
+- !private ["So15CALayerDelegateP", "insertItems"]
+- !private ["So15CALayerDelegateP", "performBatchUpdates"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "reloadItems"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "PHPhotoLibrary"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "changeDetails"]
+- !private ["s7CVarArgP", "changedIndexes"]
+- !private ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "deleteItems"]
+- !private ["s7CVarArgP", "fetchResultAfterChanges"]
+- !private ["s7CVarArgP", "hasIncrementalChanges"]
+- !private ["s7CVarArgP", "hasMoves"]
+- !private ["s7CVarArgP", "insertItems"]
+- !private ["s7CVarArgP", "insertedIndexes"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "mediaManager"]
+- !private ["s7CVarArgP", "performBatchUpdates"]
+- ["s7CVarArgP", "photoLibraryDidChange"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "reloadItems"]
+- !private ["s7CVarArgP", "removedIndexes"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "v"]
+- !private ["Sl", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["Sl", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "PHPhotoLibrary"]
+- !private ["s28CustomDebugStringConvertibleP", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "changeDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "changedIndexes"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteItems"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchResultAfterChanges"]
+- !private ["s28CustomDebugStringConvertibleP", "hasIncrementalChanges"]
+- !private ["s28CustomDebugStringConvertibleP", "hasMoves"]
+- !private ["s28CustomDebugStringConvertibleP", "insertItems"]
+- !private ["s28CustomDebugStringConvertibleP", "insertedIndexes"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "mediaManager"]
+- !private ["s28CustomDebugStringConvertibleP", "performBatchUpdates"]
+- ["s28CustomDebugStringConvertibleP", "photoLibraryDidChange"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadItems"]
+- !private ["s28CustomDebugStringConvertibleP", "removedIndexes"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "v"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["s17CustomReflectableP", "collectionView"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "PHPhotoLibrary"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "changeDetails"]
+- !private ["s23CustomStringConvertibleP", "changedIndexes"]
+- !private ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "deleteItems"]
+- !private ["s23CustomStringConvertibleP", "fetchResultAfterChanges"]
+- !private ["s23CustomStringConvertibleP", "hasIncrementalChanges"]
+- !private ["s23CustomStringConvertibleP", "hasMoves"]
+- !private ["s23CustomStringConvertibleP", "insertItems"]
+- !private ["s23CustomStringConvertibleP", "insertedIndexes"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "mediaManager"]
+- !private ["s23CustomStringConvertibleP", "performBatchUpdates"]
+- ["s23CustomStringConvertibleP", "photoLibraryDidChange"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "reloadItems"]
+- !private ["s23CustomStringConvertibleP", "removedIndexes"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "v"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["Se", "collectionView"]
+- !private ["Se", "count"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["SE", "collectionView"]
+- !private ["SE", "count"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "PHPhotoLibrary"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["SQ", "async"]
+- !private ["SQ", "changeDetails"]
+- !private ["SQ", "changedIndexes"]
+- !private ["SQ", "collectionView"]
+- !private ["SQ", "count"]
+- !private ["SQ", "deleteItems"]
+- !private ["SQ", "fetchResultAfterChanges"]
+- !private ["SQ", "hasIncrementalChanges"]
+- !private ["SQ", "hasMoves"]
+- !private ["SQ", "insertItems"]
+- !private ["SQ", "insertedIndexes"]
+- !private ["SQ", "main"]
+- !private ["SQ", "mediaManager"]
+- !private ["SQ", "performBatchUpdates"]
+- ["SQ", "photoLibraryDidChange"]
+- !private ["SQ", "register"]
+- !private ["SQ", "reloadData"]
+- !private ["SQ", "reloadItems"]
+- !private ["SQ", "removedIndexes"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "v"]
+- !private ["s25ExpressibleByArrayLiteralP", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "collectionView"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "PHPhotoLibrary"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["SH", "async"]
+- !private ["SH", "changeDetails"]
+- !private ["SH", "changedIndexes"]
+- !private ["SH", "collectionView"]
+- !private ["SH", "count"]
+- !private ["SH", "deleteItems"]
+- !private ["SH", "fetchResultAfterChanges"]
+- !private ["SH", "hasIncrementalChanges"]
+- !private ["SH", "hasMoves"]
+- !private ["SH", "insertItems"]
+- !private ["SH", "insertedIndexes"]
+- !private ["SH", "main"]
+- !private ["SH", "mediaManager"]
+- !private ["SH", "performBatchUpdates"]
+- ["SH", "photoLibraryDidChange"]
+- !private ["SH", "register"]
+- !private ["SH", "reloadData"]
+- !private ["SH", "reloadItems"]
+- !private ["SH", "removedIndexes"]
+- !private ["SH", "shared"]
+- !private ["SH", "v"]
+- !private ["10Foundation8IndexSetV", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["10Foundation8IndexSetV", "count"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "fetchResult"]
+- !private ["13YPImagePicker19LibraryMediaManagerC", "resetCachedAssets"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "PHPhotoLibrary"]
+- !private ["So8NSCodingP", "collectionView"]
+- !private ["So8NSCodingP", "deleteItems"]
+- !private ["So8NSCodingP", "insertItems"]
+- !private ["So8NSCodingP", "mediaManager"]
+- !private ["So8NSCodingP", "performBatchUpdates"]
+- ["So8NSCodingP", "photoLibraryDidChange"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "reloadItems"]
+- !private ["So8NSCodingP", "v"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "PHPhotoLibrary"]
+- !private ["So26NSExtensionRequestHandlingP", "mediaManager"]
+- ["So26NSExtensionRequestHandlingP", "photoLibraryDidChange"]
+- !private ["So26NSExtensionRequestHandlingP", "v"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "PHChange"]
+- !private ["So8NSObjectC", "PHPhotoLibrary"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "changeDetails"]
+- !private ["So8NSObjectC", "changedIndexes"]
+- !private ["So8NSObjectC", "collectionView"]
+- !private ["So8NSObjectC", "deleteItems"]
+- !private ["So8NSObjectC", "fetchResultAfterChanges"]
+- !private ["So8NSObjectC", "hasIncrementalChanges"]
+- !private ["So8NSObjectC", "hasMoves"]
+- !private ["So8NSObjectC", "insertItems"]
+- !private ["So8NSObjectC", "insertedIndexes"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "mediaManager"]
+- !private ["So8NSObjectC", "performBatchUpdates"]
+- ["So8NSObjectC", "photoLibraryDidChange"]
+- !private ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerForLibraryChanges"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "reloadItems"]
+- !private ["So8NSObjectC", "removedIndexes"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "v"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "PHPhotoLibrary"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "changeDetails"]
+- !private ["So8NSObjectP", "changedIndexes"]
+- !private ["So8NSObjectP", "collectionView"]
+- !private ["So8NSObjectP", "deleteItems"]
+- !private ["So8NSObjectP", "fetchResultAfterChanges"]
+- !private ["So8NSObjectP", "hasIncrementalChanges"]
+- !private ["So8NSObjectP", "hasMoves"]
+- !private ["So8NSObjectP", "insertItems"]
+- !private ["So8NSObjectP", "insertedIndexes"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "mediaManager"]
+- !private ["So8NSObjectP", "performBatchUpdates"]
+- ["So8NSObjectP", "photoLibraryDidChange"]
+- !private ["So8NSObjectP", "register"]
+- !private ["So8NSObjectP", "reloadData"]
+- !private ["So8NSObjectP", "reloadItems"]
+- !private ["So8NSObjectP", "removedIndexes"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "v"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "collectionView"]
+- !private ["So8PHChangeC", "changeDetails"]
+- !private ["So26PHFetchResultChangeDetailsC", "changedIndexes"]
+- !private ["So26PHFetchResultChangeDetailsC", "fetchResultAfterChanges"]
+- !private ["So26PHFetchResultChangeDetailsC", "hasIncrementalChanges"]
+- !private ["So26PHFetchResultChangeDetailsC", "hasMoves"]
+- !private ["So26PHFetchResultChangeDetailsC", "insertedIndexes"]
+- !private ["So26PHFetchResultChangeDetailsC", "removedIndexes"]
+- !private ["So14PHPhotoLibraryC", "register"]
+- !private ["So14PHPhotoLibraryC", "shared"]
+- !private ["So28PHPhotoLibraryChangeObserverP", "DispatchQueue"]
+- !private ["So28PHPhotoLibraryChangeObserverP", "PHPhotoLibrary"]
+- ["So28PHPhotoLibraryChangeObserverP", ""]
+- !private ["So28PHPhotoLibraryChangeObserverP", "mediaManager"]
+- ["So28PHPhotoLibraryChangeObserverP", "photoLibraryDidChange"]
+- !private ["So28PHPhotoLibraryChangeObserverP", "v"]
+- !private ["10Foundation20ReferenceConvertibleP", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["ST", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["ST", "count"]
+- !private ["s10SetAlgebraP", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["s10SetAlgebraP", "count"]
+- !private ["So29UIAccessibilityIdentificationP", "collectionView"]
+- !private ["So29UIAccessibilityIdentificationP", "deleteItems"]
+- !private ["So29UIAccessibilityIdentificationP", "insertItems"]
+- !private ["So29UIAccessibilityIdentificationP", "performBatchUpdates"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadItems"]
+- !private ["So12UIAppearanceP", "collectionView"]
+- !private ["So12UIAppearanceP", "deleteItems"]
+- !private ["So12UIAppearanceP", "insertItems"]
+- !private ["So12UIAppearanceP", "performBatchUpdates"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "reloadItems"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "PHPhotoLibrary"]
+- !private ["So21UIAppearanceContainerP", "collectionView"]
+- !private ["So21UIAppearanceContainerP", "deleteItems"]
+- !private ["So21UIAppearanceContainerP", "insertItems"]
+- !private ["So21UIAppearanceContainerP", "mediaManager"]
+- !private ["So21UIAppearanceContainerP", "performBatchUpdates"]
+- ["So21UIAppearanceContainerP", "photoLibraryDidChange"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "reloadItems"]
+- !private ["So21UIAppearanceContainerP", "v"]
+- !private ["So16UICollectionViewC", "deleteItems"]
+- !private ["So16UICollectionViewC", "insertItems"]
+- !private ["So16UICollectionViewC", "performBatchUpdates"]
+- !private ["So16UICollectionViewC", "reloadData"]
+- !private ["So16UICollectionViewC", "reloadItems"]
+- !private ["So26UICollectionViewDataSourceP", "DispatchQueue"]
+- !private ["So26UICollectionViewDataSourceP", "PHPhotoLibrary"]
+- !private ["So26UICollectionViewDataSourceP", "mediaManager"]
+- ["So26UICollectionViewDataSourceP", "photoLibraryDidChange"]
+- !private ["So26UICollectionViewDataSourceP", "v"]
+- !private ["So24UICollectionViewDelegateP", "DispatchQueue"]
+- !private ["So24UICollectionViewDelegateP", "PHPhotoLibrary"]
+- !private ["So24UICollectionViewDelegateP", "mediaManager"]
+- ["So24UICollectionViewDelegateP", "photoLibraryDidChange"]
+- !private ["So24UICollectionViewDelegateP", "v"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "DispatchQueue"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "PHPhotoLibrary"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "mediaManager"]
+- ["So34UICollectionViewDelegateFlowLayoutP", "photoLibraryDidChange"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "v"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "PHPhotoLibrary"]
+- !private ["So18UIContentContainerP", "mediaManager"]
+- ["So18UIContentContainerP", "photoLibraryDidChange"]
+- !private ["So18UIContentContainerP", "v"]
+- !private ["So17UICoordinateSpaceP", "collectionView"]
+- !private ["So17UICoordinateSpaceP", "deleteItems"]
+- !private ["So17UICoordinateSpaceP", "insertItems"]
+- !private ["So17UICoordinateSpaceP", "performBatchUpdates"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "reloadItems"]
+- !private ["So23UIDataSourceTranslatingP", "deleteItems"]
+- !private ["So23UIDataSourceTranslatingP", "insertItems"]
+- !private ["So23UIDataSourceTranslatingP", "performBatchUpdates"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So23UIDataSourceTranslatingP", "reloadItems"]
+- !private ["So13UIDynamicItemP", "collectionView"]
+- !private ["So13UIDynamicItemP", "deleteItems"]
+- !private ["So13UIDynamicItemP", "insertItems"]
+- !private ["So13UIDynamicItemP", "performBatchUpdates"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "reloadItems"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "PHPhotoLibrary"]
+- !private ["So18UIFocusEnvironmentP", "collectionView"]
+- !private ["So18UIFocusEnvironmentP", "deleteItems"]
+- !private ["So18UIFocusEnvironmentP", "insertItems"]
+- !private ["So18UIFocusEnvironmentP", "mediaManager"]
+- !private ["So18UIFocusEnvironmentP", "performBatchUpdates"]
+- ["So18UIFocusEnvironmentP", "photoLibraryDidChange"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "reloadItems"]
+- !private ["So18UIFocusEnvironmentP", "v"]
+- !private ["So11UIFocusItemP", "collectionView"]
+- !private ["So11UIFocusItemP", "deleteItems"]
+- !private ["So11UIFocusItemP", "insertItems"]
+- !private ["So11UIFocusItemP", "performBatchUpdates"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "reloadItems"]
+- !private ["So20UIFocusItemContainerP", "collectionView"]
+- !private ["So20UIFocusItemContainerP", "deleteItems"]
+- !private ["So20UIFocusItemContainerP", "insertItems"]
+- !private ["So20UIFocusItemContainerP", "performBatchUpdates"]
+- !private ["So20UIFocusItemContainerP", "reloadData"]
+- !private ["So20UIFocusItemContainerP", "reloadItems"]
+- !private ["So30UIFocusItemScrollableContainerP", "deleteItems"]
+- !private ["So30UIFocusItemScrollableContainerP", "insertItems"]
+- !private ["So30UIFocusItemScrollableContainerP", "performBatchUpdates"]
+- !private ["So30UIFocusItemScrollableContainerP", "reloadData"]
+- !private ["So30UIFocusItemScrollableContainerP", "reloadItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "PHPhotoLibrary"]
+- !private ["So30UIPasteConfigurationSupportingP", "collectionView"]
+- !private ["So30UIPasteConfigurationSupportingP", "deleteItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "insertItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "mediaManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "performBatchUpdates"]
+- ["So30UIPasteConfigurationSupportingP", "photoLibraryDidChange"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "v"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "PHChange"]
+- !private ["So11UIResponderC", "PHPhotoLibrary"]
+- !private ["So11UIResponderC", "collectionView"]
+- !private ["So11UIResponderC", "deleteItems"]
+- !private ["So11UIResponderC", "insertItems"]
+- !private ["So11UIResponderC", "mediaManager"]
+- !private ["So11UIResponderC", "performBatchUpdates"]
+- ["So11UIResponderC", "photoLibraryDidChange"]
+- ["So11UIResponderC", "registerForLibraryChanges"]
+- !private ["So11UIResponderC", "reloadData"]
+- !private ["So11UIResponderC", "reloadItems"]
+- !private ["So11UIResponderC", "v"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "PHPhotoLibrary"]
+- !private ["So30UIResponderStandardEditActionsP", "collectionView"]
+- !private ["So30UIResponderStandardEditActionsP", "deleteItems"]
+- !private ["So30UIResponderStandardEditActionsP", "insertItems"]
+- !private ["So30UIResponderStandardEditActionsP", "mediaManager"]
+- !private ["So30UIResponderStandardEditActionsP", "performBatchUpdates"]
+- ["So30UIResponderStandardEditActionsP", "photoLibraryDidChange"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadItems"]
+- !private ["So30UIResponderStandardEditActionsP", "v"]
+- !private ["So12UIScrollViewC", "deleteItems"]
+- !private ["So12UIScrollViewC", "insertItems"]
+- !private ["So12UIScrollViewC", "performBatchUpdates"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So12UIScrollViewC", "reloadItems"]
+- !private ["So20UIScrollViewDelegateP", "DispatchQueue"]
+- !private ["So20UIScrollViewDelegateP", "PHPhotoLibrary"]
+- !private ["So20UIScrollViewDelegateP", "mediaManager"]
+- ["So20UIScrollViewDelegateP", "photoLibraryDidChange"]
+- !private ["So20UIScrollViewDelegateP", "v"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "deleteItems"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "insertItems"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "performBatchUpdates"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadItems"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "PHPhotoLibrary"]
+- !private ["So16UIStateRestoringP", "mediaManager"]
+- ["So16UIStateRestoringP", "photoLibraryDidChange"]
+- !private ["So16UIStateRestoringP", "v"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "PHPhotoLibrary"]
+- !private ["So18UITraitEnvironmentP", "collectionView"]
+- !private ["So18UITraitEnvironmentP", "deleteItems"]
+- !private ["So18UITraitEnvironmentP", "insertItems"]
+- !private ["So18UITraitEnvironmentP", "mediaManager"]
+- !private ["So18UITraitEnvironmentP", "performBatchUpdates"]
+- ["So18UITraitEnvironmentP", "photoLibraryDidChange"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "reloadItems"]
+- !private ["So18UITraitEnvironmentP", "v"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- !private ["So23UIUserActivityRestoringP", "PHPhotoLibrary"]
+- !private ["So23UIUserActivityRestoringP", "collectionView"]
+- !private ["So23UIUserActivityRestoringP", "deleteItems"]
+- !private ["So23UIUserActivityRestoringP", "insertItems"]
+- !private ["So23UIUserActivityRestoringP", "mediaManager"]
+- !private ["So23UIUserActivityRestoringP", "performBatchUpdates"]
+- ["So23UIUserActivityRestoringP", "photoLibraryDidChange"]
+- !private ["So23UIUserActivityRestoringP", "reloadData"]
+- !private ["So23UIUserActivityRestoringP", "reloadItems"]
+- !private ["So23UIUserActivityRestoringP", "v"]
+- !private ["So6UIViewC", "collectionView"]
+- !private ["So6UIViewC", "deleteItems"]
+- !private ["So6UIViewC", "insertItems"]
+- !private ["So6UIViewC", "performBatchUpdates"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "reloadItems"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "PHChange"]
+- !private ["So16UIViewControllerC", "PHPhotoLibrary"]
+- !private ["So16UIViewControllerC", "mediaManager"]
+- ["So16UIViewControllerC", "photoLibraryDidChange"]
+- ["So16UIViewControllerC", "registerForLibraryChanges"]
+- !private ["So16UIViewControllerC", "v"]
+- !private ["13YPImagePicker11YPLibraryVCC", "DispatchQueue"]
+- ["13YPImagePicker11YPLibraryVCC", "PHChange"]
+- !private ["13YPImagePicker11YPLibraryVCC", "PHPhotoLibrary"]
+- ["13YPImagePicker11YPLibraryVCC", "deinit"]
+- !private ["13YPImagePicker11YPLibraryVCC", "mediaManager"]
+- ["13YPImagePicker11YPLibraryVCC", "photoLibraryDidChange"]
+- ["13YPImagePicker11YPLibraryVCC", "registerForLibraryChanges"]
+- !private ["13YPImagePicker11YPLibraryVCC", "v"]
+- !private ["13YPImagePicker13YPLibraryViewC", "collectionView"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "DispatchQueue"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "PHPhotoLibrary"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "mediaManager"]
+- ["13YPImagePicker21YPPermissionCheckableP", "photoLibraryDidChange"]
+- !private ["13YPImagePicker21YPPermissionCheckableP", "v"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "collectionView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "deleteItems"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "insertItems"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "performBatchUpdates"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadItems"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PHPhotoLibrary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "changeDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "changedIndexes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchResultAfterChanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasIncrementalChanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasMoves"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertedIndexes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mediaManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performBatchUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "photoLibraryDidChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removedIndexes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "v"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "aapl_indexPathsFromIndexesWithSection"]
+- !private ["s21_ObjectiveCBridgeableP", "collectionView"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Foundation8IndexSetV"
+- !private "13YPImagePicker19LibraryMediaManagerC"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "So8PHChangeC"
+- !private "So26PHFetchResultChangeDetailsC"
+- !private "So14PHPhotoLibraryC"
+- "So28PHPhotoLibraryChangeObserverP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So16UICollectionViewC"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "13YPImagePicker11YPLibraryVCC"
+- !private "13YPImagePicker13YPLibraryViewC"
+- "13YPImagePicker21YPPermissionCheckableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e5cc25d622f6e81bacf7087662007381"

@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "70f7376e99f20a5274906958d036b4b2"
+build_time: [1547157730, 281136000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/Fusuma/Sources/FSAlbumView.swift": [1547157691, 0]
+  "/Users/radibarq/developer/Chottky/Pods/Fusuma/Sources/FSAlbumViewCell.swift": [1547157691, 0]
+  "/Users/radibarq/developer/Chottky/Pods/Fusuma/Sources/FSCameraView.swift": !dirty [1547157691, 0]
+  "/Users/radibarq/developer/Chottky/Pods/Fusuma/Sources/FSConstants.swift": !dirty [1547157691, 0]
+  "/Users/radibarq/developer/Chottky/Pods/Fusuma/Sources/FSImageCropView.swift": !dirty [1547157691, 0]
+  "/Users/radibarq/developer/Chottky/Pods/Fusuma/Sources/FSVideoCameraView.swift": !dirty [1547157691, 0]
+  "/Users/radibarq/developer/Chottky/Pods/Fusuma/Sources/FusumaViewController.swift": [1547157691, 0]

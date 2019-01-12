@@ -1,0 +1,2320 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CameraViewController"
+provides-nominal:
+- "7Chottky20CameraViewControllerC"
+provides-member:
+- ["7Chottky20CameraViewControllerC", ""]
+provides-dynamic-lookup:
+- "captureButton"
+- "flashButton"
+- "flashButtonClicked"
+- "flipCamera"
+- "flipCameraButton"
+- "imagePicker"
+- "imagePickerController"
+- "imagePickerControllerDidCancel"
+- "libraryButton"
+- "onClickLibrary"
+- "swiftyCam"
+- "takePicture"
+- "viewDidLoad"
+- "viewWillAppear"
+- "viewWillDisappear"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- "CameraViewController"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "PostedItemViewController"
+- "String"
+- !private "StringLiteralType"
+- "SwiftyCamViewController"
+- "SwiftyCamViewControllerDelegate"
+- "SwiftyRecordButton"
+- !private "UIApplication"
+- "UIButton"
+- "UIImage"
+- "UIImagePickerController"
+- "UIImagePickerControllerDelegate"
+- !private "UIImagePickerControllerOriginalImage"
+- "UINavigationControllerDelegate"
+- !private "UIStoryboard"
+- !private "print"
+depends-member:
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "CGRect"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "PostedItemViewController"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "SwiftyRecordButton"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "UIApplication"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "UIButton"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "UIImage"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "UIImagePickerController"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "UIImagePickerControllerOriginalImage"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "UIStoryboard"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", ""]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "cameraDelegate"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "captureButton"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "dismiss"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "flashButton"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "flashButtonClicked"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "flashEnabled"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "flipCamera"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "flipCameraButton"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "imagePicker"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "imagePickerController"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "init"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "init"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "libraryButton"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "navigationController"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "onClickLibrary"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "present"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "print"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "swiftyCam"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "switchCamera"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "view"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "viewDidLoad"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "viewWillAppear"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "viewWillDisappear"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "bottomAnchor"]
+- !private ["So15CALayerDelegateP", "centerXAnchor"]
+- !private ["So15CALayerDelegateP", "centerYAnchor"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "heightAnchor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "leftAnchor"]
+- !private ["So15CALayerDelegateP", "rightAnchor"]
+- !private ["So15CALayerDelegateP", "setImage"]
+- !private ["So15CALayerDelegateP", "topAnchor"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So15CALayerDelegateP", "widthAnchor"]
+- !private ["So6CGRectV", "init"]
+- !private ["So25CLLocationManagerDelegateP", "images"]
+- !private ["So25CLLocationManagerDelegateP", "imagesValid"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "PostedItemViewController"]
+- !private ["s7CVarArgP", "SwiftyRecordButton"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIButton"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", "UIImagePickerController"]
+- !private ["s7CVarArgP", "UIImagePickerControllerOriginalImage"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "allowsEditing"]
+- !private ["s7CVarArgP", "bottomAnchor"]
+- !private ["s7CVarArgP", "cameraDelegate"]
+- !private ["s7CVarArgP", "captureButton"]
+- !private ["s7CVarArgP", "centerXAnchor"]
+- !private ["s7CVarArgP", "centerYAnchor"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "flashButton"]
+- !private ["s7CVarArgP", "flashButtonClicked"]
+- !private ["s7CVarArgP", "flashEnabled"]
+- !private ["s7CVarArgP", "flipCamera"]
+- !private ["s7CVarArgP", "flipCameraButton"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "heightAnchor"]
+- !private ["s7CVarArgP", "imagePicker"]
+- ["s7CVarArgP", "imagePickerController"]
+- ["s7CVarArgP", "imagePickerControllerDidCancel"]
+- !private ["s7CVarArgP", "images"]
+- !private ["s7CVarArgP", "imagesValid"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "isActive"]
+- !private ["s7CVarArgP", "isStatusBarHidden"]
+- !private ["s7CVarArgP", "leftAnchor"]
+- !private ["s7CVarArgP", "libraryButton"]
+- ["s7CVarArgP", "navigationController"]
+- ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s7CVarArgP", "onClickLibrary"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "rightAnchor"]
+- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sourceType"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "swiftyCam"]
+- !private ["s7CVarArgP", "switchCamera"]
+- !private ["s7CVarArgP", "topAnchor"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["s7CVarArgP", "widthAnchor"]
+- ["7Chottky20CameraViewControllerC", "Bool"]
+- !private ["7Chottky20CameraViewControllerC", "CGRect"]
+- !private ["7Chottky20CameraViewControllerC", "PostedItemViewController"]
+- ["7Chottky20CameraViewControllerC", "String"]
+- ["7Chottky20CameraViewControllerC", "SwiftyCamViewController"]
+- ["7Chottky20CameraViewControllerC", "SwiftyRecordButton"]
+- !private ["7Chottky20CameraViewControllerC", "UIApplication"]
+- ["7Chottky20CameraViewControllerC", "UIButton"]
+- ["7Chottky20CameraViewControllerC", "UIImage"]
+- ["7Chottky20CameraViewControllerC", "UIImagePickerController"]
+- !private ["7Chottky20CameraViewControllerC", "UIImagePickerControllerOriginalImage"]
+- !private ["7Chottky20CameraViewControllerC", "UIStoryboard"]
+- !private ["7Chottky20CameraViewControllerC", "cameraDelegate"]
+- ["7Chottky20CameraViewControllerC", "captureButton"]
+- ["7Chottky20CameraViewControllerC", "deinit"]
+- !private ["7Chottky20CameraViewControllerC", "dismiss"]
+- ["7Chottky20CameraViewControllerC", "flashButton"]
+- ["7Chottky20CameraViewControllerC", "flashButtonClicked"]
+- !private ["7Chottky20CameraViewControllerC", "flashEnabled"]
+- ["7Chottky20CameraViewControllerC", "flipCamera"]
+- ["7Chottky20CameraViewControllerC", "flipCameraButton"]
+- ["7Chottky20CameraViewControllerC", "imagePicker"]
+- ["7Chottky20CameraViewControllerC", "imagePickerController"]
+- ["7Chottky20CameraViewControllerC", "imagePickerControllerDidCancel"]
+- ["7Chottky20CameraViewControllerC", "init"]
+- ["7Chottky20CameraViewControllerC", "libraryButton"]
+- ["7Chottky20CameraViewControllerC", "navigationController"]
+- ["7Chottky20CameraViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["7Chottky20CameraViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["7Chottky20CameraViewControllerC", "onClickLibrary"]
+- !private ["7Chottky20CameraViewControllerC", "present"]
+- !private ["7Chottky20CameraViewControllerC", "print"]
+- ["7Chottky20CameraViewControllerC", "swiftyCam"]
+- !private ["7Chottky20CameraViewControllerC", "switchCamera"]
+- ["7Chottky20CameraViewControllerC", "takePicture"]
+- !private ["7Chottky20CameraViewControllerC", "view"]
+- ["7Chottky20CameraViewControllerC", "viewDidLoad"]
+- ["7Chottky20CameraViewControllerC", "viewWillAppear"]
+- ["7Chottky20CameraViewControllerC", "viewWillDisappear"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "PostedItemViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "SwiftyRecordButton"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIButton"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", "UIImagePickerController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImagePickerControllerOriginalImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "allowsEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "cameraDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "captureButton"]
+- !private ["s28CustomDebugStringConvertibleP", "centerXAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "centerYAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "flashButton"]
+- !private ["s28CustomDebugStringConvertibleP", "flashButtonClicked"]
+- !private ["s28CustomDebugStringConvertibleP", "flashEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "flipCamera"]
+- !private ["s28CustomDebugStringConvertibleP", "flipCameraButton"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "imagePicker"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerController"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "images"]
+- !private ["s28CustomDebugStringConvertibleP", "imagesValid"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "isActive"]
+- !private ["s28CustomDebugStringConvertibleP", "isStatusBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "leftAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "libraryButton"]
+- ["s28CustomDebugStringConvertibleP", "navigationController"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s28CustomDebugStringConvertibleP", "onClickLibrary"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "rightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceType"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "swiftyCam"]
+- !private ["s28CustomDebugStringConvertibleP", "switchCamera"]
+- !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- !private ["s28CustomDebugStringConvertibleP", "widthAnchor"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "addTarget"]
+- !private ["s17CustomReflectableP", "bottomAnchor"]
+- !private ["s17CustomReflectableP", "centerXAnchor"]
+- !private ["s17CustomReflectableP", "centerYAnchor"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "heightAnchor"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "leftAnchor"]
+- !private ["s17CustomReflectableP", "rightAnchor"]
+- !private ["s17CustomReflectableP", "setImage"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "topAnchor"]
+- !private ["s17CustomReflectableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s17CustomReflectableP", "widthAnchor"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "PostedItemViewController"]
+- !private ["s23CustomStringConvertibleP", "SwiftyRecordButton"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIButton"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", "UIImagePickerController"]
+- !private ["s23CustomStringConvertibleP", "UIImagePickerControllerOriginalImage"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "allowsEditing"]
+- !private ["s23CustomStringConvertibleP", "bottomAnchor"]
+- !private ["s23CustomStringConvertibleP", "cameraDelegate"]
+- !private ["s23CustomStringConvertibleP", "captureButton"]
+- !private ["s23CustomStringConvertibleP", "centerXAnchor"]
+- !private ["s23CustomStringConvertibleP", "centerYAnchor"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "flashButton"]
+- !private ["s23CustomStringConvertibleP", "flashButtonClicked"]
+- !private ["s23CustomStringConvertibleP", "flashEnabled"]
+- !private ["s23CustomStringConvertibleP", "flipCamera"]
+- !private ["s23CustomStringConvertibleP", "flipCameraButton"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "heightAnchor"]
+- !private ["s23CustomStringConvertibleP", "imagePicker"]
+- ["s23CustomStringConvertibleP", "imagePickerController"]
+- ["s23CustomStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s23CustomStringConvertibleP", "images"]
+- !private ["s23CustomStringConvertibleP", "imagesValid"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "isActive"]
+- !private ["s23CustomStringConvertibleP", "isStatusBarHidden"]
+- !private ["s23CustomStringConvertibleP", "leftAnchor"]
+- !private ["s23CustomStringConvertibleP", "libraryButton"]
+- ["s23CustomStringConvertibleP", "navigationController"]
+- ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s23CustomStringConvertibleP", "onClickLibrary"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rightAnchor"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sourceType"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "swiftyCam"]
+- !private ["s23CustomStringConvertibleP", "switchCamera"]
+- !private ["s23CustomStringConvertibleP", "topAnchor"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- !private ["s23CustomStringConvertibleP", "widthAnchor"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "addTarget"]
+- !private ["Se", "bottomAnchor"]
+- !private ["Se", "centerXAnchor"]
+- !private ["Se", "centerYAnchor"]
+- !private ["Se", "delegate"]
+- !private ["Se", "frame"]
+- !private ["Se", "heightAnchor"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "leftAnchor"]
+- !private ["Se", "rightAnchor"]
+- !private ["Se", "setImage"]
+- !private ["Se", "subscript"]
+- !private ["Se", "topAnchor"]
+- !private ["Se", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Se", "widthAnchor"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "addTarget"]
+- !private ["SE", "bottomAnchor"]
+- !private ["SE", "centerXAnchor"]
+- !private ["SE", "centerYAnchor"]
+- !private ["SE", "delegate"]
+- !private ["SE", "frame"]
+- !private ["SE", "heightAnchor"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "leftAnchor"]
+- !private ["SE", "rightAnchor"]
+- !private ["SE", "setImage"]
+- !private ["SE", "subscript"]
+- !private ["SE", "topAnchor"]
+- !private ["SE", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SE", "widthAnchor"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "PostedItemViewController"]
+- !private ["SQ", "SwiftyRecordButton"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UIButton"]
+- !private ["SQ", "UIImage"]
+- ["SQ", "UIImagePickerController"]
+- !private ["SQ", "UIImagePickerControllerOriginalImage"]
+- !private ["SQ", "UIStoryboard"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "allowsEditing"]
+- !private ["SQ", "bottomAnchor"]
+- !private ["SQ", "cameraDelegate"]
+- !private ["SQ", "captureButton"]
+- !private ["SQ", "centerXAnchor"]
+- !private ["SQ", "centerYAnchor"]
+- !private ["SQ", "constraint"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "flashButton"]
+- !private ["SQ", "flashButtonClicked"]
+- !private ["SQ", "flashEnabled"]
+- !private ["SQ", "flipCamera"]
+- !private ["SQ", "flipCameraButton"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "heightAnchor"]
+- !private ["SQ", "imagePicker"]
+- ["SQ", "imagePickerController"]
+- ["SQ", "imagePickerControllerDidCancel"]
+- !private ["SQ", "images"]
+- !private ["SQ", "imagesValid"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "isActive"]
+- !private ["SQ", "isStatusBarHidden"]
+- !private ["SQ", "leftAnchor"]
+- !private ["SQ", "libraryButton"]
+- ["SQ", "navigationController"]
+- ["SQ", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SQ", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "onClickLibrary"]
+- !private ["SQ", "photoLibrary"]
+- !private ["SQ", "present"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rightAnchor"]
+- !private ["SQ", "setImage"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "sourceType"]
+- !private ["SQ", "subscript"]
+- ["SQ", "swiftyCam"]
+- !private ["SQ", "switchCamera"]
+- !private ["SQ", "topAnchor"]
+- !private ["SQ", "touchUpInside"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["SQ", "viewWillDisappear"]
+- !private ["SQ", "widthAnchor"]
+- !private ["So15UIControlEventsV", "touchUpInside"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "addTarget"]
+- !private ["s23ExpressibleByNilLiteralP", "bottomAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "centerXAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "centerYAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "heightAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "leftAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "rightAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "setImage"]
+- !private ["s23ExpressibleByNilLiteralP", "topAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23ExpressibleByNilLiteralP", "widthAnchor"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "PostedItemViewController"]
+- !private ["SH", "SwiftyRecordButton"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UIButton"]
+- !private ["SH", "UIImage"]
+- ["SH", "UIImagePickerController"]
+- !private ["SH", "UIImagePickerControllerOriginalImage"]
+- !private ["SH", "UIStoryboard"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "allowsEditing"]
+- !private ["SH", "bottomAnchor"]
+- !private ["SH", "cameraDelegate"]
+- !private ["SH", "captureButton"]
+- !private ["SH", "centerXAnchor"]
+- !private ["SH", "centerYAnchor"]
+- !private ["SH", "constraint"]
+- !private ["SH", "delegate"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "flashButton"]
+- !private ["SH", "flashButtonClicked"]
+- !private ["SH", "flashEnabled"]
+- !private ["SH", "flipCamera"]
+- !private ["SH", "flipCameraButton"]
+- !private ["SH", "frame"]
+- !private ["SH", "heightAnchor"]
+- !private ["SH", "imagePicker"]
+- ["SH", "imagePickerController"]
+- ["SH", "imagePickerControllerDidCancel"]
+- !private ["SH", "images"]
+- !private ["SH", "imagesValid"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "isActive"]
+- !private ["SH", "isStatusBarHidden"]
+- !private ["SH", "leftAnchor"]
+- !private ["SH", "libraryButton"]
+- ["SH", "navigationController"]
+- ["SH", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SH", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SH", "onClickLibrary"]
+- !private ["SH", "photoLibrary"]
+- !private ["SH", "present"]
+- !private ["SH", "print"]
+- !private ["SH", "rightAnchor"]
+- !private ["SH", "setImage"]
+- !private ["SH", "shared"]
+- !private ["SH", "sourceType"]
+- !private ["SH", "subscript"]
+- ["SH", "swiftyCam"]
+- !private ["SH", "switchCamera"]
+- !private ["SH", "topAnchor"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillAppear"]
+- !private ["SH", "viewWillDisappear"]
+- !private ["SH", "widthAnchor"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "PostedItemViewController"]
+- !private ["So8NSCodingP", "SwiftyRecordButton"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", "UIImagePickerController"]
+- !private ["So8NSCodingP", "UIImagePickerControllerOriginalImage"]
+- !private ["So8NSCodingP", "UIStoryboard"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "allowsEditing"]
+- !private ["So8NSCodingP", "bottomAnchor"]
+- !private ["So8NSCodingP", "cameraDelegate"]
+- !private ["So8NSCodingP", "captureButton"]
+- !private ["So8NSCodingP", "centerXAnchor"]
+- !private ["So8NSCodingP", "centerYAnchor"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "flashButton"]
+- !private ["So8NSCodingP", "flashButtonClicked"]
+- !private ["So8NSCodingP", "flashEnabled"]
+- !private ["So8NSCodingP", "flipCamera"]
+- !private ["So8NSCodingP", "flipCameraButton"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "heightAnchor"]
+- !private ["So8NSCodingP", "imagePicker"]
+- ["So8NSCodingP", "imagePickerController"]
+- ["So8NSCodingP", "imagePickerControllerDidCancel"]
+- !private ["So8NSCodingP", "images"]
+- !private ["So8NSCodingP", "imagesValid"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "leftAnchor"]
+- !private ["So8NSCodingP", "libraryButton"]
+- ["So8NSCodingP", "navigationController"]
+- ["So8NSCodingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSCodingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSCodingP", "onClickLibrary"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "rightAnchor"]
+- !private ["So8NSCodingP", "setImage"]
+- !private ["So8NSCodingP", "sourceType"]
+- ["So8NSCodingP", "swiftyCam"]
+- !private ["So8NSCodingP", "switchCamera"]
+- !private ["So8NSCodingP", "topAnchor"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- !private ["So8NSCodingP", "viewWillDisappear"]
+- !private ["So8NSCodingP", "widthAnchor"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "PostedItemViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "SwiftyRecordButton"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "UIButton"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", "UIImagePickerController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImagePickerControllerOriginalImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "allowsEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "cameraDelegate"]
+- !private ["So26NSExtensionRequestHandlingP", "captureButton"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "flashButton"]
+- !private ["So26NSExtensionRequestHandlingP", "flashButtonClicked"]
+- !private ["So26NSExtensionRequestHandlingP", "flashEnabled"]
+- !private ["So26NSExtensionRequestHandlingP", "flipCamera"]
+- !private ["So26NSExtensionRequestHandlingP", "flipCameraButton"]
+- !private ["So26NSExtensionRequestHandlingP", "imagePicker"]
+- ["So26NSExtensionRequestHandlingP", "imagePickerController"]
+- ["So26NSExtensionRequestHandlingP", "imagePickerControllerDidCancel"]
+- !private ["So26NSExtensionRequestHandlingP", "images"]
+- !private ["So26NSExtensionRequestHandlingP", "imagesValid"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "libraryButton"]
+- ["So26NSExtensionRequestHandlingP", "navigationController"]
+- ["So26NSExtensionRequestHandlingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So26NSExtensionRequestHandlingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So26NSExtensionRequestHandlingP", "onClickLibrary"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "sourceType"]
+- ["So26NSExtensionRequestHandlingP", "swiftyCam"]
+- !private ["So26NSExtensionRequestHandlingP", "switchCamera"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So18NSLayoutConstraintC", "isActive"]
+- !private ["So17NSLayoutDimensionC", "constraint"]
+- !private ["So19NSLayoutXAxisAnchorC", "constraint"]
+- !private ["So19NSLayoutYAxisAnchorC", "constraint"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "PostedItemViewController"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "SwiftyCamViewController"]
+- ["So8NSObjectC", "SwiftyRecordButton"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImagePickerController"]
+- !private ["So8NSObjectC", "UIImagePickerControllerOriginalImage"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "allowsEditing"]
+- !private ["So8NSObjectC", "bottomAnchor"]
+- !private ["So8NSObjectC", "cameraDelegate"]
+- ["So8NSObjectC", "captureButton"]
+- !private ["So8NSObjectC", "centerXAnchor"]
+- !private ["So8NSObjectC", "centerYAnchor"]
+- !private ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "flashButton"]
+- ["So8NSObjectC", "flashButtonClicked"]
+- !private ["So8NSObjectC", "flashEnabled"]
+- ["So8NSObjectC", "flipCamera"]
+- ["So8NSObjectC", "flipCameraButton"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "heightAnchor"]
+- ["So8NSObjectC", "imagePicker"]
+- ["So8NSObjectC", "imagePickerController"]
+- ["So8NSObjectC", "imagePickerControllerDidCancel"]
+- !private ["So8NSObjectC", "images"]
+- !private ["So8NSObjectC", "imagesValid"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "isActive"]
+- !private ["So8NSObjectC", "isStatusBarHidden"]
+- !private ["So8NSObjectC", "leftAnchor"]
+- ["So8NSObjectC", "libraryButton"]
+- ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So8NSObjectC", "onClickLibrary"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "rightAnchor"]
+- !private ["So8NSObjectC", "setImage"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "sourceType"]
+- ["So8NSObjectC", "swiftyCam"]
+- !private ["So8NSObjectC", "switchCamera"]
+- ["So8NSObjectC", "takePicture"]
+- !private ["So8NSObjectC", "topAnchor"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- !private ["So8NSObjectC", "widthAnchor"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "PostedItemViewController"]
+- !private ["So8NSObjectP", "SwiftyRecordButton"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UIButton"]
+- !private ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", "UIImagePickerController"]
+- !private ["So8NSObjectP", "UIImagePickerControllerOriginalImage"]
+- !private ["So8NSObjectP", "UIStoryboard"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "allowsEditing"]
+- !private ["So8NSObjectP", "bottomAnchor"]
+- !private ["So8NSObjectP", "cameraDelegate"]
+- !private ["So8NSObjectP", "captureButton"]
+- !private ["So8NSObjectP", "centerXAnchor"]
+- !private ["So8NSObjectP", "centerYAnchor"]
+- !private ["So8NSObjectP", "constraint"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "flashButton"]
+- !private ["So8NSObjectP", "flashButtonClicked"]
+- !private ["So8NSObjectP", "flashEnabled"]
+- !private ["So8NSObjectP", "flipCamera"]
+- !private ["So8NSObjectP", "flipCameraButton"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "heightAnchor"]
+- !private ["So8NSObjectP", "imagePicker"]
+- ["So8NSObjectP", "imagePickerController"]
+- ["So8NSObjectP", "imagePickerControllerDidCancel"]
+- !private ["So8NSObjectP", "images"]
+- !private ["So8NSObjectP", "imagesValid"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "isActive"]
+- !private ["So8NSObjectP", "isStatusBarHidden"]
+- !private ["So8NSObjectP", "leftAnchor"]
+- !private ["So8NSObjectP", "libraryButton"]
+- ["So8NSObjectP", "navigationController"]
+- ["So8NSObjectP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSObjectP", "onClickLibrary"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "rightAnchor"]
+- !private ["So8NSObjectP", "setImage"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "sourceType"]
+- ["So8NSObjectP", "swiftyCam"]
+- !private ["So8NSObjectP", "switchCamera"]
+- !private ["So8NSObjectP", "topAnchor"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "viewWillAppear"]
+- !private ["So8NSObjectP", "viewWillDisappear"]
+- !private ["So8NSObjectP", "widthAnchor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "addTarget"]
+- !private ["Sq", "bottomAnchor"]
+- !private ["Sq", "centerXAnchor"]
+- !private ["Sq", "centerYAnchor"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "heightAnchor"]
+- !private ["Sq", "leftAnchor"]
+- !private ["Sq", "rightAnchor"]
+- !private ["Sq", "setImage"]
+- !private ["Sq", "topAnchor"]
+- !private ["Sq", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Sq", "widthAnchor"]
+- !private ["7Chottky24PostedItemViewControllerC", "images"]
+- !private ["7Chottky24PostedItemViewControllerC", "imagesValid"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "normal"]
+- !private ["SY", "photoLibrary"]
+- !private ["SY", "touchUpInside"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["So33UIImagePickerControllerSourceTypeV", "photoLibrary"]
+- !private ["So14UIControlStateV", "normal"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["9SwiftyCam0aB6ButtonC", "bottomAnchor"]
+- !private ["9SwiftyCam0aB6ButtonC", "centerXAnchor"]
+- !private ["9SwiftyCam0aB6ButtonC", "centerYAnchor"]
+- !private ["9SwiftyCam0aB6ButtonC", "delegate"]
+- !private ["9SwiftyCam0aB6ButtonC", "heightAnchor"]
+- !private ["9SwiftyCam0aB6ButtonC", "init"]
+- !private ["9SwiftyCam0aB6ButtonC", "leftAnchor"]
+- !private ["9SwiftyCam0aB6ButtonC", "rightAnchor"]
+- !private ["9SwiftyCam0aB6ButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["9SwiftyCam0aB6ButtonC", "widthAnchor"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "CGRect"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "PostedItemViewController"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "SwiftyRecordButton"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "UIApplication"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "UIButton"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "UIImage"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "UIImagePickerController"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "UIImagePickerControllerOriginalImage"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "UIStoryboard"]
+- ["9SwiftyCam0aB14ButtonDelegateP", ""]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "cameraDelegate"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "captureButton"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "dismiss"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "flashButton"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "flashButtonClicked"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "flashEnabled"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "flipCamera"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "flipCameraButton"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "imagePicker"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "imagePickerController"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "imagePickerControllerDidCancel"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "init"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "init"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "libraryButton"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "navigationController"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "onClickLibrary"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "present"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "print"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "swiftyCam"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "switchCamera"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "view"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "viewDidLoad"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "viewWillAppear"]
+- !private ["9SwiftyCam0aB14ButtonDelegateP", "viewWillDisappear"]
+- ["9SwiftyCam0aB14ViewControllerC", "Bool"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "CGRect"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "PostedItemViewController"]
+- ["9SwiftyCam0aB14ViewControllerC", "String"]
+- ["9SwiftyCam0aB14ViewControllerC", "SwiftyCamViewController"]
+- ["9SwiftyCam0aB14ViewControllerC", "SwiftyRecordButton"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "UIApplication"]
+- ["9SwiftyCam0aB14ViewControllerC", "UIButton"]
+- ["9SwiftyCam0aB14ViewControllerC", "UIImage"]
+- ["9SwiftyCam0aB14ViewControllerC", "UIImagePickerController"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "UIImagePickerControllerOriginalImage"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "UIStoryboard"]
+- ["9SwiftyCam0aB14ViewControllerC", ""]
+- !private ["9SwiftyCam0aB14ViewControllerC", "cameraDelegate"]
+- ["9SwiftyCam0aB14ViewControllerC", "captureButton"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "dismiss"]
+- ["9SwiftyCam0aB14ViewControllerC", "flashButton"]
+- ["9SwiftyCam0aB14ViewControllerC", "flashButtonClicked"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "flashEnabled"]
+- ["9SwiftyCam0aB14ViewControllerC", "flipCamera"]
+- ["9SwiftyCam0aB14ViewControllerC", "flipCameraButton"]
+- ["9SwiftyCam0aB14ViewControllerC", "imagePicker"]
+- ["9SwiftyCam0aB14ViewControllerC", "imagePickerController"]
+- ["9SwiftyCam0aB14ViewControllerC", "imagePickerControllerDidCancel"]
+- ["9SwiftyCam0aB14ViewControllerC", "init"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "init"]
+- ["9SwiftyCam0aB14ViewControllerC", "libraryButton"]
+- ["9SwiftyCam0aB14ViewControllerC", "navigationController"]
+- ["9SwiftyCam0aB14ViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["9SwiftyCam0aB14ViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["9SwiftyCam0aB14ViewControllerC", "onClickLibrary"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "present"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "print"]
+- ["9SwiftyCam0aB14ViewControllerC", "swiftyCam"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "switchCamera"]
+- ["9SwiftyCam0aB14ViewControllerC", "takePicture"]
+- !private ["9SwiftyCam0aB14ViewControllerC", "view"]
+- ["9SwiftyCam0aB14ViewControllerC", "viewDidLoad"]
+- ["9SwiftyCam0aB14ViewControllerC", "viewWillAppear"]
+- ["9SwiftyCam0aB14ViewControllerC", "viewWillDisappear"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "CGRect"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "PostedItemViewController"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "SwiftyRecordButton"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "UIApplication"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "UIButton"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "UIImage"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "UIImagePickerController"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "UIImagePickerControllerOriginalImage"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "UIStoryboard"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", ""]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "cameraDelegate"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "captureButton"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "dismiss"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "flashButton"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "flashButtonClicked"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "flashEnabled"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "flipCamera"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "flipCameraButton"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "imagePicker"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "imagePickerController"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "libraryButton"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "navigationController"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "onClickLibrary"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "present"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "print"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "switchCamera"]
+- !private ["9SwiftyCam0aB22ViewControllerDelegateP", "view"]
+- !private ["7Chottky18SwiftyRecordButtonC", "bottomAnchor"]
+- !private ["7Chottky18SwiftyRecordButtonC", "centerXAnchor"]
+- !private ["7Chottky18SwiftyRecordButtonC", "centerYAnchor"]
+- !private ["7Chottky18SwiftyRecordButtonC", "deinit"]
+- !private ["7Chottky18SwiftyRecordButtonC", "delegate"]
+- !private ["7Chottky18SwiftyRecordButtonC", "heightAnchor"]
+- !private ["7Chottky18SwiftyRecordButtonC", "init"]
+- !private ["7Chottky18SwiftyRecordButtonC", "leftAnchor"]
+- !private ["7Chottky18SwiftyRecordButtonC", "rightAnchor"]
+- !private ["7Chottky18SwiftyRecordButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["7Chottky18SwiftyRecordButtonC", "widthAnchor"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "bottomAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "centerXAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "centerYAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "delegate"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "heightAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "leftAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "rightAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "topAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "widthAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "centerXAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "centerYAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "heightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "leftAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "rightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "widthAnchor"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "bottomAnchor"]
+- !private ["So12UIAppearanceP", "centerXAnchor"]
+- !private ["So12UIAppearanceP", "centerYAnchor"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "heightAnchor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "leftAnchor"]
+- !private ["So12UIAppearanceP", "rightAnchor"]
+- !private ["So12UIAppearanceP", "setImage"]
+- !private ["So12UIAppearanceP", "topAnchor"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "widthAnchor"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "PostedItemViewController"]
+- !private ["So21UIAppearanceContainerP", "SwiftyRecordButton"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", "UIImagePickerController"]
+- !private ["So21UIAppearanceContainerP", "UIImagePickerControllerOriginalImage"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "allowsEditing"]
+- !private ["So21UIAppearanceContainerP", "bottomAnchor"]
+- !private ["So21UIAppearanceContainerP", "cameraDelegate"]
+- !private ["So21UIAppearanceContainerP", "captureButton"]
+- !private ["So21UIAppearanceContainerP", "centerXAnchor"]
+- !private ["So21UIAppearanceContainerP", "centerYAnchor"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "flashButton"]
+- !private ["So21UIAppearanceContainerP", "flashButtonClicked"]
+- !private ["So21UIAppearanceContainerP", "flashEnabled"]
+- !private ["So21UIAppearanceContainerP", "flipCamera"]
+- !private ["So21UIAppearanceContainerP", "flipCameraButton"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "heightAnchor"]
+- !private ["So21UIAppearanceContainerP", "imagePicker"]
+- ["So21UIAppearanceContainerP", "imagePickerController"]
+- ["So21UIAppearanceContainerP", "imagePickerControllerDidCancel"]
+- !private ["So21UIAppearanceContainerP", "images"]
+- !private ["So21UIAppearanceContainerP", "imagesValid"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "leftAnchor"]
+- !private ["So21UIAppearanceContainerP", "libraryButton"]
+- ["So21UIAppearanceContainerP", "navigationController"]
+- ["So21UIAppearanceContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UIAppearanceContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So21UIAppearanceContainerP", "onClickLibrary"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "rightAnchor"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
+- !private ["So21UIAppearanceContainerP", "sourceType"]
+- ["So21UIAppearanceContainerP", "swiftyCam"]
+- !private ["So21UIAppearanceContainerP", "switchCamera"]
+- !private ["So21UIAppearanceContainerP", "topAnchor"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- !private ["So21UIAppearanceContainerP", "widthAnchor"]
+- !private ["So13UIApplicationC", "isStatusBarHidden"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So8UIButtonC", "bottomAnchor"]
+- !private ["So8UIButtonC", "centerXAnchor"]
+- !private ["So8UIButtonC", "centerYAnchor"]
+- !private ["So8UIButtonC", "delegate"]
+- !private ["So8UIButtonC", "frame"]
+- !private ["So8UIButtonC", "heightAnchor"]
+- !private ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "leftAnchor"]
+- !private ["So8UIButtonC", "rightAnchor"]
+- !private ["So8UIButtonC", "setImage"]
+- !private ["So8UIButtonC", "topAnchor"]
+- !private ["So8UIButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8UIButtonC", "widthAnchor"]
+- !private ["So26UICollectionViewDataSourceP", "images"]
+- !private ["So26UICollectionViewDataSourceP", "imagesValid"]
+- !private ["So24UICollectionViewDelegateP", "images"]
+- !private ["So24UICollectionViewDelegateP", "imagesValid"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "images"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "imagesValid"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "PostedItemViewController"]
+- !private ["So18UIContentContainerP", "SwiftyRecordButton"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "UIButton"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", "UIImagePickerController"]
+- !private ["So18UIContentContainerP", "UIImagePickerControllerOriginalImage"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "allowsEditing"]
+- !private ["So18UIContentContainerP", "cameraDelegate"]
+- !private ["So18UIContentContainerP", "captureButton"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "flashButton"]
+- !private ["So18UIContentContainerP", "flashButtonClicked"]
+- !private ["So18UIContentContainerP", "flashEnabled"]
+- !private ["So18UIContentContainerP", "flipCamera"]
+- !private ["So18UIContentContainerP", "flipCameraButton"]
+- !private ["So18UIContentContainerP", "imagePicker"]
+- ["So18UIContentContainerP", "imagePickerController"]
+- ["So18UIContentContainerP", "imagePickerControllerDidCancel"]
+- !private ["So18UIContentContainerP", "images"]
+- !private ["So18UIContentContainerP", "imagesValid"]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "libraryButton"]
+- ["So18UIContentContainerP", "navigationController"]
+- ["So18UIContentContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIContentContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UIContentContainerP", "onClickLibrary"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "sourceType"]
+- ["So18UIContentContainerP", "swiftyCam"]
+- !private ["So18UIContentContainerP", "switchCamera"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "bottomAnchor"]
+- !private ["So9UIControlC", "centerXAnchor"]
+- !private ["So9UIControlC", "centerYAnchor"]
+- !private ["So9UIControlC", "delegate"]
+- !private ["So9UIControlC", "frame"]
+- !private ["So9UIControlC", "heightAnchor"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "leftAnchor"]
+- !private ["So9UIControlC", "rightAnchor"]
+- !private ["So9UIControlC", "setImage"]
+- !private ["So9UIControlC", "topAnchor"]
+- !private ["So9UIControlC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So9UIControlC", "widthAnchor"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "bottomAnchor"]
+- !private ["So17UICoordinateSpaceP", "centerXAnchor"]
+- !private ["So17UICoordinateSpaceP", "centerYAnchor"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "heightAnchor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "leftAnchor"]
+- !private ["So17UICoordinateSpaceP", "rightAnchor"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
+- !private ["So17UICoordinateSpaceP", "topAnchor"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So17UICoordinateSpaceP", "widthAnchor"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "bottomAnchor"]
+- !private ["So13UIDynamicItemP", "centerXAnchor"]
+- !private ["So13UIDynamicItemP", "centerYAnchor"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "heightAnchor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "leftAnchor"]
+- !private ["So13UIDynamicItemP", "rightAnchor"]
+- !private ["So13UIDynamicItemP", "setImage"]
+- !private ["So13UIDynamicItemP", "topAnchor"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "widthAnchor"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "PostedItemViewController"]
+- !private ["So18UIFocusEnvironmentP", "SwiftyRecordButton"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", "UIImagePickerController"]
+- !private ["So18UIFocusEnvironmentP", "UIImagePickerControllerOriginalImage"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "allowsEditing"]
+- !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
+- !private ["So18UIFocusEnvironmentP", "cameraDelegate"]
+- !private ["So18UIFocusEnvironmentP", "captureButton"]
+- !private ["So18UIFocusEnvironmentP", "centerXAnchor"]
+- !private ["So18UIFocusEnvironmentP", "centerYAnchor"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "flashButton"]
+- !private ["So18UIFocusEnvironmentP", "flashButtonClicked"]
+- !private ["So18UIFocusEnvironmentP", "flashEnabled"]
+- !private ["So18UIFocusEnvironmentP", "flipCamera"]
+- !private ["So18UIFocusEnvironmentP", "flipCameraButton"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "heightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "imagePicker"]
+- ["So18UIFocusEnvironmentP", "imagePickerController"]
+- ["So18UIFocusEnvironmentP", "imagePickerControllerDidCancel"]
+- !private ["So18UIFocusEnvironmentP", "images"]
+- !private ["So18UIFocusEnvironmentP", "imagesValid"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "leftAnchor"]
+- !private ["So18UIFocusEnvironmentP", "libraryButton"]
+- ["So18UIFocusEnvironmentP", "navigationController"]
+- ["So18UIFocusEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIFocusEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UIFocusEnvironmentP", "onClickLibrary"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "rightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
+- !private ["So18UIFocusEnvironmentP", "sourceType"]
+- ["So18UIFocusEnvironmentP", "swiftyCam"]
+- !private ["So18UIFocusEnvironmentP", "switchCamera"]
+- !private ["So18UIFocusEnvironmentP", "topAnchor"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- !private ["So18UIFocusEnvironmentP", "widthAnchor"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "bottomAnchor"]
+- !private ["So11UIFocusItemP", "centerXAnchor"]
+- !private ["So11UIFocusItemP", "centerYAnchor"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "heightAnchor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "leftAnchor"]
+- !private ["So11UIFocusItemP", "rightAnchor"]
+- !private ["So11UIFocusItemP", "setImage"]
+- !private ["So11UIFocusItemP", "topAnchor"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "widthAnchor"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "bottomAnchor"]
+- !private ["So20UIFocusItemContainerP", "centerXAnchor"]
+- !private ["So20UIFocusItemContainerP", "centerYAnchor"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "heightAnchor"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "leftAnchor"]
+- !private ["So20UIFocusItemContainerP", "rightAnchor"]
+- !private ["So20UIFocusItemContainerP", "setImage"]
+- !private ["So20UIFocusItemContainerP", "topAnchor"]
+- !private ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So20UIFocusItemContainerP", "widthAnchor"]
+- !private ["So27UIGestureRecognizerDelegateP", "CGRect"]
+- !private ["So27UIGestureRecognizerDelegateP", "PostedItemViewController"]
+- !private ["So27UIGestureRecognizerDelegateP", "SwiftyRecordButton"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIApplication"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIButton"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIImage"]
+- ["So27UIGestureRecognizerDelegateP", "UIImagePickerController"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIImagePickerControllerOriginalImage"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIStoryboard"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "cameraDelegate"]
+- !private ["So27UIGestureRecognizerDelegateP", "captureButton"]
+- !private ["So27UIGestureRecognizerDelegateP", "dismiss"]
+- !private ["So27UIGestureRecognizerDelegateP", "flashButton"]
+- !private ["So27UIGestureRecognizerDelegateP", "flashButtonClicked"]
+- !private ["So27UIGestureRecognizerDelegateP", "flashEnabled"]
+- !private ["So27UIGestureRecognizerDelegateP", "flipCamera"]
+- !private ["So27UIGestureRecognizerDelegateP", "flipCameraButton"]
+- !private ["So27UIGestureRecognizerDelegateP", "imagePicker"]
+- ["So27UIGestureRecognizerDelegateP", "imagePickerController"]
+- ["So27UIGestureRecognizerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "libraryButton"]
+- ["So27UIGestureRecognizerDelegateP", "navigationController"]
+- ["So27UIGestureRecognizerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So27UIGestureRecognizerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So27UIGestureRecognizerDelegateP", "onClickLibrary"]
+- !private ["So27UIGestureRecognizerDelegateP", "present"]
+- !private ["So27UIGestureRecognizerDelegateP", "print"]
+- ["So27UIGestureRecognizerDelegateP", "swiftyCam"]
+- !private ["So27UIGestureRecognizerDelegateP", "switchCamera"]
+- !private ["So27UIGestureRecognizerDelegateP", "view"]
+- !private ["So27UIGestureRecognizerDelegateP", "viewDidLoad"]
+- !private ["So27UIGestureRecognizerDelegateP", "viewWillAppear"]
+- !private ["So27UIGestureRecognizerDelegateP", "viewWillDisappear"]
+- !private ["So7UIImageC", "init"]
+- !private ["So23UIImagePickerControllerC", "allowsEditing"]
+- !private ["So23UIImagePickerControllerC", "delegate"]
+- !private ["So23UIImagePickerControllerC", "dismiss"]
+- ["So23UIImagePickerControllerC", "init"]
+- !private ["So23UIImagePickerControllerC", "sourceType"]
+- !private ["So31UIImagePickerControllerDelegateP", "CGRect"]
+- !private ["So31UIImagePickerControllerDelegateP", "PostedItemViewController"]
+- !private ["So31UIImagePickerControllerDelegateP", "SwiftyRecordButton"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIApplication"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIButton"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIImage"]
+- ["So31UIImagePickerControllerDelegateP", "UIImagePickerController"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIImagePickerControllerOriginalImage"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIStoryboard"]
+- ["So31UIImagePickerControllerDelegateP", ""]
+- !private ["So31UIImagePickerControllerDelegateP", "cameraDelegate"]
+- !private ["So31UIImagePickerControllerDelegateP", "captureButton"]
+- !private ["So31UIImagePickerControllerDelegateP", "dismiss"]
+- !private ["So31UIImagePickerControllerDelegateP", "flashButton"]
+- !private ["So31UIImagePickerControllerDelegateP", "flashButtonClicked"]
+- !private ["So31UIImagePickerControllerDelegateP", "flashEnabled"]
+- !private ["So31UIImagePickerControllerDelegateP", "flipCamera"]
+- !private ["So31UIImagePickerControllerDelegateP", "flipCameraButton"]
+- !private ["So31UIImagePickerControllerDelegateP", "imagePicker"]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerController"]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So31UIImagePickerControllerDelegateP", "images"]
+- !private ["So31UIImagePickerControllerDelegateP", "imagesValid"]
+- !private ["So31UIImagePickerControllerDelegateP", "libraryButton"]
+- ["So31UIImagePickerControllerDelegateP", "navigationController"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So31UIImagePickerControllerDelegateP", "onClickLibrary"]
+- !private ["So31UIImagePickerControllerDelegateP", "present"]
+- !private ["So31UIImagePickerControllerDelegateP", "print"]
+- ["So31UIImagePickerControllerDelegateP", "swiftyCam"]
+- !private ["So31UIImagePickerControllerDelegateP", "switchCamera"]
+- !private ["So31UIImagePickerControllerDelegateP", "view"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So22UINavigationControllerC", "allowsEditing"]
+- !private ["So22UINavigationControllerC", "delegate"]
+- !private ["So22UINavigationControllerC", "dismiss"]
+- ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "sourceType"]
+- !private ["So30UINavigationControllerDelegateP", "CGRect"]
+- !private ["So30UINavigationControllerDelegateP", "PostedItemViewController"]
+- !private ["So30UINavigationControllerDelegateP", "SwiftyRecordButton"]
+- !private ["So30UINavigationControllerDelegateP", "UIApplication"]
+- !private ["So30UINavigationControllerDelegateP", "UIButton"]
+- !private ["So30UINavigationControllerDelegateP", "UIImage"]
+- ["So30UINavigationControllerDelegateP", "UIImagePickerController"]
+- !private ["So30UINavigationControllerDelegateP", "UIImagePickerControllerOriginalImage"]
+- !private ["So30UINavigationControllerDelegateP", "UIStoryboard"]
+- ["So30UINavigationControllerDelegateP", ""]
+- !private ["So30UINavigationControllerDelegateP", "cameraDelegate"]
+- !private ["So30UINavigationControllerDelegateP", "captureButton"]
+- !private ["So30UINavigationControllerDelegateP", "dismiss"]
+- !private ["So30UINavigationControllerDelegateP", "flashButton"]
+- !private ["So30UINavigationControllerDelegateP", "flashButtonClicked"]
+- !private ["So30UINavigationControllerDelegateP", "flashEnabled"]
+- !private ["So30UINavigationControllerDelegateP", "flipCamera"]
+- !private ["So30UINavigationControllerDelegateP", "flipCameraButton"]
+- !private ["So30UINavigationControllerDelegateP", "imagePicker"]
+- ["So30UINavigationControllerDelegateP", "imagePickerController"]
+- ["So30UINavigationControllerDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So30UINavigationControllerDelegateP", "images"]
+- !private ["So30UINavigationControllerDelegateP", "imagesValid"]
+- !private ["So30UINavigationControllerDelegateP", "libraryButton"]
+- ["So30UINavigationControllerDelegateP", "navigationController"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UINavigationControllerDelegateP", "onClickLibrary"]
+- !private ["So30UINavigationControllerDelegateP", "present"]
+- !private ["So30UINavigationControllerDelegateP", "print"]
+- ["So30UINavigationControllerDelegateP", "swiftyCam"]
+- !private ["So30UINavigationControllerDelegateP", "switchCamera"]
+- !private ["So30UINavigationControllerDelegateP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "PostedItemViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "SwiftyRecordButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", "UIImagePickerController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImagePickerControllerOriginalImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "allowsEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "cameraDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "captureButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerXAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerYAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "flashButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "flashButtonClicked"]
+- !private ["So30UIPasteConfigurationSupportingP", "flashEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "flipCamera"]
+- !private ["So30UIPasteConfigurationSupportingP", "flipCameraButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "heightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "imagePicker"]
+- ["So30UIPasteConfigurationSupportingP", "imagePickerController"]
+- ["So30UIPasteConfigurationSupportingP", "imagePickerControllerDidCancel"]
+- !private ["So30UIPasteConfigurationSupportingP", "images"]
+- !private ["So30UIPasteConfigurationSupportingP", "imagesValid"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isStatusBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "libraryButton"]
+- ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- ["So30UIPasteConfigurationSupportingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIPasteConfigurationSupportingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIPasteConfigurationSupportingP", "onClickLibrary"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "sourceType"]
+- ["So30UIPasteConfigurationSupportingP", "swiftyCam"]
+- !private ["So30UIPasteConfigurationSupportingP", "switchCamera"]
+- !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- !private ["So30UIPasteConfigurationSupportingP", "widthAnchor"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "PostedItemViewController"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "SwiftyCamViewController"]
+- ["So11UIResponderC", "SwiftyRecordButton"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImagePickerController"]
+- !private ["So11UIResponderC", "UIImagePickerControllerOriginalImage"]
+- !private ["So11UIResponderC", "UIStoryboard"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "allowsEditing"]
+- !private ["So11UIResponderC", "bottomAnchor"]
+- !private ["So11UIResponderC", "cameraDelegate"]
+- ["So11UIResponderC", "captureButton"]
+- !private ["So11UIResponderC", "centerXAnchor"]
+- !private ["So11UIResponderC", "centerYAnchor"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "flashButton"]
+- ["So11UIResponderC", "flashButtonClicked"]
+- !private ["So11UIResponderC", "flashEnabled"]
+- ["So11UIResponderC", "flipCamera"]
+- ["So11UIResponderC", "flipCameraButton"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "heightAnchor"]
+- ["So11UIResponderC", "imagePicker"]
+- ["So11UIResponderC", "imagePickerController"]
+- ["So11UIResponderC", "imagePickerControllerDidCancel"]
+- !private ["So11UIResponderC", "images"]
+- !private ["So11UIResponderC", "imagesValid"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isStatusBarHidden"]
+- !private ["So11UIResponderC", "leftAnchor"]
+- ["So11UIResponderC", "libraryButton"]
+- ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So11UIResponderC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So11UIResponderC", "onClickLibrary"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "rightAnchor"]
+- !private ["So11UIResponderC", "setImage"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "sourceType"]
+- ["So11UIResponderC", "swiftyCam"]
+- !private ["So11UIResponderC", "switchCamera"]
+- ["So11UIResponderC", "takePicture"]
+- !private ["So11UIResponderC", "topAnchor"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- !private ["So11UIResponderC", "widthAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "PostedItemViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "SwiftyRecordButton"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", "UIImagePickerController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImagePickerControllerOriginalImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "allowsEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "cameraDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "captureButton"]
+- !private ["So30UIResponderStandardEditActionsP", "centerXAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "centerYAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "flashButton"]
+- !private ["So30UIResponderStandardEditActionsP", "flashButtonClicked"]
+- !private ["So30UIResponderStandardEditActionsP", "flashEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "flipCamera"]
+- !private ["So30UIResponderStandardEditActionsP", "flipCameraButton"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "heightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "imagePicker"]
+- ["So30UIResponderStandardEditActionsP", "imagePickerController"]
+- ["So30UIResponderStandardEditActionsP", "imagePickerControllerDidCancel"]
+- !private ["So30UIResponderStandardEditActionsP", "images"]
+- !private ["So30UIResponderStandardEditActionsP", "imagesValid"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isStatusBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "leftAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "libraryButton"]
+- ["So30UIResponderStandardEditActionsP", "navigationController"]
+- ["So30UIResponderStandardEditActionsP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIResponderStandardEditActionsP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIResponderStandardEditActionsP", "onClickLibrary"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "rightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "sourceType"]
+- ["So30UIResponderStandardEditActionsP", "swiftyCam"]
+- !private ["So30UIResponderStandardEditActionsP", "switchCamera"]
+- !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- !private ["So30UIResponderStandardEditActionsP", "widthAnchor"]
+- !private ["So20UIScrollViewDelegateP", "images"]
+- !private ["So20UIScrollViewDelegateP", "imagesValid"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "bottomAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "centerXAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "centerYAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "delegate"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "frame"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "heightAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "leftAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rightAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "topAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "widthAnchor"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "PostedItemViewController"]
+- !private ["So16UIStateRestoringP", "SwiftyRecordButton"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "UIButton"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", "UIImagePickerController"]
+- !private ["So16UIStateRestoringP", "UIImagePickerControllerOriginalImage"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "allowsEditing"]
+- !private ["So16UIStateRestoringP", "cameraDelegate"]
+- !private ["So16UIStateRestoringP", "captureButton"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "flashButton"]
+- !private ["So16UIStateRestoringP", "flashButtonClicked"]
+- !private ["So16UIStateRestoringP", "flashEnabled"]
+- !private ["So16UIStateRestoringP", "flipCamera"]
+- !private ["So16UIStateRestoringP", "flipCameraButton"]
+- !private ["So16UIStateRestoringP", "imagePicker"]
+- ["So16UIStateRestoringP", "imagePickerController"]
+- ["So16UIStateRestoringP", "imagePickerControllerDidCancel"]
+- !private ["So16UIStateRestoringP", "images"]
+- !private ["So16UIStateRestoringP", "imagesValid"]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "libraryButton"]
+- ["So16UIStateRestoringP", "navigationController"]
+- ["So16UIStateRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIStateRestoringP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So16UIStateRestoringP", "onClickLibrary"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "sourceType"]
+- ["So16UIStateRestoringP", "swiftyCam"]
+- !private ["So16UIStateRestoringP", "switchCamera"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So16UIStateRestoringP", "viewWillDisappear"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So19UITextFieldDelegateP", "images"]
+- !private ["So19UITextFieldDelegateP", "imagesValid"]
+- !private ["So18UITextViewDelegateP", "images"]
+- !private ["So18UITextViewDelegateP", "imagesValid"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "PostedItemViewController"]
+- !private ["So18UITraitEnvironmentP", "SwiftyRecordButton"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", "UIImagePickerController"]
+- !private ["So18UITraitEnvironmentP", "UIImagePickerControllerOriginalImage"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "allowsEditing"]
+- !private ["So18UITraitEnvironmentP", "bottomAnchor"]
+- !private ["So18UITraitEnvironmentP", "cameraDelegate"]
+- !private ["So18UITraitEnvironmentP", "captureButton"]
+- !private ["So18UITraitEnvironmentP", "centerXAnchor"]
+- !private ["So18UITraitEnvironmentP", "centerYAnchor"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "flashButton"]
+- !private ["So18UITraitEnvironmentP", "flashButtonClicked"]
+- !private ["So18UITraitEnvironmentP", "flashEnabled"]
+- !private ["So18UITraitEnvironmentP", "flipCamera"]
+- !private ["So18UITraitEnvironmentP", "flipCameraButton"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "heightAnchor"]
+- !private ["So18UITraitEnvironmentP", "imagePicker"]
+- ["So18UITraitEnvironmentP", "imagePickerController"]
+- ["So18UITraitEnvironmentP", "imagePickerControllerDidCancel"]
+- !private ["So18UITraitEnvironmentP", "images"]
+- !private ["So18UITraitEnvironmentP", "imagesValid"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "leftAnchor"]
+- !private ["So18UITraitEnvironmentP", "libraryButton"]
+- ["So18UITraitEnvironmentP", "navigationController"]
+- ["So18UITraitEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UITraitEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UITraitEnvironmentP", "onClickLibrary"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "rightAnchor"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
+- !private ["So18UITraitEnvironmentP", "sourceType"]
+- ["So18UITraitEnvironmentP", "swiftyCam"]
+- !private ["So18UITraitEnvironmentP", "switchCamera"]
+- !private ["So18UITraitEnvironmentP", "topAnchor"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- !private ["So18UITraitEnvironmentP", "widthAnchor"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "PostedItemViewController"]
+- !private ["So23UIUserActivityRestoringP", "SwiftyRecordButton"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- !private ["So23UIUserActivityRestoringP", "UIButton"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- ["So23UIUserActivityRestoringP", "UIImagePickerController"]
+- !private ["So23UIUserActivityRestoringP", "UIImagePickerControllerOriginalImage"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- !private ["So23UIUserActivityRestoringP", "allowsEditing"]
+- !private ["So23UIUserActivityRestoringP", "bottomAnchor"]
+- !private ["So23UIUserActivityRestoringP", "cameraDelegate"]
+- !private ["So23UIUserActivityRestoringP", "captureButton"]
+- !private ["So23UIUserActivityRestoringP", "centerXAnchor"]
+- !private ["So23UIUserActivityRestoringP", "centerYAnchor"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "flashButton"]
+- !private ["So23UIUserActivityRestoringP", "flashButtonClicked"]
+- !private ["So23UIUserActivityRestoringP", "flashEnabled"]
+- !private ["So23UIUserActivityRestoringP", "flipCamera"]
+- !private ["So23UIUserActivityRestoringP", "flipCameraButton"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "heightAnchor"]
+- !private ["So23UIUserActivityRestoringP", "imagePicker"]
+- ["So23UIUserActivityRestoringP", "imagePickerController"]
+- ["So23UIUserActivityRestoringP", "imagePickerControllerDidCancel"]
+- !private ["So23UIUserActivityRestoringP", "images"]
+- !private ["So23UIUserActivityRestoringP", "imagesValid"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isStatusBarHidden"]
+- !private ["So23UIUserActivityRestoringP", "leftAnchor"]
+- !private ["So23UIUserActivityRestoringP", "libraryButton"]
+- ["So23UIUserActivityRestoringP", "navigationController"]
+- ["So23UIUserActivityRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So23UIUserActivityRestoringP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So23UIUserActivityRestoringP", "onClickLibrary"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "rightAnchor"]
+- !private ["So23UIUserActivityRestoringP", "setImage"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "sourceType"]
+- ["So23UIUserActivityRestoringP", "swiftyCam"]
+- !private ["So23UIUserActivityRestoringP", "switchCamera"]
+- !private ["So23UIUserActivityRestoringP", "topAnchor"]
+- !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "viewWillDisappear"]
+- !private ["So23UIUserActivityRestoringP", "widthAnchor"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "bottomAnchor"]
+- !private ["So6UIViewC", "centerXAnchor"]
+- !private ["So6UIViewC", "centerYAnchor"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "heightAnchor"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "leftAnchor"]
+- !private ["So6UIViewC", "rightAnchor"]
+- !private ["So6UIViewC", "setImage"]
+- !private ["So6UIViewC", "topAnchor"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIViewC", "widthAnchor"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- !private ["So16UIViewControllerC", "PostedItemViewController"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "SwiftyCamViewController"]
+- ["So16UIViewControllerC", "SwiftyRecordButton"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImagePickerController"]
+- !private ["So16UIViewControllerC", "UIImagePickerControllerOriginalImage"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
+- !private ["So16UIViewControllerC", "allowsEditing"]
+- !private ["So16UIViewControllerC", "cameraDelegate"]
+- ["So16UIViewControllerC", "captureButton"]
+- !private ["So16UIViewControllerC", "delegate"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "flashButton"]
+- ["So16UIViewControllerC", "flashButtonClicked"]
+- !private ["So16UIViewControllerC", "flashEnabled"]
+- ["So16UIViewControllerC", "flipCamera"]
+- ["So16UIViewControllerC", "flipCameraButton"]
+- ["So16UIViewControllerC", "imagePicker"]
+- ["So16UIViewControllerC", "imagePickerController"]
+- ["So16UIViewControllerC", "imagePickerControllerDidCancel"]
+- !private ["So16UIViewControllerC", "images"]
+- !private ["So16UIViewControllerC", "imagesValid"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "libraryButton"]
+- ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So16UIViewControllerC", "onClickLibrary"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- !private ["So16UIViewControllerC", "sourceType"]
+- ["So16UIViewControllerC", "swiftyCam"]
+- !private ["So16UIViewControllerC", "switchCamera"]
+- ["So16UIViewControllerC", "takePicture"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerXAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerYAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "heightAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "leftAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rightAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PostedItemViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwiftyRecordButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerControllerOriginalImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowsEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cameraDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "captureButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerXAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerYAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flashButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flashButtonClicked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flashEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flipCamera"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flipCameraButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imagePicker"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerControllerDidCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "images"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imagesValid"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isStatusBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "libraryButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onClickLibrary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "swiftyCam"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "switchCamera"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "widthAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "addTarget"]
+- !private ["s21_ObjectiveCBridgeableP", "bottomAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "centerXAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "centerYAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "heightAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "leftAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "rightAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "setImage"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "topAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s21_ObjectiveCBridgeableP", "widthAnchor"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "So36AVCaptureFileOutputRecordingDelegateP"
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "7Chottky20CameraViewControllerC"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "So15UIControlEventsV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So17NSLayoutDimensionC"
+- !private "So19NSLayoutXAxisAnchorC"
+- !private "So19NSLayoutYAxisAnchorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "7Chottky24PostedItemViewControllerC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "So33UIImagePickerControllerSourceTypeV"
+- !private "So14UIControlStateV"
+- !private "SS"
+- !private "Sy"
+- !private "9SwiftyCam0aB6ButtonC"
+- "9SwiftyCam0aB14ButtonDelegateP"
+- "9SwiftyCam0aB14ViewControllerC"
+- "9SwiftyCam0aB22ViewControllerDelegateP"
+- !private "7Chottky18SwiftyRecordButtonC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So8UIButtonC"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- "So23UIImagePickerControllerC"
+- "So31UIImagePickerControllerDelegateP"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So22UINavigationControllerC"
+- "So30UINavigationControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So19UITextFieldDelegateP"
+- !private "So18UITextViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Modules/ROGoogleTranslate.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Modules/SwiftyCam.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Modules/ESTabBarController_swift.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/arm64.swiftmodule"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Modules/PageMenu.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks/FirebaseStorageUI.framework/Headers/FirebaseStorageUI.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKURL.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Headers/ROGoogleTranslate-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Headers/SwiftyCam-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Headers/ESTabBarController-swift-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAppInstallAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeContentAd.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdNotificationSource.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks/FirebaseStorageUI.framework/Headers/UIImageView+FirebaseStorage.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationCache.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/Lottie.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/radibarq/developer/Chottky/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediatedNativeAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTValueDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire+Private.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFQuery+Private.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolving.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FIRCrashLog.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimatedSwitch.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFGeoHash.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FIRCrash.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FirebaseCrash.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTKeypath.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTValueCallback.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTBlockCallback.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTInterpolatorCallback.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLink.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimatedControl.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkNavigation.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTComposition.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTCacheProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationTransitionController.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKWebViewAppLinkResolver.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAdAssetIDs.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAdAssetIDs.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFBase32Utils.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationView_Compat.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkTarget.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Headers/ROGoogleTranslate-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Headers/SwiftyCam-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Headers/ESTabBarController_swift-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMeasurementEvent.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/LOTAnimationView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdChoicesView.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFCircleQuery.h"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFGeoHashQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFRegionQuery.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/Desktop/Radi/Chottky/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks/FirebaseStorageUI.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SwiftyCam/SwiftyCam.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Modules/module.modulemap"
+- "/Users/radibarq/Desktop/Radi/Chottky/Pods/Google/Headers/module.modulemap"
+- "/Users/radibarq/developer/Chottky/Pods/Google/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "19720cb432de810e47252277c90cd881"

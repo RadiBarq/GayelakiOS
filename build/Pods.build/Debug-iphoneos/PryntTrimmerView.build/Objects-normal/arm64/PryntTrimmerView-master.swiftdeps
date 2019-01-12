@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "2d3ff572fb1a92ad5f5311511cdaac2e"
+build_time: [1547151506, 238102000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Parents/AssetVideoScrollView.swift": !dirty [1547151467, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Parents/AVAssetTimeSelector.swift": !dirty [1547151467, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Cropper/CropMaskView.swift": !dirty [1547151467, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Trimmer/HandlerView.swift": !dirty [1547151467, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Trimmer/PryntTrimmerView.swift": !dirty [1547151467, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/ThumbSelectorView.swift": !dirty [1547151467, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Cropper/VideoCropView.swift": !dirty [1547151467, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PryntTrimmerView/PryntTrimmerView/Classes/Cropper/VideoScrollView.swift": !dirty [1547151467, 0]

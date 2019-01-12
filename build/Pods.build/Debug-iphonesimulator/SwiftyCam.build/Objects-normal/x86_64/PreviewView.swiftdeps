@@ -1,0 +1,471 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwiftyCamVideoGravity"
+- "PreviewView"
+provides-nominal:
+- "9SwiftyCam0aB12VideoGravityO"
+- "9SwiftyCam11PreviewViewC"
+provides-member:
+- ["9SwiftyCam0aB12VideoGravityO", ""]
+- ["9SwiftyCam11PreviewViewC", ""]
+provides-dynamic-lookup:
+- "layerClass"
+depends-top-level:
+- "=="
+- "AVCaptureSession"
+- "AVCaptureVideoPreviewLayer"
+- !private "AVLayerVideoGravityResize"
+- !private "AVLayerVideoGravityResizeAspect"
+- !private "AVLayerVideoGravityResizeAspectFill"
+- "AnyClass"
+- "AssignmentPrecedence"
+- "CGRect"
+- "CastingPrecedence"
+- "NSCoder"
+- "PreviewView"
+- !private "StringLiteralType"
+- "SwiftyCamVideoGravity"
+- !private "UIColor"
+- "UIView"
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- ["So15CALayerDelegateP", "AVCaptureSession"]
+- ["So15CALayerDelegateP", "AVCaptureVideoPreviewLayer"]
+- !private ["So15CALayerDelegateP", "AVLayerVideoGravityResize"]
+- !private ["So15CALayerDelegateP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So15CALayerDelegateP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "gravity"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "videoPreviewLayer"]
+- ["So15CALayerDelegateP", ""]
+- ["s7CVarArgP", "AVCaptureSession"]
+- ["s7CVarArgP", "AVCaptureVideoPreviewLayer"]
+- !private ["s7CVarArgP", "AVLayerVideoGravityResize"]
+- !private ["s7CVarArgP", "AVLayerVideoGravityResizeAspect"]
+- !private ["s7CVarArgP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "gravity"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "videoPreviewLayer"]
+- ["s7CVarArgP", ""]
+- !private ["s10ComparableP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "AVCaptureSession"]
+- ["s28CustomDebugStringConvertibleP", "AVCaptureVideoPreviewLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "AVLayerVideoGravityResize"]
+- !private ["s28CustomDebugStringConvertibleP", "AVLayerVideoGravityResizeAspect"]
+- !private ["s28CustomDebugStringConvertibleP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "gravity"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "videoPreviewLayer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "AVCaptureSession"]
+- ["s23CustomStringConvertibleP", "AVCaptureVideoPreviewLayer"]
+- !private ["s23CustomStringConvertibleP", "AVLayerVideoGravityResize"]
+- !private ["s23CustomStringConvertibleP", "AVLayerVideoGravityResizeAspect"]
+- !private ["s23CustomStringConvertibleP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "gravity"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "videoPreviewLayer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EquatableP", "AVCaptureSession"]
+- ["s9EquatableP", "AVCaptureVideoPreviewLayer"]
+- !private ["s9EquatableP", "AVLayerVideoGravityResize"]
+- !private ["s9EquatableP", "AVLayerVideoGravityResizeAspect"]
+- !private ["s9EquatableP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "black"]
+- !private ["s9EquatableP", "gravity"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layer"]
+- ["s9EquatableP", "resize"]
+- ["s9EquatableP", "resizeAspect"]
+- ["s9EquatableP", "resizeAspectFill"]
+- !private ["s9EquatableP", "videoPreviewLayer"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "AVCaptureSession"]
+- ["s8HashableP", "AVCaptureVideoPreviewLayer"]
+- !private ["s8HashableP", "AVLayerVideoGravityResize"]
+- !private ["s8HashableP", "AVLayerVideoGravityResizeAspect"]
+- !private ["s8HashableP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "black"]
+- !private ["s8HashableP", "gravity"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layer"]
+- ["s8HashableP", "resize"]
+- ["s8HashableP", "resizeAspect"]
+- ["s8HashableP", "resizeAspectFill"]
+- !private ["s8HashableP", "videoPreviewLayer"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["So8NSCodingP", "AVCaptureSession"]
+- ["So8NSCodingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So8NSCodingP", "AVLayerVideoGravityResize"]
+- !private ["So8NSCodingP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So8NSCodingP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "gravity"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "videoPreviewLayer"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- ["So8NSObjectC", "AVCaptureSession"]
+- ["So8NSObjectC", "AVCaptureVideoPreviewLayer"]
+- !private ["So8NSObjectC", "AVLayerVideoGravityResize"]
+- !private ["So8NSObjectC", "AVLayerVideoGravityResizeAspect"]
+- !private ["So8NSObjectC", "AVLayerVideoGravityResizeAspectFill"]
+- ["So8NSObjectC", "AnyClass"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "SwiftyCamVideoGravity"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "gravity"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "layerClass"]
+- !private ["So8NSObjectC", "videoPreviewLayer"]
+- ["So16NSObjectProtocolP", "AVCaptureSession"]
+- ["So16NSObjectProtocolP", "AVCaptureVideoPreviewLayer"]
+- !private ["So16NSObjectProtocolP", "AVLayerVideoGravityResize"]
+- !private ["So16NSObjectProtocolP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So16NSObjectProtocolP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "black"]
+- !private ["So16NSObjectProtocolP", "gravity"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "videoPreviewLayer"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["s7NumericP", "hashValue"]
+- ["9SwiftyCam11PreviewViewC", "AVCaptureSession"]
+- ["9SwiftyCam11PreviewViewC", "AVCaptureVideoPreviewLayer"]
+- !private ["9SwiftyCam11PreviewViewC", "AVLayerVideoGravityResize"]
+- !private ["9SwiftyCam11PreviewViewC", "AVLayerVideoGravityResizeAspect"]
+- !private ["9SwiftyCam11PreviewViewC", "AVLayerVideoGravityResizeAspectFill"]
+- ["9SwiftyCam11PreviewViewC", "AnyClass"]
+- ["9SwiftyCam11PreviewViewC", "CGRect"]
+- ["9SwiftyCam11PreviewViewC", "NSCoder"]
+- ["9SwiftyCam11PreviewViewC", "SwiftyCamVideoGravity"]
+- !private ["9SwiftyCam11PreviewViewC", "UIColor"]
+- !private ["9SwiftyCam11PreviewViewC", "backgroundColor"]
+- ["9SwiftyCam11PreviewViewC", "deinit"]
+- !private ["9SwiftyCam11PreviewViewC", "gravity"]
+- ["9SwiftyCam11PreviewViewC", "init"]
+- !private ["9SwiftyCam11PreviewViewC", "layer"]
+- ["9SwiftyCam11PreviewViewC", "layerClass"]
+- !private ["9SwiftyCam11PreviewViewC", "videoPreviewLayer"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- ["9SwiftyCam0aB12VideoGravityO", "__derived_enum_equals"]
+- ["9SwiftyCam0aB12VideoGravityO", "deinit"]
+- ["9SwiftyCam0aB12VideoGravityO", "hashValue"]
+- ["9SwiftyCam0aB12VideoGravityO", "resize"]
+- ["9SwiftyCam0aB12VideoGravityO", "resizeAspect"]
+- ["9SwiftyCam0aB12VideoGravityO", "resizeAspectFill"]
+- ["So29UIAccessibilityIdentificationP", "AVCaptureSession"]
+- ["So29UIAccessibilityIdentificationP", "AVCaptureVideoPreviewLayer"]
+- !private ["So29UIAccessibilityIdentificationP", "AVLayerVideoGravityResize"]
+- !private ["So29UIAccessibilityIdentificationP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So29UIAccessibilityIdentificationP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "gravity"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "videoPreviewLayer"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So12UIAppearanceP", "AVCaptureSession"]
+- ["So12UIAppearanceP", "AVCaptureVideoPreviewLayer"]
+- !private ["So12UIAppearanceP", "AVLayerVideoGravityResize"]
+- !private ["So12UIAppearanceP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So12UIAppearanceP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "gravity"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "videoPreviewLayer"]
+- ["So12UIAppearanceP", ""]
+- ["So21UIAppearanceContainerP", "AVCaptureSession"]
+- ["So21UIAppearanceContainerP", "AVCaptureVideoPreviewLayer"]
+- !private ["So21UIAppearanceContainerP", "AVLayerVideoGravityResize"]
+- !private ["So21UIAppearanceContainerP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So21UIAppearanceContainerP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "gravity"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "videoPreviewLayer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So7UIColorC", "black"]
+- ["So17UICoordinateSpaceP", "AVCaptureSession"]
+- ["So17UICoordinateSpaceP", "AVCaptureVideoPreviewLayer"]
+- !private ["So17UICoordinateSpaceP", "AVLayerVideoGravityResize"]
+- !private ["So17UICoordinateSpaceP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So17UICoordinateSpaceP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "gravity"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "videoPreviewLayer"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So13UIDynamicItemP", "AVCaptureSession"]
+- ["So13UIDynamicItemP", "AVCaptureVideoPreviewLayer"]
+- !private ["So13UIDynamicItemP", "AVLayerVideoGravityResize"]
+- !private ["So13UIDynamicItemP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So13UIDynamicItemP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "gravity"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "videoPreviewLayer"]
+- ["So13UIDynamicItemP", ""]
+- ["So18UIFocusEnvironmentP", "AVCaptureSession"]
+- ["So18UIFocusEnvironmentP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UIFocusEnvironmentP", "AVLayerVideoGravityResize"]
+- !private ["So18UIFocusEnvironmentP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So18UIFocusEnvironmentP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "gravity"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "videoPreviewLayer"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", "AVCaptureSession"]
+- ["So11UIFocusItemP", "AVCaptureVideoPreviewLayer"]
+- !private ["So11UIFocusItemP", "AVLayerVideoGravityResize"]
+- !private ["So11UIFocusItemP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So11UIFocusItemP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "gravity"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "videoPreviewLayer"]
+- ["So11UIFocusItemP", ""]
+- ["So30UIPasteConfigurationSupportingP", "AVCaptureSession"]
+- ["So30UIPasteConfigurationSupportingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVLayerVideoGravityResize"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "gravity"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "videoPreviewLayer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AVCaptureSession"]
+- ["So11UIResponderC", "AVCaptureVideoPreviewLayer"]
+- !private ["So11UIResponderC", "AVLayerVideoGravityResize"]
+- !private ["So11UIResponderC", "AVLayerVideoGravityResizeAspect"]
+- !private ["So11UIResponderC", "AVLayerVideoGravityResizeAspectFill"]
+- ["So11UIResponderC", "AnyClass"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "SwiftyCamVideoGravity"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "gravity"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "layerClass"]
+- !private ["So11UIResponderC", "videoPreviewLayer"]
+- ["So30UIResponderStandardEditActionsP", "AVCaptureSession"]
+- ["So30UIResponderStandardEditActionsP", "AVCaptureVideoPreviewLayer"]
+- !private ["So30UIResponderStandardEditActionsP", "AVLayerVideoGravityResize"]
+- !private ["So30UIResponderStandardEditActionsP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So30UIResponderStandardEditActionsP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "gravity"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "videoPreviewLayer"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So18UITraitEnvironmentP", "AVCaptureSession"]
+- ["So18UITraitEnvironmentP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UITraitEnvironmentP", "AVLayerVideoGravityResize"]
+- !private ["So18UITraitEnvironmentP", "AVLayerVideoGravityResizeAspect"]
+- !private ["So18UITraitEnvironmentP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "gravity"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "videoPreviewLayer"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "AVCaptureSession"]
+- ["So6UIViewC", "AVCaptureVideoPreviewLayer"]
+- !private ["So6UIViewC", "AVLayerVideoGravityResize"]
+- !private ["So6UIViewC", "AVLayerVideoGravityResizeAspect"]
+- !private ["So6UIViewC", "AVLayerVideoGravityResizeAspectFill"]
+- ["So6UIViewC", "AnyClass"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "SwiftyCamVideoGravity"]
+- !private ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "gravity"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "layerClass"]
+- !private ["So6UIViewC", "videoPreviewLayer"]
+- ["So6UIViewC", ""]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "AVCaptureSession"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "AVCaptureVideoPreviewLayer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AVLayerVideoGravityResize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AVLayerVideoGravityResizeAspect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "gravity"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "videoPreviewLayer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureVideoPreviewLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVLayerVideoGravityResize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVLayerVideoGravityResizeAspect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVLayerVideoGravityResizeAspectFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gravity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videoPreviewLayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- "9SwiftyCam11PreviewViewC"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "9SwiftyCam0aB12VideoGravityO"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s18_BitwiseOperationsP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SwiftyCam/SwiftyCam-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphonesimulator/SwiftyCam.build/unextended-module.modulemap"
+interface-hash: "a24a1650d531f8ee78fee8ccc81ade08"

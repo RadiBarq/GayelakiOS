@@ -1,0 +1,1576 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BFAppLink.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkNavigation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkResolving.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkReturnToRefererController.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkReturnToRefererView.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkTarget.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationToken.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenRegistration.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenSource.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFExecutor.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFGeneric.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFMeasurementEvent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTask.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTaskCompletionSource.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFURL.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFWebViewAppLinkResolver.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Bolts/Bolts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ESTabBarController-swift-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/ESTabBarController-swift/ESTabBarController-swift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ESTabBarController_swift-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Headers/ESTabBarController_swift-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ESTabBarController-swift/ESTabBarController_swift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/ESTabBarController-swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKAccessToken.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppEvents.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLink.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLink.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkNavigation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkResolver.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkResolving.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkReturnToRefererController.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkReturnToRefererView.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkTarget.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppLinkUtility.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKApplicationDelegate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKConstants.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCopying.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCoreKit.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphErrorRecoveryProcessor.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequest.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestConnection.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGraphRequestDataAttachment.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMacros.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMeasurementEvent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMutableCopying.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKProfile.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKProfilePictureView.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSettings.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKTestUsersManager.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKURL.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKUtility.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKWebViewAppLinkResolver.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceLoginCodeInfo.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginCodeInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceLoginManager.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKDeviceLoginManagerResult.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginConstants.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginKit-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginKit-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginKit.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginManager.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginManagerLoginResult.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginManagerLoginResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLoginTooltipView.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginTooltipView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKTooltipView.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKTooltipView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FBSDKLoginKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKShareKit/FBSDKShareKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FBSDKAppGroupAddDialog.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppGroupContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppGroupJoinDialog.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppInviteContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKAppInviteDialog.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCameraEffectArguments.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectArguments.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKCameraEffectTextures.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectTextures.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGameRequestContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKGameRequestDialog.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKHashtag.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLikeButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLikeControl.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLikeObjectType.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKLiking.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKMessageDialog.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSendButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareAPI.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareCameraEffectContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareCameraEffectContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareConstants.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareDialog.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareDialogMode.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareKit-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareKit-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareKit.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareLinkContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMediaContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMessengerActionButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerActionButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMessengerGenericTemplateContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMessengerGenericTemplateElement.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMessengerMediaTemplateContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMessengerOpenGraphMusicTemplateContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareMessengerURLActionButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphAction.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphObject.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareOpenGraphValueContainer.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharePhoto.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharePhotoContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareVideo.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKShareVideoContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharing.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharingButton.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharingContent.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharingScheme.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingScheme.h"
+        },
+        {
+          'type': 'file',
+          'name': "FBSDKSharingValidation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingValidation.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FBSDKShareKit/FBSDKShareKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FBSDKShareKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FacebookCore-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FacebookCore-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FacebookCore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FacebookLogin-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FacebookLogin-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookLogin/FacebookLogin-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FacebookLogin.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookShare/FacebookShare.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FacebookShare-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookShare/FacebookShare.framework/Headers/FacebookShare-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FacebookShare-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/FacebookShare/FacebookShare-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/FacebookShare/FacebookShare.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/FacebookShare.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GTMOAuth2/GTMOAuth2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMOAuth2-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GTMOAuth2/GTMOAuth2.framework/Headers/GTMOAuth2-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMOAuth2-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/GTMOAuth2/GTMOAuth2-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMOAuth2Authentication.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMOAuth2/Source/GTMOAuth2Authentication.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMOAuth2SignIn.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMOAuth2/Source/GTMOAuth2SignIn.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMOAuth2ViewControllerTouch.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMOAuth2/Source/Touch/GTMOAuth2ViewControllerTouch.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GTMOAuth2/GTMOAuth2.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/GTMOAuth2.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMGatherInputStream.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMSessionFetcher/Source/GTMGatherInputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMMIMEDocument.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMSessionFetcher/Source/GTMMIMEDocument.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMReadMonitorInputStream.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherLogging.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherService.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionUploadFetcher.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Gallery/Gallery.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Gallery-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Gallery/Gallery.framework/Headers/Gallery-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Gallery-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Gallery/Gallery-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Gallery/Gallery.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Gallery.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GFBase32Utils.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/Implementation/GFBase32Utils.h"
+        },
+        {
+          'type': 'file',
+          'name': "GFCircleQuery.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/API/GFCircleQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "GFGeoHash.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/Implementation/GFGeoHash.h"
+        },
+        {
+          'type': 'file',
+          'name': "GFGeoHashQuery.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/Implementation/GFGeoHashQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "GFQuery+Private.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/Implementation/GFQuery+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "GFQuery.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/API/GFQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "GFRegionQuery.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/API/GFRegionQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoFire+Private.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/Implementation/GeoFire+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoFire-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoFire-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/GeoFire/GeoFire-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoFire.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GeoFire/GeoFire/API/GeoFire.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GeoFire/GeoFire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/GeoFire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMDebugSelectorValidation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugSelectorValidation.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMDebugThreadValidation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugThreadValidation.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMDefines.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/GTMDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMLogger.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/Foundation/GTMLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMMethodCheck.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/DebugUtils/GTMMethodCheck.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSData+zlib.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSDictionary+URLArguments.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/Foundation/GTMNSDictionary+URLArguments.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSString+URLArguments.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/GoogleToolboxForMac/Foundation/GTMNSString+URLArguments.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PageMenu-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Headers/PageMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PageMenu-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/PageMenu/PageMenu-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/PageMenu/PageMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PageMenu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Pods_Chottky.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Chottky-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Pods-Chottky/Pods-Chottky-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Chottky-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Pods_Chottky.framework/Headers/Pods_Chottky-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Pods_Chottky.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Pods-Chottky.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Protobuf/Protobuf.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Any.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Any.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Api.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Api.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Duration.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Duration.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Empty.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Empty.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "FieldMask.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/FieldMask.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBArray.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBArray.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBArray_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBArray_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBBootstrap.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBBootstrap.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedInputStream.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBCodedInputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedInputStream_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBCodedInputStream_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedOutputStream.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBCodedOutputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedOutputStream_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBCodedOutputStream_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDescriptor.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBDescriptor.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDescriptor_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBDescriptor_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDictionary.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDictionary_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBDictionary_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBExtensionInternals.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBExtensionInternals.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBExtensionRegistry.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBExtensionRegistry.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBMessage.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBMessage_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBMessage_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBProtocolBuffers.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBProtocolBuffers.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBProtocolBuffers_RuntimeSupport.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBProtocolBuffers_RuntimeSupport.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBRootObject.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBRootObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBRootObject_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBRootObject_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBRuntimeTypes.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBRuntimeTypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownField.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBUnknownField.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownFieldSet.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBUnknownFieldSet.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownFieldSet_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBUnknownFieldSet_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownField_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBUnknownField_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUtilities.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUtilities_PackagePrivate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBUtilities_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBWellKnownTypes.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBWellKnownTypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBWireFormat.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/GPBWireFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "Protobuf-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Protobuf/Protobuf.framework/Headers/Protobuf-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Protobuf-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/Protobuf/Protobuf-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SourceContext.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/SourceContext.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Struct.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Struct.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Timestamp.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Timestamp.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Type.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Type.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Wrappers.pbobjc.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Protobuf/objectivec/google/protobuf/Wrappers.pbobjc.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/Protobuf/Protobuf.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/Protobuf.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ROGoogleTranslate-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Headers/ROGoogleTranslate-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ROGoogleTranslate-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/ROGoogleTranslate/ROGoogleTranslate-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/ROGoogleTranslate/ROGoogleTranslate.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/ROGoogleTranslate.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSButton+WebCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/NSButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSData+ImageContentType.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSImage+WebCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/NSImage+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDAnimatedImageRep.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDAnimatedImageRep.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDImageCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDImageCacheConfig.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCoder.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCoderHelper.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageCoderHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCodersManager.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageCodersManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCompat.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloader.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloaderOperation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageFrame.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageFrame.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageGIFCoder.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageGIFCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageImageIOCoder.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageImageIOCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageManager.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageOperation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImagePrefetcher.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageTransition.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/SDWebImageTransition.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+WebCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+ForceDecode.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+GIF.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+MultiFormat.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+HighlightedWebCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+WebCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+WebCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIView+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+WebCacheOperation.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SideMenu-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SideMenu-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SideMenu/SideMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SideMenu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "LOTAnimatedControl.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimatedControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTAnimatedSwitch.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimatedSwitch.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTAnimationCache.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTAnimationTransitionController.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationTransitionController.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTAnimationView.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTAnimationView_Compat.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView_Compat.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTBlockCallback.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTBlockCallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTCacheProvider.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTCacheProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTComposition.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTComposition.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTInterpolatorCallback.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTInterpolatorCallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTKeypath.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTKeypath.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTValueCallback.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueCallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "LOTValueDelegate.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "Lottie-Swift.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Lottie.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/Lottie.h"
+        },
+        {
+          'type': 'file',
+          'name': "lottie-ios-umbrella.h",
+          'external-contents': "/Users/radibarq/developer/Chottky/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/lottie-ios/Lottie.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/lottie-ios.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module ESTabBarController_swift {
+  umbrella header "ESTabBarController-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ESTabBarController_swift.Swift {
+    header "ESTabBarController_swift-Swift.h"
+    requires objc
+}

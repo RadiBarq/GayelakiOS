@@ -1,0 +1,264 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GraphRequestConnectionDelegateBridge"
+provides-nominal:
+- "12FacebookCore36GraphRequestConnectionDelegateBridgeC"
+provides-member:
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", ""]
+provides-dynamic-lookup:
+- "networkFailureHandler"
+- "networkProgressHandler"
+- "requestConnection"
+- "setupAsDelegateFor"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Error"
+- "FBSDKGraphRequestConnection"
+- "FBSDKGraphRequestConnectionDelegate"
+- "GraphRequestConnection"
+- "GraphRequestConnectionDelegateBridge"
+- "Int"
+- !private "Int64"
+- "NSObject"
+- !private "Unmanaged"
+- !private "objc_setAssociatedObject"
+depends-member:
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s7CVarArgP", "Int64"]
+- !private ["s7CVarArgP", "Unmanaged"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "networkFailureHandler"]
+- !private ["s7CVarArgP", "networkProgressHandler"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- ["s7CVarArgP", "requestConnection"]
+- ["s7CVarArgP", "requestConnectionDidFinishLoading"]
+- ["s7CVarArgP", "requestConnectionWillBeginLoading"]
+- ["s7CVarArgP", ""]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "Unmanaged"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "networkFailureHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "networkProgressHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- ["s28CustomDebugStringConvertibleP", "requestConnection"]
+- ["s28CustomDebugStringConvertibleP", "requestConnectionDidFinishLoading"]
+- ["s28CustomDebugStringConvertibleP", "requestConnectionWillBeginLoading"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "Unmanaged"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "networkFailureHandler"]
+- !private ["s23CustomStringConvertibleP", "networkProgressHandler"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- ["s23CustomStringConvertibleP", "requestConnection"]
+- ["s23CustomStringConvertibleP", "requestConnectionDidFinishLoading"]
+- ["s23CustomStringConvertibleP", "requestConnectionWillBeginLoading"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Int64"]
+- !private ["s9EquatableP", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["s9EquatableP", "Unmanaged"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "networkFailureHandler"]
+- !private ["s9EquatableP", "networkProgressHandler"]
+- !private ["s9EquatableP", "objc_setAssociatedObject"]
+- ["s9EquatableP", "requestConnection"]
+- ["s9EquatableP", "requestConnectionDidFinishLoading"]
+- ["s9EquatableP", "requestConnectionWillBeginLoading"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["So27FBSDKGraphRequestConnectionC", "delegate"]
+- !private ["So35FBSDKGraphRequestConnectionDelegateP", "Int64"]
+- !private ["So35FBSDKGraphRequestConnectionDelegateP", "Unmanaged"]
+- !private ["So35FBSDKGraphRequestConnectionDelegateP", "networkFailureHandler"]
+- !private ["So35FBSDKGraphRequestConnectionDelegateP", "networkProgressHandler"]
+- !private ["So35FBSDKGraphRequestConnectionDelegateP", "objc_setAssociatedObject"]
+- ["So35FBSDKGraphRequestConnectionDelegateP", "requestConnection"]
+- ["So35FBSDKGraphRequestConnectionDelegateP", "requestConnectionDidFinishLoading"]
+- ["So35FBSDKGraphRequestConnectionDelegateP", "requestConnectionWillBeginLoading"]
+- ["So35FBSDKGraphRequestConnectionDelegateP", ""]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["12FacebookCore22GraphRequestConnectionC", "NetworkFailureHandler"]
+- ["12FacebookCore22GraphRequestConnectionC", "NetworkProgressHandler"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "Error"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "FBSDKGraphRequestConnection"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "GraphRequestConnection"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "Int"]
+- !private ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "Int64"]
+- !private ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "Unmanaged"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "deinit"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "init"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "networkFailureHandler"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "networkProgressHandler"]
+- !private ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "objc_setAssociatedObject"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "requestConnection"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "requestConnectionDidFinishLoading"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "requestConnectionWillBeginLoading"]
+- ["12FacebookCore36GraphRequestConnectionDelegateBridgeC", "setupAsDelegateFor"]
+- !private ["s8HashableP", "Int64"]
+- !private ["s8HashableP", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["s8HashableP", "Unmanaged"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "networkFailureHandler"]
+- !private ["s8HashableP", "networkProgressHandler"]
+- !private ["s8HashableP", "objc_setAssociatedObject"]
+- ["s8HashableP", "requestConnection"]
+- ["s8HashableP", "requestConnectionDidFinishLoading"]
+- ["s8HashableP", "requestConnectionWillBeginLoading"]
+- ["s8HashableP", ""]
+- !private ["s5Int64V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "FBSDKGraphRequestConnection"]
+- ["So8NSObjectC", "GraphRequestConnection"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "Unmanaged"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "networkFailureHandler"]
+- ["So8NSObjectC", "networkProgressHandler"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- ["So8NSObjectC", "requestConnection"]
+- ["So8NSObjectC", "requestConnectionDidFinishLoading"]
+- ["So8NSObjectC", "requestConnectionWillBeginLoading"]
+- ["So8NSObjectC", "setupAsDelegateFor"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Int64"]
+- !private ["So16NSObjectProtocolP", "Unmanaged"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "networkFailureHandler"]
+- !private ["So16NSObjectProtocolP", "networkProgressHandler"]
+- !private ["So16NSObjectProtocolP", "objc_setAssociatedObject"]
+- ["So16NSObjectProtocolP", "requestConnection"]
+- ["So16NSObjectProtocolP", "requestConnectionDidFinishLoading"]
+- ["So16NSObjectProtocolP", "requestConnectionWillBeginLoading"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s7NumericP", "init"]
+- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Unmanaged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkFailureHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkProgressHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestConnection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestConnectionDidFinishLoading"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestConnectionWillBeginLoading"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_RETAIN"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "So27FBSDKGraphRequestConnectionC"
+- "So35FBSDKGraphRequestConnectionDelegateP"
+- !private "s17FixedWidthIntegerP"
+- "12FacebookCore22GraphRequestConnectionC"
+- "12FacebookCore36GraphRequestConnectionDelegateBridgeC"
+- "s8HashableP"
+- !private "s5Int64V"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "s16RawRepresentableP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s9UnmanagedV"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+- !private "SC22objc_AssociationPolicyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/build/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/radibarq/Library/Mobile Documents/com~apple~CloudDocs/developer/Chottky/build/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+interface-hash: "5ca158eb8ca54167ffbc9947f294de7e"

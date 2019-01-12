@@ -1,0 +1,10 @@
+framework module SwiftyCam {
+  umbrella header "SwiftyCam-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyCam.__Swift {
+    exclude header "SwiftyCam-Swift.h"
+}

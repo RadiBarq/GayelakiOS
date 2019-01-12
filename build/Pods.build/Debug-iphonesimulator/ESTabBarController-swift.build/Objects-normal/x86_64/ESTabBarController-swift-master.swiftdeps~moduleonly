@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "4b24d690d41e7fc1a1c4ae8f4d372b21"
+build_time: [1543564196, 59921000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/ESTabBarController-swift/Sources/ESTabBar.swift": [1523532354, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ESTabBarController-swift/Sources/ESTabBarController.swift": [1523532354, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ESTabBarController-swift/Sources/ESTabBarItem.swift": [1523532354, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ESTabBarController-swift/Sources/ESTabBarItemBadgeView.swift": [1523532354, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ESTabBarController-swift/Sources/ESTabBarItemContainer.swift": [1523532354, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ESTabBarController-swift/Sources/ESTabBarItemContentView.swift": [1523532354, 0]
+  "/Users/radibarq/developer/Chottky/Pods/ESTabBarController-swift/Sources/ESTabBarItemMoreContentView.swift": [1523532354, 0]

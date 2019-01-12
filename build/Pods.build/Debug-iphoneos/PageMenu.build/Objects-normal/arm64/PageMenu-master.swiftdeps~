@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4ae20ca952719f8aa56dea91ee3e06d4"
+build_time: [1547195958, 959360000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/PageMenu/Classes/CAPSPageMenu+Options.swift": [1538655962, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PageMenu/Classes/CAPSPageMenu+UIConfiguration.swift": [1538765021, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PageMenu/Classes/CAPSPageMenu+UIGestureRecognizerDelegate.swift": [1538655962, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PageMenu/Classes/CAPSPageMenu+UIScrollViewDelegate.swift": [1538655962, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PageMenu/Classes/CAPSPageMenu.swift": [1538765780, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PageMenu/Classes/CAPSPageMenuConfiguration.swift": [1538655962, 0]
+  "/Users/radibarq/developer/Chottky/Pods/PageMenu/Classes/MenuItemView.swift": [1538655962, 0]

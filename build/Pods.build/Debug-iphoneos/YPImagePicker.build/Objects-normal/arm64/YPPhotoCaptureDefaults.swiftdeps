@@ -1,0 +1,620 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13YPImagePicker14YPPhotoCaptureP", ""]
+- ["13YPImagePicker14YPPhotoCaptureP", "start"]
+- ["13YPImagePicker14YPPhotoCaptureP", "startCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "stopCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "tryToSetupPreview"]
+- ["13YPImagePicker14YPPhotoCaptureP", "setupPreview"]
+- ["13YPImagePicker14YPPhotoCaptureP", "focus"]
+- ["13YPImagePicker14YPPhotoCaptureP", "flipCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "setCurrentOrienation"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "AVCaptureDevice"
+- !private "AVCaptureDeviceInput"
+- !private "AVCaptureVideoPreviewLayer"
+- !private "AVLayerVideoGravity"
+- !private "AVMediaType"
+- "AssignmentPrecedence"
+- "CGPoint"
+- !private "DispatchQueue"
+- "TernaryPrecedence"
+- !private "UIDevice"
+- "UIView"
+- "Void"
+- !private "YPConfig"
+- "YPPhotoCapture"
+- !private "deviceForPosition"
+- !private "flippedDeviceInputForInput"
+- !private "setFocusPointOnDevice"
+depends-member:
+- !private ["So15AVCaptureDeviceC", "Position"]
+- !private ["So15AVCaptureDeviceC", "authorizationStatus"]
+- !private ["So20AVCaptureDeviceInputC", "init"]
+- !private ["So14AVCaptureInputC", "init"]
+- !private ["So15AVCaptureOutputC", "connection"]
+- !private ["So16AVCaptureSessionC", "addInput"]
+- !private ["So16AVCaptureSessionC", "addOutput"]
+- !private ["So16AVCaptureSessionC", "beginConfiguration"]
+- !private ["So16AVCaptureSessionC", "canAddInput"]
+- !private ["So16AVCaptureSessionC", "canAddOutput"]
+- !private ["So16AVCaptureSessionC", "commitConfiguration"]
+- !private ["So16AVCaptureSessionC", "isRunning"]
+- !private ["So16AVCaptureSessionC", "resetInputs"]
+- !private ["So16AVCaptureSessionC", "sessionPreset"]
+- !private ["So16AVCaptureSessionC", "startRunning"]
+- !private ["So16AVCaptureSessionC", "stopRunning"]
+- !private ["So26AVCaptureVideoPreviewLayerC", "frame"]
+- !private ["So26AVCaptureVideoPreviewLayerC", "init"]
+- !private ["So26AVCaptureVideoPreviewLayerC", "videoGravity"]
+- !private ["SK", "photo"]
+- !private ["SK", "video"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "addSublayer"]
+- !private ["So7CALayerC", "frame"]
+- !private ["So7CALayerC", "init"]
+- !private ["So7CALayerC", "videoGravity"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So13CAMediaTimingP", "addSublayer"]
+- !private ["So13CAMediaTimingP", "frame"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "videoGravity"]
+- !private ["s7CVarArgP", "Position"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addInput"]
+- !private ["s7CVarArgP", "addOutput"]
+- !private ["s7CVarArgP", "addSublayer"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "beginConfiguration"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "canAddInput"]
+- !private ["s7CVarArgP", "canAddOutput"]
+- !private ["s7CVarArgP", "commitConfiguration"]
+- !private ["s7CVarArgP", "connection"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isRunning"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "orientation"]
+- !private ["s7CVarArgP", "photo"]
+- !private ["s7CVarArgP", "resetInputs"]
+- !private ["s7CVarArgP", "resizeAspectFill"]
+- !private ["s7CVarArgP", "sessionPreset"]
+- !private ["s7CVarArgP", "startRunning"]
+- !private ["s7CVarArgP", "stopRunning"]
+- !private ["s7CVarArgP", "video"]
+- !private ["s7CVarArgP", "videoGravity"]
+- !private ["Sl", "photo"]
+- !private ["Sl", "video"]
+- !private ["SL", "photo"]
+- !private ["SL", "video"]
+- !private ["s28CustomDebugStringConvertibleP", "Position"]
+- !private ["s28CustomDebugStringConvertibleP", "addInput"]
+- !private ["s28CustomDebugStringConvertibleP", "addOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "addSublayer"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "beginConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "canAddInput"]
+- !private ["s28CustomDebugStringConvertibleP", "canAddOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "commitConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "connection"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "orientation"]
+- !private ["s28CustomDebugStringConvertibleP", "photo"]
+- !private ["s28CustomDebugStringConvertibleP", "resetInputs"]
+- !private ["s28CustomDebugStringConvertibleP", "resizeAspectFill"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionPreset"]
+- !private ["s28CustomDebugStringConvertibleP", "startRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "stopRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "video"]
+- !private ["s28CustomDebugStringConvertibleP", "videoGravity"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "photo"]
+- !private ["s29CustomPlaygroundQuickLookableP", "resizeAspectFill"]
+- !private ["s29CustomPlaygroundQuickLookableP", "video"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "bounds"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "layer"]
+- !private ["s17CustomReflectableP", "photo"]
+- !private ["s17CustomReflectableP", "video"]
+- !private ["s17CustomReflectableP", "videoGravity"]
+- !private ["s23CustomStringConvertibleP", "Position"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addInput"]
+- !private ["s23CustomStringConvertibleP", "addOutput"]
+- !private ["s23CustomStringConvertibleP", "addSublayer"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "beginConfiguration"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "canAddInput"]
+- !private ["s23CustomStringConvertibleP", "canAddOutput"]
+- !private ["s23CustomStringConvertibleP", "commitConfiguration"]
+- !private ["s23CustomStringConvertibleP", "connection"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isRunning"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "orientation"]
+- !private ["s23CustomStringConvertibleP", "photo"]
+- !private ["s23CustomStringConvertibleP", "resetInputs"]
+- !private ["s23CustomStringConvertibleP", "resizeAspectFill"]
+- !private ["s23CustomStringConvertibleP", "sessionPreset"]
+- !private ["s23CustomStringConvertibleP", "startRunning"]
+- !private ["s23CustomStringConvertibleP", "stopRunning"]
+- !private ["s23CustomStringConvertibleP", "video"]
+- !private ["s23CustomStringConvertibleP", "videoGravity"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "bounds"]
+- !private ["Se", "frame"]
+- !private ["Se", "layer"]
+- !private ["Se", "photo"]
+- !private ["Se", "video"]
+- !private ["Se", "videoGravity"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "bounds"]
+- !private ["SE", "frame"]
+- !private ["SE", "layer"]
+- !private ["SE", "photo"]
+- !private ["SE", "video"]
+- !private ["SE", "videoGravity"]
+- !private ["SQ", "Position"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addInput"]
+- !private ["SQ", "addOutput"]
+- !private ["SQ", "addSublayer"]
+- !private ["SQ", "async"]
+- !private ["SQ", "authorizationStatus"]
+- !private ["SQ", "back"]
+- !private ["SQ", "beginConfiguration"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "canAddInput"]
+- !private ["SQ", "canAddOutput"]
+- !private ["SQ", "commitConfiguration"]
+- !private ["SQ", "connection"]
+- !private ["SQ", "current"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "front"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isRunning"]
+- ["SQ", "landscapeLeft"]
+- ["SQ", "landscapeRight"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "main"]
+- !private ["SQ", "orientation"]
+- !private ["SQ", "photo"]
+- ["SQ", "portrait"]
+- ["SQ", "portraitUpsideDown"]
+- !private ["SQ", "resetInputs"]
+- !private ["SQ", "resizeAspectFill"]
+- !private ["SQ", "sessionPreset"]
+- !private ["SQ", "startRunning"]
+- !private ["SQ", "stopRunning"]
+- !private ["SQ", "video"]
+- !private ["SQ", "videoGravity"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "photo"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "resizeAspectFill"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s23ExpressibleByNilLiteralP", "bounds"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "layer"]
+- !private ["s23ExpressibleByNilLiteralP", "photo"]
+- !private ["s23ExpressibleByNilLiteralP", "video"]
+- !private ["s23ExpressibleByNilLiteralP", "videoGravity"]
+- !private ["s26ExpressibleByStringLiteralP", "photo"]
+- !private ["s26ExpressibleByStringLiteralP", "resizeAspectFill"]
+- !private ["s26ExpressibleByStringLiteralP", "video"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "photo"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "resizeAspectFill"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "video"]
+- !private ["SH", "Position"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addInput"]
+- !private ["SH", "addOutput"]
+- !private ["SH", "addSublayer"]
+- !private ["SH", "async"]
+- !private ["SH", "authorizationStatus"]
+- !private ["SH", "back"]
+- !private ["SH", "beginConfiguration"]
+- !private ["SH", "bounds"]
+- !private ["SH", "canAddInput"]
+- !private ["SH", "canAddOutput"]
+- !private ["SH", "commitConfiguration"]
+- !private ["SH", "connection"]
+- !private ["SH", "current"]
+- !private ["SH", "frame"]
+- !private ["SH", "front"]
+- !private ["SH", "init"]
+- !private ["SH", "isRunning"]
+- ["SH", "landscapeLeft"]
+- ["SH", "landscapeRight"]
+- !private ["SH", "layer"]
+- !private ["SH", "main"]
+- !private ["SH", "orientation"]
+- !private ["SH", "photo"]
+- ["SH", "portrait"]
+- ["SH", "portraitUpsideDown"]
+- !private ["SH", "resetInputs"]
+- !private ["SH", "resizeAspectFill"]
+- !private ["SH", "sessionPreset"]
+- !private ["SH", "startRunning"]
+- !private ["SH", "stopRunning"]
+- !private ["SH", "video"]
+- !private ["SH", "videoGravity"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "photo"]
+- !private ["s25LosslessStringConvertibleP", "video"]
+- !private ["s10MirrorPathP", "photo"]
+- !private ["s10MirrorPathP", "video"]
+- !private ["So8NSCodingP", "addSublayer"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "resizeAspectFill"]
+- !private ["So8NSCodingP", "video"]
+- !private ["So8NSCodingP", "videoGravity"]
+- !private ["So9NSCopyingP", "resizeAspectFill"]
+- !private ["So9NSCopyingP", "video"]
+- !private ["So21NSItemProviderReadingP", "resizeAspectFill"]
+- !private ["So21NSItemProviderReadingP", "video"]
+- !private ["So21NSItemProviderWritingP", "resizeAspectFill"]
+- !private ["So21NSItemProviderWritingP", "video"]
+- !private ["So16NSMutableCopyingP", "resizeAspectFill"]
+- !private ["So16NSMutableCopyingP", "video"]
+- !private ["So8NSObjectC", "Position"]
+- !private ["So8NSObjectC", "addInput"]
+- !private ["So8NSObjectC", "addOutput"]
+- !private ["So8NSObjectC", "addSublayer"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "authorizationStatus"]
+- !private ["So8NSObjectC", "beginConfiguration"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "canAddInput"]
+- !private ["So8NSObjectC", "canAddOutput"]
+- !private ["So8NSObjectC", "commitConfiguration"]
+- !private ["So8NSObjectC", "connection"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isRunning"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "orientation"]
+- !private ["So8NSObjectC", "resetInputs"]
+- !private ["So8NSObjectC", "resizeAspectFill"]
+- !private ["So8NSObjectC", "sessionPreset"]
+- !private ["So8NSObjectC", "startRunning"]
+- !private ["So8NSObjectC", "stopRunning"]
+- !private ["So8NSObjectC", "video"]
+- !private ["So8NSObjectC", "videoGravity"]
+- !private ["So8NSObjectP", "Position"]
+- !private ["So8NSObjectP", "addInput"]
+- !private ["So8NSObjectP", "addOutput"]
+- !private ["So8NSObjectP", "addSublayer"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "authorizationStatus"]
+- !private ["So8NSObjectP", "beginConfiguration"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "canAddInput"]
+- !private ["So8NSObjectP", "canAddOutput"]
+- !private ["So8NSObjectP", "commitConfiguration"]
+- !private ["So8NSObjectP", "connection"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isRunning"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "orientation"]
+- !private ["So8NSObjectP", "resetInputs"]
+- !private ["So8NSObjectP", "resizeAspectFill"]
+- !private ["So8NSObjectP", "sessionPreset"]
+- !private ["So8NSObjectP", "startRunning"]
+- !private ["So8NSObjectP", "stopRunning"]
+- !private ["So8NSObjectP", "video"]
+- !private ["So8NSObjectP", "videoGravity"]
+- !private ["So14NSSecureCodingP", "addSublayer"]
+- !private ["So14NSSecureCodingP", "frame"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "resizeAspectFill"]
+- !private ["So14NSSecureCodingP", "video"]
+- !private ["So14NSSecureCodingP", "videoGravity"]
+- !private ["So8NSStringC", "resizeAspectFill"]
+- !private ["So8NSStringC", "video"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "bounds"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "layer"]
+- !private ["Sq", "photo"]
+- !private ["Sq", "video"]
+- !private ["Sq", "videoGravity"]
+- !private ["So23AVCaptureDevicePositionV", "back"]
+- !private ["So23AVCaptureDevicePositionV", "front"]
+- !private ["Sm", "photo"]
+- !private ["Sm", "video"]
+- !private ["SY", "back"]
+- !private ["SY", "front"]
+- ["SY", "landscapeLeft"]
+- ["SY", "landscapeRight"]
+- ["SY", "portrait"]
+- ["SY", "portraitUpsideDown"]
+- !private ["ST", "photo"]
+- !private ["ST", "video"]
+- !private ["SS", "photo"]
+- !private ["SS", "video"]
+- !private ["Sy", "photo"]
+- !private ["Sy", "video"]
+- !private ["s16TextOutputStreamP", "photo"]
+- !private ["s16TextOutputStreamP", "video"]
+- !private ["s20TextOutputStreamableP", "photo"]
+- !private ["s20TextOutputStreamableP", "video"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "orientation"]
+- ["So19UIDeviceOrientationV", "landscapeLeft"]
+- ["So19UIDeviceOrientationV", "landscapeRight"]
+- ["So19UIDeviceOrientationV", "portrait"]
+- ["So19UIDeviceOrientationV", "portraitUpsideDown"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "layer"]
+- !private ["13YPImagePicker0aB13ConfigurationV", "usesFrontCamera"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureDevice"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureDeviceInput"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVCaptureVideoPreviewLayer"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVLayerVideoGravity"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "AVMediaType"]
+- ["13YPImagePicker14YPPhotoCaptureP", "CGPoint"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "DispatchQueue"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "UIDevice"]
+- ["13YPImagePicker14YPPhotoCaptureP", "UIView"]
+- ["13YPImagePicker14YPPhotoCaptureP", "Void"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "YPConfig"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "configure"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "device"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "deviceForPosition"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "deviceInput"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "flip"]
+- ["13YPImagePicker14YPPhotoCaptureP", "flipCamera"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "flippedDeviceInputForInput"]
+- ["13YPImagePicker14YPPhotoCaptureP", "focus"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "isCaptureSessionSetup"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "isPreviewSetup"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "output"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "previewView"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "session"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "sessionQueue"]
+- ["13YPImagePicker14YPPhotoCaptureP", "setCurrentOrienation"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "setFocusPointOnDevice"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "setupCaptureSession"]
+- ["13YPImagePicker14YPPhotoCaptureP", "setupPreview"]
+- ["13YPImagePicker14YPPhotoCaptureP", "start"]
+- ["13YPImagePicker14YPPhotoCaptureP", "startCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "stopCamera"]
+- ["13YPImagePicker14YPPhotoCaptureP", "tryToSetupPreview"]
+- !private ["13YPImagePicker14YPPhotoCaptureP", "videoLayer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "photo"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "video"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "photo"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "video"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "photo"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "video"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "photo"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "video"]
+- !private ["s33_ExpressibleByStringInterpolationP", "photo"]
+- !private ["s33_ExpressibleByStringInterpolationP", "video"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "resizeAspectFill"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSublayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canAddInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canAddOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commitConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resetInputs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resizeAspectFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionPreset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videoGravity"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "bounds"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "layer"]
+- !private ["s21_ObjectiveCBridgeableP", "photo"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s21_ObjectiveCBridgeableP", "videoGravity"]
+- !private ["s16_SwiftStringViewP", "photo"]
+- !private ["s16_SwiftStringViewP", "video"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So14AVCaptureInputC"
+- !private "So15AVCaptureOutputC"
+- !private "So16AVCaptureSessionC"
+- !private "So26AVCaptureVideoPreviewLayerC"
+- !private "SK"
+- !private "Sb"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "So23AVCaptureDevicePositionV"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So8UIDeviceC"
+- "So19UIDeviceOrientationV"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "13YPImagePicker0aB13ConfigurationV"
+- "13YPImagePicker14YPPhotoCaptureP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "020a9af76f6484eb8e89cdd206129950"

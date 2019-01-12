@@ -1,0 +1,117 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwiftyCamViewControllerDelegate"
+provides-nominal:
+- "9SwiftyCam0aB22ViewControllerDelegateP"
+provides-member:
+- ["9SwiftyCam0aB22ViewControllerDelegateP", ""]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "CGFloat"
+- "CGPoint"
+- "SwiftyCamViewController"
+- "SwiftyCamViewControllerDelegate"
+- "UIImage"
+- "URL"
+depends-member:
+- ["So36AVCaptureFileOutputRecordingDelegateP", "CameraSelection"]
+- ["s7CVarArgP", "CameraSelection"]
+- ["s28CustomDebugStringConvertibleP", "CameraSelection"]
+- ["s23CustomStringConvertibleP", "CameraSelection"]
+- ["SQ", "CameraSelection"]
+- ["SH", "CameraSelection"]
+- ["So8NSCodingP", "CameraSelection"]
+- ["So26NSExtensionRequestHandlingP", "CameraSelection"]
+- ["So8NSObjectC", "CameraSelection"]
+- ["So8NSObjectP", "CameraSelection"]
+- ["9SwiftyCam0aB14ButtonDelegateP", "CameraSelection"]
+- ["9SwiftyCam0aB14ViewControllerC", "CameraSelection"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "CGFloat"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "CGPoint"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "SwiftyCamViewController"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "UIImage"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "URL"]
+- ["9SwiftyCam0aB22ViewControllerDelegateP", "swiftyCam"]
+- ["So21UIAppearanceContainerP", "CameraSelection"]
+- ["So18UIContentContainerP", "CameraSelection"]
+- ["So18UIFocusEnvironmentP", "CameraSelection"]
+- ["So27UIGestureRecognizerDelegateP", "CameraSelection"]
+- ["So30UIPasteConfigurationSupportingP", "CameraSelection"]
+- ["So11UIResponderC", "CameraSelection"]
+- ["So30UIResponderStandardEditActionsP", "CameraSelection"]
+- ["So16UIStateRestoringP", "CameraSelection"]
+- ["So18UITraitEnvironmentP", "CameraSelection"]
+- ["So23UIUserActivityRestoringP", "CameraSelection"]
+- ["So16UIViewControllerC", "CameraSelection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CameraSelection"]
+depends-nominal:
+- "So36AVCaptureFileOutputRecordingDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "9SwiftyCam0aB14ButtonDelegateP"
+- "9SwiftyCam0aB14ViewControllerC"
+- "9SwiftyCam0aB22ViewControllerDelegateP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SwiftyCam/SwiftyCam-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SwiftyCam.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1e68e9c451c129af8d46d3896c07d4cd"

@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "b606ea6c858e8040f6379740079be495"
+build_time: [1523538625, 821287000]
+inputs:
+  "/Users/radibarq/developer/Chottky/Pods/SwiftyCam/Source/PreviewView.swift": !dirty [1523532761, 0]
+  "/Users/radibarq/developer/Chottky/Pods/SwiftyCam/Source/SwiftyCamButton.swift": !dirty [1523532761, 0]
+  "/Users/radibarq/developer/Chottky/Pods/SwiftyCam/Source/SwiftyCamViewController.swift": !dirty [1523532761, 0]
+  "/Users/radibarq/developer/Chottky/Pods/SwiftyCam/Source/SwiftyCamViewControllerDelegate.swift": !dirty [1523532761, 0]

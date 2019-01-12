@@ -1,0 +1,656 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FilterApplierType"
+- "YPFilter"
+- "HazeRemovalFilter"
+provides-nominal:
+- "13YPImagePicker8YPFilterV"
+- "13YPImagePicker17HazeRemovalFilterC"
+provides-member:
+- ["13YPImagePicker8YPFilterV", ""]
+- ["13YPImagePicker17HazeRemovalFilterC", ""]
+- ["13YPImagePicker8YPFilterV", "coreImageFilter"]
+- ["13YPImagePicker8YPFilterV", "clarendonFilter"]
+- ["13YPImagePicker8YPFilterV", "nashvilleFilter"]
+- ["13YPImagePicker8YPFilterV", "apply1977Filter"]
+- ["13YPImagePicker8YPFilterV", "toasterFilter"]
+- ["13YPImagePicker8YPFilterV", "hazeRemovalFilter"]
+provides-dynamic-lookup:
+- "attributes"
+- "hazeRemovalKernel"
+- "inputColor"
+- "inputImage"
+- "outputImage"
+depends-top-level:
+- !private "*"
+- !private "/"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- "CGRect"
+- "CIColor"
+- "CIFilter"
+- "CIImage"
+- "CIKernel"
+- !private "CISampler"
+- !private "CIVector"
+- !private "Dictionary"
+- !private "Double"
+- "FilterApplierType"
+- "Float"
+- "FloatLiteralType"
+- "HazeRemovalFilter"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "String"
+- "StringLiteralType"
+- "YPFilter"
+- !private "fatalError"
+- !private "kCIAttributeDefault"
+- !private "kCIAttributeFilterDisplayName"
+- !private "kCIAttributeIdentity"
+- !private "kCIAttributeMax"
+- !private "kCIAttributeMin"
+- !private "kCIAttributeSliderMax"
+- !private "kCIAttributeSliderMin"
+- !private "kCIAttributeType"
+- !private "kCIAttributeTypeScalar"
+- !private "kCIInputColorKey"
+- !private "kCIInputImageKey"
+- !private "min"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "width"]
+- ["So7CIColorC", "init"]
+- !private ["So8CIFilterC", "CGRect"]
+- ["So8CIFilterC", "CIColor"]
+- ["So8CIFilterC", "CIImage"]
+- ["So8CIFilterC", "CIKernel"]
+- !private ["So8CIFilterC", "CISampler"]
+- ["So8CIFilterC", "Float"]
+- ["So8CIFilterC", "NSCoder"]
+- ["So8CIFilterC", "String"]
+- ["So8CIFilterC", ""]
+- ["So8CIFilterC", "attributes"]
+- !private ["So8CIFilterC", "fatalError"]
+- ["So8CIFilterC", "hazeRemovalKernel"]
+- ["So8CIFilterC", "init"]
+- ["So8CIFilterC", "inputColor"]
+- ["So8CIFilterC", "inputDistance"]
+- ["So8CIFilterC", "inputImage"]
+- ["So8CIFilterC", "inputSlope"]
+- !private ["So8CIFilterC", "kCIAttributeDefault"]
+- !private ["So8CIFilterC", "kCIAttributeFilterDisplayName"]
+- !private ["So8CIFilterC", "kCIAttributeIdentity"]
+- !private ["So8CIFilterC", "kCIAttributeMax"]
+- !private ["So8CIFilterC", "kCIAttributeMin"]
+- !private ["So8CIFilterC", "kCIAttributeSliderMax"]
+- !private ["So8CIFilterC", "kCIAttributeSliderMin"]
+- !private ["So8CIFilterC", "kCIAttributeType"]
+- !private ["So8CIFilterC", "kCIAttributeTypeScalar"]
+- !private ["So8CIFilterC", "kCIInputColorKey"]
+- ["So8CIFilterC", "outputImage"]
+- !private ["So8CIFilterC", "setValue"]
+- !private ["So7CIImageC", "applyingFilter"]
+- !private ["So7CIImageC", "cropped"]
+- !private ["So7CIImageC", "extent"]
+- !private ["So7CIImageC", "init"]
+- !private ["So8CIKernelC", "apply"]
+- !private ["So8CIKernelC", "init"]
+- !private ["So9CISamplerC", "init"]
+- !private ["So8CIVectorC", "init"]
+- ["s7CVarArgP", "CIColor"]
+- !private ["s7CVarArgP", "CIKernel"]
+- !private ["s7CVarArgP", "CISampler"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "apply"]
+- !private ["s7CVarArgP", "applyingFilter"]
+- !private ["s7CVarArgP", "cropped"]
+- !private ["s7CVarArgP", "extent"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "hazeRemovalKernel"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "inputColor"]
+- !private ["s7CVarArgP", "inputDistance"]
+- !private ["s7CVarArgP", "inputImage"]
+- !private ["s7CVarArgP", "inputSlope"]
+- !private ["s7CVarArgP", "kCIAttributeDefault"]
+- !private ["s7CVarArgP", "kCIAttributeFilterDisplayName"]
+- !private ["s7CVarArgP", "kCIAttributeIdentity"]
+- !private ["s7CVarArgP", "kCIAttributeMax"]
+- !private ["s7CVarArgP", "kCIAttributeMin"]
+- !private ["s7CVarArgP", "kCIAttributeSliderMax"]
+- !private ["s7CVarArgP", "kCIAttributeSliderMin"]
+- !private ["s7CVarArgP", "kCIAttributeType"]
+- !private ["s7CVarArgP", "kCIAttributeTypeScalar"]
+- !private ["s7CVarArgP", "kCIInputColorKey"]
+- !private ["s7CVarArgP", "outputImage"]
+- !private ["s7CVarArgP", "setValue"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "CIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "CIKernel"]
+- !private ["s28CustomDebugStringConvertibleP", "CISampler"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "apply"]
+- !private ["s28CustomDebugStringConvertibleP", "applyingFilter"]
+- !private ["s28CustomDebugStringConvertibleP", "cropped"]
+- !private ["s28CustomDebugStringConvertibleP", "extent"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "hazeRemovalKernel"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inputColor"]
+- !private ["s28CustomDebugStringConvertibleP", "inputDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "inputImage"]
+- !private ["s28CustomDebugStringConvertibleP", "inputSlope"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeDefault"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeFilterDisplayName"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeIdentity"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeMax"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeMin"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeSliderMax"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeSliderMin"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeType"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIAttributeTypeScalar"]
+- !private ["s28CustomDebugStringConvertibleP", "kCIInputColorKey"]
+- !private ["s28CustomDebugStringConvertibleP", "outputImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", "CIColor"]
+- !private ["s23CustomStringConvertibleP", "CIKernel"]
+- !private ["s23CustomStringConvertibleP", "CISampler"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "apply"]
+- !private ["s23CustomStringConvertibleP", "applyingFilter"]
+- !private ["s23CustomStringConvertibleP", "cropped"]
+- !private ["s23CustomStringConvertibleP", "extent"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "hazeRemovalKernel"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inputColor"]
+- !private ["s23CustomStringConvertibleP", "inputDistance"]
+- !private ["s23CustomStringConvertibleP", "inputImage"]
+- !private ["s23CustomStringConvertibleP", "inputSlope"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeDefault"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeFilterDisplayName"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeIdentity"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeMax"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeMin"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeSliderMax"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeSliderMin"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeType"]
+- !private ["s23CustomStringConvertibleP", "kCIAttributeTypeScalar"]
+- !private ["s23CustomStringConvertibleP", "kCIInputColorKey"]
+- !private ["s23CustomStringConvertibleP", "outputImage"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["Se", "height"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "width"]
+- !private ["Sd", "init"]
+- !private ["SE", "height"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "width"]
+- ["SQ", "CIColor"]
+- !private ["SQ", "CIKernel"]
+- !private ["SQ", "CISampler"]
+- ["SQ", ""]
+- !private ["SQ", "apply"]
+- !private ["SQ", "applyingFilter"]
+- !private ["SQ", "cropped"]
+- !private ["SQ", "extent"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "hazeRemovalKernel"]
+- !private ["SQ", "height"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "inputColor"]
+- !private ["SQ", "inputDistance"]
+- !private ["SQ", "inputImage"]
+- !private ["SQ", "inputSlope"]
+- !private ["SQ", "kCIAttributeDefault"]
+- !private ["SQ", "kCIAttributeFilterDisplayName"]
+- !private ["SQ", "kCIAttributeIdentity"]
+- !private ["SQ", "kCIAttributeMax"]
+- !private ["SQ", "kCIAttributeMin"]
+- !private ["SQ", "kCIAttributeSliderMax"]
+- !private ["SQ", "kCIAttributeSliderMin"]
+- !private ["SQ", "kCIAttributeType"]
+- !private ["SQ", "kCIAttributeTypeScalar"]
+- !private ["SQ", "kCIInputColorKey"]
+- !private ["SQ", "outputImage"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "width"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- ["SH", "CIColor"]
+- !private ["SH", "CIKernel"]
+- !private ["SH", "CISampler"]
+- ["SH", ""]
+- !private ["SH", "apply"]
+- !private ["SH", "applyingFilter"]
+- !private ["SH", "cropped"]
+- !private ["SH", "extent"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "hazeRemovalKernel"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "inputColor"]
+- !private ["SH", "inputDistance"]
+- !private ["SH", "inputImage"]
+- !private ["SH", "inputSlope"]
+- !private ["SH", "kCIAttributeDefault"]
+- !private ["SH", "kCIAttributeFilterDisplayName"]
+- !private ["SH", "kCIAttributeIdentity"]
+- !private ["SH", "kCIAttributeMax"]
+- !private ["SH", "kCIAttributeMin"]
+- !private ["SH", "kCIAttributeSliderMax"]
+- !private ["SH", "kCIAttributeSliderMin"]
+- !private ["SH", "kCIAttributeType"]
+- !private ["SH", "kCIAttributeTypeScalar"]
+- !private ["SH", "kCIInputColorKey"]
+- !private ["SH", "outputImage"]
+- !private ["SH", "setValue"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "CGRect"]
+- ["13YPImagePicker17HazeRemovalFilterC", "CIColor"]
+- ["13YPImagePicker17HazeRemovalFilterC", "CIImage"]
+- ["13YPImagePicker17HazeRemovalFilterC", "CIKernel"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "CISampler"]
+- ["13YPImagePicker17HazeRemovalFilterC", "Float"]
+- ["13YPImagePicker17HazeRemovalFilterC", "NSCoder"]
+- ["13YPImagePicker17HazeRemovalFilterC", "String"]
+- ["13YPImagePicker17HazeRemovalFilterC", "attributes"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "deinit"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "fatalError"]
+- ["13YPImagePicker17HazeRemovalFilterC", "hazeRemovalKernel"]
+- ["13YPImagePicker17HazeRemovalFilterC", "init"]
+- ["13YPImagePicker17HazeRemovalFilterC", "inputColor"]
+- ["13YPImagePicker17HazeRemovalFilterC", "inputDistance"]
+- ["13YPImagePicker17HazeRemovalFilterC", "inputImage"]
+- ["13YPImagePicker17HazeRemovalFilterC", "inputSlope"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeDefault"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeFilterDisplayName"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeIdentity"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeMax"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeMin"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeSliderMax"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeSliderMin"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeType"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIAttributeTypeScalar"]
+- !private ["13YPImagePicker17HazeRemovalFilterC", "kCIInputColorKey"]
+- ["13YPImagePicker17HazeRemovalFilterC", "outputImage"]
+- !private ["Si", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "CIColor"]
+- !private ["So8NSCodingP", "CIKernel"]
+- !private ["So8NSCodingP", "CISampler"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "applyingFilter"]
+- !private ["So8NSCodingP", "cropped"]
+- !private ["So8NSCodingP", "extent"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "hazeRemovalKernel"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "inputColor"]
+- !private ["So8NSCodingP", "inputDistance"]
+- !private ["So8NSCodingP", "inputImage"]
+- !private ["So8NSCodingP", "inputSlope"]
+- !private ["So8NSCodingP", "kCIAttributeDefault"]
+- !private ["So8NSCodingP", "kCIAttributeFilterDisplayName"]
+- !private ["So8NSCodingP", "kCIAttributeIdentity"]
+- !private ["So8NSCodingP", "kCIAttributeMax"]
+- !private ["So8NSCodingP", "kCIAttributeMin"]
+- !private ["So8NSCodingP", "kCIAttributeSliderMax"]
+- !private ["So8NSCodingP", "kCIAttributeSliderMin"]
+- !private ["So8NSCodingP", "kCIAttributeType"]
+- !private ["So8NSCodingP", "kCIAttributeTypeScalar"]
+- !private ["So8NSCodingP", "kCIInputColorKey"]
+- !private ["So8NSCodingP", "outputImage"]
+- !private ["So8NSCodingP", "setValue"]
+- ["So9NSCopyingP", "CIColor"]
+- !private ["So9NSCopyingP", "CIKernel"]
+- !private ["So9NSCopyingP", "CISampler"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "applyingFilter"]
+- !private ["So9NSCopyingP", "cropped"]
+- !private ["So9NSCopyingP", "extent"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "hazeRemovalKernel"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "inputColor"]
+- !private ["So9NSCopyingP", "inputDistance"]
+- !private ["So9NSCopyingP", "inputImage"]
+- !private ["So9NSCopyingP", "inputSlope"]
+- !private ["So9NSCopyingP", "kCIAttributeDefault"]
+- !private ["So9NSCopyingP", "kCIAttributeFilterDisplayName"]
+- !private ["So9NSCopyingP", "kCIAttributeIdentity"]
+- !private ["So9NSCopyingP", "kCIAttributeMax"]
+- !private ["So9NSCopyingP", "kCIAttributeMin"]
+- !private ["So9NSCopyingP", "kCIAttributeSliderMax"]
+- !private ["So9NSCopyingP", "kCIAttributeSliderMin"]
+- !private ["So9NSCopyingP", "kCIAttributeType"]
+- !private ["So9NSCopyingP", "kCIAttributeTypeScalar"]
+- !private ["So9NSCopyingP", "kCIInputColorKey"]
+- !private ["So9NSCopyingP", "outputImage"]
+- !private ["So9NSCopyingP", "setValue"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CIColor"]
+- ["So8NSObjectC", "CIImage"]
+- ["So8NSObjectC", "CIKernel"]
+- !private ["So8NSObjectC", "CISampler"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "apply"]
+- !private ["So8NSObjectC", "applyingFilter"]
+- ["So8NSObjectC", "attributes"]
+- !private ["So8NSObjectC", "cropped"]
+- !private ["So8NSObjectC", "extent"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "hazeRemovalKernel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "inputColor"]
+- ["So8NSObjectC", "inputDistance"]
+- ["So8NSObjectC", "inputImage"]
+- ["So8NSObjectC", "inputSlope"]
+- !private ["So8NSObjectC", "kCIAttributeDefault"]
+- !private ["So8NSObjectC", "kCIAttributeFilterDisplayName"]
+- !private ["So8NSObjectC", "kCIAttributeIdentity"]
+- !private ["So8NSObjectC", "kCIAttributeMax"]
+- !private ["So8NSObjectC", "kCIAttributeMin"]
+- !private ["So8NSObjectC", "kCIAttributeSliderMax"]
+- !private ["So8NSObjectC", "kCIAttributeSliderMin"]
+- !private ["So8NSObjectC", "kCIAttributeType"]
+- !private ["So8NSObjectC", "kCIAttributeTypeScalar"]
+- !private ["So8NSObjectC", "kCIInputColorKey"]
+- ["So8NSObjectC", "outputImage"]
+- !private ["So8NSObjectC", "setValue"]
+- ["So8NSObjectP", "CIColor"]
+- !private ["So8NSObjectP", "CIKernel"]
+- !private ["So8NSObjectP", "CISampler"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "apply"]
+- !private ["So8NSObjectP", "applyingFilter"]
+- !private ["So8NSObjectP", "cropped"]
+- !private ["So8NSObjectP", "extent"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "hazeRemovalKernel"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "inputColor"]
+- !private ["So8NSObjectP", "inputDistance"]
+- !private ["So8NSObjectP", "inputImage"]
+- !private ["So8NSObjectP", "inputSlope"]
+- !private ["So8NSObjectP", "kCIAttributeDefault"]
+- !private ["So8NSObjectP", "kCIAttributeFilterDisplayName"]
+- !private ["So8NSObjectP", "kCIAttributeIdentity"]
+- !private ["So8NSObjectP", "kCIAttributeMax"]
+- !private ["So8NSObjectP", "kCIAttributeMin"]
+- !private ["So8NSObjectP", "kCIAttributeSliderMax"]
+- !private ["So8NSObjectP", "kCIAttributeSliderMin"]
+- !private ["So8NSObjectP", "kCIAttributeType"]
+- !private ["So8NSObjectP", "kCIAttributeTypeScalar"]
+- !private ["So8NSObjectP", "kCIInputColorKey"]
+- !private ["So8NSObjectP", "outputImage"]
+- !private ["So8NSObjectP", "setValue"]
+- ["So14NSSecureCodingP", "CIColor"]
+- !private ["So14NSSecureCodingP", "CIKernel"]
+- !private ["So14NSSecureCodingP", "CISampler"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "applyingFilter"]
+- !private ["So14NSSecureCodingP", "cropped"]
+- !private ["So14NSSecureCodingP", "extent"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "hazeRemovalKernel"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "inputColor"]
+- !private ["So14NSSecureCodingP", "inputDistance"]
+- !private ["So14NSSecureCodingP", "inputImage"]
+- !private ["So14NSSecureCodingP", "inputSlope"]
+- !private ["So14NSSecureCodingP", "kCIAttributeDefault"]
+- !private ["So14NSSecureCodingP", "kCIAttributeFilterDisplayName"]
+- !private ["So14NSSecureCodingP", "kCIAttributeIdentity"]
+- !private ["So14NSSecureCodingP", "kCIAttributeMax"]
+- !private ["So14NSSecureCodingP", "kCIAttributeMin"]
+- !private ["So14NSSecureCodingP", "kCIAttributeSliderMax"]
+- !private ["So14NSSecureCodingP", "kCIAttributeSliderMin"]
+- !private ["So14NSSecureCodingP", "kCIAttributeType"]
+- !private ["So14NSSecureCodingP", "kCIAttributeTypeScalar"]
+- !private ["So14NSSecureCodingP", "kCIInputColorKey"]
+- !private ["So14NSSecureCodingP", "outputImage"]
+- !private ["So14NSSecureCodingP", "setValue"]
+- !private ["Sj", "init"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["13YPImagePicker8YPFilterV", "CGFloat"]
+- ["13YPImagePicker8YPFilterV", "CGRect"]
+- ["13YPImagePicker8YPFilterV", "CIColor"]
+- !private ["13YPImagePicker8YPFilterV", "CIFilter"]
+- ["13YPImagePicker8YPFilterV", "CIImage"]
+- !private ["13YPImagePicker8YPFilterV", "CIVector"]
+- !private ["13YPImagePicker8YPFilterV", "Double"]
+- ["13YPImagePicker8YPFilterV", "FilterApplierType"]
+- !private ["13YPImagePicker8YPFilterV", "HazeRemovalFilter"]
+- ["13YPImagePicker8YPFilterV", "Int"]
+- ["13YPImagePicker8YPFilterV", "String"]
+- !private ["13YPImagePicker8YPFilterV", "YPFilter"]
+- ["13YPImagePicker8YPFilterV", "applier"]
+- ["13YPImagePicker8YPFilterV", "apply1977Filter"]
+- ["13YPImagePicker8YPFilterV", "clarendonFilter"]
+- ["13YPImagePicker8YPFilterV", "coreImageFilter"]
+- !private ["13YPImagePicker8YPFilterV", "getColor"]
+- !private ["13YPImagePicker8YPFilterV", "getColorImage"]
+- ["13YPImagePicker8YPFilterV", "hazeRemovalFilter"]
+- ["13YPImagePicker8YPFilterV", "init"]
+- !private ["13YPImagePicker8YPFilterV", "kCIInputImageKey"]
+- !private ["13YPImagePicker8YPFilterV", "min"]
+- ["13YPImagePicker8YPFilterV", "name"]
+- ["13YPImagePicker8YPFilterV", "nashvilleFilter"]
+- ["13YPImagePicker8YPFilterV", "toasterFilter"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CIKernel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CISampler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apply"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applyingFilter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cropped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "extent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hazeRemovalKernel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputDistance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputSlope"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeDefault"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeFilterDisplayName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeIdentity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeSliderMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeSliderMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIAttributeTypeScalar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCIInputColorKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- !private "SB"
+- !private "Sz"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So6CGRectV"
+- "So7CIColorC"
+- "So8CIFilterC"
+- !private "So7CIImageC"
+- !private "So8CIKernelC"
+- !private "So9CISamplerC"
+- !private "So8CIVectorC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "Sd"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- "13YPImagePicker17HazeRemovalFilterC"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- "Sm"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "13YPImagePicker8YPFilterV"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Modules/Stevia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/YPImagePicker/YPImagePicker-umbrella.h"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Debug-iphoneos/SteviaLayout/Stevia.framework/Headers/Stevia-Swift.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/YPImagePicker.build/unextended-module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/module.modulemap"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/PryntTrimmerView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "871a5bf6ce173c47435d74a7a995fae2"

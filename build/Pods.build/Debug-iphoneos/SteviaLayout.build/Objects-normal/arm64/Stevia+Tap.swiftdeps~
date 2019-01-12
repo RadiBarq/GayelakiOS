@@ -1,0 +1,386 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ActionBlock"
+- "ClosureWrapper"
+provides-nominal:
+- "6Stevia14ClosureWrapperC"
+provides-member:
+- ["6Stevia14ClosureWrapperC", ""]
+- ["So8UIButtonC", ""]
+- ["So8UIButtonC", "testButtonBlock"]
+- ["So8UIButtonC", "tap"]
+- ["So8UIButtonC", "tapped"]
+provides-dynamic-lookup:
+- "tap"
+- "tapped"
+- "testButtonBlock"
+depends-top-level:
+- "ActionBlock"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "ClosureWrapper"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "UIButton"
+- "UInt8"
+- "Void"
+- !private "kButtonBlockAssociationKey"
+- !private "objc_AssociationPolicy"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+depends-member:
+- !private ["So15CALayerDelegateP", "ClosureWrapper"]
+- !private ["So15CALayerDelegateP", "UIButton"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "kButtonBlockAssociationKey"]
+- !private ["So15CALayerDelegateP", "objc_AssociationPolicy"]
+- !private ["So15CALayerDelegateP", "objc_getAssociatedObject"]
+- !private ["So15CALayerDelegateP", "objc_setAssociatedObject"]
+- !private ["So15CALayerDelegateP", "tapped"]
+- !private ["So15CALayerDelegateP", "testButtonBlock"]
+- !private ["s7CVarArgP", "ClosureWrapper"]
+- !private ["s7CVarArgP", "UIButton"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "kButtonBlockAssociationKey"]
+- !private ["s7CVarArgP", "objc_AssociationPolicy"]
+- !private ["s7CVarArgP", "objc_getAssociatedObject"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "tapped"]
+- !private ["s7CVarArgP", "testButtonBlock"]
+- ["6Stevia14ClosureWrapperC", "ActionBlock"]
+- ["6Stevia14ClosureWrapperC", "closure"]
+- ["6Stevia14ClosureWrapperC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ClosureWrapper"]
+- !private ["s28CustomDebugStringConvertibleP", "UIButton"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "kButtonBlockAssociationKey"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "tapped"]
+- !private ["s28CustomDebugStringConvertibleP", "testButtonBlock"]
+- !private ["s23CustomStringConvertibleP", "ClosureWrapper"]
+- !private ["s23CustomStringConvertibleP", "UIButton"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "kButtonBlockAssociationKey"]
+- !private ["s23CustomStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s23CustomStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "tapped"]
+- !private ["s23CustomStringConvertibleP", "testButtonBlock"]
+- !private ["SQ", "ClosureWrapper"]
+- !private ["SQ", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SQ", "UIButton"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "kButtonBlockAssociationKey"]
+- !private ["SQ", "objc_AssociationPolicy"]
+- !private ["SQ", "objc_getAssociatedObject"]
+- !private ["SQ", "objc_setAssociatedObject"]
+- !private ["SQ", "tapped"]
+- !private ["SQ", "testButtonBlock"]
+- !private ["SQ", "touchUpInside"]
+- !private ["So15UIControlEventsV", "touchUpInside"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["SH", "ClosureWrapper"]
+- !private ["SH", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SH", "UIButton"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "kButtonBlockAssociationKey"]
+- !private ["SH", "objc_AssociationPolicy"]
+- !private ["SH", "objc_getAssociatedObject"]
+- !private ["SH", "objc_setAssociatedObject"]
+- !private ["SH", "tapped"]
+- !private ["SH", "testButtonBlock"]
+- !private ["So8NSCodingP", "ClosureWrapper"]
+- !private ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "kButtonBlockAssociationKey"]
+- !private ["So8NSCodingP", "objc_AssociationPolicy"]
+- !private ["So8NSCodingP", "objc_getAssociatedObject"]
+- !private ["So8NSCodingP", "objc_setAssociatedObject"]
+- !private ["So8NSCodingP", "tapped"]
+- !private ["So8NSCodingP", "testButtonBlock"]
+- ["So8NSObjectC", "ActionBlock"]
+- !private ["So8NSObjectC", "ClosureWrapper"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "kButtonBlockAssociationKey"]
+- !private ["So8NSObjectC", "objc_AssociationPolicy"]
+- !private ["So8NSObjectC", "objc_getAssociatedObject"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- ["So8NSObjectC", "tap"]
+- ["So8NSObjectC", "tapped"]
+- ["So8NSObjectC", "testButtonBlock"]
+- !private ["So8NSObjectP", "ClosureWrapper"]
+- !private ["So8NSObjectP", "UIButton"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "kButtonBlockAssociationKey"]
+- !private ["So8NSObjectP", "objc_AssociationPolicy"]
+- !private ["So8NSObjectP", "objc_getAssociatedObject"]
+- !private ["So8NSObjectP", "objc_setAssociatedObject"]
+- !private ["So8NSObjectP", "tapped"]
+- !private ["So8NSObjectP", "testButtonBlock"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["SY", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SY", "touchUpInside"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "ClosureWrapper"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIButton"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "kButtonBlockAssociationKey"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "objc_AssociationPolicy"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "objc_getAssociatedObject"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "objc_setAssociatedObject"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "tapped"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "testButtonBlock"]
+- !private ["So29UIAccessibilityIdentificationP", "ClosureWrapper"]
+- !private ["So29UIAccessibilityIdentificationP", "UIButton"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "kButtonBlockAssociationKey"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_AssociationPolicy"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_getAssociatedObject"]
+- !private ["So29UIAccessibilityIdentificationP", "objc_setAssociatedObject"]
+- !private ["So29UIAccessibilityIdentificationP", "tapped"]
+- !private ["So29UIAccessibilityIdentificationP", "testButtonBlock"]
+- !private ["So12UIAppearanceP", "ClosureWrapper"]
+- !private ["So12UIAppearanceP", "UIButton"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "kButtonBlockAssociationKey"]
+- !private ["So12UIAppearanceP", "objc_AssociationPolicy"]
+- !private ["So12UIAppearanceP", "objc_getAssociatedObject"]
+- !private ["So12UIAppearanceP", "objc_setAssociatedObject"]
+- !private ["So12UIAppearanceP", "tapped"]
+- !private ["So12UIAppearanceP", "testButtonBlock"]
+- !private ["So21UIAppearanceContainerP", "ClosureWrapper"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "kButtonBlockAssociationKey"]
+- !private ["So21UIAppearanceContainerP", "objc_AssociationPolicy"]
+- !private ["So21UIAppearanceContainerP", "objc_getAssociatedObject"]
+- !private ["So21UIAppearanceContainerP", "objc_setAssociatedObject"]
+- !private ["So21UIAppearanceContainerP", "tapped"]
+- !private ["So21UIAppearanceContainerP", "testButtonBlock"]
+- ["So8UIButtonC", "ActionBlock"]
+- !private ["So8UIButtonC", "ClosureWrapper"]
+- ["So8UIButtonC", "UIButton"]
+- ["So8UIButtonC", "Void"]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So8UIButtonC", "kButtonBlockAssociationKey"]
+- !private ["So8UIButtonC", "objc_AssociationPolicy"]
+- !private ["So8UIButtonC", "objc_getAssociatedObject"]
+- !private ["So8UIButtonC", "objc_setAssociatedObject"]
+- ["So8UIButtonC", "tap"]
+- ["So8UIButtonC", "tapped"]
+- ["So8UIButtonC", "testButtonBlock"]
+- ["So9UIControlC", "ActionBlock"]
+- !private ["So9UIControlC", "ClosureWrapper"]
+- ["So9UIControlC", "UIButton"]
+- ["So9UIControlC", "Void"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "kButtonBlockAssociationKey"]
+- !private ["So9UIControlC", "objc_AssociationPolicy"]
+- !private ["So9UIControlC", "objc_getAssociatedObject"]
+- !private ["So9UIControlC", "objc_setAssociatedObject"]
+- ["So9UIControlC", "tap"]
+- ["So9UIControlC", "tapped"]
+- ["So9UIControlC", "testButtonBlock"]
+- !private ["So17UICoordinateSpaceP", "ClosureWrapper"]
+- !private ["So17UICoordinateSpaceP", "UIButton"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "kButtonBlockAssociationKey"]
+- !private ["So17UICoordinateSpaceP", "objc_AssociationPolicy"]
+- !private ["So17UICoordinateSpaceP", "objc_getAssociatedObject"]
+- !private ["So17UICoordinateSpaceP", "objc_setAssociatedObject"]
+- !private ["So17UICoordinateSpaceP", "tapped"]
+- !private ["So17UICoordinateSpaceP", "testButtonBlock"]
+- !private ["So13UIDynamicItemP", "ClosureWrapper"]
+- !private ["So13UIDynamicItemP", "UIButton"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "kButtonBlockAssociationKey"]
+- !private ["So13UIDynamicItemP", "objc_AssociationPolicy"]
+- !private ["So13UIDynamicItemP", "objc_getAssociatedObject"]
+- !private ["So13UIDynamicItemP", "objc_setAssociatedObject"]
+- !private ["So13UIDynamicItemP", "tapped"]
+- !private ["So13UIDynamicItemP", "testButtonBlock"]
+- !private ["So18UIFocusEnvironmentP", "ClosureWrapper"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "kButtonBlockAssociationKey"]
+- !private ["So18UIFocusEnvironmentP", "objc_AssociationPolicy"]
+- !private ["So18UIFocusEnvironmentP", "objc_getAssociatedObject"]
+- !private ["So18UIFocusEnvironmentP", "objc_setAssociatedObject"]
+- !private ["So18UIFocusEnvironmentP", "tapped"]
+- !private ["So18UIFocusEnvironmentP", "testButtonBlock"]
+- !private ["So11UIFocusItemP", "ClosureWrapper"]
+- !private ["So11UIFocusItemP", "UIButton"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "kButtonBlockAssociationKey"]
+- !private ["So11UIFocusItemP", "objc_AssociationPolicy"]
+- !private ["So11UIFocusItemP", "objc_getAssociatedObject"]
+- !private ["So11UIFocusItemP", "objc_setAssociatedObject"]
+- !private ["So11UIFocusItemP", "tapped"]
+- !private ["So11UIFocusItemP", "testButtonBlock"]
+- !private ["So20UIFocusItemContainerP", "ClosureWrapper"]
+- !private ["So20UIFocusItemContainerP", "UIButton"]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "kButtonBlockAssociationKey"]
+- !private ["So20UIFocusItemContainerP", "objc_AssociationPolicy"]
+- !private ["So20UIFocusItemContainerP", "objc_getAssociatedObject"]
+- !private ["So20UIFocusItemContainerP", "objc_setAssociatedObject"]
+- !private ["So20UIFocusItemContainerP", "tapped"]
+- !private ["So20UIFocusItemContainerP", "testButtonBlock"]
+- !private ["So30UIPasteConfigurationSupportingP", "ClosureWrapper"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "kButtonBlockAssociationKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_AssociationPolicy"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_getAssociatedObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "objc_setAssociatedObject"]
+- !private ["So30UIPasteConfigurationSupportingP", "tapped"]
+- !private ["So30UIPasteConfigurationSupportingP", "testButtonBlock"]
+- ["So11UIResponderC", "ActionBlock"]
+- !private ["So11UIResponderC", "ClosureWrapper"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "kButtonBlockAssociationKey"]
+- !private ["So11UIResponderC", "objc_AssociationPolicy"]
+- !private ["So11UIResponderC", "objc_getAssociatedObject"]
+- !private ["So11UIResponderC", "objc_setAssociatedObject"]
+- ["So11UIResponderC", "tap"]
+- ["So11UIResponderC", "tapped"]
+- ["So11UIResponderC", "testButtonBlock"]
+- !private ["So30UIResponderStandardEditActionsP", "ClosureWrapper"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "kButtonBlockAssociationKey"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_AssociationPolicy"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_getAssociatedObject"]
+- !private ["So30UIResponderStandardEditActionsP", "objc_setAssociatedObject"]
+- !private ["So30UIResponderStandardEditActionsP", "tapped"]
+- !private ["So30UIResponderStandardEditActionsP", "testButtonBlock"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "ClosureWrapper"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "UIButton"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "kButtonBlockAssociationKey"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "objc_AssociationPolicy"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "objc_getAssociatedObject"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "objc_setAssociatedObject"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "tapped"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "testButtonBlock"]
+- !private ["So18UITraitEnvironmentP", "ClosureWrapper"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "kButtonBlockAssociationKey"]
+- !private ["So18UITraitEnvironmentP", "objc_AssociationPolicy"]
+- !private ["So18UITraitEnvironmentP", "objc_getAssociatedObject"]
+- !private ["So18UITraitEnvironmentP", "objc_setAssociatedObject"]
+- !private ["So18UITraitEnvironmentP", "tapped"]
+- !private ["So18UITraitEnvironmentP", "testButtonBlock"]
+- !private ["So23UIUserActivityRestoringP", "ClosureWrapper"]
+- !private ["So23UIUserActivityRestoringP", "UIButton"]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- !private ["So23UIUserActivityRestoringP", "kButtonBlockAssociationKey"]
+- !private ["So23UIUserActivityRestoringP", "objc_AssociationPolicy"]
+- !private ["So23UIUserActivityRestoringP", "objc_getAssociatedObject"]
+- !private ["So23UIUserActivityRestoringP", "objc_setAssociatedObject"]
+- !private ["So23UIUserActivityRestoringP", "tapped"]
+- !private ["So23UIUserActivityRestoringP", "testButtonBlock"]
+- ["So6UIViewC", "ActionBlock"]
+- !private ["So6UIViewC", "ClosureWrapper"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "Void"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "kButtonBlockAssociationKey"]
+- !private ["So6UIViewC", "objc_AssociationPolicy"]
+- !private ["So6UIViewC", "objc_getAssociatedObject"]
+- !private ["So6UIViewC", "objc_setAssociatedObject"]
+- ["So6UIViewC", "tap"]
+- ["So6UIViewC", "tapped"]
+- ["So6UIViewC", "testButtonBlock"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ClosureWrapper"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "kButtonBlockAssociationKey"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "objc_AssociationPolicy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "objc_getAssociatedObject"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "objc_setAssociatedObject"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tapped"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "testButtonBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ClosureWrapper"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kButtonBlockAssociationKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_AssociationPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tapped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testButtonBlock"]
+- !private ["So22objc_AssociationPolicyV", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- "6Stevia14ClosureWrapperC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "So15UIControlEventsV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "So22objc_AssociationPolicyV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/radibarq/developer/Chottky/Pods/Target Support Files/SteviaLayout/SteviaLayout-umbrella.h"
+- "/Users/radibarq/developer/Chottky/build/Pods.build/Debug-iphoneos/SteviaLayout.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cef0dd7923cc133247db934a5d4a387c"
