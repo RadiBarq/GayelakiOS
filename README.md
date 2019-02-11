@@ -11,7 +11,7 @@ like price prediction and category prediction.
 </p>
 
 <h2>Start Using The App</h2>
-<p>The link of the app will be posted very soon.</p>
+<p>https://apple.co/2GynRnq</p>
 
 <h2>Technologies Used</h2>
 
